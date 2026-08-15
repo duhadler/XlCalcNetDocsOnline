@@ -14,40 +14,29 @@ Setting up XlCalcNet
 
 This chapter in general, and this section in particular, has been written with users in mind, 
 who are comfortable using user-defined functions in spreadsheet formulas, but have only limited 
-or no experince using Python.
+or no experience using Python.
 
 
 Downloading and installing the "right" version of CPython
 -------------------------------------------------------------
 
-**Using pip**
+**Installation of CPython specifically for Excel and LibreOffice**
 
-
-Releases are registered on PyPI, so you can install latest release
-of the xlcalcnet with pip
-
-    ``pip install xlcalcnet``
-
-or some specific version with
-
-    ``pip install xlcalcnet==0.19``
-
-
+Explain installation process.
 
 **Current development version**
+
+
+This documentation is available online at https://duhadler.github.io/XlCalcNetDocsOnline/
+
+
+The pdf can be downloaded from https://github.com/duhadler/DocsXlCalcNet/raw/master/pdf/xlcalcnet.pdf
+
 
 The git repository is https://github.com/duhadler/xlcalcnet)
 
 
 
-The pdf can be downloaded from
-
-https://github.com/duhadler/xlcalcnet/blob/master/pdfdoc/xlcalcnet.pdf
-
-In the preview on github, click on the symbol for downloading the file, to get a local copy of the pdf.
-
-
-https://github.com/duhadler/xlcalcnet/blob/master/htmldoc
 
 
 

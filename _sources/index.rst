@@ -25,13 +25,14 @@
 
     XlCalcNet is a Python library for statistical distribution functions in multiprecision. It is free software released under the Mozilla Public License 2.0 (see  :ref:`License <rst_BSD_3_Clause_License>`).
 
-    The git repository is https://github.com/duhadler. There is an issue tracker https://github.com/duhadler for bug reports and feature requests. 
+    The git repository is https://github.com/duhadler. 
 
 
     .. math ::  R_F(x,y,z) = \frac{1}{2}  \int_0^{\infty} \frac{\mathrm{d}t}{\sqrt{(t+x)(t+y)(t+z)}}
 
 
-    This documentation is available in HTML format at http://mpformula.github.io/C/, and in PDF format at https://duhadler.files.wordpress.com/2017/06/mpformula.pdf
+    This documentation can be downloaded in PDF format from https://github.com/duhadler/DocsXlCalcNet/raw/master/pdf/xlcalcnet.pdf
+
 
 
     .. tip::

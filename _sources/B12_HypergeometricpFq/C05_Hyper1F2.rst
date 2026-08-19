@@ -49,6 +49,9 @@ Non-regularized hypergeometric function  `{}_1F_2`
 
     See also: https://functions.wolfram.com/HypergeometricFunctions/Hypergeometric1F2/06/02/03/
 
+    See also: https://functions.wolfram.com/HypergeometricFunctions/Hypergeometric1F2/25/01/
+
+
 
 
     An example with real input:

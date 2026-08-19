@@ -12,20 +12,16 @@
         :align: center
         :figclass: align-center
 
-        An addin for MS E\ **x**\ ce\ **l** and LibreOffice **Calc**, based on Python\ **Net**\ .
-
     .. image:: _static/KuenOrange.jpg
         :align: center
-        :width: 47%
+        :width: 10%
 
     |vspace|
 
 
-    Welcome to the documentation of XlCalcNet! This edition of the documentation describes release |version|.
+    Welcome to the documentation of **XlCalcNet**, a Microsoft E\ **X**\ ce\ **l** addin for **Calc**\ ulations in multiprecision, based on Python\ **Net**\ . This edition of the documentation describes release |version|.
 
-    XlCalcNet is a Python library for statistical distribution functions in multiprecision. It is free software released under the Mozilla Public License 2.0 (see  :ref:`License <rst_BSD_3_Clause_License>`).
-
-    The git repository is https://github.com/duhadler. 
+    XlCalcNet is free software released under the Mozilla Public License 2.0 (see  :ref:`License <rst_BSD_3_Clause_License>`). The git repository is https://github.com/duhadler/XlCalcNet. 
 
 
     .. math ::  R_F(x,y,z) = \frac{1}{2}  \int_0^{\infty} \frac{\mathrm{d}t}{\sqrt{(t+x)(t+y)(t+z)}}

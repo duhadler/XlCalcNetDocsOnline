@@ -52,7 +52,7 @@
     <link rel="prev" title="Setup and general usage" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 18, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
   </head>
   
   
@@ -736,7 +736,7 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Back matter</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../99BackMatter/index.html">License and History</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../99BackMatter/10_License.html">BSD 3-Clause License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../99BackMatter/10_License.html">Mozilla Public License Version 2.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../99BackMatter/20_History.html">History</a></li>
 </ul>
 </details></li>
@@ -923,9 +923,18 @@ document.write(`
 <p>This chapter in general, and this section in particular, has been written with users in mind,
 who are comfortable using user-defined functions in spreadsheet formulas, but have only limited
 or no experience using Python.</p>
+<p>The main goal of XlCalcNet is to enable the use of functions written in Python or C# within spreadsheet formulas. It is therefore assumed that Microsoft Excel (2010 or later, 64 bit) is installed on the users system, running under Windows (7.1 or later, 64 bit), with .NET Framework 4.8/4.8.1 installed.</p>
+<p>XlCalcNet is a numerical library with parts written in Python and other parts written in C#, C++, C and Pascal, focussing on numerical calculations in multiple precision and data visualisation.</p>
+<p>Since the main goal is to give access to software written in Python (or via PythonNet software written in C#) from within spreadsheet formulas, a dedicated CPython installation is strongly recommend, to make it easier to configure the interaction with Microsoft Excel, without disturbing existing Python installations.</p>
+<p>The interaction with Microsoft Excel is achieved by running a socket server written in Python, which is called from spreadsheet formulas using the functionality provided by Excel.Dna.</p>
+<p>The code which is necessary to make this work overall contains much more C# and C/C++ than Python, so the project is not really suitable as a project on PyPI, but is provided as a Github project only. Both the source code and precompiled binaries are included, since compiling all of the source code requires MSYS2, Free Pascal and Visual Studio, which not all Excel users will be familiar with.</p>
+<p>On the Python side XlCalcNet uses Mpmath 4.0 to provide a rich set of functions in arbitrary precision, using not only Mpmath’s binary and interval data types, but also Python’s built-in Decimal and Fraction data types. If GMP2 is installed, its data types can be used in many cases instead of Mpmath’s binary data types, being much faster. Likewise, if Python-Flint is installed, its data types  can be used in many cases instead of Mpmath’s interval data types, being much faster, and often also more accurate.</p>
+<p>On the C/C++ side, XlCalcNet uses DAMath, Boost Math, Boost Multiprecision and Eigen to provide numerical functions in single, double, extended, quadruple and octuple precision, which are available to the user both from C# and Python.</p>
+<p>The XlCalcNet2 library, which is licensed under the LGPL-3.0 and is therefore provided as a separate project, is based on Boost Math, Boost Multiprecision, Eigen, GMP, MPFR, MPC and Flint and provides functions for the same data types as XlCalcNet and also in arbitrary precision.</p>
+<p>XlCalcNet is intended to be used together with existing Python libraries like NumPy, Matplotlib, Pandas, SciPy. It can also be used from recent versions of RStudio and R, using the reticulate package.</p>
 <section id="downloading-and-installing-the-right-version-of-cpython">
 <h2>Downloading and installing the “right” version of CPython<a class="headerlink" href="#downloading-and-installing-the-right-version-of-cpython" title="Link to this heading">#</a></h2>
-<p><strong>Installation of CPython specifically for Excel and LibreOffice</strong></p>
+<p><strong>Installation of CPython specifically for Excel</strong></p>
 <p>Explain installation process.</p>
 <p><strong>Current development version</strong></p>
 <p>This documentation is available online at <a class="reference external" href="https://duhadler.github.io/XlCalcNetDocsOnline/">https://duhadler.github.io/XlCalcNetDocsOnline/</a></p>
@@ -993,8 +1002,6 @@ or no experience using Python.</p>
 </section>
 <section id="building-a-library-of-user-defined-python-functions">
 <h2>Building a library of user defined python functions<a class="headerlink" href="#building-a-library-of-user-defined-python-functions" title="Link to this heading">#</a></h2>
-<p>All of the following procedures are applicable to both Libreoffice and MS Excel.</p>
-<p>Libreoffice: LoDemoOPY.ods</p>
 <p>MS Excel: TestCPython.xlsx</p>
 </section>
 <section id="building-a-library-of-user-defined-functions-in-c">
@@ -1096,7 +1103,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 18, 2026.
+  Last updated on Aug 19, 2026.
   <br/>
 </p>
   </div>

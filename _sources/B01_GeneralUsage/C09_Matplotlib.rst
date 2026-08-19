@@ -84,9 +84,6 @@ See also: https://www.oreilly.com/library/view/python-data-science/9781491912126
 Using Matplotlib in a spreadsheet formula (without blocking function return)
 ------------------------------------------------------------------------------------
 
-All of the following procedures are applicable to both Libreoffice and MS Excel.
-
-Libreoffice: LoDemoOPY.ods
 
 MS Excel: TestCPython.xlsx
 

@@ -77,9 +77,6 @@ Some text
 Using Numpy in a spreadsheet formula
 ------------------------------------------------------------------------------------
 
-All of the following procedures are applicable to both Libreoffice and MS Excel.
-
-Libreoffice: LoDemoOPY.ods
 
 MS Excel: TestCPython.xlsx
 

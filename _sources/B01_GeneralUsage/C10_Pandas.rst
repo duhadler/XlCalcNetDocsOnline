@@ -518,7 +518,7 @@ Xlsxwriter: creating files in the ``*.xlsx`` format
 
 
 
-Note on usability by MS Office and Libreoffice.
+Note on usability by MS Office.
 
 Note on graphics formats: issues with  ``*.svg``  files.
 

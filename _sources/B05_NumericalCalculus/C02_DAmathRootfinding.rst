@@ -135,10 +135,10 @@ Brent's algorithm for finding a local minimum
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = -10.0; b = 20.0; eps = 1E-8; tol = 1E-8
-        >>> f = lambda x: -xreal.Exp(-x * x)
-        >>> res = xreal.LocalMin(f, a, b, eps, tol)
+        >>> f = lambda x: -ereal.Exp(-x * x)
+        >>> res = ereal.LocalMin(f, a, b, eps, tol)
         >>> print('res: (x0, fx0, ic1):', res)
 
 
@@ -148,9 +148,9 @@ Brent's algorithm for finding a local minimum
     .. code-block:: pycon
 
         a = -10.0; b = 20.0; eps = 1E-8; tol = 1E-8
-        f = lambda x: -xreal.Exp(-x * x)
-        print('xreal.LocalMin')
-        res3 = xreal.LocalMin(f, a, b, eps, tol)
+        f = lambda x: -ereal.Exp(-x * x)
+        print('ereal.LocalMin')
+        res3 = ereal.LocalMin(f, a, b, eps, tol)
         print('res3: (x0, fx0, ic1):', res3)
         print()
         print()
@@ -161,93 +161,25 @@ Brent's algorithm for finding a local minimum
     .. code-block:: pycon
 
         a = -10.0; b = 20.0; eps = 1E-8; tol = 1E-8
-        f = lambda x: -xreal.Exp(-x * x)
-        print('xreal.LocalMin')
-        res3 = xreal.LocalMin(f, a, b, eps, tol)
+        f = lambda x: -ereal.Exp(-x * x)
+        print('ereal.LocalMin')
+        res3 = ereal.LocalMin(f, a, b, eps, tol)
         print('res3: (x0, fx0, ic1):', res3)
         print()
         print()
 
 
-    The same routine in Python, inserting the lambda expression into ``xreal.LocalMin``. Variables and functions local to the calling function can be accessed from within the lambda expression:
+    The same routine in Python, inserting the lambda expression into ``ereal.LocalMin``. Variables and functions local to the calling function can be accessed from within the lambda expression:
 
     .. code-block:: pycon
 
         a = -10.0; b = 20.0; eps = 1E-8; tol = 1E-8
-        f = lambda x: -xreal.Exp(-x * x)
-        print('xreal.LocalMin')
-        res3 = xreal.LocalMin(lambda x: -xreal.Exp(-x * x), a, b, eps, tol)
+        f = lambda x: -ereal.Exp(-x * x)
+        print('ereal.LocalMin')
+        res3 = ereal.LocalMin(lambda x: -ereal.Exp(-x * x), a, b, eps, tol)
         print('res3: (x0, fx0, ic1):', res3)
         print()
         print()
-
-
-
-    **Examples in Visual Basic**
-
-    The same routine in Visual Basic, using a callback function definition outside of the scope of the calling function. This form allows the callback function to be called from other functions as well, and it supports monitoring of the calls into the function (by un-commenting the ``Console.WriteLine`` statement), but variables, functions and subroutines local to the calling function cannot be accessed:
-
-
-    .. code-block:: vbnet
-
-        Function XF1(x As xreal) As xreal
-            Dim y = -xreal.Exp(-x * x)
-            'Console.WriteLine("x: {0},   y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoLocalMin()
-            Dim a = -10 : Dim b = 20 : Dim eps = 1E-10 : Dim tol = 1E-10
-            Dim Res1 = xreal.LocalMin(AddressOf XF1, a, b, eps, tol)
-            Console.WriteLine("Res1:(x, fx, ic) {0}", Res1)
-        End Sub
-
-
-    The same routine in Visual Basic, using a multi-line lambda expression to define the callback function. Note that in contrast to Python, in Visual Basic a lambda expression can contain not only expressions but also statements, including a ``Return`` statement. This is functionally equivalent to defining a local function without the need to create a new class. Variables, functions and subroutines local to the calling function can be accessed from within the lambda expression. The function which is defined by the lambda expression can be called locally. In this form the lambda expression allows monitoring of the calls into the callback function (by un-commenting the ``Console.WriteLine`` statement):
-
-    .. code-block:: vbnet
-
-        Sub DemoLocalMin2()
-            Dim a = -10 : Dim b = 20 : Dim eps = 1E-10 : Dim tol = 1E-10
-            Dim F2 = Function(x As xreal) As xreal
-                         Dim y = -xreal.Exp(-x * x)
-                         'Console.WriteLine("x: {0},   y: {1}", x, y)
-                         Return y
-                     End Function
-            Dim Res1 = xreal.LocalMin(F2, a, b, eps, tol)
-            Console.WriteLine("Res1:(x, fx, ic) {0}", Res1)
-        End Sub
-
-
-    The same routine in Visual Basic, using a single-line lambda expression to define the callback function. Note that there is no ``Return`` and no ``End Function`` statement, and the return type of the function is not specified but inferred from the function expression. Variables, functions and subroutines local to the calling function can be accessed from within the lambda expression. The function which is defined by the lambda expression can be called locally. Monitoring of calls into the callback function is not supported:
-
-    .. code-block:: vbnet
-
-        Sub DemoLocalMin3()
-            Dim a = -10 : Dim b = 20 : Dim eps = 1E-10 : Dim tol = 1E-10
-            Dim F3 = Function(x As xreal) -xreal.Exp(-x * x)
-            Dim Res1 = xreal.LocalMin(F3, a, b, eps, tol)
-            Console.WriteLine("Res1:(x, fx, ic) {0}", Res1)
-        End Sub
-
-
-    The same routine in Visual Basic, using an anonymous lambda expression, which is like a single line lambda expression inserted directly into ``xreal.LocalMin``. Variables and functions local to the calling function can be accessed from within the lambda expression. Since an anonymous lambda expression does not have a name, it cannot be called locally. Monitoring of calls into the callback function is not supported:
-
-    .. code-block:: vbnet
-
-        Sub DemoLocalMin4()
-            Dim a = -10 : Dim b = 20 : Dim eps = 1E-10 : Dim tol = 1E-10
-            Dim Res1 = xreal.LocalMin(Function(x As xreal) -xreal.Exp(-x * x), a, b, eps, tol)
-            Console.WriteLine("Res1:(x, fx, ic) {0}", Res1)
-        End Sub
-
-
-    All of the above Visual Basic routines produce the following output:
-
-    .. code-block:: none
-
-        Res1:(x, fx, ic) (-1.0001755541428017160E-10, -1.0000000000000000000, 14)
-
 
 
 
@@ -259,9 +191,9 @@ Brent's algorithm for finding a local minimum
 
     .. code-block:: csharp
 
-        public static xreal XF1(xreal x)
+        public static ereal XF1(ereal x)
         {
-            var y = -xreal.Exp(-x * x);
+            var y = -ereal.Exp(-x * x);
             //Console.WriteLine("x: {0},   y: {1}", x, y)
             return y;
         }
@@ -269,7 +201,7 @@ Brent's algorithm for finding a local minimum
         public static void DemoLocalMin()
         {
             var a = -10; var b = 20; var eps = 1E-10; var tol = 1E-10;
-            var Res1 = xreal.LocalMin(XF1, a, b, eps, tol);
+            var Res1 = ereal.LocalMin(XF1, a, b, eps, tol);
             Console.WriteLine("Res1:(x, fx, ic) {0}", Res1);
         }
 
@@ -281,13 +213,13 @@ Brent's algorithm for finding a local minimum
         public static void DemoLocalMin2()
         {
             var a = -10; var b = 20; var eps = 1E-10; var tol = 1E-10;
-            var F2 = xreal (xreal x) =>
+            var F2 = ereal (ereal x) =>
             {
-                var y = -xreal.Exp(-x * x);
+                var y = -ereal.Exp(-x * x);
                 //Console.WriteLine("x: {0},   y: {1}", x, y)
                 return y;
             };
-            var Res1 = xreal.LocalMin(F2, a, b, eps, tol);
+            var Res1 = ereal.LocalMin(F2, a, b, eps, tol);
             Console.WriteLine("Res1:(x, fx, ic) {0}", Res1);
         }
 
@@ -299,20 +231,20 @@ Brent's algorithm for finding a local minimum
         public static void DemoLocalMin3()
         {
             var a = -10; var b = 20; var eps = 1E-10; var tol = 1E-10;
-            var F3 = (xreal x) => -xreal.Exp(-x * x);
-            var Res1 = xreal.LocalMin(F3, a, b, eps, tol);
+            var F3 = (ereal x) => -ereal.Exp(-x * x);
+            var Res1 = ereal.LocalMin(F3, a, b, eps, tol);
             Console.WriteLine("Res1:(x, fx, ic) {0}", Res1);
         }
 
 
-    The same routine in CSharp, using an anonymous lambda expression, which is like a single line lambda expression inserted directly into ``xreal.LocalMin``. Variables and functions local to the calling function can be accessed from within the lambda expression. Since an anonymous lambda expression does not have a name, it cannot be called locally. Monitoring of calls into the callback function is not supported:
+    The same routine in CSharp, using an anonymous lambda expression, which is like a single line lambda expression inserted directly into ``ereal.LocalMin``. Variables and functions local to the calling function can be accessed from within the lambda expression. Since an anonymous lambda expression does not have a name, it cannot be called locally. Monitoring of calls into the callback function is not supported:
 
     .. code-block:: csharp
 
         public static void DemoLocalMin4()
         {
             var a = -10; var b = 20; var eps = 1E-10; var tol = 1E-10;
-            var Res1 = xreal.LocalMin((xreal x) => -xreal.Exp(-x * x), a, b, eps, tol);
+            var Res1 = ereal.LocalMin((ereal x) => -ereal.Exp(-x * x), a, b, eps, tol);
             Console.WriteLine("Res1:(x, fx, ic) {0}", Res1);
         }
 
@@ -360,31 +292,12 @@ Modified Brent’s algorithm for finding a local minimum
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = -10.0; b = 20.0; tol = 1E-8
-        >>> f = lambda x: -xreal.Exp(-x * x)
-        >>> res = xreal.MBrent(f, a, b, tol)
+        >>> f = lambda x: -ereal.Exp(-x * x)
+        >>> res = ereal.MBrent(f, a, b, tol)
         >>> print('res4: (x0, fx0, ic1):', res4)
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF1(x As xreal) As xreal
-            Dim y As New xreal
-            y = -xreal.Exp(-x * x)
-            Return y
-        End Function
-
-        Sub DemoMBrent()
-            Dim a, b, tol As New xreal
-            a = "-10.0" : b = "20.0" : tol = "1E-10"
-            Console.WriteLine("MBrent: AddressOf F1, a = {0}, b = {1}, tol = {2}", a, b, tol)
-            Dim Res2 = xreal.MBrent(AddressOf XF1, a, b, tol)
-            Console.WriteLine("Res2:(x, fx, ic) {0}", Res2)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -424,31 +337,12 @@ Rootfinding: Brent/Dekker algorithm
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = -20.0; b = 20.0; tol = 1E-8
-        >>> f = lambda x: xreal.Exp(x) - 10
-        >>> res = xreal.ZBrent(f, a, b, tol)
+        >>> f = lambda x: ereal.Exp(x) - 10
+        >>> res = ereal.ZBrent(f, a, b, tol)
         >>> print('res5: (x0, ic1, err):', res5)
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF3(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.Exp(x) - 10
-            Return y
-        End Function
-
-        Sub DemoZBrent()
-            Dim a, b, tol As New xreal
-            a = "-20.0" : b = "10.0" : tol = "1E-12"
-            Dim Res3 = xreal.ZBrent(AddressOf XF3, a, b, tol)
-            Console.WriteLine("Res3:(x, ic, err) {0}", Res3)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -485,30 +379,12 @@ Rootfinding: Simplified Brent/Dekker algorithm
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = -20.0; b = 20.0; tol = 1E-8
-        >>> f = lambda x: xreal.Exp(x) - 10
-        >>> x0 = xreal.ZeroIn(f, a, b, tol)
+        >>> f = lambda x: ereal.Exp(x) - 10
+        >>> x0 = ereal.ZeroIn(f, a, b, tol)
         >>> print('x0: ', x0)
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF3(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.Exp(x) - 10
-            Return y
-        End Function
-
-        Sub DemoZeroIn()
-            Dim a, b, tol As New xreal
-            a = "-20.0" : b = "10.0" : tol = "1E-12"
-            Dim Res4 = xreal.ZeroIn(AddressOf XF3, a, b, tol)
-            Console.WriteLine("Res4: {0}", Res4)
-            Console.WriteLine()
-        End Sub
 
 
 

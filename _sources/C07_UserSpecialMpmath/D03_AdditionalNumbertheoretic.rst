@@ -661,22 +661,11 @@ Mpmath, DAMath: Moebius function, `\mu(n)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Moebius(3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Moebius)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Moebius(3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Moebius)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Moebius(3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Moebius)
+        ereal('5.3518479027559984754E-1')
 
 
 

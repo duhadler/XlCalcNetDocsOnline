@@ -473,7 +473,7 @@ Boost: Support, lower endpoint
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -500,7 +500,7 @@ Boost: Support, upper endpoint
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -525,7 +525,7 @@ Boost: Range, lower endpoint
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -551,7 +551,7 @@ Boost: Range, upper endpoint
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))

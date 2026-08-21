@@ -53,7 +53,7 @@
     <link rel="prev" title="Boost: Binomial distribution" href="D04_binomial.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -943,7 +943,7 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\text{pmf}(x) = \frac{\Gamma(k+r)}{k! \Gamma(r)} p^r (1-p)^k.\]</div>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;NegbinomPdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">NegbinomPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_negbinomial(a, b).pdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_negbinomial</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -962,7 +962,7 @@ document.write(`
 \[\text{cdf}(x) = \sum_{j=0}^{k} \text{pmf}_X(j) = \text{ibeta}(r, k+1, p).\]</div>
 <p>Here <span class="math notranslate nohighlight">\(\text{ibeta}(\cdot)\)</span> denotes the real normalised incomplete beta function (<a class="reference internal" href="../../B12_HypergeometricpFq/C04_Incomplete_Beta.html#rst-mpm-ibeta"><span class="std std-ref">RealIBeta</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;NegbinomCdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">NegbinomCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_negbinomial(a, b).cdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_negbinomial</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -981,7 +981,7 @@ document.write(`
 \[\text{qtf}(q) = \mathrm{ibeta\_invb}(r, p, q) - 1.\]</div>
 <p>Here <span class="math notranslate nohighlight">\(\mathrm{ibeta\_invb}(\cdot)\)</span> denotes the inverse (on parameter b) of the real normalised incomplete beta function (<a class="reference internal" href="../../B12_HypergeometricpFq/C04_Incomplete_Beta.html#rst-mpm-real-ibeta-invb"><span class="std std-ref">RealIBetaInvb</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">q</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;NegbinomQtf(q, a, b): &quot;</span><span class="p">,</span> <span class="n">NegbinomQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_negbinomial(a, b).qtf(q): &quot;</span><span class="p">,</span> <span class="n">dist_negbinomial</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">qtf</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
@@ -1329,7 +1329,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

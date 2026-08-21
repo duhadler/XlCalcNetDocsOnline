@@ -48,7 +48,7 @@ See also  Wikipedia :cite:p:`WikipediaDis06`, MathWorld :cite:p:`WolframDis06`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ChiSquaredPdf(x, a, b): ", ChiSquaredPdf(x, a, b))
         >>> print ("dist_chi_squared(a, b).pdf(x): ", dist_chi_squared(a, b).pdf(x))
@@ -74,7 +74,7 @@ See also  Wikipedia :cite:p:`WikipediaDis06`, MathWorld :cite:p:`WolframDis06`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ChiSquaredCdf(x, a, b): ", ChiSquaredCdf(x, a, b))
         >>> print ("dist_chi_squared(a, b).cdf(x): ", dist_chi_squared(a, b).cdf(x))
@@ -100,7 +100,7 @@ See also  Wikipedia :cite:p:`WikipediaDis06`, MathWorld :cite:p:`WolframDis06`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("ChiSquaredQtf(q, a, b): ", ChiSquaredQtf(q, a, b))
         >>> print ("dist_chi_squared(a, b).qtf(q): ", dist_chi_squared(a, b).qtf(q))

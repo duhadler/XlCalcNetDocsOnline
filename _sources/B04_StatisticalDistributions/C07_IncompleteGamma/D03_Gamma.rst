@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis14`, MathWorld :cite:p:`WolframDis14`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GammaPdf(x, a, b): ", GammaPdf(x, a, b))
         >>> print ("dist_gamma(a, b).pdf(x): ", dist_gamma(a, b).pdf(x))
@@ -70,7 +70,7 @@ See also  Wikipedia :cite:p:`WikipediaDis14`, MathWorld :cite:p:`WolframDis14`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GammaCdf(x, a, b): ", GammaCdf(x, a, b))
         >>> print ("dist_gamma(a, b).cdf(x): ", dist_gamma(a, b).cdf(x))
@@ -96,7 +96,7 @@ See also  Wikipedia :cite:p:`WikipediaDis14`, MathWorld :cite:p:`WolframDis14`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("GammaQtf(q, a, b): ", GammaQtf(q, a, b))
         >>> print ("dist_gamma(a, b).qtf(q): ", dist_gamma(a, b).qtf(q))

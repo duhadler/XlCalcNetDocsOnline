@@ -43,7 +43,7 @@ See also  Wikipedia :cite:p:`WikipediaDis18`, MathWorld :cite:p:`WolframDis18`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LogisticPdf(x, a, b): ", LogisticPdf(x, a, b))
         >>> print ("dist_logistic(a, b).pdf(x): ", dist_logistic(a, b).pdf(x))
@@ -66,7 +66,7 @@ See also  Wikipedia :cite:p:`WikipediaDis18`, MathWorld :cite:p:`WolframDis18`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LogisticCdf(x, a, b): ", LogisticCdf(x, a, b))
         >>> print ("dist_logistic(a, b).cdf(x): ", dist_logistic(a, b).cdf(x))
@@ -90,7 +90,7 @@ See also  Wikipedia :cite:p:`WikipediaDis18`, MathWorld :cite:p:`WolframDis18`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("LogisticQtf(q, a, b): ", LogisticQtf(q, a, b))
         >>> print ("dist_logistic(a, b).qtf(q): ", dist_logistic(a, b).qtf(q))

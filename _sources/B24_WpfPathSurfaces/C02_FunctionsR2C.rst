@@ -78,11 +78,11 @@ Some text
 
 
 
-**Left figure**: Expj (Cis) function, real part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Left figure**: Expj (Cis) function, real part only. Orthographic camera. 
 
-**Middle figure**: Expj (Cis) function, imaginary part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Middle figure**: Expj (Cis) function, imaginary part only. Orthographic camera. 
 
-**Right figure**: Expj (Cis) function as full 3D curve. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Right figure**: Expj (Cis) function as full 3D curve. Orthographic camera. 
 
 
 
@@ -151,11 +151,11 @@ Some text
 
 
 
-**Left figure**: Hankel function of the first kind `H_{1, \nu}(x)`, real part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Left figure**: Hankel function of the first kind `H_{1, \nu}(x)`, real part only. Orthographic camera. 
 
-**Middle figure**: Hankel function of the first kind `H_{1, \nu}(x)`, imaginary part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Middle figure**: Hankel function of the first kind `H_{1, \nu}(x)`, imaginary part only. Orthographic camera. 
 
-**Right figure**: Hankel function of the first kind `H_{1, \nu}(x)`, as full 3D curve. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Right figure**: Hankel function of the first kind `H_{1, \nu}(x)`, as full 3D curve. Orthographic camera. 
 
 
 
@@ -226,11 +226,11 @@ Some text
 
 
 
-**Left figure**: Hankel function of the second kind `H_{2, \nu}(x)`, real part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Left figure**: Hankel function of the second kind `H_{2, \nu}(x)`, real part only. Orthographic camera. 
 
-**Middle figure**: Hankel function of the second kind `H_{2, \nu}(x)`, imaginary part only. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Middle figure**: Hankel function of the second kind `H_{2, \nu}(x)`, imaginary part only. Orthographic camera. 
 
-**Right figure**: Hankel function of the second kind `H_{2, \nu}(x)`, as full 3D curve. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Right figure**: Hankel function of the second kind `H_{2, \nu}(x)`, as full 3D curve. Orthographic camera. 
 
 
 
@@ -306,11 +306,11 @@ Some text
 
 
 
-**Left figure**: Kelvin functions ber. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Left figure**: Kelvin functions ber. Orthographic camera. 
 
-**Middle figure**: Kelvin function bei. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Middle figure**: Kelvin function bei. Orthographic camera. 
 
-**Right figure**: Kelvin functions ber and bei, as full 3D curve. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Right figure**: Kelvin functions ber and bei, as full 3D curve. Orthographic camera. 
 
 
 
@@ -386,11 +386,11 @@ Some text
 
 
 
-**Left figure**: Kelvin functions ker. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Left figure**: Kelvin functions ker. Orthographic camera. 
 
-**Middle figure**: Kelvin function kei. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Middle figure**: Kelvin function kei. Orthographic camera. 
 
-**Right figure**: Kelvin functions ker and kei, as full 3D curve. Orthographic camera. Camera angles are `\theta=120^\circ` and `\phi = 130^\circ`.
+**Right figure**: Kelvin functions ker and kei, as full 3D curve. Orthographic camera. 
 
 
 

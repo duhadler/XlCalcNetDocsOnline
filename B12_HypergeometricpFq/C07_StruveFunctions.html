@@ -53,7 +53,7 @@
     <link rel="prev" title="Scorer functions" href="C06_ScorerFunctions.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -957,19 +957,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\textbf{H}_{\nu}(x) = \left(\frac{z}{2}\right)^{\nu+1} {}_1\widetilde{F}_2\left(1; \frac{3}{2}, \nu+\frac{3}{2}; -\frac{z^2}{4}  \right)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveH</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1021,19 +1013,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[z^2 f''(z) + z f'(z) - (z^2+n^2) f(z) = \frac{2 z^{n+1}}{\pi (2n-1)!!}.\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveL</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1075,19 +1059,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\mathbf{K}_{\nu}\left(z\right)=\mathbf{H}_{\nu}\left(z\right)-Y_{\nu}\left(z \right)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveK</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1129,19 +1105,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\mathbf{M}_{\nu}\left(z\right)=\mathbf{L}_{\nu}\left(z\right)-I_{\nu}\left(z \right).\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StruveM</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1269,7 +1237,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

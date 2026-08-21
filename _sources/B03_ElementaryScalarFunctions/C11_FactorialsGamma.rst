@@ -48,15 +48,10 @@ Gamma function, `\Gamma(x)`
     .. |03c_TestGamma_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/03c_TestGamma_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Gamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Gamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Gamma function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -65,22 +60,13 @@ Gamma function, `\Gamma(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Gamma(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Gamma('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Gamma(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Gamma('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Gamma(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Gamma('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -201,14 +187,10 @@ Log-gamma function, `\log\Gamma(x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the LogGamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the LogGamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the LogGamma function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -218,22 +200,13 @@ Log-gamma function, `\log\Gamma(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogGamma(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogGamma('1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogGamma(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogGamma('1.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogGamma(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogGamma('1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -336,15 +309,9 @@ Reciprocal Gamma function, `1/\Gamma(x)`
     .. |04c_TestRGamma_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/04c_TestRGamma_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
-
-    **Left figure**: real part of the RGamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the RGamma function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the RGamma function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -355,36 +322,20 @@ Reciprocal Gamma function, `1/\Gamma(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.RGamma(1)
+        >>> from xlcalcnet import ereal
+        >>> ereal.RGamma(1)
         1.0
-        >>> xreal.RGamma(4)
+        >>> ereal.RGamma(4)
         0.1666666666666666666666667
-        >>> xreal.RGamma(0); xreal.RGamma(-1)
+        >>> ereal.RGamma(0); ereal.RGamma(-1)
         0.0
         0.0
-        >>> xreal.RGamma(1000)
+        >>> ereal.RGamma(1000)
         2.485168143266784862783596e-2565
-        >>> xreal.RGamma('inf')
+        >>> ereal.RGamma('inf')
         0.0
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.RGamma(1)
-        1.0
-        >>> Gpr.RGamma(4)
-        0.1666666666666666666666667
-        >>> Gpr.RGamma(0); Gpr.RGamma(-1)
-        0.0
-        0.0
-        >>> Gpr.RGamma(1000)
-        0.0
-        >>> Gpr.RGamma('inf')
-        0.0
 
 
     An example with real input:
@@ -469,22 +420,12 @@ Factorial,  `x!`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Factorial(3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Factorial('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Factorial(3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Factorial('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Factorial(3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Factorial('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -522,22 +463,12 @@ Double factorial, `x!!`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DFactorial(3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DFactorial('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DFactorial(3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DFactorial('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DFactorial(3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DFactorial('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -576,22 +507,12 @@ Rising factorial `a^{\overline{n}} = (a)_n`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Pochhammer(13, 7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.RisingFactorial(12.6, '4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pochhammer(13, 7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.RisingFactorial(12.6, '4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Pochhammer(13, 7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.RisingFactorial(12.6, '4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -670,22 +591,11 @@ Falling factorial, `(a)^{\underline{n}} = (a-n+1)^{\overline{n}}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FallingFactorial(13, 7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FallingFactorial(12.6, '4.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FallingFactorial(13, 7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FallingFactorial(12.6, '4.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FallingFactorial(13, 7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FallingFactorial(12.6, '4.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -821,21 +731,10 @@ Binomial coefficient, `{}_nC_k = (k \cdot B(k, n-k+1))^{-1}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Binomial(13, 7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Binomial(12.6, '4.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Binomial(13, 7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Binomial(12.6, '4.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Binomial(13, 7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Binomial(12.6, '4.51')
+        ereal('5.3518479027559984754E-1')
 
 

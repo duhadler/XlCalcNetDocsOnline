@@ -53,7 +53,7 @@
     <link rel="prev" title="Basic floating point functions" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -976,19 +976,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the sum of the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1002,19 +994,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the difference of the floating point numbers <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1028,19 +1012,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the product of the floating point numbers <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1054,19 +1030,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the quotient of the floating point numbers <code class="docutils literal notranslate"><span class="pre">x</span></code> and <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1080,19 +1048,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the sum of the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> and the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1111,19 +1071,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to  the difference of the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> and the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code> (<code class="docutils literal notranslate"><span class="pre">SubInt</span></code>) or to the difference of the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code> the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> (<code class="docutils literal notranslate"><span class="pre">IntSub</span></code>).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1137,19 +1089,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to the product of the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> and the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1168,19 +1112,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Sets <code class="docutils literal notranslate"><span class="pre">res</span></code> to the quotient of the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> and the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code> (<code class="docutils literal notranslate"><span class="pre">DivInt</span></code>) or to the quotient of the signed 32 bit integer <code class="docutils literal notranslate"><span class="pre">i</span></code> the floating point number <code class="docutils literal notranslate"><span class="pre">x</span></code> (<code class="docutils literal notranslate"><span class="pre">IntDiv</span></code>).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1195,21 +1131,11 @@ document.write(`
 <p>If successful, returns the value of x * y + z as if calculated to infinite precision and rounded once to fit the result type (or, alternatively, calculated as a single ternary floating-point operation).</p>
 <p>See also: <a class="reference external" href="https://en.cppreference.com/w/cpp/numeric/math/fma">https://en.cppreference.com/w/cpp/numeric/math/fma</a></p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">qreal</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Copysign</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1226,19 +1152,11 @@ document.write(`
 <p>This function is not required to be sensitive to the sign of zero, although some implementations additionally enforce that if one argument is +0 and the other is -0, then +0 is returned.</p>
 <p>See also: <a class="reference external" href="https://en.cppreference.com/w/cpp/numeric/math/fmax">https://en.cppreference.com/w/cpp/numeric/math/fmax</a></p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Max</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1255,19 +1173,11 @@ document.write(`
 <p>This function is not required to be sensitive to the sign of zero, although some implementations additionally enforce that if one argument is +0 and the other is -0, then -0 is returned.</p>
 <p>See also: <a class="reference external" href="https://en.cppreference.com/w/cpp/numeric/math/fmin">https://en.cppreference.com/w/cpp/numeric/math/fmin</a></p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Min</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1401,7 +1311,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

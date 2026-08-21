@@ -41,36 +41,21 @@ Exponential function `\exp(x) = e^x`
 
 
 
-|04a_TestExp_re| `\quad` |04b_TestExp_im| `\quad` |04c_TestExp_abs|
+    |04a_TestExp_re| `\quad` |04b_TestExp_im| `\quad` |04c_TestExp_abs|
 
-.. |04a_TestExp_re| image:: ../_static/ExplicitSurfaces/CplxRoots/04a_TestExp_re.3D.xml.jpg
-   :width: 30 %
+    .. |04a_TestExp_re| image:: ../_static/ExplicitSurfaces/CplxRoots/04a_TestExp_re.3D.xml.jpg
+       :width: 30 %
 
-.. |04b_TestExp_im| image:: ../_static/ExplicitSurfaces/CplxRoots/04b_TestExp_im.3D.xml.jpg
-   :width: 30 %
+    .. |04b_TestExp_im| image:: ../_static/ExplicitSurfaces/CplxRoots/04b_TestExp_im.3D.xml.jpg
+       :width: 30 %
 
-.. |04c_TestExp_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/04c_TestExp_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Exp function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Exp function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Exp function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |04c_TestExp_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/04c_TestExp_abs.3D.xml.jpg
+       :width: 30 %
 
 
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    .. note::
-
-        The function is implemented as follows: ``mpm.exp`` and ``fpm.exp`` call ``mp.exp`` from mpmath; the functions ``ipm.exp`` and ``dpm.exp`` call ``iv.exp`` from mpmath; ; the functions ``gpm.exp`` and ``apm.exp`` call the matching functions from the Gmpy2 and Python-FLINT libraries;
-        in single, double and extended precision, the C++ standard library is called for real and complex functions, except for ``math?53``, where the damath functions are called; in fixed precision above extended, the matching Boost Multiprecision functions are called; 
-        ``mreal.exp`` calls the MPFR funcion ``mpfr_exp``, and ``mcplx.exp`` calls the MPC funcion ``mpc_exp``; ``ireal.exp`` calls the MPFI funcion ``mpfi_exp``, and ``icplx.exp`` calls the MPFCI funcion ``mpfci_exp``; ``dreal.exp`` calls the libmpdec function ``mpd_exp``; otherwise the matching ``ctxflint.exp`` function is called.
 
 
 
@@ -79,22 +64,12 @@ Exponential function `\exp(x) = e^x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exp(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exp('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exp(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exp('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exp(0.5)
-        GprT('5.2359877559829887307E-1')
-        >>> Gpr.Exp('0.51')
-        GprT('5.3518479027559984754E-1')
 
 
 
@@ -172,22 +147,12 @@ Auxiliary function `\mathrm{expj}(x) = e^{ix}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Expj(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Expj('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Expj(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Expj('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Expj(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Expj('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
     Returns `e^{iz} = \cos(z) + i \sin(z)`. See also Wikipedia :cite:p:`WikipediaFun1035`, MathWorld :cite:p:`WolframFun1035`.
@@ -270,22 +235,12 @@ Auxiliary function `\mathrm{expjpi}(x) = e^{i \pi x} = (-1)^x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Expjpi(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Expjpi('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Expjpi(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Expjpi('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Expjpi(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Expjpi('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
     An example with real input (the output is always complex):
@@ -348,22 +303,12 @@ Exponential function with base `10`, `\mathrm{exp10}(x) = 10^z`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exp10(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exp10('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exp10(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exp10('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exp10(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Exp10('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -427,22 +372,12 @@ Exponential function with base `2`, `\mathrm{exp2}(x) = 2^x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exp2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exp2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exp2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exp2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exp2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Exp2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -508,22 +443,12 @@ Auxiliary function `\mathrm{expm1}(x) = e^x-1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expm1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expm1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expm1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expm1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expm1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expm1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -587,22 +512,12 @@ Auxiliary function `\mathrm{exp10m1}(x) = 10^x - 1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exp10m1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exp10m1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exp10m1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exp10m1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exp10m1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Exp10m1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -665,22 +580,12 @@ Auxiliary function `\mathrm{exp2m1}(x) = 2^x - 1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exp2m1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exp2m1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exp2m1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exp2m1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exp2m1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Exp2m1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

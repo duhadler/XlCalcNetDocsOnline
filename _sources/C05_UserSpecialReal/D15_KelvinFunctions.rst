@@ -190,11 +190,11 @@ First derivative of the Kelvin function `\mathrm{ber0}, \mathrm{ber0}'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.KelvinBerPrime(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.KelvinBerPrime('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.KelvinBerPrime(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.KelvinBerPrime('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -218,22 +218,11 @@ First derivative of the Kelvin function `\mathrm{bei0}, \mathrm{bei0}'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.KelvinBeiPrime(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.KelvinBeiPrime('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.KelvinBeiPrime(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.KelvinBeiPrime('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.KelvinBeiPrime(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.KelvinBeiPrime('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -257,11 +246,11 @@ First derivative of the Kelvin function `\mathrm{ker0}, \mathrm{ker0}'(\nu, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.KelvinKerPrime(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.KelvinKerPrime('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.KelvinKerPrime(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.KelvinKerPrime('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -282,11 +271,11 @@ First derivative of the Kelvin function `\mathrm{kei0}, \mathrm{kei0}'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.KelvinKeiPrime(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.KelvinKeiPrime('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.KelvinKeiPrime(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.KelvinKeiPrime('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -309,11 +298,11 @@ Derivatives of Kelvin functions
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.KelvinPrime(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.KelvinPrime('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.KelvinPrime(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.KelvinPrime('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

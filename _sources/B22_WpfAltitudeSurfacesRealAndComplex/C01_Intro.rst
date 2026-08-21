@@ -184,19 +184,19 @@ Truncation vs loglog transformation
 
 
 
-|TestTruncated| `\quad` |TestLogLog|
+    |TestTruncated| `\quad` |TestLogLog|
 
-.. |TestTruncated| image:: ../_static/ExplicitSurfaces/Intro/01a_TestLogLogErf_abs.3D.xml.jpg
-   :width: 30 %
+    .. |TestTruncated| image:: ../_static/ExplicitSurfaces/Intro/01a_TestLogLogErf_abs.3D.xml.jpg
+       :width: 30 %
 
-.. |TestLogLog| image:: ../_static/ExplicitSurfaces/Intro/01b_TestLogLogErf_abs.3D.xml.jpg
-   :width: 30 %
-
-
-**Left figure**: Surface plot without cutting of the branch cut. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+    .. |TestLogLog| image:: ../_static/ExplicitSurfaces/Intro/01b_TestLogLogErf_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Right figure**: Surface plot with cutting of the branch cut. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+
+    **3D wpf plot**: Surface plot without cutting of the branch cut (left figure), Surface plot with cutting of the branch cut  (right figure)
+
+
 
 
 
@@ -207,18 +207,19 @@ Displaying branch cuts
 
 
 
-|TestWithoutCut| `\quad` |TestWithCut|
+    |TestWithoutCut| `\quad` |TestWithCut|
 
-.. |TestWithoutCut| image:: ../_static/ExplicitSurfaces/Intro/02a_TestBranchCutsLog_im.3D.xml.jpg
-   :width: 30 %
+    .. |TestWithoutCut| image:: ../_static/ExplicitSurfaces/Intro/02a_TestBranchCutsLog_im.3D.xml.jpg
+       :width: 30 %
 
-.. |TestWithCut| image:: ../_static/ExplicitSurfaces/Intro/02b_TestBranchCutsLog_im.3D.xml.jpg
-   :width: 30 %
-
-**Left figure**: Surface plot without cutting of the branch cut. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+    .. |TestWithCut| image:: ../_static/ExplicitSurfaces/Intro/02b_TestBranchCutsLog_im.3D.xml.jpg
+       :width: 30 %
 
 
-**Right figure**: Surface plot with cutting of the branch cut. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+
+
+    **3D wpf plot**: Surface plot without cutting of the branch cut (left figure). Surface plot with cutting of the branch cut (right figure).
+
 
 
 

@@ -37,17 +37,17 @@ Machine Epsilon
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MachineEps()
-        xreal('1.0842021724855044340E-19')
+        >>> from xlcalcnet import ereal
+        >>> ereal.MachineEps()
+        ereal('1.0842021724855044340E-19')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MachineEps()
+        >>> from xlcalcnet import ereal
+        >>> ereal.MachineEps()
         2.22044604925031e-16
 
 
@@ -73,17 +73,17 @@ Unit in the last place
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MachineEps()
-        xreal('1.0842021724855044340E-19')
+        >>> from xlcalcnet import ereal
+        >>> ereal.MachineEps()
+        ereal('1.0842021724855044340E-19')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MachineEps()
+        >>> from xlcalcnet import ereal
+        >>> ereal.MachineEps()
         2.22044604925031e-16
 
 
@@ -105,17 +105,17 @@ Largest representable number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MaxValue()
-        xreal('1.1897314953572317650E+4932')
+        >>> from xlcalcnet import ereal
+        >>> ereal.MaxValue()
+        ereal('1.1897314953572317650E+4932')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MaxValue()
+        >>> from xlcalcnet import ereal
+        >>> ereal.MaxValue()
         1.79769313486232E+308
 
 
@@ -135,17 +135,17 @@ Lowest representable number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MaxValue()
-        xreal('-1.1897314953572317650E+4932')
+        >>> from xlcalcnet import ereal
+        >>> ereal.MaxValue()
+        ereal('-1.1897314953572317650E+4932')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MaxValue()
+        >>> from xlcalcnet import ereal
+        >>> ereal.MaxValue()
         -1.79769313486232E+308
 
 
@@ -167,17 +167,17 @@ Smallest representable positive number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MinValue()
-        xreal('3.3621031431120935063E-4932') 
+        >>> from xlcalcnet import ereal
+        >>> ereal.MinValue()
+        ereal('3.3621031431120935063E-4932') 
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MinValue()
+        >>> from xlcalcnet import ereal
+        >>> ereal.MinValue()
         2.22507385850720e-308
 
 
@@ -204,22 +204,11 @@ Next representable floating point number: `\mathrm{nexttowards}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Succ(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Succ('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Succ(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Succ('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Succ(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Succ('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -251,22 +240,11 @@ Next representable floating point number: `\mathrm{nextabove}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Succ(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Succ('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Succ(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Succ('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Succ(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Succ('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -292,22 +270,11 @@ Next representable floating point number: `\mathrm{nextbelow}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Succ(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Succ('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Succ(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Succ('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Succ(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Succ('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

@@ -42,26 +42,21 @@ Confluent Hypergeometric Limit Function `{}_0F_1(b,x)`
 
 
 
-|01a_TestHypergeom0F1_re| `\quad` |01b_TestHypergeom0F1_im| `\quad` |01c_TestHypergeom0F1_abs|
+    |01a_TestHypergeom0F1_re| `\quad` |01b_TestHypergeom0F1_im| `\quad` |01c_TestHypergeom0F1_abs|
 
-.. |01a_TestHypergeom0F1_re| image:: ../_static/ExplicitSurfaces/Cplx0F1/01a_TestHypergeom0F1_re.3D.xml.jpg
-   :width: 30 %
+    .. |01a_TestHypergeom0F1_re| image:: ../_static/ExplicitSurfaces/Cplx0F1/01a_TestHypergeom0F1_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01b_TestHypergeom0F1_im| image:: ../_static/ExplicitSurfaces/Cplx0F1/01b_TestHypergeom0F1_im.3D.xml.jpg
-   :width: 30 %
+    .. |01b_TestHypergeom0F1_im| image:: ../_static/ExplicitSurfaces/Cplx0F1/01b_TestHypergeom0F1_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01c_TestHypergeom0F1_abs| image:: ../_static/ExplicitSurfaces/Cplx0F1/01c_TestHypergeom0F1_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Hypergeometric function `{}_0F_1`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |01c_TestHypergeom0F1_abs| image:: ../_static/ExplicitSurfaces/Cplx0F1/01c_TestHypergeom0F1_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Hypergeometric function `{}_0F_1`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Hypergeometric function `{}_0F_1`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -72,22 +67,13 @@ Confluent Hypergeometric Limit Function `{}_0F_1(b,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg0F1(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg0F1(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg0F1(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg0F1(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg0F1(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg0F1(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -149,22 +135,13 @@ Regularized Confluent Hypergeometric Limit Function `{}_0\widetilde{F}_1(b;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg0F1r(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg0F1r(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg0F1r(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg0F1r(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg0F1r(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg0F1r(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

@@ -43,7 +43,7 @@ See also   Wikipedia :cite:p:`WikipediaDis31`, MathWorld :cite:p:`WolframDis31`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GeometricPdf(x, a, b): ", GeometricPdf(x, a, b))
         >>> print ("dist_geometric(a, b).pdf(x): ", dist_geometric(a, b).pdf(x))
@@ -67,7 +67,7 @@ See also   Wikipedia :cite:p:`WikipediaDis31`, MathWorld :cite:p:`WolframDis31`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GeometricCdf(x, a, b): ", GeometricCdf(x, a, b))
         >>> print ("dist_geometric(a, b).cdf(x): ", dist_geometric(a, b).cdf(x))
@@ -91,7 +91,7 @@ See also   Wikipedia :cite:p:`WikipediaDis31`, MathWorld :cite:p:`WolframDis31`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("GeometricQtf(q, a, b): ", GeometricQtf(q, a, b))
         >>> print ("dist_geometric(a, b).qtf(q): ", dist_geometric(a, b).qtf(q))

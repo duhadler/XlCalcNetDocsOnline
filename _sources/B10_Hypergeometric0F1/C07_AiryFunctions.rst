@@ -82,22 +82,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.AiryAi(0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.AiryAi('0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.AiryAi(0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.AiryAi('0.51')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.AiryAi(0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.AiryAi('0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 
@@ -171,22 +161,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.AiryBi(0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.AiryBi('0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.AiryBi(0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.AiryBi('0.51')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.AiryBi(0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.AiryBi('0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 
@@ -230,22 +210,11 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.AiryAiPrime(0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.AiryAiPrime('0.51')
-    xreal('5.3518479027559984754E-1')
-
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.AiryAiPrime(0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.AiryAiPrime('0.51')
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.AiryAiPrime(0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.AiryAiPrime('0.51')
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -285,22 +254,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.AiryAiPrime(0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.AiryAiPrime('0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.AiryAiPrime(0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.AiryAiPrime('0.51')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.AiryAiPrime(0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.AiryAiPrime('0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 
@@ -323,22 +282,12 @@ Real zeros `a_k` of the Airy function `\mathrm{Ai}`, `\mathrm{Ai}(a_k)=0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryAiZero(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryAiZero(17)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryAiZero(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryAiZero(17)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryAiZero(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryAiZero(17)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -363,22 +312,12 @@ Real zeros `b_k` of the Airy function `\mathrm{Bi}`, `\mathrm{Bi}(b_k)=0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryBiZero(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryBiZero(17)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryBiZero(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryBiZero(17)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryBiZero(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryBiZero(17)
-        Gpr('5.3518479027559984754E-1')
 
 
 

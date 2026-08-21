@@ -78,12 +78,13 @@ Array Surface, general
 ---------------------------------------------------------
 
 
-|picArraySurface|
+    |picArraySurface|
 
-.. |picArraySurface| image:: ../_static/ExplicitSurfaces/RealFunctions/ArraySurface_small.jpg
-   :width: 30 %
+    .. |picArraySurface| image:: ../_static/ExplicitSurfaces/RealFunctions/ArraySurface_small.jpg
+       :width: 30 %
 
-**Left figure**: parametric plot of Array Surface, general. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+
+**Figure**: parametric plot of Array Surface, general. 
 
 
 
@@ -99,13 +100,13 @@ Fractal Landscape surface
 -----------------------------------------------------------------
 
 
-|picFractalLandscape|
+    |picFractalLandscape|
 
 
-.. |picFractalLandscape| image:: ../_static/ExplicitSurfaces/RealFunctions/FractalLandscape_small.jpg
-   :width: 30 %
+    .. |picFractalLandscape| image:: ../_static/ExplicitSurfaces/RealFunctions/FractalLandscape_small.jpg
+       :width: 30 %
 
-**Left figure**: parametric plot of Fractal Landscape surface. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Figure**: parametric plot of Fractal Landscape surface.
 
 
 
@@ -124,14 +125,14 @@ See also: https://en.wikipedia.org/wiki/Sombrero_function
 
 
 
-|picTestSurface1|
+    |picTestSurface1|
 
-.. |picTestSurface1| image:: ../_static/ExplicitSurfaces/RealFunctions/TestSurface1.3D.xml.jpg
-   :width: 30 %
+    .. |picTestSurface1| image:: ../_static/ExplicitSurfaces/RealFunctions/TestSurface1.3D.xml.jpg
+       :width: 30 %
 
 
 
-**Left figure**: real ("silver") and imaginary ("gold") part of the Sombrero function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **Figure**: real The Sombrero function. 
 
 
 
@@ -149,11 +150,11 @@ General 3D Wave function
 |picTestSurface2|
 
 .. |picTestSurface2| image:: ../_static/ExplicitSurfaces/RealFunctions/TestSurface2.3D.xml.jpg
-   :width: 30 %
+    :width: 30 %
 
 
 
-**Left figure**: real ("silver") and imaginary ("gold") part of the General 3D Wave function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Figure**: The General 3D Wave function. 
 
 
 
@@ -175,10 +176,10 @@ Bivariate normal function
 
 
 
-**Left figure**: absolute value of the of the bivariate normal distribution function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Left Figure**: absolute value of the of the bivariate normal distribution function, with color-coded phase
 
 
-**Right figure**:  absolute value of the of the bivariate normal distribution function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Right figure**:  absolute value of the of the bivariate normal distribution function, with color-coded phase.
 
 
 

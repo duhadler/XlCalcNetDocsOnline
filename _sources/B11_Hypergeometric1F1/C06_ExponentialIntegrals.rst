@@ -50,22 +50,12 @@ Exponential integral `E_1(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.E1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.E1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.E1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.E1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.E1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.E1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -158,15 +148,10 @@ Exponential integral `\mathrm{Ei}(x)`
     .. |06c_TestEi_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/06c_TestEi_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Ei function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Ei function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Ei function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -178,22 +163,12 @@ Exponential integral `\mathrm{Ei}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ei(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ei('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ei(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ei('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ei(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ei('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -267,15 +242,9 @@ Logarithmic integral `\mathrm{li}(x)`
     .. |07c_TestLi_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/07c_TestLi_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
-
-    **Left figure**: real part of the Li function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Li function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Li function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -286,22 +255,12 @@ Logarithmic integral `\mathrm{li}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Li(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Li('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Li(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Li('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Li(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Li('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -380,22 +339,12 @@ Hyperbolic sine integral `\mathrm{Shi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Shi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Shi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Shi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Shi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Shi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Shi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -473,22 +422,13 @@ Hyperbolic cosine integral `\mathrm{Chi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Chi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Chi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Chi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Chi('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Chi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Chi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -570,22 +510,13 @@ Generalized exponential integral `E_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.En(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.En(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.En(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.En(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.En(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.En(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -680,16 +611,9 @@ Sine integral `\mathrm{Si}(x)`
     .. |13c_TestSinIntegral_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/13c_TestSinIntegral_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
-
-    **Left figure**: real part of the Sine integral `\mathrm{Si}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Sine integral `\mathrm{Si}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Sine integral `\mathrm{Si}(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -700,22 +624,12 @@ Sine integral `\mathrm{Si}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Si(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Si('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Si(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Si('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Si(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Si('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -784,15 +698,9 @@ Cosine integral `\mathrm{Ci}(x)`
     .. |12c_TestCosIntegral_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/12c_TestCosIntegral_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
-
-    **Left figure**: real part of the Cosine integral `\mathrm{Ci}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Cosine integral `\mathrm{Ci}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Cosine integral `\mathrm{Ci}(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -830,22 +738,13 @@ Cosine integral `\mathrm{Ci}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ci(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ci('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ci(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ci('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ci(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ci('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

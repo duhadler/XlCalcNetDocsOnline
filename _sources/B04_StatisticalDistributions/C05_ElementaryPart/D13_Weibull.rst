@@ -42,7 +42,7 @@ See also  Wikipedia :cite:p:`WikipediaDis25`, MathWorld :cite:p:`WolframDis25`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("WeibullPdf(x, a, b): ", WeibullPdf(x, a, b))
         >>> print ("dist_weibull(a, b).pdf(x): ", dist_weibull(a, b).pdf(x))
@@ -65,7 +65,7 @@ See also  Wikipedia :cite:p:`WikipediaDis25`, MathWorld :cite:p:`WolframDis25`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("WeibullCdf(x, a, b): ", WeibullCdf(x, a, b))
         >>> print ("dist_weibull(a, b).cdf(x): ", dist_weibull(a, b).cdf(x))
@@ -89,7 +89,7 @@ See also  Wikipedia :cite:p:`WikipediaDis25`, MathWorld :cite:p:`WolframDis25`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("WeibullQtf(q, a, b): ", WeibullQtf(q, a, b))
         >>> print ("dist_weibull(a, b).qtf(q): ", dist_weibull(a, b).qtf(q))

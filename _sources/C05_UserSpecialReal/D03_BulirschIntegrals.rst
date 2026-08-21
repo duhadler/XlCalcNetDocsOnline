@@ -57,22 +57,12 @@ Complete elliptic integral of the 1st kind `\mathrm{cel1}(k_c)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cel1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cel1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cel1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cel1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cel1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cel1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -96,22 +86,11 @@ Complete elliptic integral of the 2nd kind `\mathrm{cel2}(k_c, a, b)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cel2(0.5, 3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cel2('0.51', 3, 4)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cel2(0.5, 3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cel2('0.51', 3, 4)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cel2(0.5, 3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cel2('0.51', 3, 4)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -134,22 +113,12 @@ General complete elliptic integral `\mathrm{cel}(k_c, p, a, b)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cel(0.5, 2, 3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cel('0.51', 2, 3, 4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cel(0.5, 2, 3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cel('0.51', 2, 3, 4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cel(0.5, 2, 3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cel('0.51', 2, 3, 4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -170,22 +139,12 @@ Incomplete elliptic integral of the 1st kind `\mathrm{el1}(x, k_c)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.El1(2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.El1(2, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.El1(2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.El1(2, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.El1(2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.El1(2, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -207,22 +166,12 @@ Incomplete elliptic integral of the 2nd kind `\mathrm{el2}(x, k_c, a, b)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.El2(2, 0.5, 3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.El2(2, '0.51', 3, 4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.El2(2, 0.5, 3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.El2(2, '0.51', 3, 4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.El2(2, 0.5, 3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.El2(2, '0.51', 3, 4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -242,22 +191,11 @@ Incomplete elliptic integral of the 3rd kind `\mathrm{el3}(x, k_c, p)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.El3(2, 0.5, 3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.El3(2, '0.51', 3)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.El3(2, 0.5, 3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.El3(2, '0.51', 3)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.El3(2, 0.5, 3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.El3(2, '0.51', 3)
+        ereal('5.3518479027559984754E-1')
 
 
 

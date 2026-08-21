@@ -53,7 +53,7 @@
     <link rel="prev" title="Gauss Hypergeometric Function \(\,_2F_1\)" href="C01_Hyper2F1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -956,19 +956,11 @@ document.write(`
  T_{n+1} (x)&amp; = &amp; 2x T_{n}(x) - T_{n-1}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1116" title="Wikipedia. Chebyshev polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Chebyshev_polynomials.">1405</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1578" title="E. W. Weisstein. Chebyshev Polynomial of the First Kind. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ChebyshevPolynomialoftheFirstKind.html.">988</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>,  BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id373" title="P. A. Bristow and H. Holin. Chebyshev Polynomials. Boost Math Toolkit Library, 2017. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_poly/chebyshev.html.">120</a>]</span>, <span id="id5">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.1), Flint <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id593" title="The FLINT Team. Arb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#orthogonal-polynomials-and-functions.">825</a>]</span>, Flint <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id594" title="The FLINT Team. Acb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#orthogonal-polynomials-and-functions.">821</a>]</span>, Mpmath <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id715" title="The Mpmath Development Team. Chebyshev Polynomial of the First Kind. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2012. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/orthogonal.html#chebyt.">657</a>]</span>, <span id="id9">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.5).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevT</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1016,19 +1008,11 @@ document.write(`
  U_{n+1} (x)&amp; = &amp; 2x U_{n}(x) - U_{n-1}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id1116" title="Wikipedia. Chebyshev polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Chebyshev_polynomials.">1405</a>]</span>, MathWorld <span id="id11">[<a class="reference internal" href="../99BackMatter/index.html#id1579" title="E. W. Weisstein. Chebyshev Polynomial of the Second Kind. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ChebyshevPolynomialoftheFirstKind.html.">989</a>]</span>, NIST <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>, <span id="id13">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.2), BoostMath <span id="id14">[<a class="reference internal" href="../99BackMatter/index.html#id373" title="P. A. Bristow and H. Holin. Chebyshev Polynomials. Boost Math Toolkit Library, 2017. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_poly/chebyshev.html.">120</a>]</span>, Flint <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id593" title="The FLINT Team. Arb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#orthogonal-polynomials-and-functions.">825</a>]</span>, Flint <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id594" title="The FLINT Team. Acb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#orthogonal-polynomials-and-functions.">821</a>]</span>, Mpmath <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id716" title="The Mpmath Development Team. Chebyshev Polynomial of the Second Kind. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2012. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/orthogonal.html#chebyu.">658</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevU</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1077,19 +1061,11 @@ document.write(`
  V_{n+1} (x)&amp; = &amp; 2x V_{n}(x) - V_{n-1}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id1116" title="Wikipedia. Chebyshev polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Chebyshev_polynomials.">1405</a>]</span>, MathWorld <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id1578" title="E. W. Weisstein. Chebyshev Polynomial of the First Kind. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ChebyshevPolynomialoftheFirstKind.html.">988</a>]</span>, NIST <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>, <span id="id21">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.3).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevV</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1112,19 +1088,11 @@ document.write(`
  W_{n+1} (x)&amp; = &amp; 2x W_{n}(x) - W_{n-1}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id1116" title="Wikipedia. Chebyshev polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Chebyshev_polynomials.">1405</a>]</span>, MathWorld <span id="id23">[<a class="reference internal" href="../99BackMatter/index.html#id1578" title="E. W. Weisstein. Chebyshev Polynomial of the First Kind. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ChebyshevPolynomialoftheFirstKind.html.">988</a>]</span>, NIST <span id="id24">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>, <span id="id25">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.4).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ChebyshevW</span><span class="p">(</span><span class="s1">&#39;6, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1154,19 +1122,11 @@ even when the parameters are such that the hypergeometric series
 is undefined. In such cases, the polynomial is evaluated using
 direct methods.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GegenbauerC</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1225,19 +1185,11 @@ even when the parameters are such that the hypergeometric series
 is undefined. In such cases, the polynomial is evaluated using
 direct methods.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">JacobiP</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1284,19 +1236,11 @@ direct methods.</p>
 <p>See also <a class="reference external" href="https://en.wikipedia.org/wiki/Zernike_polynomials">https://en.wikipedia.org/wiki/Zernike_polynomials</a></p>
 <p>See also   <span id="id40">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.20).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ZernikeR</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1410,7 +1354,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

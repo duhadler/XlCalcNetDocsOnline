@@ -51,26 +51,21 @@ Polylogarithm, `\mathrm{Li}_s(z)`
 
     
 
-|05a_TestPolylog_re| `\quad` |05b_TestPolylog_im| `\quad` |05c_TestPolylog_abs|
+    |05a_TestPolylog_re| `\quad` |05b_TestPolylog_im| `\quad` |05c_TestPolylog_abs|
 
-.. |05a_TestPolylog_re| image:: ../_static/ExplicitSurfaces/CplxLerch/05a_TestPolylog_re.3D.xml.jpg
-   :width: 30 %
+    .. |05a_TestPolylog_re| image:: ../_static/ExplicitSurfaces/CplxLerch/05a_TestPolylog_re.3D.xml.jpg
+       :width: 30 %
 
-.. |05b_TestPolylog_im| image:: ../_static/ExplicitSurfaces/CplxLerch/05b_TestPolylog_im.3D.xml.jpg
-   :width: 30 %
+    .. |05b_TestPolylog_im| image:: ../_static/ExplicitSurfaces/CplxLerch/05b_TestPolylog_im.3D.xml.jpg
+       :width: 30 %
 
-.. |05c_TestPolylog_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/05c_TestPolylog_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Polylogarithm, `\mathrm{Li}_s(z)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |05c_TestPolylog_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/05c_TestPolylog_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Polylogarithm, `\mathrm{Li}_s(z)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Polylogarithm, `\mathrm{Li}_s(z)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -82,22 +77,12 @@ Polylogarithm, `\mathrm{Li}_s(z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.PolylogR(2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.PolylogR(2, '0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.PolylogR(2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.PolylogR(2, '0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.PolylogR(2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.PolylogR(2, '0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -150,22 +135,12 @@ Trilogarithm Function, `\mathrm{Li}_3(z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Trilog(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Trilog('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Trilog(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Trilog('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Trilog(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Trilog('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -193,26 +168,21 @@ Dilogarithm Function, `\mathrm{Li}_2(z)`
 
 
 
-|06a_TestDilog_re| `\quad` |06b_TestDilog_im| `\quad` |06c_TestDilog_abs|
+    |06a_TestDilog_re| `\quad` |06b_TestDilog_im| `\quad` |06c_TestDilog_abs|
 
-.. |06a_TestDilog_re| image:: ../_static/ExplicitSurfaces/CplxLerch/06a_TestDilog_re.3D.xml.jpg
-   :width: 30 %
+    .. |06a_TestDilog_re| image:: ../_static/ExplicitSurfaces/CplxLerch/06a_TestDilog_re.3D.xml.jpg
+       :width: 30 %
 
-.. |06b_TestDilog_im| image:: ../_static/ExplicitSurfaces/CplxLerch/06b_TestDilog_im.3D.xml.jpg
-   :width: 30 %
+    .. |06b_TestDilog_im| image:: ../_static/ExplicitSurfaces/CplxLerch/06b_TestDilog_im.3D.xml.jpg
+       :width: 30 %
 
-.. |06c_TestDilog_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/06c_TestDilog_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Dilog function, `\mathrm{Li}_2(z)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |06c_TestDilog_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/06c_TestDilog_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Dilog function, `\mathrm{Li}_2(z)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Dilog function, `\mathrm{Li}_2(z)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -222,22 +192,12 @@ Dilogarithm Function, `\mathrm{Li}_2(z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Dilog(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Dilog('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Dilog(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Dilog('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Dilog(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Dilog('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -313,26 +273,20 @@ Generalized Clausen sine function
 
 
 
-|07a_TestClausenSin_re| `\quad` |07b_TestClausenSin_im| `\quad` |07c_TestClausenSin_abs|
+    |07a_TestClausenSin_re| `\quad` |07b_TestClausenSin_im| `\quad` |07c_TestClausenSin_abs|
 
-.. |07a_TestClausenSin_re| image:: ../_static/ExplicitSurfaces/CplxLerch/07a_TestClausenSin_re.3D.xml.jpg
-   :width: 30 %
+    .. |07a_TestClausenSin_re| image:: ../_static/ExplicitSurfaces/CplxLerch/07a_TestClausenSin_re.3D.xml.jpg
+       :width: 30 %
 
-.. |07b_TestClausenSin_im| image:: ../_static/ExplicitSurfaces/CplxLerch/07b_TestClausenSin_im.3D.xml.jpg
-   :width: 30 %
+    .. |07b_TestClausenSin_im| image:: ../_static/ExplicitSurfaces/CplxLerch/07b_TestClausenSin_im.3D.xml.jpg
+       :width: 30 %
 
-.. |07c_TestClausenSin_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/07c_TestClausenSin_abs.3D.xml.jpg
-   :width: 30 %
+    .. |07c_TestClausenSin_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/07c_TestClausenSin_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Generalized Clausen sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Generalized Clausen sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Generalized Clausen sine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -401,26 +355,20 @@ Generalized Clausen cosine function
 
 
 
-|08a_TestClausenCos_re| `\quad` |08b_TestClausenCos_im| `\quad` |08c_TestClausenCos_abs|
+    |08a_TestClausenCos_re| `\quad` |08b_TestClausenCos_im| `\quad` |08c_TestClausenCos_abs|
 
-.. |08a_TestClausenCos_re| image:: ../_static/ExplicitSurfaces/CplxLerch/08a_TestClausenCos_re.3D.xml.jpg
-   :width: 30 %
+    .. |08a_TestClausenCos_re| image:: ../_static/ExplicitSurfaces/CplxLerch/08a_TestClausenCos_re.3D.xml.jpg
+       :width: 30 %
 
-.. |08b_TestClausenCos_im| image:: ../_static/ExplicitSurfaces/CplxLerch/08b_TestClausenCos_im.3D.xml.jpg
-   :width: 30 %
+    .. |08b_TestClausenCos_im| image:: ../_static/ExplicitSurfaces/CplxLerch/08b_TestClausenCos_im.3D.xml.jpg
+       :width: 30 %
 
-.. |08c_TestClausenCos_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/08c_TestClausenCos_abs.3D.xml.jpg
-   :width: 30 %
+    .. |08c_TestClausenCos_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/08c_TestClausenCos_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Generalized Clausen cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Generalized Clausen cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Generalized Clausen cosine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -482,22 +430,12 @@ Classical Clausen function, `\mathrm{Cl}_2(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Clausen2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Clausen2('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Clausen2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Clausen2('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Clausen2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Clausen2('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -530,22 +468,12 @@ Bose-Einstein integrals, `G_s(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BoseEinstein(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BoseEinstein(2,'51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BoseEinstein(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BoseEinstein(2,'51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BoseEinstein(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BoseEinstein(2,'51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -610,22 +538,13 @@ Fermi-Dirac integrals, `F_s(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDiracR(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDiracR(2,'51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDiracR(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDiracR(2,'51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDiracR(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDiracR(2,'51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -689,27 +608,20 @@ Legendre's Chi function, `\chi_s(x)`
     
 
 
-|09a_TestLegendreChi_re| `\quad` |09b_TestLegendreChi_im| `\quad` |09c_TestLegendreChi_abs|
+    |09a_TestLegendreChi_re| `\quad` |09b_TestLegendreChi_im| `\quad` |09c_TestLegendreChi_abs|
 
-.. |09a_TestLegendreChi_re| image:: ../_static/ExplicitSurfaces/CplxLerch/09a_TestLegendreChi_re.3D.xml.jpg
-   :width: 30 %
+    .. |09a_TestLegendreChi_re| image:: ../_static/ExplicitSurfaces/CplxLerch/09a_TestLegendreChi_re.3D.xml.jpg
+       :width: 30 %
 
-.. |09b_TestLegendreChi_im| image:: ../_static/ExplicitSurfaces/CplxLerch/09b_TestLegendreChi_im.3D.xml.jpg
-   :width: 30 %
+    .. |09b_TestLegendreChi_im| image:: ../_static/ExplicitSurfaces/CplxLerch/09b_TestLegendreChi_im.3D.xml.jpg
+       :width: 30 %
 
-.. |09c_TestLegendreChi_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/09c_TestLegendreChi_abs.3D.xml.jpg
-   :width: 30 %
+    .. |09c_TestLegendreChi_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/09c_TestLegendreChi_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of Legendre's Chi function, `\chi_s(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of Legendre's Chi function, `\chi_s(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of Legendre's Chi function, `\chi_s(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -719,22 +631,12 @@ Legendre's Chi function, `\chi_s(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LegendreChi(2,5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LegendreChi('5.1', 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LegendreChi(2,5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LegendreChi('5.1', 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LegendreChi(2,5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LegendreChi('5.1', 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -816,26 +718,21 @@ Generalized inverse tangent integral
 
 
 
-|10a_TestTangentInt_re| `\quad` |10b_TestTangentInt_im| `\quad` |10c_TestTangentInt_abs|
+    |10a_TestTangentInt_re| `\quad` |10b_TestTangentInt_im| `\quad` |10c_TestTangentInt_abs|
 
-.. |10a_TestTangentInt_re| image:: ../_static/ExplicitSurfaces/CplxLerch/10a_TestTangentInt_re.3D.xml.jpg
-   :width: 30 %
+    .. |10a_TestTangentInt_re| image:: ../_static/ExplicitSurfaces/CplxLerch/10a_TestTangentInt_re.3D.xml.jpg
+       :width: 30 %
 
-.. |10b_TestTangentInt_im| image:: ../_static/ExplicitSurfaces/CplxLerch/10b_TestTangentInt_im.3D.xml.jpg
-   :width: 30 %
+    .. |10b_TestTangentInt_im| image:: ../_static/ExplicitSurfaces/CplxLerch/10b_TestTangentInt_im.3D.xml.jpg
+       :width: 30 %
 
-.. |10c_TestTangentInt_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/10c_TestTangentInt_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Generalized inverse tangent integral. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |10c_TestTangentInt_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/10c_TestTangentInt_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Generalized inverse tangent integral. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Generalized inverse tangent integral, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -891,22 +788,12 @@ Generalized inverse tangent integral
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TangentInt2(2,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TangentInt2(2,'0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TangentInt2(2,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TangentInt2(2,'0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TangentInt2(2,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TangentInt2(2,'0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 

@@ -53,7 +53,7 @@
     <link rel="prev" title="Bessel functions of integer order" href="D12_BesselIntegerOrder.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -960,19 +960,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_i0</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_i0" title="Link to this definition">#</a></dt>
 <dd><p>Returns I0(x), the modified Bessel function of the 1st kind, order zero. See also Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1537" title="E. W. Weisstein. Modified Bessel Function of the First Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheFirstKind.html.">980</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id469" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the First Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E2.">468</a>]</span>, BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id5">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.1).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -985,19 +977,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_i1</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_i1" title="Link to this definition">#</a></dt>
 <dd><p>Returns I1(x), the modified Bessel function of the 1st kind, order one. See also Wikipedia <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id1537" title="E. W. Weisstein. Modified Bessel Function of the First Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheFirstKind.html.">980</a>]</span>, NIST <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id469" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the First Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E2.">468</a>]</span>, BoostMath <span id="id9">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id10">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.3).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1012,19 +996,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[I_{\nu}\left(z\right)=(\tfrac{1}{2}z)^{\nu}\sum_{k=0}^{\infty}\frac{(\tfrac{1}{4}z^{2})^{k}}{k!\Gamma\left(\nu+k+1\right)}.\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselIn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1037,19 +1013,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_k0</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_k0" title="Link to this definition">#</a></dt>
 <dd><p>Returns K0(x), the modified Bessel function of the 2nd kind, order zero, x&gt;0.  See also  Wikipedia <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id1538" title="E. W. Weisstein. Modified Bessel Function of the Second Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheSecondKind.html.">981</a>]</span>, NIST <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id470" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the Second Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E3.">469</a>]</span>,  BoostMath <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id20">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.6).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK0</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1062,19 +1030,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_k1</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_k1" title="Link to this definition">#</a></dt>
 <dd><p>Returns K1(x), the modified Bessel function of the 2nd kind, order one, x&gt;0.  See also  Wikipedia <span id="id21">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id1538" title="E. W. Weisstein. Modified Bessel Function of the Second Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheSecondKind.html.">981</a>]</span>, NIST <span id="id23">[<a class="reference internal" href="../99BackMatter/index.html#id470" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the Second Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E3.">469</a>]</span>, BoostMath <span id="id24">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id25">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.8).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1091,19 +1051,11 @@ document.write(`
  K_{n}\left(z\right) &amp; = &amp; \tfrac{1}{2}(\tfrac{1}{2}z)^{-n}\sum_{k=0}^{n-1}\frac{(n-k-1)!}{k!}(-\tfrac{1}{4}z^{2})^{k}+(-1)^{n+1}\log\left(\tfrac{1}{2}z\right)I_{n}\left(z\right) \\
  &amp; + &amp; (-1)^{n}\tfrac{1}{2}(\tfrac{1}{2}z)^{n}\sum_{k=0}^{\infty}\left(\psi\left(k+1\right)+\psi\left(n+k+1\right)\right)\frac{(\tfrac{1}{4}z^{2})^{k}}{k!(n+k)!} \nonumber
 \end{eqnarray}</div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselKn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1116,19 +1068,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_i0e</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_i0e" title="Link to this definition">#</a></dt>
 <dd><p>Returns I0(x)*exp(-<span class="math notranslate nohighlight">\(|x|\)</span>), the exponentially scaled modified Bessel function of the 1st kind, order zero. See also Wikipedia <span id="id31">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id1537" title="E. W. Weisstein. Modified Bessel Function of the First Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheFirstKind.html.">980</a>]</span>, NIST <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id469" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the First Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E2.">468</a>]</span>, BoostMath <span id="id34">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id35">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.2).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1141,19 +1085,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_i1e</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_i1e" title="Link to this definition">#</a></dt>
 <dd><p>Returns I1(x)*exp(-<span class="math notranslate nohighlight">\(|x|\)</span>), the exponentially scaled modified Bessel function of the 1st kind, order one. See also Wikipedia <span id="id36">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id37">[<a class="reference internal" href="../99BackMatter/index.html#id1537" title="E. W. Weisstein. Modified Bessel Function of the First Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheFirstKind.html.">980</a>]</span>, NIST <span id="id38">[<a class="reference internal" href="../99BackMatter/index.html#id469" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the First Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E2.">468</a>]</span>, BoostMath <span id="id39">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id40">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.4).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselI1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1166,19 +1102,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_k0e</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_k0e" title="Link to this definition">#</a></dt>
 <dd><p>Returns K0(x)*exp(x),    the exponentially scaled modified Bessel function of the 2nd kind, order zero, x&gt;0. See also  Wikipedia <span id="id41">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id42">[<a class="reference internal" href="../99BackMatter/index.html#id1538" title="E. W. Weisstein. Modified Bessel Function of the Second Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheSecondKind.html.">981</a>]</span>, NIST <span id="id43">[<a class="reference internal" href="../99BackMatter/index.html#id470" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the Second Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E3.">469</a>]</span>,  BoostMath <span id="id44">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id45">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.7).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK0e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1191,19 +1119,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">bessel_k1e</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.bessel_k1e" title="Link to this definition">#</a></dt>
 <dd><p>Returns K1(x)*exp(x),    the exponentially scaled modified Bessel function of the 2nd kind, order one, x&gt;0.  See also  Wikipedia <span id="id46">[<a class="reference internal" href="../99BackMatter/index.html#id1079" title="Wikipedia. Modified Bessel functions. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Bessel_function#Modified_Bessel_functions.">1370</a>]</span>, MathWorld <span id="id47">[<a class="reference internal" href="../99BackMatter/index.html#id1538" title="E. W. Weisstein. Modified Bessel Function of the Second Kind. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ModifiedBesselFunctionoftheSecondKind.html.">981</a>]</span>, NIST <span id="id48">[<a class="reference internal" href="../99BackMatter/index.html#id470" title="L. Olver, F. W. J.; Maximon. Modified Bessel Function of the Second Kind. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/10.25#E3.">469</a>]</span>, BoostMath <span id="id49">[<a class="reference internal" href="../99BackMatter/index.html#id358" title="P. A. Bristow and H. Holin. Modified Bessel Functions of the First and Second Kinds. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/bessel/mbessel.html.">114</a>]</span>, <span id="id50">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.1.2.9).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">BesselK1e</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1329,7 +1249,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

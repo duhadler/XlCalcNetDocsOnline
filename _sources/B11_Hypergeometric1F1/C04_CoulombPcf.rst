@@ -64,22 +64,12 @@ Regular Coulomb wave function `F_{\ell}(\eta,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombF(3, 0.5, 2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombF(3, 0.5, 8.25)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombF(3, 0.5, 2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombF(3, 0.5, 8.25)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombF(3, 0.5, 2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombF(3, 0.5, 8.25)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -307,22 +297,12 @@ Whittaker function `M_{\kappa, \mu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.WhittakerM(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.WhittakerM(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.WhittakerM(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.WhittakerM(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.WhittakerM(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.WhittakerM(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -385,22 +365,12 @@ Whittaker function `W_{\kappa, \mu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.WhittakerW(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.WhittakerW(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.WhittakerW(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.WhittakerW(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.WhittakerW(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.WhittakerW(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -484,26 +454,15 @@ Parabolic cylinder function `D_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CylinderD(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CylinderD(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
-        >>> xreal.CylinderD(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CylinderD(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CylinderD(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
+        >>> ereal.CylinderD(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CylinderD(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CylinderD(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
-        >>> Gpr.CylinderD(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -586,26 +545,14 @@ Parabolic cylinder function `U(a, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CylinderU(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CylinderU(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
-        >>> xreal.CylinderU(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CylinderU(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CylinderU(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
+        >>> ereal.CylinderU(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CylinderU(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CylinderU(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
-        >>> Gpr.CylinderU(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -674,26 +621,15 @@ Parabolic cylinder function `V(a,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CylinderV(5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CylinderV(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
-        >>> xreal.CylinderV(15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CylinderV(5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CylinderV(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
+        >>> ereal.CylinderV(15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CylinderV(5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CylinderV(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
-        >>> Gpr.CylinderV(15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

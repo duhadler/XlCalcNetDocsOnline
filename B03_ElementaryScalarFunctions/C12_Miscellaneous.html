@@ -53,7 +53,7 @@
     <link rel="prev" title="Factorials, Gamma and related functions" href="C11_FactorialsGamma.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -937,27 +937,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(W_0(x)\)</span>, the real-valued principal branch of the Lambert W function for <span class="math notranslate nohighlight">\(x &gt; -1/e\)</span>, with <span class="math notranslate nohighlight">\(W_0(x) \ge -1\)</span> for <span class="math notranslate nohighlight">\(x&lt;0\)</span>. The Lambert W function is defined as the solution of <span class="math notranslate nohighlight">\(x = W(x) \exp(W(x))\)</span>.</p>
 <p>See also  Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1075" title="Wikipedia. Lambert W function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Lambert_W_function.">1368</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1533" title="E. W. Weisstein. Lambert W-Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/LambertW-Function.html.">964</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id465" title="F.W.J. Roy, R.; Olver. Lambert W-Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.13.">513</a>]</span>,  BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id354" title="P. A. Bristow and H. Holin. Lambert W function. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/lambert_w.html.">112</a>]</span>, <span id="id5">Corless <em>et al.</em> [<a class="reference internal" href="../99BackMatter/index.html#id52" title="R. M. Corless, G. H. Gonnet, D. E. G. Hare, D. J. Jeffrey, and D. E. Knuth. On the lambert w function. In Advances in Computational Mathematics, 329–359. 1996.">192</a>]</span>, <span id="id6">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.10.15), Flint <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id581" title="The FLINT Team. Arb: Lambert W function. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb.html#lambert-w-function.">810</a>]</span>, Flint <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id582" title="The FLINT Team. Acb: Lambert W function. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb.html#lambert-w-function.">800</a>]</span>, Mpmath <span id="id9">[<a class="reference internal" href="../99BackMatter/index.html#id674" title="The Mpmath Development Team. Lambert W function. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2010. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#lambert-w-function.">622</a>]</span>.</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/06a_TestLambertW_re.3D.xml.jpg"><img alt="06a_TestLambertW_re" src="../_images/06a_TestLambertW_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/06b_TestLambertW_im.3D.xml.jpg"><img alt="06b_TestLambertW_im" src="../_images/06b_TestLambertW_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/06c_TestLambertW_abs.3D.xml.jpg"><img alt="06c_TestLambertW_abs" src="../_images/06c_TestLambertW_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the LambertW function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the LambertW function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the LambertW function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">3.4</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">13.4</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">3.4</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">13.4</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">3.4</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">13.4</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p><strong>Basic examples</strong></p>
@@ -982,7 +969,8 @@ document.write(`
 <span class="go">1.0</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="lambert-w-function-w-1-x">
 <h2>Lambert <span class="math notranslate nohighlight">\(W\)</span> function, <span class="math notranslate nohighlight">\(W_{-1}(x)\)</span><a class="headerlink" href="#lambert-w-function-w-1-x" title="Link to this heading">#</a></h2>
@@ -993,19 +981,11 @@ document.write(`
 <p>Returns <span class="math notranslate nohighlight">\(W_{-1}(x)\)</span>, the second real-valued, non-principal, branch of the Lambert W function  for <span class="math notranslate nohighlight">\(-1/e &lt; x &lt; 0\)</span>, with <span class="math notranslate nohighlight">\(W_{-1}(x) \le -1\)</span> for <span class="math notranslate nohighlight">\(x&lt;0\)</span>. The Lambert W function is defined as the solution of <span class="math notranslate nohighlight">\(x = W(x) \exp(W(x))\)</span>, Flint <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id581" title="The FLINT Team. Arb: Lambert W function. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb.html#lambert-w-function.">810</a>]</span>, Flint <span id="id11">[<a class="reference internal" href="../99BackMatter/index.html#id582" title="The FLINT Team. Acb: Lambert W function. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb.html#lambert-w-function.">800</a>]</span>.</p>
 <p>See also  Wikipedia <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id1075" title="Wikipedia. Lambert W function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Lambert_W_function.">1368</a>]</span>, MathWorld <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id1533" title="E. W. Weisstein. Lambert W-Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/LambertW-Function.html.">964</a>]</span>, NIST <span id="id14">[<a class="reference internal" href="../99BackMatter/index.html#id465" title="F.W.J. Roy, R.; Olver. Lambert W-Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.13.">513</a>]</span>,  BoostMath <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id354" title="P. A. Bristow and H. Holin. Lambert W function. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/lambert_w.html.">112</a>]</span>, <span id="id16">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.10.15), Mpmath <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id674" title="The Mpmath Development Team. Lambert W function. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2010. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#lambert-w-function.">622</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.21</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.21</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.2</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LambertW1</span><span class="p">(</span><span class="mf">0.21</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p><strong>Basic examples</strong></p>
@@ -1050,19 +1030,11 @@ document.write(`
 <p>The Lambert W function has two partially real branches: the principal branch (<span class="math notranslate nohighlight">\(k = 0\)</span>) is real for real <span class="math notranslate nohighlight">\(z &gt; -1/e\)</span>, and the <span class="math notranslate nohighlight">\(k = -1\)</span> branch is real for <span class="math notranslate nohighlight">\(-1/e &lt; z &lt; 0\)</span>. All branches except <span class="math notranslate nohighlight">\(k = 0\)</span> have a logarithmic singularity at <span class="math notranslate nohighlight">\(z = 0\)</span>.</p>
 <p>The definition, implementation and choice of branches is based on <span id="id27">Corless <em>et al.</em> [<a class="reference internal" href="../99BackMatter/index.html#id52" title="R. M. Corless, G. H. Gonnet, D. E. G. Hare, D. J. Jeffrey, and D. E. Knuth. On the lambert w function. In Advances in Computational Mathematics, 329–359. 1996.">192</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">LambertW</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p><strong>Basic examples</strong></p>
@@ -1104,27 +1076,14 @@ document.write(`
 <p>The function <span class="math notranslate nohighlight">\(\text{agm}(a,b)\)</span> can also be expressed in closed form in terms of the complete elliptic integral of the first kind <span class="math notranslate nohighlight">\(K(k)\)</span> as</p>
 <div class="math notranslate nohighlight">
 \[\text{agm}(a,b) = \frac{(a+b)\pi}{4K((a-b)/(a+b))}.\]</div>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/01a_TestAGM_re.3D.xml.jpg"><img alt="01a_TestAGM_re" src="../_images/01a_TestAGM_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/01b_TestAGM_im.3D.xml.jpg"><img alt="01b_TestAGM_im" src="../_images/01b_TestAGM_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/01c_TestAGM_abs.3D.xml.jpg"><img alt="01c_TestAGM_abs" src="../_images/01c_TestAGM_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the AGM. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the AGM. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the AGM, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Agm</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1153,7 +1112,8 @@ document.write(`
 <span class="go">apm: 5.9582264514273988109e+0 (1.137e-19%) + 2.4753102663993183285e+0 (1.369e-19%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 </section>
 
@@ -1251,7 +1211,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

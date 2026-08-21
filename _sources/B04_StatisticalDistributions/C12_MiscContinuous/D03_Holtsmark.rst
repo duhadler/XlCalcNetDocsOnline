@@ -59,7 +59,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFPdf(x, a, b): ", FisherFPdf(x, a, b))
         >>> print ("dist_fisher_f(a, b).pdf(x): ", dist_fisher_f(a, b).pdf(x))
@@ -85,7 +85,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFCdf(x, a, b): ", FisherFCdf(x, a, b))
         >>> print ("dist_fisher_f(a, b).cdf(x): ", dist_fisher_f(a, b).cdf(x))
@@ -108,7 +108,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("FisherFQtf(q, a, b): ", FisherFQtf(q, a, b))
         >>> print ("dist_fisher_f(a, b).qtf(q): ", dist_fisher_f(a, b).qtf(q))
@@ -125,7 +125,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import SReal, FReal, XReal, QReal, CReal, OReal
+        >>> from xlcalcnet import SReal, FReal, ereal, QReal, CReal, OReal
         >>> a = 0; b = 1; 
         >>> Ctx = SReal
         >>> dist_fisher_f = Ctx.dist_fisher_f(a, b)
@@ -201,7 +201,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -217,7 +217,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -234,7 +234,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -252,7 +252,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -268,7 +268,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -284,7 +284,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -301,7 +301,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -318,7 +318,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -335,7 +335,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -352,7 +352,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -369,7 +369,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -386,7 +386,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -403,7 +403,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -419,7 +419,7 @@ See also: https://en.wikipedia.org/wiki/Holtsmark_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))

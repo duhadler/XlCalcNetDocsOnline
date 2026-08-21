@@ -56,9 +56,9 @@ Some text
 
 
 
-**Left figure**: Spiral 2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -92,9 +92,9 @@ Some text
 
 
 
-**Left figure**: Spiral 6 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 6 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 6 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 6 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -129,9 +129,9 @@ Some text
 
 
 
-**Left figure**: Spiral 7a (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 7a (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 7a (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 7a (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -166,9 +166,9 @@ Some text
 
 
 
-**Left figure**: Spiral 7b (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 7b (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 7b (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 7b (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -208,9 +208,9 @@ Some text
 
 
 
-**Left figure**: Spiral 7c (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 7c (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 7c (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 7c (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -249,9 +249,9 @@ Some text
 
 
 
-**Left figure**: Spiral 7d (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 7d (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 7d (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 7d (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -289,9 +289,9 @@ Some text
 
 
 
-**Left figure**: Spiral 8 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=80^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spiral 8 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Spiral 8 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=100^\circ` and `\phi = 90^\circ`.
+**Right figure**: Spiral 8 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 

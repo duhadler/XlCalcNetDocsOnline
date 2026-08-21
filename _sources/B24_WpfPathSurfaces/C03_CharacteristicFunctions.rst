@@ -77,11 +77,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the uniform distribution, with `a=0.0`, `b=1.0`, `t_0=-20.0` and  `t_1=20.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the uniform distribution, with `a=0.0`, `b=1.0`, `t_0=-20.0` and  `t_1=20.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the uniform distribution, with `a=0`, `b=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the uniform distribution, with `a=0`, `b=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the uniform distribution, with `a=0`, `b=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the uniform distribution, with `a=0`, `b=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -136,11 +136,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the normal distribution, with `\mu=10`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the normal distribution, with `\mu=10`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the normal distribution, with `\mu=0`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the normal distribution, with `\mu=0`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the normal distribution, with `\mu=0`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the normal distribution, with `\mu=0`, `\sigma=1`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -193,11 +193,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the chi-squared distribution, with `n=100`, `t_0=-0.2` and  `t_1=0.2`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the chi-squared distribution, with `n=100`, `t_0=-0.2` and  `t_1=0.2`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the chi-squared distribution, with `n=10`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the chi-squared distribution, with `n=10`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the chi-squared distribution, with `n=10`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the chi-squared distribution, with `n=10`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -257,11 +257,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the beta distribution, with `a=10`, `b=20`, `t_0=-40.0` and  `t_1=40.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the beta distribution, with `a=10`, `b=20`, `t_0=-40.0` and  `t_1=40.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the beta distribution, with `a=20`, `b=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the beta distribution, with `a=20`, `b=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the beta distribution, with `a=20`, `b=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the beta distribution, with `a=20`, `b=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -321,11 +321,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the Fisher `F`-distribution, with `m=40`, `n=20`, `t_0=-20.0` and  `t_1=20.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the Fisher `F`-distribution, with `m=40`, `n=20`, `t_0=-20.0` and  `t_1=20.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the Fisher `F`-distribution, with `m=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the Fisher `F`-distribution, with `m=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the Fisher `F`-distribution, with `m=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the Fisher `F`-distribution, with `m=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -384,11 +384,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=50`, `n=10`, `t_0=-0.2` and  `t_1=0.2`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=50`, `n=10`, `t_0=-0.2` and  `t_1=0.2`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the noncentral chi-square distribution, with `\lambda=20`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -444,11 +444,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=20`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=20`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the binomial distribution, with `p=0.5`, `n=40`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 
@@ -511,11 +511,11 @@ Below are 3D plots of this functions with different parameters, and `t \in (t_0,
 
 
 
-**Left figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=16`, `n=12`, `t_0=-10.0` and  `t_1=10.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Left figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=16`, `n=12`, `t_0=-10.0` and  `t_1=10.0`. Perspective camera. 
 
-**Middle figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=10`, `n=4`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Middle figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=10`, `n=4`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
-**Right figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=10`, `n=4`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. Camera angles are `\theta=120^\circ` and `\phi = 120^\circ`.
+**Right figure**: Characteristic function of the hypergeometric distribution, with `N=50`, `K=10`, `n=4`, `t_0=-2.0` and  `t_1=2.0`. Perspective camera. 
 
 
 

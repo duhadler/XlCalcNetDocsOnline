@@ -43,7 +43,7 @@ See also  Wikipedia :cite:p:`WikipediaDis24`, MathWorld :cite:p:`WolframDis24`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("UniformPdf(x, a, b): ", UniformPdf(x, a, b))
         >>> print ("dist_uniform(a, b).pdf(x): ", dist_uniform(a, b).pdf(x))
@@ -66,7 +66,7 @@ See also  Wikipedia :cite:p:`WikipediaDis24`, MathWorld :cite:p:`WolframDis24`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("UniformCdf(x, a, b): ", UniformCdf(x, a, b))
         >>> print ("dist_uniform(a, b).cdf(x): ", dist_uniform(a, b).cdf(x))
@@ -90,7 +90,7 @@ See also  Wikipedia :cite:p:`WikipediaDis24`, MathWorld :cite:p:`WolframDis24`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("UniformQtf(q, a, b): ", UniformQtf(q, a, b))
         >>> print ("dist_uniform(a, b).qtf(q): ", dist_uniform(a, b).qtf(q))

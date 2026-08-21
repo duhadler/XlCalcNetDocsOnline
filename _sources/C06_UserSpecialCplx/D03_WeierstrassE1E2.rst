@@ -58,22 +58,12 @@ Weierstrass function `\wp_e(x,e_1,e_2)` (also DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Wpe(2.5, 1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Wpe(2.5, 1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Wpe(2.5, 1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Wpe(2.5, 1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Wpe(2.5, 1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Wpe(2.5, 1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -102,22 +92,12 @@ Weierstrass function `\wp'_e(x,e_1,e_2)` (also DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.WpeDer(2.5, 1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.WpeDer(2.5, 1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.WpeDer(2.5, 1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.WpeDer(2.5, 1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.WpeDer(2.5, 1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.WpeDer(2.5, 1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -149,22 +129,12 @@ Inverse Weierstrass function `\wp^{-1}_e(y,e_1,e_2)` (also DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.WpeInv(2.5, 1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.WpeInv(2.5, 1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.WpeInv(2.5, 1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.WpeInv(2.5, 1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.WpeInv(2.5, 1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.WpeInv(2.5, 1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

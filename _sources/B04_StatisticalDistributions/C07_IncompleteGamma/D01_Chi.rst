@@ -46,7 +46,7 @@ See also  Wikipedia :cite:p:`WikipediaDis42`, MathWorld :cite:p:`WolframDis42`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ChiPdf(x, a, b): ", ChiPdf(x, a, b))
         >>> print ("dist_chi(a, b).pdf(x): ", dist_chi(a, b).pdf(x))
@@ -72,7 +72,7 @@ See also  Wikipedia :cite:p:`WikipediaDis42`, MathWorld :cite:p:`WolframDis42`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ChiCdf(x, a, b): ", ChiCdf(x, a, b))
         >>> print ("dist_chi(a, b).cdf(x): ", dist_chi(a, b).cdf(x))
@@ -98,7 +98,7 @@ See also  Wikipedia :cite:p:`WikipediaDis42`, MathWorld :cite:p:`WolframDis42`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("ChiQtf(q, a, b): ", ChiQtf(q, a, b))
         >>> print ("dist_chi(a, b).qtf(q): ", dist_chi(a, b).qtf(q))

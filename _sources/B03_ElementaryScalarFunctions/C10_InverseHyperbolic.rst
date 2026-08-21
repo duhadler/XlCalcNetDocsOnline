@@ -41,26 +41,21 @@ Inverse hyperbolic sine, `\mathrm{asinh}(x)`
 
 
 
-|02a_TestAsinh_re| `\quad` |02b_TestAsinh_im| `\quad` |02c_TestAsinh_abs|
+    |02a_TestAsinh_re| `\quad` |02b_TestAsinh_im| `\quad` |02c_TestAsinh_abs|
 
-.. |02a_TestAsinh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02a_TestAsinh_re.3D.xml.jpg
-   :width: 30 %
+    .. |02a_TestAsinh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02a_TestAsinh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02b_TestAsinh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02b_TestAsinh_im.3D.xml.jpg
-   :width: 30 %
+    .. |02b_TestAsinh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02b_TestAsinh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02c_TestAsinh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02c_TestAsinh_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Inverse Hyperbolic Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |02c_TestAsinh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/02c_TestAsinh_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Inverse Hyperbolic Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Sine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -71,22 +66,12 @@ Inverse hyperbolic sine, `\mathrm{asinh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Asinh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Asinh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Asinh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Asinh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Asinh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Asinh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -153,26 +138,20 @@ Inverse hyperbolic cosine, `\mathrm{acosh}(x)`
 
     
 
-|04a_TestAcosh_re| `\quad` |04b_TestAcosh_im| `\quad` |04c_TestAcosh_abs|
+    |04a_TestAcosh_re| `\quad` |04b_TestAcosh_im| `\quad` |04c_TestAcosh_abs|
 
-.. |04a_TestAcosh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04a_TestAcosh_re.3D.xml.jpg
-   :width: 30 %
+    .. |04a_TestAcosh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04a_TestAcosh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |04b_TestAcosh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04b_TestAcosh_im.3D.xml.jpg
-   :width: 30 %
+    .. |04b_TestAcosh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04b_TestAcosh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |04c_TestAcosh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04c_TestAcosh_abs.3D.xml.jpg
-   :width: 30 %
+    .. |04c_TestAcosh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/04c_TestAcosh_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Hyperbolic Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Hyperbolic Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Cosine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -183,22 +162,13 @@ Inverse hyperbolic cosine, `\mathrm{acosh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acosh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acosh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acosh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acosh('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acosh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acosh('0.51')
-        Gpr('5.3518479027559984754E-1')
         
 
     An example with real input:
@@ -269,26 +239,21 @@ Inverse hyperbolic tangent, `\mathrm{atanh}(x)`
 
     
 
-|06a_TestAtanh_re| `\quad` |06b_TestAtanh_im| `\quad` |06c_TestAtanh_abs|
+    |06a_TestAtanh_re| `\quad` |06b_TestAtanh_im| `\quad` |06c_TestAtanh_abs|
 
-.. |06a_TestAtanh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06a_TestAtanh_re.3D.xml.jpg
-   :width: 30 %
+    .. |06a_TestAtanh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06a_TestAtanh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |06b_TestAtanh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06b_TestAtanh_im.3D.xml.jpg
-   :width: 30 %
+    .. |06b_TestAtanh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06b_TestAtanh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |06c_TestAtanh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06c_TestAtanh_abs.3D.xml.jpg
-   :width: 30 %
+    .. |06c_TestAtanh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/06c_TestAtanh_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real part of the Inverse Hyperbolic Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Hyperbolic Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Tangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -298,22 +263,13 @@ Inverse hyperbolic tangent, `\mathrm{atanh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Atanh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Atanh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Atanh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Atanh('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Atanh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Atanh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -381,26 +337,21 @@ Inverse hyperbolic cotangent, `\mathrm{acoth}(x)`
 
     
 
-|12a_TestAcoth_re| `\quad` |12b_TestAcoth_im| `\quad` |12c_TestAcoth_abs|
+    |12a_TestAcoth_re| `\quad` |12b_TestAcoth_im| `\quad` |12c_TestAcoth_abs|
 
-.. |12a_TestAcoth_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12a_TestAcoth_re.3D.xml.jpg
-   :width: 30 %
+    .. |12a_TestAcoth_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12a_TestAcoth_re.3D.xml.jpg
+       :width: 30 %
 
-.. |12b_TestAcoth_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12b_TestAcoth_im.3D.xml.jpg
-   :width: 30 %
+    .. |12b_TestAcoth_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12b_TestAcoth_im.3D.xml.jpg
+       :width: 30 %
 
-.. |12c_TestAcoth_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12c_TestAcoth_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Inverse Hyperbolic Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |12c_TestAcoth_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/12c_TestAcoth_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Inverse Hyperbolic Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Cotangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -410,22 +361,13 @@ Inverse hyperbolic cotangent, `\mathrm{acoth}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acoth(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acoth('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acoth(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acoth('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acoth(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acoth('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -494,26 +436,20 @@ Inverse hyperbolic secant, `\mathrm{asech}(x)`
 
     
 
-|08a_TestAsech_re| `\quad` |08b_TestAsech_im| `\quad` |08c_TestAsech_abs|
+    |08a_TestAsech_re| `\quad` |08b_TestAsech_im| `\quad` |08c_TestAsech_abs|
 
-.. |08a_TestAsech_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08a_TestAsech_re.3D.xml.jpg
-   :width: 30 %
+    .. |08a_TestAsech_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08a_TestAsech_re.3D.xml.jpg
+       :width: 30 %
 
-.. |08b_TestAsech_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08b_TestAsech_im.3D.xml.jpg
-   :width: 30 %
+    .. |08b_TestAsech_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08b_TestAsech_im.3D.xml.jpg
+       :width: 30 %
 
-.. |08c_TestAsech_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08c_TestAsech_abs.3D.xml.jpg
-   :width: 30 %
+    .. |08c_TestAsech_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/08c_TestAsech_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Hyperbolic Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Hyperbolic Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Secant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -524,22 +460,12 @@ Inverse hyperbolic secant, `\mathrm{asech}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Asech(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Asech('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Asech(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Asech('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Asech(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Asech('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -609,26 +535,21 @@ Inverse Hyperbolic Cosecant, `\mathrm{acsch}(x)`
 
 
 
-|10a_TestAcsch_re| `\quad` |10b_TestAcsch_im| `\quad` |10c_TestAcsch_abs|
+    |10a_TestAcsch_re| `\quad` |10b_TestAcsch_im| `\quad` |10c_TestAcsch_abs|
 
-.. |10a_TestAcsch_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10a_TestAcsch_re.3D.xml.jpg
-   :width: 30 %
+    .. |10a_TestAcsch_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10a_TestAcsch_re.3D.xml.jpg
+       :width: 30 %
 
-.. |10b_TestAcsch_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10b_TestAcsch_im.3D.xml.jpg
-   :width: 30 %
+    .. |10b_TestAcsch_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10b_TestAcsch_im.3D.xml.jpg
+       :width: 30 %
 
-.. |10c_TestAcsch_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10c_TestAcsch_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Inverse Hyperbolic Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |10c_TestAcsch_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/10c_TestAcsch_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Inverse Hyperbolic Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Inverse Hyperbolic Cosecant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -639,22 +560,12 @@ Inverse Hyperbolic Cosecant, `\mathrm{acsch}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acsch(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acsch('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acsch(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acsch('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acsch(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acsch('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

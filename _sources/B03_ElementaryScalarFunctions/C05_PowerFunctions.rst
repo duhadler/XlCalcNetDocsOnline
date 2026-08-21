@@ -32,30 +32,23 @@ Square, `x^2`
     Returns the square function of `x, x^2`. See also  Wikipedia :cite:p:`WikipediaFun20`,  MathWorld :cite:p:`WolframFun20`, :cite:t:`Ehrhardt2018`  (4.1.18).
 
 
-Returns the square function of `x, x^2`. See also  Wikipedia :cite:p:`WikipediaFun20`,  MathWorld :cite:p:`WolframFun20`, :cite:t:`Ehrhardt2018`  (4.1.18).
+    Returns the square function of `x, x^2`. See also  Wikipedia :cite:p:`WikipediaFun20`,  MathWorld :cite:p:`WolframFun20`, :cite:t:`Ehrhardt2018`  (4.1.18).
 
 
-|01a_TestSquare_re| `\quad` |01b_TestSquare_im| `\quad` |01c_TestSquare_abs|
+    |01a_TestSquare_re| `\quad` |01b_TestSquare_im| `\quad` |01c_TestSquare_abs|
 
-.. |01a_TestSquare_re| image:: ../_static/ExplicitSurfaces/CplxRoots/01a_TestSquare_re.3D.xml.jpg
-   :width: 30 %
+    .. |01a_TestSquare_re| image:: ../_static/ExplicitSurfaces/CplxRoots/01a_TestSquare_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01b_TestSquare_im| image:: ../_static/ExplicitSurfaces/CplxRoots/01b_TestSquare_im.3D.xml.jpg
-   :width: 30 %
+    .. |01b_TestSquare_im| image:: ../_static/ExplicitSurfaces/CplxRoots/01b_TestSquare_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01c_TestSquare_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/01c_TestSquare_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Sqrt function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |01c_TestSquare_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/01c_TestSquare_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Sqrt function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
-
-**Right figure**:  absolute value of the Sqrt function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -64,22 +57,12 @@ Returns the square function of `x, x^2`. See also  Wikipedia :cite:p:`WikipediaF
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Square(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Square('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Square(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Square('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Square(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Square('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -94,27 +77,21 @@ Cube, `x^3`
     Returns the cube function of `x, x^3`. See also  Wikipedia :cite:p:`WikipediaFun20`,  MathWorld :cite:p:`WolframFun20`, :cite:t:`Ehrhardt2018`  (4.1.18).
 
 
-|02a_TestCube_re| `\quad` |02b_TestCube_im| `\quad` |02c_TestCube_abs|
+    |02a_TestCube_re| `\quad` |02b_TestCube_im| `\quad` |02c_TestCube_abs|
 
-.. |02a_TestCube_re| image:: ../_static/ExplicitSurfaces/CplxRoots/02a_TestCube_re.3D.xml.jpg
-   :width: 30 %
+    .. |02a_TestCube_re| image:: ../_static/ExplicitSurfaces/CplxRoots/02a_TestCube_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02b_TestCube_im| image:: ../_static/ExplicitSurfaces/CplxRoots/02b_TestCube_im.3D.xml.jpg
-   :width: 30 %
+    .. |02b_TestCube_im| image:: ../_static/ExplicitSurfaces/CplxRoots/02b_TestCube_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02c_TestCube_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/02c_TestCube_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Cube function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |02c_TestCube_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/02c_TestCube_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Cube function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
-**Right figure**:  absolute value of the Cube function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -124,22 +101,12 @@ Cube, `x^3`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Square(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Square('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Square(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Square('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Square(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Square('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -161,22 +128,12 @@ Auxiliary function `\mathrm{powi}(x,n) = x^n`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Intpower(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Intpower('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Intpower(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Intpower('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Intpower(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Intpower('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -237,22 +194,12 @@ Auxiliary function `\mathrm{compound}(x,n) = (1+x)^n`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Compound(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Compound('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Compound(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Compound('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Compound(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Compound('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -271,22 +218,11 @@ Auxiliary function `\mathrm{comprel}(x,n) = (1+x)^n - 1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Comprel(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Comprel('0.51', 2)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Comprel(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Comprel('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Comprel(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Comprel('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -312,22 +248,12 @@ Auxiliary function `\mathrm{hypot}(x,y) = \sqrt{x^2 + y^2}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hypot(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hypot(0.5, 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hypot(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hypot(0.5, 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hypot(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hypot(0.5, 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -399,22 +325,12 @@ Power function, `\mathrm{pow}(x, y) = x^y`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Pow(0.5, 3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Pow('0.51', 3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pow(0.5, 3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Pow('0.51', 3)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Pow(0.5, 3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Pow('0.51', 3)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -481,22 +397,12 @@ Auxiliary function, `\mathrm{powm1}(x, y) = x^y-1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Powm1(0.5, 3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Powm1(0.5, 3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Powm1(0.5, 3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Powm1(0.5, 3)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Powm1(0.5, 3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Powm1(0.5, 3)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -575,22 +481,12 @@ Auxiliary function, `\mathrm{pow1p}(x, y) = (1+x)^y`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Pow1p(0.5, 3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Pow1p(0.5, 3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pow1p(0.5, 3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Pow1p(0.5, 3)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Pow1p(0.5, 3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Pow1p(0.5, 3)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -660,22 +556,12 @@ Auxiliary function, `\mathrm{pow1pm1}(x, y) = (1+x)^y - 1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sqrt(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sqrt('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sqrt(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sqrt('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sqrt(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sqrt('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

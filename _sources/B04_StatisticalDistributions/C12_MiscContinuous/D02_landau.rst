@@ -74,7 +74,7 @@ See also: https://en.wikipedia.org/wiki/Landau_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("StudentTCdf(x, a, b): ", StudentTCdf(x, a, b))
         >>> print ("dist_student_t(a, b).cdf(x): ", dist_student_t(a, b).cdf(x))
@@ -97,7 +97,7 @@ See also: https://en.wikipedia.org/wiki/Landau_distribution
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("StudentTQtf(q, a, b): ", StudentTQtf(q, a, b))
         >>> print ("dist_student_t(a, b).qtf(q): ", dist_student_t(a, b).qtf(q))

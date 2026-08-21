@@ -53,7 +53,7 @@
     <link rel="prev" title="Power functions" href="C05_PowerFunctions.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1061,23 +1061,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\cos(z) = \cos(x+iy)  = \frac {e^{ix}+e^{-ix}}{2} = \cos(x) \cosh(y) - i \sin(x) \sinh(y).\]</div>
 <p><a class="reference internal" href="../_images/03a_TestCos_re.3D.xml.jpg"><img alt="03a_TestCos_re" src="../_images/03a_TestCos_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/03b_TestCos_im.3D.xml.jpg"><img alt="03b_TestCos_im" src="../_images/03b_TestCos_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/03c_TestCos_abs.3D.xml.jpg"><img alt="03c_TestCos_abs" src="../_images/03c_TestCos_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Cosine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Cosine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Cosine function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1132,23 +1122,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\tan(z) = \tan(x+iy) = \frac{\sin(z)}{\cos(z)} = \frac{\sin(2x) + i \sinh(2y)}{\cos(2x) + i \cosh(2y)}\]</div>
 <p><a class="reference internal" href="../_images/05a_TestTan_re.3D.xml.jpg"><img alt="05a_TestTan_re" src="../_images/05a_TestTan_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/05b_TestTan_im.3D.xml.jpg"><img alt="05b_TestTan_im" src="../_images/05b_TestTan_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/05c_TestTan_abs.3D.xml.jpg"><img alt="05c_TestTan_abs" src="../_images/05c_TestTan_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Tangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Tangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Tangent function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Tan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1209,23 +1189,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\cot(z) = \cot(x+iy) = \frac{\cos(z)}{\sin(z)} = \frac{\cos(2x) + i \cosh(2y)}{\sin(2x) + i \sinh(2y)}\]</div>
 <p><a class="reference internal" href="../_images/11a_TestCot_re.3D.xml.jpg"><img alt="11a_TestCot_re" src="../_images/11a_TestCot_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/11b_TestCot_im.3D.xml.jpg"><img alt="11b_TestCot_im" src="../_images/11b_TestCot_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/11c_TestCot_abs.3D.xml.jpg"><img alt="11c_TestCot_abs" src="../_images/11c_TestCot_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Cotangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Cotangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Cotangent function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Cot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1280,23 +1250,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\csc(z) = \csc(x+iy)  = \frac{1}{\sin(z)} = \frac {2i}{e^{ix}-e^{-ix}} =  \frac {1} {\sin(x) \cosh(y) + i \cos(x) \sinh(y)}.\]</div>
 <p><a class="reference internal" href="../_images/09a_TestCsc_re.3D.xml.jpg"><img alt="09a_TestCsc_re" src="../_images/09a_TestCsc_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/09b_TestCsc_im.3D.xml.jpg"><img alt="09b_TestCsc_im" src="../_images/09b_TestCsc_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/09c_TestCsc_abs.3D.xml.jpg"><img alt="09c_TestCsc_abs" src="../_images/09c_TestCsc_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Cosecant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Cosecant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Cosecant function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Csc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1351,23 +1311,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\sec(z) = \sec(x+iy)  = \frac{1}{\cos(z)} = \frac {2}{e^{ix}+e^{-ix}} =  \frac {1} {\cos(x) \cosh(y) - i \sin(x) \sinh(y)}.\]</div>
 <p><a class="reference internal" href="../_images/07a_TestSec_re.3D.xml.jpg"><img alt="07a_TestSec_re" src="../_images/07a_TestSec_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/07b_TestSec_im.3D.xml.jpg"><img alt="07b_TestSec_im" src="../_images/07b_TestSec_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/07c_TestSec_abs.3D.xml.jpg"><img alt="07c_TestSec_abs" src="../_images/07c_TestSec_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Secant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Secant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Secant function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Sec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1418,19 +1368,11 @@ document.write(`
 <p>Returns the cardinal sine of <em>x</em>. See also  Wikipedia <span id="id45">[<a class="reference internal" href="../99BackMatter/index.html#id1098" title="Wikipedia. Sinc function. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Sinc_function.">1397</a>]</span>,  MathWorld <span id="id46">[<a class="reference internal" href="../99BackMatter/index.html#id1560" title="E. W. Weisstein. Sinc Function. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/SincFunction.html.">1007</a>]</span>, BoostMath <span id="id47">[<a class="reference internal" href="../99BackMatter/index.html#id365" title="P. A. Bristow and H. Holin. SincPi. Boost Math Toolkit Library, 2017. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sinc/sinc_pi.html.">133</a>]</span>, Flint <span id="id48">[<a class="reference internal" href="../99BackMatter/index.html#id570" title="The FLINT Team. Arb: Trigonometric functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb.html#trigonometric-functions.">812</a>]</span>, Flint <span id="id49">[<a class="reference internal" href="../99BackMatter/index.html#id571" title="The FLINT Team. Acb: Trigonometric functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb.html#trigonometric-functions.">802</a>]</span>, Mpmath <span id="id50">[<a class="reference internal" href="../99BackMatter/index.html#id698" title="The Mpmath Development Team. Cardinal sine sinc. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/trigonometric.html#sinc.">632</a>]</span>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">sinc(x)</span></code> computes the unnormalized sinc function, defined as <span class="math notranslate nohighlight">\(\displaystyle \mathrm{sinc}(x) = \begin{cases} \sin(x)/x, &amp; \mbox{if } x \ne 0 \\ 1,         &amp; \mbox{if } x = 0. \end{cases}\)</span></p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Sinc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1580,7 +1522,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

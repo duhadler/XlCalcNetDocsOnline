@@ -46,7 +46,7 @@ See also: https://mathworld.wolfram.com/PochhammerSymbol.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NakagamiPdf(x, a, b): ", NakagamiPdf(x, a, b))
         >>> print ("dist_nakagami(a, b).pdf(x): ", dist_nakagami(a, b).pdf(x))
@@ -72,7 +72,7 @@ See also: https://mathworld.wolfram.com/PochhammerSymbol.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NakagamiCdf(x, a, b): ", NakagamiCdf(x, a, b))
         >>> print ("dist_nakagami(a, b).cdf(x): ", dist_nakagami(a, b).cdf(x))
@@ -98,7 +98,7 @@ See also: https://mathworld.wolfram.com/PochhammerSymbol.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("NakagamiQtf(q, a, b): ", NakagamiQtf(q, a, b))
         >>> print ("dist_nakagami(a, b).qtf(q): ", dist_nakagami(a, b).qtf(q))

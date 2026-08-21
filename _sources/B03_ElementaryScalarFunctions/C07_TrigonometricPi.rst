@@ -43,22 +43,12 @@ Auxiliary function `\mathrm{sinpi}(x) = \sin(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SinPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SinPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SinPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SinPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SinPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SinPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -133,22 +123,12 @@ Auxiliary function `\mathrm{cospi}(x) = \cos(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CosPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CosPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CosPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CosPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CosPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CosPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -218,22 +198,12 @@ Auxiliary function `\mathrm{tanpi}(x) = \tan(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TanPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TanPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TanPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TanPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TanPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TanPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -260,22 +230,12 @@ Auxiliary function `\mathrm{cotpi}(x) = \cot(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TanPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TanPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TanPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TanPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TanPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TanPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -296,22 +256,12 @@ Auxiliary function `\mathrm{cscpi}(x) = \mathrm{csc}(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TanPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TanPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TanPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TanPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TanPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TanPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -332,22 +282,11 @@ Auxiliary function `\mathrm{secpi}(x) = \mathrm{sec}(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TanPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TanPi('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TanPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TanPi('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TanPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TanPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -387,22 +326,12 @@ Auxiliary function `\mathrm{sincpi}(x) = \mathrm{sinc}(\pi x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SincPi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SincPi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SincPi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SincPi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SincPi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SincPi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

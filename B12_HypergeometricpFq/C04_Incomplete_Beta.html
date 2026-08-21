@@ -53,7 +53,7 @@
     <link rel="prev" title="Legendre polynomials and related" href="C03_LegendrePoly.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -969,19 +969,11 @@ document.write(`
 <p>The function is undefined for nonpositive integer <span class="math notranslate nohighlight">\(a\)</span>.</p>
 <p>See also  Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1044" title="Wikipedia. Incomplete beta function. Wikimedia Foundation, 2010. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Beta_function#Incomplete_beta_function.">1321</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1482" title="E. W. Weisstein. Incomplete Beta Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/IncompleteBetaFunction.html.">920</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id452" title="R. B. Paris. Incomplete beta function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/8.17.">481</a>]</span>,  BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id336" title="P. A. Bristow and H. Holin. Incomplete Beta Functions. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_beta/ibeta_function.html.">85</a>]</span>,  BoostMath <span id="id5">[<a class="reference internal" href="../99BackMatter/index.html#id337" title="P. A. Bristow and H. Holin. The Incomplete Beta Function Inverses. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/igamma.html.">93</a>]</span>, <span id="id6">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.3.4).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Beta3</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1017,19 +1009,11 @@ The precise definitions for all parameter values are</p>
 for nonpositive integer <em>a</em>, and <em>I</em> is undefined for nonpositive integer
 <span class="math notranslate nohighlight">\(a + b\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1100,19 +1084,11 @@ for nonpositive integer <em>a</em>, and <em>I</em> is undefined for nonpositive 
 <p>This can be generalized to complex <span class="math notranslate nohighlight">\(a, b\)</span> and <span class="math notranslate nohighlight">\(x\)</span> as <span class="math notranslate nohighlight">\(\displaystyle B_{\mathrm{upper}}(a,b;x) = B(a,b) - B_x(a,b)\)</span>.</p>
 <p>See also  Wikipedia <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id1044" title="Wikipedia. Incomplete beta function. Wikimedia Foundation, 2010. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Beta_function#Incomplete_beta_function.">1321</a>]</span>, MathWorld <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id1482" title="E. W. Weisstein. Incomplete Beta Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/IncompleteBetaFunction.html.">920</a>]</span>, NIST <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id452" title="R. B. Paris. Incomplete beta function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/8.17.">481</a>]</span>,  BoostMath <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id336" title="P. A. Bristow and H. Holin. Incomplete Beta Functions. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_beta/ibeta_function.html.">85</a>]</span>,  BoostMath <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id337" title="P. A. Bristow and H. Holin. The Incomplete Beta Function Inverses. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/igamma.html.">93</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Betac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1142,19 +1118,11 @@ for nonpositive integer <em>a</em>, and <em>I</em> is undefined for nonpositive 
 <div class="math notranslate nohighlight">
 \[B_x(a,b)=B(a,b) - \frac{(1-x)^b x^a}{b} {}_2F_2(1,a+b,b+1,1-x), \quad -b \notin \mathbb{N}.\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Ibetac</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1497,7 +1465,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

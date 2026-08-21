@@ -375,8 +375,7 @@ Some text
 
 
 
-**Figure**: parametric plot of Kleins bottle. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
-The C\# code for the Klein bottle: 
+**Figure**: parametric plot of Kleins bottle. 
 
 
 

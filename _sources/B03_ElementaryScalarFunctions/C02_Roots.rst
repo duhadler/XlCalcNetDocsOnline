@@ -36,27 +36,20 @@ Square root, `\mathrm{sqrt}(x) = \sqrt{x}`
 
 
 
-|03a_TestSqrt_re| `\quad` |03b_TestSqrt_im| `\quad` |03c_TestSqrt_abs|
+    |03a_TestSqrt_re| `\quad` |03b_TestSqrt_im| `\quad` |03c_TestSqrt_abs|
 
-.. |03a_TestSqrt_re| image:: ../_static/ExplicitSurfaces/CplxRoots/03a_TestSqrt_re.3D.xml.jpg
-   :width: 30 %
+    .. |03a_TestSqrt_re| image:: ../_static/ExplicitSurfaces/CplxRoots/03a_TestSqrt_re.3D.xml.jpg
+       :width: 30 %
 
-.. |03b_TestSqrt_im| image:: ../_static/ExplicitSurfaces/CplxRoots/03b_TestSqrt_im.3D.xml.jpg
-   :width: 30 %
+    .. |03b_TestSqrt_im| image:: ../_static/ExplicitSurfaces/CplxRoots/03b_TestSqrt_im.3D.xml.jpg
+       :width: 30 %
 
-.. |03c_TestSqrt_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/03c_TestSqrt_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Sqrt function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |03c_TestSqrt_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/03c_TestSqrt_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Sqrt function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
-
-**Right figure**:  absolute value of the Sqrt function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -64,22 +57,12 @@ Square root, `\mathrm{sqrt}(x) = \sqrt{x}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sqrt(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sqrt('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sqrt(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sqrt('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sqrt(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sqrt('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -144,22 +127,12 @@ Reciprocal square root, `\mathrm{rsqrt}(x) = 1/\sqrt{x}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Rsqrt(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Rsqrt('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Rsqrt(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Rsqrt('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Rsqrt(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Rsqrt('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -227,22 +200,12 @@ Auxiliary function `\mathrm{sqrt1pm1}(x) = \sqrt{1+x}-1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sqrt1pm1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sqrt1pm1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sqrt1pm1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sqrt1pm1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sqrt1pm1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sqrt1pm1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -310,22 +273,12 @@ Cube root, `\mathrm{cbrt}(x) = \sqrt[3]{x}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cbrt(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cbrt('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cbrt(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cbrt('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cbrt(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cbrt('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -424,22 +377,12 @@ Nth root, `\mathrm{nroot}(x, n) = \sqrt[n]{x}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Nroot(0.5, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Nroot('0.51', 4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Nroot(0.5, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Nroot('0.51', 4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Nroot(0.5, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Nroot('0.51', 4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -511,22 +454,11 @@ Unit root, `\mathrm{unitroot}(n)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Unitroots(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Unitroots('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Unitroots(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Unitroots('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Unitroots(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Unitroots('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 

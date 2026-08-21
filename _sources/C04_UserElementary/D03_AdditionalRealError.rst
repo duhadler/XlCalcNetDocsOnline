@@ -35,22 +35,12 @@ Exponentially scaled complementary error function, `\mathrm{erfcx}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfce(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfce('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfce(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfce('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfce(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfce('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -83,22 +73,12 @@ Imaginary error function, `\mathrm{erfi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -155,23 +135,11 @@ Difference of error functions, `\mathrm{erfh}(x,h) = \mathrm{erf}(x+h)-\mathrm{e
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfh(0.5, 0.6)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfh('0.51', 0.61)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfh(0.5, 0.6)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfh('0.51', 0.61)
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfh(0.5, 0.6)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfh('0.51', 0.61)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -193,22 +161,11 @@ Difference of error functions, `\mathrm{erf2}(x_1,x_2) = \mathrm{erf}(x_2)-\math
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erf2(0.5, 0.6)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erf2('0.51', 0.61)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erf2(0.5, 0.6)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erf2('0.51', 0.61)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erf2(0.5, 0.6)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erf2('0.51', 0.61)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -232,23 +189,11 @@ Probability function `Q(x) = \Phi(-x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ErfQ(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ErfQ('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ErfQ(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ErfQ('0.51')
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.ErfQ(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ErfQ('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -307,22 +252,11 @@ Inverse of the exponentially scaled complementary error function, `\mathrm{erfcx
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ErfceInv(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ErfceInv('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ErfceInv(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ErfceInv('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ErfceInv(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ErfceInv('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -345,22 +279,12 @@ Inverse of the imaginary error function, `\mathrm{erfi}^{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ErfiInv(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ErfiInv('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ErfiInv(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ErfiInv('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ErfiInv(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ErfiInv('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

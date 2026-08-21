@@ -85,22 +85,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.BesselI(3, 0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.BesselI(3, '0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.BesselI(3, 0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.BesselI(3, '0.51')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.BesselI(3, 0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.BesselI(3, '0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 
@@ -208,22 +198,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.BesselK(3, 0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.BesselK(3, '0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.BesselK(3, 0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.BesselK(3, '0.51')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.BesselK(3, 0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.BesselK(3, '0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 
@@ -295,22 +275,11 @@ First derivative of the modified Bessel function of the first kind `I'_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselIPrime(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselIPrime(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselIPrime(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselIPrime(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselIPrime(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselIPrime(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -402,7 +371,7 @@ Marcum Q function, `Q_m(a,b)`  (up to octuple precision)
 
 
 
-    **Left figure**: real ("silver") and imaginary ("gold") part of the Marcum Q function, `Q_m(a,b)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -411,22 +380,12 @@ Marcum Q function, `Q_m(a,b)`  (up to octuple precision)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.MarcumQ(2, 3 ,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.MarcumQ(2.4, 3.6, ' 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.MarcumQ(2, 3 ,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.MarcumQ(2.4, 3.6, ' 0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.MarcumQ(2, 3 ,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.MarcumQ(2.4, 3.6, ' 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

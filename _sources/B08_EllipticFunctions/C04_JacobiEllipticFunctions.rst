@@ -33,29 +33,25 @@ Jacobi elliptic function `\mathrm{sn}(x, k)`
 
     Returns the Jacobi elliptic function `\mathrm{sn}(x, k) = \sin(\mathrm{am}(x, k))`, where `\mathrm{am}(x, k)` denotes the Jacobi amplitude function, and `\mathrm{sn}(x, 0) = \sin(x)`. See also  BoostMath :cite:p:`BoostFun168`, Wikipedia :cite:p:`WikipediaFun155`, MathWorld :cite:p:`WolframFun168`, NIST :cite:p:`DLMFun155`, :cite:t:`Ehrhardt2018` (3.2.11.1), :cite:t:`Ehrhardt2018` (4.2.58).
 
-    The version for  ``XComplex`` has the restriction that `k` must be real.
+    The version for  ``ecplx`` has the restriction that `k` must be real.
         
 
-|08a_TestJacobiSN_re| `\quad` |08b_TestJacobiSN_im| `\quad` |08c_TestJacobiSN_abs|
+    |08a_TestJacobiSN_re| `\quad` |08b_TestJacobiSN_im| `\quad` |08c_TestJacobiSN_abs|
 
-.. |08a_TestJacobiSN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/08a_TestJacobiSN_re.3D.xml.jpg
-   :width: 30 %
+    .. |08a_TestJacobiSN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/08a_TestJacobiSN_re.3D.xml.jpg
+       :width: 30 %
 
-.. |08b_TestJacobiSN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/08b_TestJacobiSN_im.3D.xml.jpg
-   :width: 30 %
+    .. |08b_TestJacobiSN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/08b_TestJacobiSN_im.3D.xml.jpg
+       :width: 30 %
 
-.. |08c_TestJacobiSN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/08c_TestJacobiSN_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Jacobi elliptic function sn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |08c_TestJacobiSN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/08c_TestJacobiSN_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Jacobi elliptic function sn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Right figure**:  absolute value of the Jacobi elliptic function sn(`z, k`), with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -64,22 +60,13 @@ Jacobi elliptic function `\mathrm{sn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiSN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiSN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiSN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiSN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiSN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiSN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -132,30 +119,24 @@ Jacobi elliptic function `\mathrm{cn}(x, k)`
 
     Returns the Jacobi elliptic function `\mathrm{cn}(x, k) = \cos(\mathrm{am}(x, k))`, where `\mathrm{am}(x, k)` denotes the Jacobi amplitude function, and `\mathrm{cn}(x, 0) = \cos(x)`. See also  BoostMath :cite:p:`BoostFun158`, Wikipedia :cite:p:`WikipediaFun155`, MathWorld :cite:p:`WolframFun158`, NIST :cite:p:`DLMFun155`, :cite:t:`Ehrhardt2018` (3.2.11.2), :cite:t:`Ehrhardt2018` (4.2.18).
 
-    The version for  ``XComplex`` has the restriction that `k` must be real.
+    The version for  ``ecplx`` has the restriction that `k` must be real.
 
 
 
-|09a_TestJacobiCN_re| `\quad` |09b_TestJacobiCN_im| `\quad` |09c_TestJacobiCN_abs|
+    |09a_TestJacobiCN_re| `\quad` |09b_TestJacobiCN_im| `\quad` |09c_TestJacobiCN_abs|
 
-.. |09a_TestJacobiCN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/09a_TestJacobiCN_re.3D.xml.jpg
-   :width: 30 %
+    .. |09a_TestJacobiCN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/09a_TestJacobiCN_re.3D.xml.jpg
+       :width: 30 %
 
-.. |09b_TestJacobiCN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/09b_TestJacobiCN_im.3D.xml.jpg
-   :width: 30 %
+    .. |09b_TestJacobiCN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/09b_TestJacobiCN_im.3D.xml.jpg
+       :width: 30 %
 
-.. |09c_TestJacobiCN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/09c_TestJacobiCN_abs.3D.xml.jpg
-   :width: 30 %
+    .. |09c_TestJacobiCN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/09c_TestJacobiCN_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Jacobi elliptic function cn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Jacobi elliptic function cn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Jacobi elliptic function cn(`z, k`), with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -166,22 +147,13 @@ Jacobi elliptic function `\mathrm{cn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiCN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiCN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiCN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiCN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiCN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiCN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -234,30 +206,24 @@ Jacobi elliptic function `\mathrm{dn}(x, k)`
 
     Returns the Jacobi elliptic function `\mathrm{dn}(x, k) = \sqrt{1 - k^2 \mathrm{sn}^2(x, k)}` with `\mathrm{dn}(x, 0) = 1`. See also  BoostMath :cite:p:`BoostFun161`, Wikipedia :cite:p:`WikipediaFun155`, MathWorld :cite:p:`WolframFun161`, NIST :cite:p:`DLMFun155`, :cite:t:`Ehrhardt2018` (3.2.11.3), :cite:t:`Ehrhardt2018` (4.2.26).
 
-    The version for  ``XComplex`` has the restriction that `k` must be real.
+    The version for  ``ecplx`` has the restriction that `k` must be real.
 
     
 
-|10a_TestJacobiDN_re| `\quad` |10b_TestJacobiDN_im| `\quad` |10c_TestJacobiDN_abs|
+    |10a_TestJacobiDN_re| `\quad` |10b_TestJacobiDN_im| `\quad` |10c_TestJacobiDN_abs|
 
-.. |10a_TestJacobiDN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/10a_TestJacobiDN_re.3D.xml.jpg
-   :width: 30 %
+    .. |10a_TestJacobiDN_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/10a_TestJacobiDN_re.3D.xml.jpg
+       :width: 30 %
 
-.. |10b_TestJacobiDN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/10b_TestJacobiDN_im.3D.xml.jpg
-   :width: 30 %
+    .. |10b_TestJacobiDN_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/10b_TestJacobiDN_im.3D.xml.jpg
+       :width: 30 %
 
-.. |10c_TestJacobiDN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/10c_TestJacobiDN_abs.3D.xml.jpg
-   :width: 30 %
+    .. |10c_TestJacobiDN_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/10c_TestJacobiDN_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Jacobi elliptic functions dn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Jacobi elliptic functions dn(`z, k`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Jacobi elliptic functions dn(`z, k`), with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -269,22 +235,13 @@ Jacobi elliptic function `\mathrm{dn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiDN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiDN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiDN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiDN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiDN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiDN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -342,22 +299,13 @@ Jacobi elliptic function `\mathrm{nc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiNC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiNC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiNC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiNC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiNC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiNC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -416,22 +364,13 @@ Jacobi elliptic function `\mathrm{sc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiSC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiSC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiSC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiSC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiSC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiSC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -490,22 +429,13 @@ Jacobi elliptic function `\mathrm{dc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiDC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiDC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiDC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiDC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiDC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiDC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -563,22 +493,13 @@ Jacobi elliptic function `\mathrm{nd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiNC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiNC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiNC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiNC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiNC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiNC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -637,22 +558,13 @@ Jacobi elliptic function `\mathrm{sd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiSD(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiSD(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiSD(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiSD(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiSD(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiSD(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     The function is defined as
@@ -711,22 +623,13 @@ Jacobi elliptic function `\mathrm{cd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiCD(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiCD(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiCD(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiCD(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiCD(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiCD(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -785,22 +688,13 @@ Jacobi elliptic function `\mathrm{ns}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiNS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiNS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiNS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiNS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiNS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiNS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -859,22 +753,13 @@ Jacobi elliptic function `\mathrm{cs}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiCS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiCS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiCS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiCS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiCS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiCS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 
@@ -932,22 +817,13 @@ Jacobi elliptic function `\mathrm{ds}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiDS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiDS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiDS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiDS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiDS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiDS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
     The function is defined as
 

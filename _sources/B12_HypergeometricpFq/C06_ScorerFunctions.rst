@@ -50,22 +50,12 @@ Scorer function `\mathrm{Gi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryGi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryGi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryGi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryGi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryGi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryGi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -135,22 +125,12 @@ Scorer function `\mathrm{Hi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryHi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryHi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryHi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryHi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryHi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryHi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -212,22 +192,12 @@ First derivative of the Scorer function `\mathrm{Gi}(x)`, `\mathrm{Gi}'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryGi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryGi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryGi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryGi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryGi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryGi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -296,22 +266,12 @@ First derivative of the Scorer function `\mathrm{Hi}(x)`, `\mathrm{Hi}'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AiryHi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AiryHi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AiryHi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AiryHi('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AiryHi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AiryHi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

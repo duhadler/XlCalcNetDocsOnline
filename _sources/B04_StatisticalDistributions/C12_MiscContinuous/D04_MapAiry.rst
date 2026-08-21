@@ -63,7 +63,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("StudentTPdf(x, a, b): ", StudentTPdf(x, a, b))
         >>> print ("dist_student_t(a, b).pdf(x): ", dist_student_t(a, b).pdf(x))
@@ -87,7 +87,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("StudentTCdf(x, a, b): ", StudentTCdf(x, a, b))
         >>> print ("dist_student_t(a, b).cdf(x): ", dist_student_t(a, b).cdf(x))
@@ -110,7 +110,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("StudentTQtf(q, a, b): ", StudentTQtf(q, a, b))
         >>> print ("dist_student_t(a, b).qtf(q): ", dist_student_t(a, b).qtf(q))
@@ -127,7 +127,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import SReal, FReal, XReal, QReal, CReal, OReal
+        >>> from xlcalcnet import SReal, FReal, ereal, QReal, CReal, OReal
         >>> a = 0; b = 1; 
         >>> Ctx = SReal
         >>> dist_student_t = Ctx.dist_student_t(a, b)
@@ -195,7 +195,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -211,7 +211,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -228,7 +228,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -246,7 +246,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -262,7 +262,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -278,7 +278,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -295,7 +295,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -312,7 +312,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -329,7 +329,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -346,7 +346,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -363,7 +363,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -380,7 +380,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -397,7 +397,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -414,7 +414,7 @@ See also: https://mathworld.wolfram.com/Map-AiryDistribution.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))

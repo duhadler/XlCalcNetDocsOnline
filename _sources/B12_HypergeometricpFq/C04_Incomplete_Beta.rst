@@ -47,22 +47,11 @@ Non-normalized lower incomplete beta function, `B_{\mathrm{lower}}(a,b;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Beta3(3.1, 0.5, 0.3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Beta3(3.4, '0.51', 0.3)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Beta3(3.1, 0.5, 0.3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Beta3(3.4, '0.51', 0.3)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Beta3(3.1, 0.5, 0.3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Beta3(3.4, '0.51', 0.3)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -123,22 +112,13 @@ Normalized incomplete beta function, `I_{x}(a,b)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.IBeta(3.1, 0.5, 0.3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.IBeta(3.4, '0.51', 0.3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.IBeta(3.1, 0.5, 0.3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.IBeta(3.4, '0.51', 0.3)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.IBeta(3.1, 0.5, 0.3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.IBeta(3.4, '0.51', 0.3)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -238,22 +218,11 @@ Real non-normalized upper incomplete beta function, `B_{\mathrm{upper}}(a,b;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Betac(3.1, 0.5, 0.3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Betac(3.4, '0.51', 0.3)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Betac(3.1, 0.5, 0.3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Betac(3.4, '0.51', 0.3)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Betac(3.1, 0.5, 0.3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Betac(3.4, '0.51', 0.3)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -303,22 +272,12 @@ Real normalized complementory incomplete beta function, `I_{1-x}(a,b)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ibetac(3.1, 0.5, 0.3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ibetac(3.4, '0.51', 0.3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ibetac(3.1, 0.5, 0.3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ibetac(3.4, '0.51', 0.3)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ibetac(3.1, 0.5, 0.3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ibetac(3.4, '0.51', 0.3)
-        Gpr('5.3518479027559984754E-1')
 
 
 

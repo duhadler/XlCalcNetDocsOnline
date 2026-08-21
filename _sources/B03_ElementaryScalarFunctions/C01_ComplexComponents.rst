@@ -32,22 +32,12 @@ Absolute value of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -77,22 +67,12 @@ Sign of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Sign(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Sign('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Sign(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Sign('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Sign(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Sign('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -113,22 +93,12 @@ Real part of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Real(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Real('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Real(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Real('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Real(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Real('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -149,22 +119,12 @@ Imaginary part of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Imaginary(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Imaginary('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Imaginary(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Imaginary('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Imaginary(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Imaginary('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -186,22 +146,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import XComplex
-    >>> XComplex.Phase(0.5)
-    XComplex('5.2359877559829887307E-1')
-    >>> XComplex.Phase('0.1')
-    XComplex('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ecplx
+    >>> ecplx.Phase(0.5)
+    ecplx('5.2359877559829887307E-1')
+    >>> ecplx.Phase('0.1')
+    ecplx('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpc
-    >>> Gpc.Phase(0.5)
-    Gpc('5.2359877559829887307E-1')
-    >>> Gpc.Phase('0.1')
-    Gpc('5.3518479027559984754E-1')
 
 
 
@@ -223,22 +173,12 @@ Conjugate of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Conj(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Conj('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Conj(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Conj('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Conj(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Conj('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -261,22 +201,12 @@ Polar representation of a real or complex number
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Polar(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Polar('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Polar(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Polar('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Polar(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Polar('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -298,22 +228,12 @@ Rectangular coordinates calculated from the polar representation of a real or co
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Rect(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Rect('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Rect(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Rect('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Rect(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Rect('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 

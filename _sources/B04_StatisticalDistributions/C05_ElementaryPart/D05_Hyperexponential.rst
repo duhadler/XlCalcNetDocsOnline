@@ -41,7 +41,7 @@ See also  Wikipedia :cite:p:`WikipediaDis44`, MathWorld :cite:p:`WolframDis44`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("HyperexpPdf(x, a, b): ", HyperexpPdf(x, a, b))
         >>> print ("dist_hyperexponential(a, b).pdf(x): ", dist_hyperexponential(a, b).pdf(x))
@@ -64,7 +64,7 @@ See also  Wikipedia :cite:p:`WikipediaDis44`, MathWorld :cite:p:`WolframDis44`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("HyperexpCdf(x, a, b): ", HyperexpCdf(x, a, b))
         >>> print ("dist_hyperexponential(a, b).cdf(x): ", dist_hyperexponential(a, b).cdf(x))
@@ -88,7 +88,7 @@ See also  Wikipedia :cite:p:`WikipediaDis44`, MathWorld :cite:p:`WolframDis44`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("HyperexpQtf(q, a, b): ", HyperexpQtf(q, a, b))
         >>> print ("dist_hyperexponential(a, b).qtf(q): ", dist_hyperexponential(a, b).qtf(q))

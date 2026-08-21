@@ -53,7 +53,7 @@
     <link rel="prev" title="Hurwitz zeta and related functions" href="C04_HurwitzZeta.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -967,27 +967,14 @@ document.write(`
 <p>If <span class="math notranslate nohighlight">\(s&lt;0\)</span>, the reflection formula is used:</p>
 <div class="math notranslate nohighlight">
 \[\zeta(s) = 2(2\pi)^{s-1} \sin\left(\tfrac{1}{2} \pi s\right) \Gamma(1-s) \zeta(1-s)\]</div>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/11a_TestZeta_re.3D.xml.jpg"><img alt="11a_TestZeta_re" src="../_images/11a_TestZeta_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/11b_TestZeta_im.3D.xml.jpg"><img alt="11b_TestZeta_im" src="../_images/11b_TestZeta_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/11c_TestZeta_abs.3D.xml.jpg"><img alt="11c_TestZeta_abs" src="../_images/11c_TestZeta_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Riemann zeta function, <span class="math notranslate nohighlight">\(\zeta(s)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Riemann zeta function, <span class="math notranslate nohighlight">\(\zeta(s)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Riemann zeta function, <span class="math notranslate nohighlight">\(\zeta(s)\)</span>, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Zeta</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1016,7 +1003,8 @@ document.write(`
 <span class="go">apm: 9.8042867050578744177e-1 (4.32e-20%) - 2.5411901380637479903e-2 (-5.208e-20%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 <p></p>
 </section>
 <section id="riemann-zeta-s-1">
@@ -1030,19 +1018,11 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\zeta(s, 1) - 1 =  \zeta(s, 2)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Zetam1</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1083,30 +1063,18 @@ document.write(`
 <dd><p>Returns the Hardy (or Riemann-Siegel) theta function. See also   Wikipedia <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id1184" title="Wikipedia. Riemann-Siegel theta function. Wikimedia Foundation, 2017. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Riemann-Siegel_theta_function.">1475</a>]</span>, MathWorld <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id1692" title="E. W. Weisstein. Riemann-Siegel Function Theta. From MathWorld - A Wolfram Web Resource, 2014. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/Riemann-SiegelFunctions.html. Wolfram Language Documentation : https://reference.wolfram.com/language/ref/RiemannSiegelTheta.html.">1091</a>]</span>, <span id="id17">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (4.2.52),  Mpmath <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id799" title="The Mpmath Development Team. Backlund S function. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2016. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/zeta.html#siegeltheta.">733</a>]</span> Mpmath <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id800" title="The Mpmath Development Team. Riemann-Siegel theta function. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2016. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/zeta.html#backlunds.">744</a>]</span>.</p>
 <div class="math notranslate nohighlight">
 \[\theta(t) = \frac{ \log\Gamma\left(\frac{1+2it}{4}\right) - \log\Gamma\left(\frac{1-2it}{4}\right) }{2i} - \frac{\log \pi}{2} t.\]</div>
+<p><a class="reference internal" href="../_images/12a_TestHardyTheta_re.3D.xml.jpg"><img alt="12a_TestHardyTheta_re" src="../_images/12a_TestHardyTheta_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12b_TestHardyTheta_im.3D.xml.jpg"><img alt="12b_TestHardyTheta_im" src="../_images/12b_TestHardyTheta_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12c_TestHardyTheta_abs.3D.xml.jpg"><img alt="12c_TestHardyTheta_abs" src="../_images/12c_TestHardyTheta_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
+</pre></div>
+</div>
 </dd></dl>
 
-<p><a class="reference internal" href="../_images/12a_TestHardyTheta_re.3D.xml.jpg"><img alt="12a_TestHardyTheta_re" src="../_images/12a_TestHardyTheta_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12b_TestHardyTheta_im.3D.xml.jpg"><img alt="12b_TestHardyTheta_im" src="../_images/12b_TestHardyTheta_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12c_TestHardyTheta_abs.3D.xml.jpg"><img alt="12c_TestHardyTheta_abs" src="../_images/12c_TestHardyTheta_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Hardy (or Riemann-Siegel) theta function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Hardy (or Riemann-Siegel) theta function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Hardy (or Riemann-Siegel) theta function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Rstheta</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-</div></blockquote>
 <p></p>
 </section>
 <section id="hardy-or-riemann-siegel-z-function">
@@ -1124,27 +1092,14 @@ document.write(`
 \[Z(t) = e^{i \theta(t)} \zeta(1/2+it)\]</div>
 <p>where <span class="math notranslate nohighlight">\(\zeta(s)\)</span> is the Riemann zeta function (<a class="reference internal" href="#rst-mpm-zeta"><span class="std std-ref">zeta()</span></a>)
 and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denotes the Riemann-Siegel theta function (see <a class="reference internal" href="#rst-mpm-siegeltheta"><span class="std std-ref">siegeltheta()</span></a>).</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/13a_TestHardyZ_re.3D.xml.jpg"><img alt="13a_TestHardyZ_re" src="../_images/13a_TestHardyZ_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/13b_TestHardyZ_im.3D.xml.jpg"><img alt="13b_TestHardyZ_im" src="../_images/13b_TestHardyZ_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/13c_TestHardyZ_abs.3D.xml.jpg"><img alt="13c_TestHardyZ_abs" src="../_images/13c_TestHardyZ_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Hardy (or Riemann-Siegel) Z function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Hardy (or Riemann-Siegel) Z function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Hardy (or Riemann-Siegel) Z function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">SiegelZ</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1173,7 +1128,8 @@ and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denote
 <span class="go">apm: -2.8270067277806269605e-1 (-2.097e-18%) - 1.6028967412508714310e-1 (-4.228e-18%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 <p></p>
 </section>
 <section id="riemann-landau-function-xi-s">
@@ -1232,19 +1188,11 @@ and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denote
 <div class="math notranslate nohighlight">
 \[\eta(s) = \frac{2(1-2^{1-s} \Gamma(1-s) \cos\left(\tfrac{1}{2}\pi(1-s)\right)}{(1-s^s)(2\pi)^{1-s}} \eta (1-s).\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletEta</span><span class="p">(</span><span class="s1">&#39;10.0001&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1286,19 +1234,11 @@ and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denote
 <p>See also: MathWorld <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id1686" title="E. W. Weisstein. Dirichlet Eta Function. From MathWorld - A Wolfram Web Resource, 2014. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/DirichletEtaFunction.html.">1071</a>]</span>, <span id="id34">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.6.3.3).</p>
 <p>Returns the Dirichlet function <span class="math notranslate nohighlight">\(\eta(s) - 1 = (\zeta(s)-1) - (2^{1-s} \zeta(s))\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletEtam1</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1345,19 +1285,11 @@ and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denote
 <div class="math notranslate nohighlight">
 \[\beta (s)=4^{-s}\left(\zeta \left(s,{1 \over 4}\right)-\zeta \left(s,{3 \over 4}\right)\right).\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletBeta</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1404,19 +1336,11 @@ and where <span class="math notranslate nohighlight">\(\theta(t)\)</span> denote
 <div class="math notranslate nohighlight">
 \[\lambda(s) = (1-2^{-s}) \zeta(s) = -\text{exp2m1}(-s) \zeta(s)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">DirichletLambda</span><span class="p">(</span><span class="s1">&#39;51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1596,7 +1520,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

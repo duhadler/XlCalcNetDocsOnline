@@ -44,7 +44,7 @@ See also MathWorld :cite:p:`WolframDis41`, :cite:t:`Cordeiro2012`, :cite:t:`Walc
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("MoyalPdf(x, a, b): ", MoyalPdf(x, a, b))
         >>> print ("dist_moyal(a, b).pdf(x): ", dist_moyal(a, b).pdf(x))
@@ -68,7 +68,7 @@ See also MathWorld :cite:p:`WolframDis41`, :cite:t:`Cordeiro2012`, :cite:t:`Walc
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("MoyalCdf(x, a, b): ", MoyalCdf(x, a, b))
         >>> print ("dist_moyal(a, b).cdf(x): ", dist_moyal(a, b).cdf(x))
@@ -92,7 +92,7 @@ See also MathWorld :cite:p:`WolframDis41`, :cite:t:`Cordeiro2012`, :cite:t:`Walc
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("MoyalQtf(q, a, b): ", MoyalQtf(q, a, b))
         >>> print ("dist_moyal(a, b).qtf(q): ", dist_moyal(a, b).qtf(q))

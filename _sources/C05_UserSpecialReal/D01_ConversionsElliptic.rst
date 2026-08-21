@@ -37,22 +37,12 @@ Elliptic nome `q(k)` (DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticNome(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticNome('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticNome(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticNome('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticNome(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticNome('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -72,22 +62,11 @@ Elliptic modulus `k(q)` (DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticModulus(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticModulus('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticModulus(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticModulus('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticModulus(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticModulus('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -109,22 +88,12 @@ Jacobi amplitude, `\mathrm{am}(x, k)` (DAMath)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiAmplitude(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiAmplitude(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiAmplitude(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiAmplitude(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiAmplitude(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiAmplitude(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

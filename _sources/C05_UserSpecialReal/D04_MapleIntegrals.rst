@@ -33,22 +33,12 @@ Complete integral of the 1st kind, `\mathrm{EllipticK}(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticK(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticK('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticK(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticK('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticK(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticK('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -69,22 +59,12 @@ Complete integral of the 1st kind for imaginary modulus, `\mathrm{EllipticKim}(k
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticKim(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticKim('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticKim(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticKim('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticKim(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticKim('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -108,22 +88,12 @@ Complementary complete integral of the 1st kind, `\mathrm{EllipticCK}(k) = K'(k)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticCK(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticCK('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticCK(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticCK('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticCK(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticCK('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -144,22 +114,12 @@ Complete integral of the 2nd kind, `\mathrm{EllipticEC}(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticEC(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticEC('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticEC(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticEC('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticEC(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticEC('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -181,22 +141,12 @@ Complete integral of the 2nd kind for imaginary modulus, `\mathrm{EllipticECim}(
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticECim(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticECim('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticECim(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticECim('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticECim(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticECim('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -218,22 +168,12 @@ Complementary complete integral of the 2nd kind, `\mathrm{EllipticCE}(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticCE(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticCE('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticCE(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticCE('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticCE(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticCE('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -255,22 +195,12 @@ Complete integral of the 3rd kind, `\mathrm{EllipticPiC}(\nu, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticPiC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticPiC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticPiC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticPiC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticPiC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticPiC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -293,22 +223,12 @@ Complete integral of the 3rd kind for imaginary modulus, `\mathrm{EllipticPiCim}
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticPiCim(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticPiCim(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticPiCim(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticPiCim(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticPiCim(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticPiCim(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -330,22 +250,12 @@ Complementary complete integral of the 3rd kind, `\mathrm{EllipticCPi}(\nu, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticCPi(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticCPi(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticCPi(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticCPi(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticCPi(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticCPi(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -367,22 +277,12 @@ Incomplete integral of the 1st kind, `\mathrm{EllipticF}(z, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticF(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticF(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticF(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticF(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticF(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticF(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -404,22 +304,12 @@ Incomplete integral of the 2nd kind, `\mathrm{EllipticE}(z, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticE(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticE(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticE(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticE(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticE(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticE(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -441,22 +331,11 @@ Incomplete integral of the 3rd kind, `\mathrm{EllipticPi}(z, \nu, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticPi(0.6, 0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticPi(0.6, 0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticPi(0.6, 0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticPi(0.6, 0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticPi(0.6, 0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticPi(0.6, 0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

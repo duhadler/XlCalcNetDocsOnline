@@ -57,9 +57,9 @@ Some text
 
 
 
-**Left figure**: Trefoil A. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Trefoil A. Perspective camera. 
 
-**Right figure**: Trefoil A. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Trefoil A. Orthographic camera. 
 
 
 
@@ -102,9 +102,9 @@ Some text
 
 
 
-**Left figure**: Trefoil B. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Trefoil B. Perspective camera. 
 
-**Right figure**: Trefoil B. Trefoil B. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Trefoil B. Trefoil B. Orthographic camera. 
 
 
 
@@ -148,9 +148,9 @@ Some text
 
 
 
-**Left figure**: Trefoil A. Perspective camera. Camera angles are `\theta=0^\circ` and `\phi = 180^\circ`.
+**Left figure**: Trefoil A. Perspective camera. 
 
-**Right figure**: Trefoil B. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 135^\circ`.
+**Right figure**: Trefoil B. Perspective camera. 
 
 
 
@@ -171,9 +171,9 @@ Some text
 
 
 
-**Left figure**: Trefoil A. Orthographic camera. Camera angles are `\theta=0^\circ` and `\phi = 180^\circ`.
+**Left figure**: Trefoil A. Orthographic camera. 
 
-**Right figure**: Trefoil B. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 135^\circ`.
+**Right figure**: Trefoil B. Orthographic camera. 
 
 
 
@@ -220,9 +220,9 @@ Some text
 
 
 
-**Left figure**: Trefoil A. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Trefoil A. Perspective camera. 
 
-**Right figure**: Trefoil B. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 0^\circ`.
+**Right figure**: Trefoil B. Perspective camera. 
 
 
 
@@ -243,9 +243,9 @@ Some text
 
 
 
-**Left figure**: Trefoil A. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Trefoil A. Orthographic camera. 
 
-**Right figure**: Trefoil B. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 0^\circ`.
+**Right figure**: Trefoil B. Orthographic camera. 
 
 
 
@@ -292,9 +292,9 @@ Some text
 
 
 
-**Left figure**: Cinquefoil Knot. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Cinquefoil Knot. Perspective camera. 
 
-**Right figure**: Cinquefoil Knot. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 0^\circ`.
+**Right figure**: Cinquefoil Knot. Perspective camera. 
 
 
 
@@ -315,9 +315,9 @@ Some text
 
 
 
-**Left figure**: Cinquefoil Knot. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Cinquefoil Knot. Orthographic camera. 
 
-**Right figure**: Cinquefoil Knot. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 0^\circ`.
+**Right figure**: Cinquefoil Knot. Orthographic camera. 
 
 
 
@@ -366,9 +366,9 @@ Some text
 
 
 
-**Left figure**: 74 Knot. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: 74 Knot. Perspective camera. 
 
-**Right figure**: 74 Knot. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Right figure**: 74 Knot. Perspective camera. 
 
 
 
@@ -388,9 +388,9 @@ Some text
 
 
 
-**Left figure**: 74 Knot. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: 74 Knot. Orthographic camera. 
 
-**Right figure**: 74 Knot. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Right figure**: 74 Knot. Orthographic camera. 
 
 
 
@@ -440,9 +440,9 @@ Some text
 
 
 
-**Left figure**: Figure-eight_knot. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Figure-eight_knot. Perspective camera. 
 
-**Right figure**: Figure-eight_knot. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Figure-eight_knot. Perspective camera. 
 
 
 
@@ -464,9 +464,9 @@ Some text
 
 
 
-**Left figure**: Figure-eight_knot. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Figure-eight_knot. Orthographic camera. 
 
-**Right figure**: Figure-eight_knot. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Figure-eight_knot. Orthographic camera. 
 
 
 

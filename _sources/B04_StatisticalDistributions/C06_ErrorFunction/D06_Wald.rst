@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis16`, MathWorld :cite:p:`WolframDis16`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("WaldPdf(x, a, b): ", WaldPdf(x, a, b))
         >>> print ("dist_wald(a, b).pdf(x): ", dist_wald(a, b).pdf(x))
@@ -68,7 +68,7 @@ See also  Wikipedia :cite:p:`WikipediaDis16`, MathWorld :cite:p:`WolframDis16`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("WaldCdf(x, a, b): ", WaldCdf(x, a, b))
         >>> print ("dist_wald(a, b).cdf(x): ", dist_wald(a, b).cdf(x))
@@ -92,7 +92,7 @@ See also  Wikipedia :cite:p:`WikipediaDis16`, MathWorld :cite:p:`WolframDis16`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("WaldQtf(q, a, b): ", WaldQtf(q, a, b))
         >>> print ("dist_wald(a, b).qtf(q): ", dist_wald(a, b).qtf(q))

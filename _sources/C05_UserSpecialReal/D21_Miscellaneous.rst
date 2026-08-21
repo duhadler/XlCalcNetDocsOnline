@@ -43,7 +43,7 @@ Log-series distribution, pmf
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LogseriesPdf(x, a, b): ", LogseriesPdf(x, a, b))
         >>> print ("dist_logseries(a, b).pdf(x): ", dist_logseries(a, b).pdf(x))
@@ -71,7 +71,7 @@ Log-series distribution, cdf
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LogseriesCdf(x, a, b): ", LogseriesCdf(x, a, b))
         >>> print ("dist_logseries(a, b).cdf(x): ", dist_logseries(a, b).cdf(x))
@@ -102,7 +102,7 @@ Zeta distribution, pmf
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ZetaPdf(x, a, b): ", ZetaPdf(x, a, b))
         >>> print ("dist_zeta(a, b).pdf(x): ", dist_zeta(a, b).pdf(x))
@@ -128,7 +128,7 @@ Zeta distribution, cdf
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ZetaCdf(x, a, b): ", ZetaCdf(x, a, b))
         >>> print ("dist_zeta(a, b).cdf(x): ", dist_zeta(a, b).cdf(x))
@@ -164,22 +164,12 @@ Voigt function U
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.VoigtU(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.VoigtU('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.VoigtU(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.VoigtU('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.VoigtU(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.VoigtU('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -198,22 +188,12 @@ Voigt function V
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.VoigtV(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.VoigtV('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.VoigtV(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.VoigtV('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.VoigtV(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.VoigtV('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -231,22 +211,12 @@ Voigt function H
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.VoigtH(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.VoigtH('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.VoigtH(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.VoigtH('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.VoigtH(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.VoigtH('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -270,22 +240,11 @@ Voigt Profile distribution, pdf
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.VoigtProfilePdf(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.VoigtProfilePdf('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.VoigtProfilePdf(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.VoigtProfilePdf('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.VoigtProfilePdf(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.VoigtProfilePdf('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 

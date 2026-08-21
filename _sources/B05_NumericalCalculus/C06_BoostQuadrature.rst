@@ -57,33 +57,12 @@ Trapezoidal Quadrature
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> f = lambda x: 1 / (5 - 4 * xreal.Cos(x))
-        >>> result2 = xreal.Trapezoidal(f, a, b)
+        >>> from xlcalcnet import ereal
+        >>> f = lambda x: 1 / (5 - 4 * ereal.Cos(x))
+        >>> result2 = ereal.Trapezoidal(f, a, b)
         >>> print("res: ", res)
 
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F13 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = 1/(5 - 4*xreal.Cos(x))
-            'Console.WriteLine("In F3: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoTrapezoidal() 
-            Console.WriteLine("Trapezoidal")
-            Dim a = 0.0
-            Dim b = 2 * xreal.PI
-            Dim res1 = xreal.Trapezoidal(AddressOf F13, a, b)
-            Console.WriteLine("res1 (integral, error, cond.no.): {0}", res1)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -133,33 +112,11 @@ Gauss-Legendre quadrature
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; b = 1.0; tol = 1.0E-9
-        >>> f = lambda x: x * x * xreal.Atan(x)
-        >>> res = xreal.GaussLegendre(f, a, b)
+        >>> f = lambda x: x * x * ereal.Atan(x)
+        >>> res = ereal.GaussLegendre(f, a, b)
         >>> print("res: ", res)
-
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F14 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = x * x * xreal.Atan(x)
-            'Console.WriteLine("In F4: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoGaussLegendre() 
-            Console.WriteLine("GaussLegendre")
-            Dim a = 0.0
-            Dim b = 1.0
-            Dim res2 = xreal.GaussLegendre(AddressOf F14, a, b)
-            Console.WriteLine("res2 (integral, cond.no.): {0}", res2)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -216,33 +173,13 @@ Gauss-Kronrod Quadrature
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; b = float('+inf')
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result3 = xreal.GaussKronrod(f, a, b)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result3 = ereal.GaussKronrod(f, a, b)
         >>> print("result3: ", result3)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F15 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = xreal.Exp(-x*x / 2)
-            'Console.WriteLine("In F5: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoGaussKronrod() 
-            Console.WriteLine("GaussKronrod")
-            Dim a = 0.0
-            Dim b = xreal.PositiveInfinity
-            Dim res3 = xreal.GaussKronrod(AddressOf F15, a, b)
-            Console.WriteLine("res3 (integral, error, cond.no.): {0}", res3)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -290,33 +227,13 @@ Double-exponential quadrature: tanh_sinh
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = -1.0; b = 1.0
         >>> f = lambda x: 5 * x + 7
-        >>> res = xreal.TanhSinh(f, a, b)
+        >>> res = ereal.TanhSinh(f, a, b)
         >>> print("res: ", res)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F16 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = 5*x + 7
-            'Console.WriteLine("In F6: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoTanhSinh() 
-            Console.WriteLine("TanhSinh")
-            Dim a = -1.0
-            Dim b = 1.0
-            Dim res4 = xreal.TanhSinh(AddressOf F16, a, b)
-            Console.WriteLine("res4 (integral, error, cond.no., level): {0}", res4)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -359,30 +276,13 @@ Double-exponential quadrature: sinh_sinh
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: math.exp(-x * x)
-        >>> res = xreal.SinhSinh(f)
+        >>> res = ereal.SinhSinh(f)
         >>> print("res: ", res)
 
 
 
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F17 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = xreal.Exp(-x*x)
-            'Console.WriteLine("In F7: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoSinhSinh() 
-            Console.WriteLine("SinhSinh")
-            Dim res5 = xreal.SinhSinh(AddressOf F17)
-            Console.WriteLine("res5 (integral, error, cond.no., level): {0}", res5)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -427,30 +327,12 @@ Double-exponential quadrature: exp_sinh
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: math.exp(-3 * x)
-        >>> result3 = xreal.ExpSinh(f)
+        >>> result3 = ereal.ExpSinh(f)
         >>> print("result3: ", result3)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F18 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = xreal.Exp(-3*x)
-            'Console.WriteLine("In F8: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoExpSinh() 
-            Console.WriteLine("ExpSinh")
-            Dim res6  = xreal.ExpSinh(AddressOf F18)
-            Console.WriteLine("res6 (integral, error, cond.no., level): {0}", res6)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -491,30 +373,11 @@ Fourier Integral, Cosine
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: 1 / (x * x + 1)
-        >>> result3 = xreal.Ooura_Cos(f)
+        >>> result3 = ereal.Ooura_Cos(f)
         >>> print("result3: ", result3)
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F19 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = 1 / (x * x + 1)
-            'Console.WriteLine("In F8: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoOoura_Cos() 
-            Console.WriteLine("Ooura_Cos")
-            Dim res7  = xreal.Ooura_Cos(AddressOf F19)
-            Console.WriteLine("res7 (integral, error): {0}", res7)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -552,31 +415,11 @@ Fourier Integral, Sine
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: 1 / x
-        >>> result3 = xreal.Ooura_Sin(f)
+        >>> result3 = ereal.Ooura_Sin(f)
         >>> print("result3: ", result3)
 
-
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F20 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = 1 / (x)
-            'Console.WriteLine("In F8: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoOoura_Sin() 
-            Console.WriteLine("Ooura_Sin")
-            Dim res8  = xreal.Ooura_Sin(AddressOf F20)
-            Console.WriteLine("res8 (integral, error): {0}", res8)
-            Console.WriteLine()
-        End Sub
 
 
 

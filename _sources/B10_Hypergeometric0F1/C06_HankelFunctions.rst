@@ -41,22 +41,12 @@ Hankel function of the first kind `H^{(1)}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.HankelH1(10.5, 6.3)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.HankelH1(10.5, 6.3)
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.HankelH1(10.5, 6.3)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.HankelH1(10.5, 6.3)
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.HankelH1(10.5, 6.3)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.HankelH1(10.5, 6.3)
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -117,22 +107,12 @@ Hankel function of the second kind `H^{(2)}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.HankelH2(10.5, 6.3)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.HankelH2(10.5, 6.3)
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.HankelH2(10.5, 6.3)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.HankelH2(10.5, 6.3)
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.HankelH2(10.5, 6.3)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.HankelH2(10.5, 6.3)
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -196,22 +176,13 @@ Spherical Hankel function of the first kind, `h^{(1)}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.SphHankelH1(10.5, 6.3)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.SphHankelH1(10.5, 6.3)
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.SphHankelH1(10.5, 6.3)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.SphHankelH1(10.5, 6.3)
+        ecplx('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.SphHankelH1(10.5, 6.3)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.SphHankelH1(10.5, 6.3)
-        Gpc('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -271,22 +242,12 @@ Spherical Hankel function of the second kind, `h^{(2)}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.SphHankelH1(10.5, 6.3)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.SphHankelH1(10.5, 6.3)
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.SphHankelH1(10.5, 6.3)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.SphHankelH1(10.5, 6.3)
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.SphHankelH1(10.5, 6.3)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.SphHankelH1(10.5, 6.3)
-        Gpc('5.3518479027559984754E-1')
 
 
 

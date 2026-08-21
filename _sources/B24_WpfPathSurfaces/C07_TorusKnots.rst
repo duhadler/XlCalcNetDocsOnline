@@ -64,11 +64,11 @@ An example in C\#
 
 
 
-**Left figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Torus knot 3:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -116,11 +116,11 @@ An example in C\#
 
 
 
-**Left figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Torus knot 5:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -171,11 +171,11 @@ An example in C\#
 
 
 
-**Left figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Torus knot 7:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -220,11 +220,11 @@ An example in C\#
 
 
 
-**Left figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Torus knot 7:3 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -268,11 +268,11 @@ An example in C\#
 
 
 
-**Left figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Torus knot 15:2 (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 

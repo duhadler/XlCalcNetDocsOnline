@@ -55,9 +55,9 @@ Polynomial Knot. https://home.adelphi.edu/~stemkoski/knotgallery/poly3.html
 
 
 
-**Left figure**: Polynomial knot 3-1. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Polynomial knot 3-1. Perspective camera. 
 
-**Right figure**: Polynomial knot 3-1. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Polynomial knot 3-1. Orthographic camera. 
 
 
 
@@ -93,9 +93,9 @@ Figure-Eight (41) Polynomial Knot. https://home.adelphi.edu/~stemkoski/knotgalle
 
 
 
-**Left figure**: Polynomial knot 4-1. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Polynomial knot 4-1. Perspective camera. 
 
-**Right figure**: Polynomial knot 4-1. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Polynomial knot 4-1. Orthographic camera. 
 
 
 
@@ -136,9 +136,9 @@ Cinquefoil (51) Polynomial Knot. https://home.adelphi.edu/~stemkoski/knotgallery
 
 
 
-**Left figure**: Polynomial knot 5-1. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Polynomial knot 5-1. Perspective camera. 
 
-**Right figure**: Polynomial knot 5-1. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Polynomial knot 5-1. Orthographic camera. 
 
 
 
@@ -176,9 +176,9 @@ Six-Crossing (62) Polynomial Knot. https://home.adelphi.edu/~stemkoski/knotgalle
 
 
 
-**Left figure**: Polynomial knot 6-2. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Polynomial knot 6-2. Perspective camera. 
 
-**Right figure**: Polynomial knot 6-2. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Polynomial knot 6-2. Orthographic camera. 
 
 
 
@@ -217,9 +217,9 @@ Seven-Crossing (74) Polynomial Knot. https://home.adelphi.edu/~stemkoski/knotgal
 
 
 
-**Left figure**: Polynomial knot 7-4. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Polynomial knot 7-4. Perspective camera. 
 
-**Right figure**: Polynomial knot 7-4. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Right figure**: Polynomial knot 7-4. Orthographic camera. 
 
 
 

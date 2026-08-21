@@ -55,22 +55,12 @@ Raw addition of two floating point numbers
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -89,22 +79,11 @@ Raw subtraction of two floating point numbers
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 
@@ -123,22 +102,11 @@ Raw multiplication of two floating point numbers
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 
@@ -157,22 +125,11 @@ Raw division of two floating point numbers
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 
@@ -192,22 +149,11 @@ Raw addition of a floating point number and a signed 32 bit integer
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
 
@@ -228,22 +174,12 @@ Raw subtraction of a floating point number and a signed 32 bit integer
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -262,22 +198,12 @@ Raw multiplication of a floating point number and a signed 32 bit integer
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -299,22 +225,12 @@ Raw division of a floating point number and a signed 32 bit integer
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Abs(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Abs('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Abs(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Abs('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Abs(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Abs('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -337,24 +253,11 @@ Fused multiplication and addition: `\mathrm{fma}(x, y, z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Copysign(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Copysign('0.51', 2)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Copysign(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Copysign('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
-        >>> qreal.Copysign('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Copysign(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Copysign('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -388,22 +291,11 @@ Maximum of two floating point numbers: `\mathrm{fmax}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Max(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Max('0.51', 2)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Max(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Max('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Max(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Max('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -429,22 +321,11 @@ Minimum of two floating point numbers: `\mathrm{fmin}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Min(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Min('0.51', 2)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Min(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Min('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Min(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Min('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
 
 

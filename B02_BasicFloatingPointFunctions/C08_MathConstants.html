@@ -53,7 +53,7 @@
     <link rel="prev" title="Functions related to mantissa width and exponent range" href="C07_MachineConstants.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -969,14 +969,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns one degree of angle, <span class="math notranslate nohighlight">\(1^{\circ} = \pi/180\)</span>. See also  Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1093" title="Wikipedia. Conversion between radians and degrees. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees.">1380</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1556" title="E. W. Weisstein. Degree/Radian. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/Radian.html.">975</a>]</span>, Mpmath <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id692" title="The Mpmath Development Team. Degree constant. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#degree-degree.">634</a>]</span>, Mpmath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id820" title="The Mpmath Development Team. Radians. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2017. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/trigonometric.html#radians.">762</a>]</span>, Mpmath <span id="id5">[<a class="reference internal" href="../99BackMatter/index.html#id821" title="The Mpmath Development Team. Degrees. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2017. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/trigonometric.html#degrees.">751</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
-<span class="go">xreal(&#39;1.7453292519943295769E-2&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
+<span class="go">ereal(&#39;1.7453292519943295769E-2&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
 <span class="go">0.0174532925199433</span>
 </pre></div>
 </div>
@@ -991,14 +991,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the golden ratio <span class="math notranslate nohighlight">\(\phi = (1+\sqrt 5)/2\)</span>. See also Wikipedia <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id1088" title="Wikipedia. Golden ratio. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Golden_ratio.">1387</a>]</span>, MathWorld <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id1551" title="E. W. Weisstein. Golden Ratio. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/GoldenRatio.html.">978</a>]</span>, Mpmath <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id687" title="The Mpmath Development Team. Golden Ratio. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#golden-ratio-phi.">641</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstPhi</span><span class="p">()</span>
-<span class="go">xreal(&#39;1.6180339887498948482&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstPhi</span><span class="p">()</span>
+<span class="go">ereal(&#39;1.6180339887498948482&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstPhi</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstPhi</span><span class="p">()</span>
 <span class="go">1.61803398874989</span>
 </pre></div>
 </div>
@@ -1013,14 +1013,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the logarithm of 2.  See also Wikipedia <span id="id9">[<a class="reference internal" href="../99BackMatter/index.html#id1084" title="Wikipedia. Natural logarithm of 2. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Natural_logarithm_of_2.">1371</a>]</span>, MathWorld <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id1546" title="E. W. Weisstein. Natural Logarithm of 2. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/NaturalLogarithmof2.html.">983</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstLog2</span><span class="p">()</span>
-<span class="go">xreal(&#39;6.9314718055994530943E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstLog2</span><span class="p">()</span>
+<span class="go">ereal(&#39;6.9314718055994530943E-1&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstLog2</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstLog2</span><span class="p">()</span>
 <span class="go">0.693147180559945</span>
 </pre></div>
 </div>
@@ -1035,14 +1035,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the logarithm of 10.  See also MathWorld <span id="id11">[<a class="reference internal" href="../99BackMatter/index.html#id1547" title="E. W. Weisstein. Natural Logarithm of 10. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/NaturalLogarithmof10.html.">982</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstLog10</span><span class="p">()</span>
-<span class="go">xreal(&#39;2.3025850929940456840&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstLog10</span><span class="p">()</span>
+<span class="go">ereal(&#39;2.3025850929940456840&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstLog10</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstLog10</span><span class="p">()</span>
 <span class="go">2.30258509299405</span>
 </pre></div>
 </div>
@@ -1057,14 +1057,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the constant pi. See also Wikipedia <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id1085" title="Wikipedia. Pi. Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Pi.">1372</a>]</span>, MathWorld <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id1548" title="E. W. Weisstein. Pi. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/Pi.html.">984</a>]</span>, Mpmath <span id="id14">[<a class="reference internal" href="../99BackMatter/index.html#id684" title="The Mpmath Development Team. Pi. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#pi-pi.">646</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Pi</span><span class="p">()</span>
-<span class="go">xreal(&#39;3.1415926535897932385&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Pi</span><span class="p">()</span>
+<span class="go">ereal(&#39;3.1415926535897932385&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Pi</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Pi</span><span class="p">()</span>
 <span class="go">3.14159265358979</span>
 </pre></div>
 </div>
@@ -1079,14 +1079,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the constant const_e. See also Wikipedia <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id1086" title="Wikipedia. e (mathematical constant). Wikimedia Foundation, 2012. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/E_(mathematical_constant).">1376</a>]</span>, MathWorld <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id1549" title="E. W. Weisstein. e. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/e.html.">985</a>]</span>, Mpmath <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id685" title="The Mpmath Development Team. Base of natural logarithm. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#base-of-the-natural-logarithm-e.">631</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstE</span><span class="p">()</span>
-<span class="go">xreal(&#39;3.1415926535897932385&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstE</span><span class="p">()</span>
+<span class="go">ereal(&#39;3.1415926535897932385&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstE</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstE</span><span class="p">()</span>
 <span class="go">2.71828182845905</span>
 </pre></div>
 </div>
@@ -1101,14 +1101,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the Euler gamma constant. See also Wikipedia <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id1087" title="Wikipedia. Euler-Mascheroni constant. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Euler-Mascheroni_constant.">1385</a>]</span>, MathWorld <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id1550" title="E. W. Weisstein. Euler-Mascheroni Constant. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/Euler-MascheroniConstant.html.">976</a>]</span>, Mpmath <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id686" title="The Mpmath Development Team. Euler-Mascheroni Constant. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#euler-s-constant-euler.">639</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstEulerGamma</span><span class="p">()</span>
-<span class="go">xreal(&#39;5.7721566490153286062E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstEulerGamma</span><span class="p">()</span>
+<span class="go">ereal(&#39;5.7721566490153286062E-1&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstEulerGamma</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstEulerGamma</span><span class="p">()</span>
 <span class="go">0.577215664901533</span>
 </pre></div>
 </div>
@@ -1126,14 +1126,14 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\zeta(3) = \sum_{k=1}^\infty\frac{1}{k^3}.\]</div>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstApery</span><span class="p">()</span>
-<span class="go">xreal(&#39;1.2020569031595942854&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstApery</span><span class="p">()</span>
+<span class="go">ereal(&#39;1.2020569031595942854&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstApery</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstApery</span><span class="p">()</span>
 <span class="go">1.20205690315959</span>
 </pre></div>
 </div>
@@ -1151,14 +1151,14 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[K = \sum_{k=0}^{\infty} \frac{(-1)^k}{(2k+1)^2}.\]</div>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstCatalan</span><span class="p">()</span>
-<span class="go">xreal(&#39;9.1596559417721901505E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstCatalan</span><span class="p">()</span>
+<span class="go">ereal(&#39;9.1596559417721901505E-1&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstCatalan</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstCatalan</span><span class="p">()</span>
 <span class="go">0.915965594177219</span>
 </pre></div>
 </div>
@@ -1174,14 +1174,14 @@ document.write(`
 <p>Returns Glaisher’s constant. See also Wikipedia <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id1091" title="Wikipedia. Glaisher-Kinkelin constant. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Glaisher-Kinkelin_constant.">1386</a>]</span>, MathWorld <span id="id28">[<a class="reference internal" href="../99BackMatter/index.html#id1554" title="E. W. Weisstein. Glaisher-Kinkelin Constant. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/Glaisher-KinkelinConstant.html.">977</a>]</span>, Mpmath <span id="id29">[<a class="reference internal" href="../99BackMatter/index.html#id690" title="The Mpmath Development Team. Glaisher-Kinkelin Constant. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#glaisher-s-constant-glaisher.">640</a>]</span>.</p>
 <p>The constant is defined  as <span class="math notranslate nohighlight">\(A = \exp(1/12-\zeta'(-1))\)</span> where <span class="math notranslate nohighlight">\(\zeta'(s)\)</span> denotes the derivative of the Riemann zeta function.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstGlaisher</span><span class="p">()</span>
-<span class="go">xreal(&#39;1.2824271291006226369&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstGlaisher</span><span class="p">()</span>
+<span class="go">ereal(&#39;1.2824271291006226369&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstGlaisher</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstGlaisher</span><span class="p">()</span>
 <span class="go">1.28242712910062</span>
 </pre></div>
 </div>
@@ -1196,14 +1196,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns Khinchin’s constant. See also Wikipedia <span id="id30">[<a class="reference internal" href="../99BackMatter/index.html#id1090" title="Wikipedia. Khinchin's constant. Wikimedia Foundation, 2013. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Khinchin%27s_constant.">1393</a>]</span>, MathWorld <span id="id31">[<a class="reference internal" href="../99BackMatter/index.html#id1553" title="E. W. Weisstein. Khinchin's Constant. From MathWorld - A Wolfram Web Resource, 2009. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/KhinchinsConstant.html.">979</a>]</span>, Mpmath <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id689" title="The Mpmath Development Team. Khinchin's Constant. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2011. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/constants.html#khinchin-s-constant-khinchin.">645</a>]</span>.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstKhinchin</span><span class="p">()</span>
-<span class="go">xreal(&#39;2.6854520010653064454&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstKhinchin</span><span class="p">()</span>
+<span class="go">ereal(&#39;2.6854520010653064454&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstKhinchin</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstKhinchin</span><span class="p">()</span>
 <span class="go">2.68545200106531</span>
 </pre></div>
 </div>
@@ -1218,14 +1218,14 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxboost</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the imaginary unit.</p>
 <p>In extended precision (32 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
-<span class="go">xreal(&#39;1.7453292519943295769E-2&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
+<span class="go">ereal(&#39;1.7453292519943295769E-2&#39;)</span>
 </pre></div>
 </div>
 <p>In double precision (64 bit version of xlcalcnet)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">ConstDegree</span><span class="p">()</span>
 <span class="go">0.0174532925199433</span>
 </pre></div>
 </div>
@@ -1360,7 +1360,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

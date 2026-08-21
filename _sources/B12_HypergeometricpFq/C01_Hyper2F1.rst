@@ -65,14 +65,10 @@ Gauss Hypergeometric Function, `{}_2F_1(a,b;c;x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Gauss Hypergeometric Function, `{}_2F_1(a,b;c;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the Gauss Hypergeometric Function, `{}_2F_1(a,b;c;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Gauss Hypergeometric Function, `{}_2F_1(a,b;c;x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -84,22 +80,12 @@ Gauss Hypergeometric Function, `{}_2F_1(a,b;c;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg2F1(3,4,5,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg2F1(13,14,15,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg2F1(3,4,5,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg2F1(13,14,15,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg2F1(3,4,5,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg2F1(13,14,15,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -174,22 +160,13 @@ Regularized Hypergeometric Function, `{}_2\widetilde{F}_1(a,b;c;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg2F1r(3,4,5,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg2F1r(13,14,15,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg2F1r(3,4,5,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg2F1r(13,14,15,0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg2F1r(3,4,5,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg2F1r(13,14,15,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

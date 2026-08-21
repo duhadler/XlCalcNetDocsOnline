@@ -34,26 +34,20 @@ Lambert `W` function, `W_0(x)`
     See also  Wikipedia :cite:p:`WikipediaFun82`, MathWorld :cite:p:`WolframFun82`, NIST :cite:p:`DLMFun82`,  BoostMath :cite:p:`BoostFun82`, :cite:t:`Corless1996`, :cite:t:`Ehrhardt2018` (3.10.15), Flint :cite:p:`FlintFun82`, Flint :cite:p:`FlintFun83`, Mpmath :cite:p:`MpmathFun82`.
 
 
-|06a_TestLambertW_re| `\quad` |06b_TestLambertW_im| `\quad` |06c_TestLambertW_abs|
+    |06a_TestLambertW_re| `\quad` |06b_TestLambertW_im| `\quad` |06c_TestLambertW_abs|
 
-.. |06a_TestLambertW_re| image:: ../_static/ExplicitSurfaces/CplxRoots/06a_TestLambertW_re.3D.xml.jpg
-   :width: 30 %
+    .. |06a_TestLambertW_re| image:: ../_static/ExplicitSurfaces/CplxRoots/06a_TestLambertW_re.3D.xml.jpg
+       :width: 30 %
 
-.. |06b_TestLambertW_im| image:: ../_static/ExplicitSurfaces/CplxRoots/06b_TestLambertW_im.3D.xml.jpg
-   :width: 30 %
+    .. |06b_TestLambertW_im| image:: ../_static/ExplicitSurfaces/CplxRoots/06b_TestLambertW_im.3D.xml.jpg
+       :width: 30 %
 
-.. |06c_TestLambertW_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/06c_TestLambertW_abs.3D.xml.jpg
-   :width: 30 %
+    .. |06c_TestLambertW_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/06c_TestLambertW_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the LambertW function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the LambertW function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the LambertW function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -65,22 +59,12 @@ Lambert `W` function, `W_0(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LambertW(3.4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LambertW(13.4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LambertW(3.4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LambertW(13.4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LambertW(3.4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LambertW(13.4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -131,22 +115,13 @@ Lambert `W` function, `W_{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LambertW1(0.2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LambertW1(0.21)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LambertW1(0.2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LambertW1(0.21)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LambertW1(0.2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LambertW1(0.21)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -207,22 +182,13 @@ Lambert `W` (general case)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.LambertW(0.5, 2)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.LambertW('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.LambertW(0.5, 2)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.LambertW('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.LambertW(0.5, 2)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.LambertW('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
     **Basic examples**
@@ -280,26 +246,22 @@ Arithmetic-geometric mean
 
 
 
-|01a_TestAGM_re| `\quad` |01b_TestAGM_im| `\quad` |01c_TestAGM_abs|
+    |01a_TestAGM_re| `\quad` |01b_TestAGM_im| `\quad` |01c_TestAGM_abs|
 
-.. |01a_TestAGM_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/01a_TestAGM_re.3D.xml.jpg
-   :width: 30 %
+    .. |01a_TestAGM_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/01a_TestAGM_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01b_TestAGM_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/01b_TestAGM_im.3D.xml.jpg
-   :width: 30 %
+    .. |01b_TestAGM_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/01b_TestAGM_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01c_TestAGM_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/01c_TestAGM_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the AGM. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |01c_TestAGM_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/01c_TestAGM_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the AGM. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Right figure**:  absolute value of the AGM, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -307,22 +269,12 @@ Arithmetic-geometric mean
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Agm(0.5, 2)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Agm('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Agm(0.5, 2)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Agm('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Agm(0.5, 2)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Agm('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 

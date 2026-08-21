@@ -42,7 +42,7 @@ See also  Wikipedia :cite:p:`WikipediaDis11`, MathWorld :cite:p:`WolframDis11`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("CauchyPdf(x, a, b): ", CauchyPdf(x, a, b))
         >>> print ("dist_cauchy(a, b).pdf(x): ", dist_cauchy(a, b).pdf(x))
@@ -65,7 +65,7 @@ See also  Wikipedia :cite:p:`WikipediaDis11`, MathWorld :cite:p:`WolframDis11`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("CauchyCdf(x, a, b): ", CauchyCdf(x, a, b))
         >>> print ("dist_cauchy(a, b).cdf(x): ", dist_cauchy(a, b).cdf(x))
@@ -95,7 +95,7 @@ See also  Wikipedia :cite:p:`WikipediaDis11`, MathWorld :cite:p:`WolframDis11`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("CauchyQtf(q, a, b): ", CauchyQtf(q, a, b))
         >>> print ("dist_cauchy(a, b).qtf(q): ", dist_cauchy(a, b).qtf(q))

@@ -76,22 +76,11 @@ Modified spherical Bessel function of the first kind, `i_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselin(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselin(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselin(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselin(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselin(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselin(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -150,22 +139,11 @@ Modified Spherical Bessel function of the second kind, `k_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselkn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselkn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselkn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselkn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselkn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselkn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -206,22 +184,12 @@ First derivative of the modified spherical Bessel function of the first kind, `i
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselin(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselin(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselin(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselin(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselin(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselin(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -257,22 +225,12 @@ First derivative of the modified spherical Bessel function of the second kind, `
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselkn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselkn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselkn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselkn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselkn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselkn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -330,22 +288,12 @@ Bessel polynomials `y_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselPoly(4, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselPoly(4, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselPoly(4, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselPoly(4, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselPoly(4, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselPoly(4, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -399,22 +347,11 @@ Reverse Bessel polynomials `\theta_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselPoly(4, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselPoly(4, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselPoly(4, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselPoly(4, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselPoly(4, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselPoly(4, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

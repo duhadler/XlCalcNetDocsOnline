@@ -34,22 +34,12 @@ Lemniscate sine function, `\mathrm{sinlemn}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SinLemniscate(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SinLemniscate(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SinLemniscate(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SinLemniscate(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SinLemniscate(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SinLemniscate(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -70,22 +60,12 @@ Lemniscate cosine function, `\mathrm{coslemn}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CosLemniscate(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CosLemniscate(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CosLemniscate(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CosLemniscate(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CosLemniscate(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CosLemniscate(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -107,22 +87,12 @@ Inverse lemniscate cosine function, `\mathrm{arcsl}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AcosLemniscate(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AcosLemniscate(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AcosLemniscate(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AcosLemniscate(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AcosLemniscate(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AcosLemniscate(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -144,22 +114,12 @@ Inverse lemniscate sine function, `\mathrm{arccl}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.AsinLemniscate(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.AsinLemniscate(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.AsinLemniscate(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.AsinLemniscate(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.AsinLemniscate(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.AsinLemniscate(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

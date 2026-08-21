@@ -45,35 +45,13 @@ Root Finding Without Derivatives (TOM 748 algorithm)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: x * x * x - 28
         >>> guess = 2.33;  factor = 2.0; is_rising = True; get_digits = 64;  maxit = 20
-        >>> res = xreal.BracketRoot(f, guess, factor, is_rising, get_digits, maxit)
+        >>> res = ereal.BracketRoot(f, guess, factor, is_rising, get_digits, maxit)
         >>> print("res (x0, error, iter): ", res)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F10 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = x*x*x - 27
-            'Console.WriteLine("In F1: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoBracketRoot() 
-            Console.WriteLine("BracketRoot")
-            Dim guess = 2.33
-            Dim factor = 2.0
-            Dim is_rising = True
-            Dim get_digits = 150
-            Dim maxit = 14
-            Dim res1  = xreal.BracketRoot(AddressOf F10, guess, factor, is_rising, get_digits, maxit)
-            Console.WriteLine("res1 (x0, error, iter): {0}", res1)
-        End Sub
 
 
 
@@ -120,44 +98,14 @@ Root Finding With Derivatives: Newton-Raphson
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: x * x * x - 28
         >>> df1 = lambda x: 3 * x * x
         >>> guess = 2.33; xmin = 1.0; xmax = 4.0; get_digits = 64;  maxit = 20
-        >>> result3 = xreal.NewtonRaphson(f, df1, guess, xmin, xmax, get_digits, maxit)
+        >>> result3 = ereal.NewtonRaphson(f, df1, guess, xmin, xmax, get_digits, maxit)
         >>> print("res2 (x0, iter): ", result3)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F10 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = x*x*x - 27
-            'Console.WriteLine("In F1: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Function DF10 (ByVal x As xreal) As xreal
-            Dim df1x As New xreal
-            df1x = 3*x*x
-            'Console.WriteLine("In DF1: x: {0}, df1(x): {1}", x, df1x)
-            Return df1x
-        End Function
-
-        Sub DemoNewtonRaphson() 
-            Console.WriteLine("Newton-Raphson")
-            Dim guess = 2.33
-            Dim xmin = 1.0
-            Dim xmax = 4.0
-            Dim get_digits = 140
-            Dim maxit = 14
-            Dim res2  = xreal.NewtonRaphson(AddressOf F10, AddressOf DF10, guess, xmin, xmax, get_digits, maxit)
-            Console.WriteLine("res2 (x0, iter): {0}", res2)
-            Console.WriteLine()
-        End Sub
 
 
     .. code-block:: none
@@ -203,53 +151,14 @@ Root Finding With Derivatives: Halley
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: x * x * x - 28
         >>> df1 = lambda x: 3 * x * x
         >>> df2 = lambda x: 6 * x
         >>> guess = 2.33; xmin = 1.0; xmax = 4.0; get_digits = 64;  maxit = 20
-        >>> res = xreal.Halley(f, df1, df2, guess, xmin, xmax, get_digits, maxit)
+        >>> res = ereal.Halley(f, df1, df2, guess, xmin, xmax, get_digits, maxit)
         >>> print("res (x0, iter): ", res)
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F10 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = x*x*x - 27
-            'Console.WriteLine("In F1: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Function DF10 (ByVal x As xreal) As xreal
-            Dim df1x As New xreal
-            df1x = 3*x*x
-            'Console.WriteLine("In DF1: x: {0}, df1(x): {1}", x, df1x)
-            Return df1x
-        End Function
-
-        Function D2F10 (ByVal x As xreal) As xreal
-            Dim df2x As New xreal
-            df2x = 6*x
-            'Console.WriteLine("In DF2: x: {0}, df2(x): {1}", x, df2x)
-            Return df2x
-        End Function
-
-        Sub DemoHalley() 
-            Console.WriteLine("Halley")
-            Dim guess = 2.33
-            Dim xmin = 1.0
-            Dim xmax = 4.0
-            Dim get_digits = 140
-            Dim maxit = 14
-            Dim res3  = xreal.Halley(AddressOf F10, AddressOf DF10, AddressOf D2F10, _ 
-                guess, xmin, xmax, get_digits, maxit)
-            Console.WriteLine("res3 (x0, iter): {0}", res3)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -294,53 +203,15 @@ Root Finding With Derivatives: Schröder
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: x * x * x - 28
         >>> df1 = lambda x: 3 * x * x
         >>> df2 = lambda x: 6 * x
         >>> guess = 2.33; xmin = 1.0; xmax = 4.0; get_digits = 64;  maxit = 20
-        >>> res = xreal.Schroeder(f, df1, df2, guess, xmin, xmax, get_digits, maxit)
+        >>> res = ereal.Schroeder(f, df1, df2, guess, xmin, xmax, get_digits, maxit)
         >>> print("res (x0, iter): ", res)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F10 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = x*x*x - 27
-            'Console.WriteLine("In F1: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Function DF10 (ByVal x As xreal) As xreal
-            Dim df1x As New xreal
-            df1x = 3*x*x
-            'Console.WriteLine("In DF1: x: {0}, df1(x): {1}", x, df1x)
-            Return df1x
-        End Function
-
-        Function D2F10 (ByVal x As xreal) As xreal
-            Dim df2x As New xreal
-            df2x = 6*x
-            'Console.WriteLine("In DF2: x: {0}, df2(x): {1}", x, df2x)
-            Return df2x
-        End Function
-
-        Sub DemoSchroeder() 
-            Console.WriteLine("Schroeder")
-            Dim guess = 2.33
-            Dim xmin = 1.0
-            Dim xmax = 4.0
-            Dim get_digits = 140
-            Dim maxit = 14
-            Dim res4  = xreal.Schroder(AddressOf F10, AddressOf DF10, AddressOf D2F10, _ 
-                guess, xmin, xmax, get_digits, maxit)
-            Console.WriteLine("res4 (x0, iter): {0}", res4)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -384,35 +255,12 @@ Locating Function Minima using Brent's algorithm
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> f = lambda x: (x + 3) * (x - 1) * (x - 1)
         >>> bracket_min = 0.5; bracket_max = 1.5;  bits = 125;  maxit = 20
-        >>> res = xreal.Brent_Minimum(f, bracket_min, bracket_max, bits, maxit)
+        >>> res = ereal.Brent_Minimum(f, bracket_min, bracket_max, bits, maxit)
         >>> print("res5 (x0, fx0, iter): ", result3)
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function F12 (ByVal x As xreal) As xreal
-            Dim fx As New xreal
-            fx = (x + 3) * (x - 1) * (x - 1)
-            'Console.WriteLine("In F2: x: {0}, f(x): {1}", x, fx)
-            Return fx
-        End Function
-
-        Sub DemoBrentMinimum() 
-            Console.WriteLine("Brent_Minimum")
-            Dim bracket_min = 0.5
-            Dim bracket_max = 1.5
-            Dim bits As Int32 = 125
-            Dim maxit = 14
-            Dim res5 = xreal.Brent_Minimum(AddressOf F12, bracket_min, bracket_max, bits, maxit)
-            Console.WriteLine("res5 (x0, fx0, iter): {0}", res5)
-            Console.WriteLine()
-        End Sub
 
 
 

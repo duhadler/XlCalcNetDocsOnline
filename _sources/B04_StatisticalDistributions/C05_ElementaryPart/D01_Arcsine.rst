@@ -41,7 +41,7 @@ See also  Wikipedia :cite:p:`WikipediaDis10`,  BoostMath :cite:p:`BoostDis10`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ArcsinePdf(x, a, b): ", ArcsinePdf(x, a, b))
         >>> print ("dist_arcsine(a, b).pdf(x): ", dist_arcsine(a, b).pdf(x))
@@ -65,7 +65,7 @@ See also  Wikipedia :cite:p:`WikipediaDis10`,  BoostMath :cite:p:`BoostDis10`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ArcsineCdf(x, a, b): ", ArcsineCdf(x, a, b))
         >>> print ("dist_arcsine(a, b).cdf(x): ", dist_arcsine(a, b).cdf(x))
@@ -89,7 +89,7 @@ See also  Wikipedia :cite:p:`WikipediaDis10`,  BoostMath :cite:p:`BoostDis10`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("ArcsineQtf(q, a, b): ", ArcsineQtf(q, a, b))
         >>> print ("dist_arcsine(a, b).qtf(q): ", dist_arcsine(a, b).qtf(q))

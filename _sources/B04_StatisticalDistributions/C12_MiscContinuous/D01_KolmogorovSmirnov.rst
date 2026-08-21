@@ -45,7 +45,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BetaPdf(x, a, b): ", BetaPdf(x, a, b))
         >>> print ("dist_beta(a, b).pdf(x): ", dist_beta(a, b).pdf(x))
@@ -70,7 +70,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BetaCdf(x, a, b): ", BetaCdf(x, a, b))
         >>> print ("dist_beta(a, b).cdf(x): ", dist_beta(a, b).cdf(x))
@@ -97,7 +97,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("BetaQtf(q, a, b): ", BetaQtf(q, a, b))
         >>> print ("dist_beta(a, b).qtf(q): ", dist_beta(a, b).qtf(q))
@@ -114,7 +114,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import SReal, FReal, XReal, QReal, CReal, OReal
+        >>> from xlcalcnet import SReal, FReal, ereal, QReal, CReal, OReal
         >>> a = 0; b = 1; 
         >>> Ctx = SReal
         >>> dist_beta = Ctx.dist_beta(a, b)
@@ -180,7 +180,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -196,7 +196,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -213,7 +213,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -231,7 +231,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -247,7 +247,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -263,7 +263,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -280,7 +280,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -297,7 +297,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -314,7 +314,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -331,7 +331,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -348,7 +348,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -365,7 +365,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -382,7 +382,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))
@@ -399,7 +399,7 @@ See also  Wikipedia :cite:p:`WikipediaDis08`, MathWorld :cite:p:`WolframDis08`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> mp.dps = 30
         >>> mu = 0; sigma = 1; t = 0.3; 
         >>> print ("c_x: ", chi_squared(mu, sigma).c_x(t))

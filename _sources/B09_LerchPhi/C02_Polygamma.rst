@@ -48,26 +48,20 @@ Polygamma function, `\psi^{(n)}(x)`
     
 
 
-|03a_TestPolygammaFlint_re| `\quad` |03b_TestPolygammaFlint_im| `\quad` |03c_TestPolygammaFlint_abs|
+    |03a_TestPolygammaFlint_re| `\quad` |03b_TestPolygammaFlint_im| `\quad` |03c_TestPolygammaFlint_abs|
 
-.. |03a_TestPolygammaFlint_re| image:: ../_static/ExplicitSurfaces/CplxLerch/03a_TestPolygammaFlint_re.3D.xml.jpg
-   :width: 30 %
+    .. |03a_TestPolygammaFlint_re| image:: ../_static/ExplicitSurfaces/CplxLerch/03a_TestPolygammaFlint_re.3D.xml.jpg
+       :width: 30 %
 
-.. |03b_TestPolygammaFlint_im| image:: ../_static/ExplicitSurfaces/CplxLerch/03b_TestPolygammaFlint_im.3D.xml.jpg
-   :width: 30 %
+    .. |03b_TestPolygammaFlint_im| image:: ../_static/ExplicitSurfaces/CplxLerch/03b_TestPolygammaFlint_im.3D.xml.jpg
+       :width: 30 %
 
-.. |03c_TestPolygammaFlint_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/03c_TestPolygammaFlint_abs.3D.xml.jpg
-   :width: 30 %
+    .. |03c_TestPolygammaFlint_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/03c_TestPolygammaFlint_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Polygamma function, `\psi^{(n)}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Polygamma function, `\psi^{(n)}(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Polygamma function, `\psi^{(n)}(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -84,22 +78,13 @@ Polygamma function, `\psi^{(n)}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.PolyGamma(6, 7.1)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.PolyGamma(12, '4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.PolyGamma(6, 7.1)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.PolyGamma(12, '4.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.PolyGamma(6, 7.1)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.PolyGamma(12, '4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -159,22 +144,13 @@ TriGamma function, `\psi'(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TriGamma(7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TriGamma('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TriGamma(7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TriGamma('4.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TriGamma(7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TriGamma('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -244,26 +220,20 @@ DiGamma function `\psi(x)`
 
 
 
-|04a_TestDigamma_re| `\quad` |04b_TestDigamma_im| `\quad` |04c_TestDigamma_abs|
+    |04a_TestDigamma_re| `\quad` |04b_TestDigamma_im| `\quad` |04c_TestDigamma_abs|
 
-.. |04a_TestDigamma_re| image:: ../_static/ExplicitSurfaces/CplxLerch/04a_TestDigamma_re.3D.xml.jpg
-   :width: 30 %
+    .. |04a_TestDigamma_re| image:: ../_static/ExplicitSurfaces/CplxLerch/04a_TestDigamma_re.3D.xml.jpg
+       :width: 30 %
 
-.. |04b_TestDigamma_im| image:: ../_static/ExplicitSurfaces/CplxLerch/04b_TestDigamma_im.3D.xml.jpg
-   :width: 30 %
+    .. |04b_TestDigamma_im| image:: ../_static/ExplicitSurfaces/CplxLerch/04b_TestDigamma_im.3D.xml.jpg
+       :width: 30 %
 
-.. |04c_TestDigamma_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/04c_TestDigamma_abs.3D.xml.jpg
-   :width: 30 %
+    .. |04c_TestDigamma_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/04c_TestDigamma_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Digamma (or psi) function `\psi(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Digamma (or psi) function `\psi(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Digamma (or psi) function `\psi(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -274,22 +244,12 @@ DiGamma function `\psi(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Psi(7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Psi('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Psi(7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Psi('4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Psi(7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Psi('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -356,22 +316,12 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.Harmonic(10.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.Harmonic('10.1')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Harmonic(10.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Harmonic('10.1')
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.Harmonic(10.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.Harmonic('10.1')
-    Gpr('5.3518479027559984754E-1')
 
 
 

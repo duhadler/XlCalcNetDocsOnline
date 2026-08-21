@@ -53,7 +53,7 @@
     <link rel="prev" title="Hypergeometric function \(\,_1F_1\) and related" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -946,23 +946,13 @@ document.write(`
 <p>Here <span class="math notranslate nohighlight">\(a, b\)</span> and <span class="math notranslate nohighlight">\(x\)</span> are, in general, complex numbers. However, if <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, then <span class="math notranslate nohighlight">\(a,b \in \mathbb{R}\)</span> and <span class="math notranslate nohighlight">\(x \in \mathbb{R}\)</span> is exspected. If <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">cmath53</span></code>, then <span class="math notranslate nohighlight">\(a, b \in \mathbb{R}\)</span> and <span class="math notranslate nohighlight">\(x \in \mathbb{C}\)</span> is exspected.  If <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code> then <span class="math notranslate nohighlight">\(a, b, x \in \mathbb{C}\)</span> is accepted.</p>
 <p>The function is defined as <span class="math notranslate nohighlight">\(\displaystyle {}_1F_1(a,b;x) = \sum_{k=0}^\infty\frac{(a)_k}{(b)_k} \frac{z^k}{k!}\)</span>.</p>
 <p><a class="reference internal" href="../_images/01a_TestHypergeom1F1_re.3D.xml.jpg"><img alt="01a_TestHypergeom1F1_re" src="../_images/01a_TestHypergeom1F1_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/01b_TestHypergeom1F1_im.3D.xml.jpg"><img alt="01b_TestHypergeom1F1_im" src="../_images/01b_TestHypergeom1F1_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/01c_TestHypergeom1F1_abs.3D.xml.jpg"><img alt="01c_TestHypergeom1F1_abs" src="../_images/01c_TestHypergeom1F1_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of Kummer’s Confluent Hypergeometric Function <span class="math notranslate nohighlight">\({}_1F_1(a,b;x)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of Kummer’s Confluent Hypergeometric Function <span class="math notranslate nohighlight">\({}_1F_1(a,b;x)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of Kummer’s Confluent Hypergeometric Function <span class="math notranslate nohighlight">\({}_1F_1(a,b;x)\)</span>, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Hyperg1F1</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1006,19 +996,11 @@ document.write(`
 <p>We have <span class="math notranslate nohighlight">\(\displaystyle {}_1\widetilde{F}_1(a,b;z)  = \frac{1}{\Gamma(b)} {}_1F_1(a;b;z) = \mathbf{M}(a,b;x) = \frac{1}{\Gamma(b)} M(a;b;z)\)</span>, for <span class="math notranslate nohighlight">\(b \ne 0, -1, -2, \cdots\)</span>.</p>
 <p>If <span class="math notranslate nohighlight">\(b = 0, -1, -2, \cdots = -n\)</span>, the corresponding limit <span class="math notranslate nohighlight">\(\displaystyle {}_1\widetilde{F}_1(a,b;x)  =  \frac{(a)_{n+1}}{(n+1)!} x^{n+1} {}_1F_1(a+n+1,n+2;x)\)</span> is calculated.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Hyperg1F1r</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1063,23 +1045,13 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[U(a,b;x) = \frac{\Gamma(1-b)}{\Gamma(1+a-b)} M(a,b;c;z) + \frac{\Gamma(1-b)}{\Gamma(a)} x^{1-b} M(1+a-b,2-b;x)\]</div>
 <p><a class="reference internal" href="../_images/02a_TestHypergeomU_re.3D.xml.jpg"><img alt="02a_TestHypergeomU_re" src="../_images/02a_TestHypergeomU_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/02b_TestHypergeomU_im.3D.xml.jpg"><img alt="02b_TestHypergeomU_im" src="../_images/02b_TestHypergeomU_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/02c_TestHypergeomU_abs.3D.xml.jpg"><img alt="02c_TestHypergeomU_abs" src="../_images/02c_TestHypergeomU_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of Tricomi’s Confluent Hypergeometric Function, <span class="math notranslate nohighlight">\(U(a,b;x)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of Tricomi’s Confluent Hypergeometric Function, <span class="math notranslate nohighlight">\(U(a,b;x)\)</span>. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of Tricomi’s Confluent Hypergeometric Function, <span class="math notranslate nohighlight">\(U(a,b;x)\)</span>, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mf">5.1</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mf">15.2</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mf">5.1</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mf">15.2</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mf">5.1</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HypergU</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mf">15.2</span><span class="p">,</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1129,19 +1101,11 @@ document.write(`
  nL^{(a)}_n (x)&amp; = &amp; (2n+a-1-x) L^{(a)}_{n-1}(x) - (n+a-1)  L^{(a)}_{n-2}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id26">[<a class="reference internal" href="../99BackMatter/index.html#id1114" title="Wikipedia. Laguerre polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Laguerre_polynomials.">1419</a>]</span>, MathWorld <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id1576" title="E. W. Weisstein. Laguerre Polynomial. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/LaguerrePolynomial.html.">1000</a>]</span>, NIST <span id="id28">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>,  BoostMath <span id="id29">[<a class="reference internal" href="../99BackMatter/index.html#id371" title="P. A. Bristow and H. Holin. Laguerre (and Associated) Polynomials. Boost Math Toolkit Library, 2017. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_poly/laguerre.html.">130</a>]</span>, <span id="id30">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.10) and  (3.7.12), Flint <span id="id31">[<a class="reference internal" href="../99BackMatter/index.html#id593" title="The FLINT Team. Arb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#orthogonal-polynomials-and-functions.">825</a>]</span>, Flint <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id594" title="The FLINT Team. Acb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#orthogonal-polynomials-and-functions.">821</a>]</span>, Mpmath <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id713" title="The Mpmath Development Team. Laguerre Polynomial. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2012. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/orthogonal.html#laguerre-polynomials.">665</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Laguerre</span><span class="p">(</span><span class="s1">&#39;6, 2, 0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1164,19 +1128,11 @@ document.write(`
  H_1 (x) &amp; = &amp; 2x \nonumber \\
  H_n (x)&amp; = &amp; 2x H_{n-1}(x) - 2(n-1)  H_{n-2}(x).  \nonumber
 \end{eqnarray}</div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HermiteH</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1197,19 +1153,11 @@ document.write(`
  \operatorname{He}_n (x)&amp; = &amp; x \operatorname{He}_{n-1}(x) - (n-1)  \operatorname{He}_{n-2}(x).  \nonumber
 \end{eqnarray}</div><p>See also  Wikipedia <span id="id43">[<a class="reference internal" href="../99BackMatter/index.html#id1115" title="Wikipedia. Hermite polynomials. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Hermite_polynomials.">1413</a>]</span>, MathWorld <span id="id44">[<a class="reference internal" href="../99BackMatter/index.html#id1577" title="E. W. Weisstein. Hermite Polynomial. From MathWorld - A Wolfram Web Resource, 2010. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/HermitePolynomial.html.">997</a>]</span>, NIST <span id="id45">[<a class="reference internal" href="../99BackMatter/index.html#id476" title="T.H. Koornwinder, R. S. C. Wong, R. Koekoek, and R. Swarttouw. Orthogonal Polynomials. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/18.3.">419</a>]</span>,  BoostMath <span id="id46">[<a class="reference internal" href="../99BackMatter/index.html#id372" title="P. A. Bristow and H. Holin. Hermite Polynomials. Boost Math Toolkit Library, 2017. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_poly/hermite.html.">127</a>]</span>, <span id="id47">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.7.8), Flint <span id="id48">[<a class="reference internal" href="../99BackMatter/index.html#id593" title="The FLINT Team. Arb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#orthogonal-polynomials-and-functions.">825</a>]</span>, Flint <span id="id49">[<a class="reference internal" href="../99BackMatter/index.html#id594" title="The FLINT Team. Acb: Orthogonal polynomials and functions. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#orthogonal-polynomials-and-functions.">821</a>]</span>, Mpmath <span id="id50">[<a class="reference internal" href="../99BackMatter/index.html#id714" title="The Mpmath Development Team. Hermite Polynomial. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2012. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/orthogonal.html#hermite.">662</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HermiteHe</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mf">0.51</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1319,7 +1267,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

@@ -51,14 +51,15 @@ Jacobi theta function `\theta_1(z, q)`
 
 
 
-|JacobiTheta1|
+    |JacobiTheta1|
 
-.. |JacobiTheta1| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta1.3D.xml.jpg
-   :width: 30 %
+    .. |JacobiTheta1| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta1.3D.xml.jpg
+       :width: 30 %
 
 
+   
 
-**Left figure**: real ("silver") and imaginary ("gold") part of the Jacobi theta function `\theta_1(z, q)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -71,11 +72,11 @@ Jacobi theta function `\theta_1(z, q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta(1, 0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta(2, 0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta(1, 0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta(2, 0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -129,14 +130,15 @@ Jacobi theta function `\theta_2(z, q)`
 
 
 
-|JacobiTheta2|
+    |JacobiTheta2|
 
-.. |JacobiTheta2| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta2.3D.xml.jpg
-   :width: 30 %
+    .. |JacobiTheta2| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta2.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real ("silver") and imaginary ("gold") part of the Jacobi theta function `\theta_2(z, q)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -149,11 +151,11 @@ Jacobi theta function `\theta_2(z, q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta(1, 0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta(2, 0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta(1, 0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta(2, 0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
     An example with real input for `\theta_2(z,q)`:
@@ -211,14 +213,16 @@ Jacobi theta function `\theta_3(z, q)`
 
 
 
-|JacobiTheta3|
+    |JacobiTheta3|
 
-.. |JacobiTheta3| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta3.3D.xml.jpg
-   :width: 30 %
+    .. |JacobiTheta3| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta3.3D.xml.jpg
+       :width: 30 %
 
 
+   
 
-**Left figure**: real ("silver") and imaginary ("gold") part of the Jacobi theta function `\theta_3(z, q)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
+
 
 
 
@@ -231,11 +235,11 @@ Jacobi theta function `\theta_3(z, q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta(1, 0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta(2, 0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta(1, 0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta(2, 0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -293,14 +297,14 @@ Jacobi theta function `\theta_4(z, q)`
 
 
 
-|JacobiTheta4|
+    |JacobiTheta4|
 
-.. |JacobiTheta4| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta4.3D.xml.jpg
-   :width: 30 %
+    .. |JacobiTheta4| image:: ../_static/ExplicitSurfaces/RealFunctions/JacobiTheta4.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real ("silver") and imaginary ("gold") part of the Jacobi theta function `\theta_4(z, q)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -313,11 +317,11 @@ Jacobi theta function `\theta_4(z, q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta(1, 0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta(2, 0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta(1, 0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta(2, 0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

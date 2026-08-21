@@ -36,22 +36,12 @@ Struve function `\mathbf{H}_0(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveH0(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveH0('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveH0(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveH0('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveH0(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveH0('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -73,22 +63,12 @@ Struve function `\mathbf{H}_1(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveH1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveH1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveH1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveH1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveH1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveH1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -108,22 +88,11 @@ Struve function `\mathbf{L}_0(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveL0(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveL0('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveL0(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveL0('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveL0(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveL0('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -145,22 +114,11 @@ Struve function `\mathbf{L}_1(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveL1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveL1('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveL1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveL1('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveL1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveL1('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

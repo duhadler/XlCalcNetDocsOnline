@@ -48,22 +48,12 @@ Polylogarithm of integer order, `\mathrm{Li}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Polylog(2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Polylog(2, '0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Polylog(2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Polylog(2, '0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Polylog(2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Polylog(2, '0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -102,22 +92,12 @@ Fermi-Dirac integrals of integer order, `F_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDirac(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDirac(2,'51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDirac(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDirac(2,'51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDirac(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDirac(2,'51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -136,22 +116,12 @@ Fermi-Dirac integral `F_{-1/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDiracm05(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDiracm05('5.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDiracm05(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDiracm05('5.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDiracm05(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDiracm05('5.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -170,22 +140,12 @@ Fermi-Dirac integral `F_{1/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDiracp05(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDiracp05('5.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDiracp05(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDiracp05('5.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDiracp05(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDiracp05('5.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -205,22 +165,12 @@ Fermi-Dirac integral `F_{3/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDiracp15(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDiracp15('5.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDiracp15(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDiracp15('5.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDiracp15(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDiracp15('5.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -239,22 +189,12 @@ Fermi-Dirac integral `F_{5/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FermiDiracp25(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FermiDiracp25('5.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FermiDiracp25(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FermiDiracp25('5.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FermiDiracp25(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FermiDiracp25('5.1')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -274,22 +214,12 @@ Inverse tangent integral, `\mathrm{Ti}_2(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TangentInt2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TangentInt2('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.TangentInt2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TangentInt2('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TangentInt2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TangentInt2('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -309,22 +239,12 @@ Lobachevsky's log-cos integral, `L(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LobachevskyC(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LobachevskyC('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LobachevskyC(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LobachevskyC('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LobachevskyC(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LobachevskyC('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -343,22 +263,12 @@ Lobachevsky's log-sin integral, `\Lambda(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LobachevskyS(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LobachevskyS('0.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LobachevskyS(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LobachevskyS('0.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LobachevskyS(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LobachevskyS('0.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -420,22 +330,12 @@ Debye functions, `\mathrm{D}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Debye(1,3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Debye(2,13)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Debye(1,3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Debye(2,13)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Debye(1,3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Debye(2,13)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -459,24 +359,11 @@ Transport integral, `\mathrm{J}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.TransportJn(2,3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.TransportJn(4,13)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.TransportJn(2,3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.TransportJn(4,13)
-        Gpr('5.3518479027559984754E-1')
-
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.TransportJn(2,3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.TransportJn(4,13)
+        ereal('5.3518479027559984754E-1')
 
 
 

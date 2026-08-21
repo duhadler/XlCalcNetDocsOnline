@@ -42,7 +42,7 @@ See also  Wikipedia :cite:p:`WikipediaDis21`, MathWorld :cite:p:`WolframDis21`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ParetoPdf(x, a, b): ", ParetoPdf(x, a, b))
         >>> print ("dist_pareto(a, b).pdf(x): ", dist_pareto(a, b).pdf(x))
@@ -66,7 +66,7 @@ See also  Wikipedia :cite:p:`WikipediaDis21`, MathWorld :cite:p:`WolframDis21`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ParetoCdf(x, a, b): ", ParetoCdf(x, a, b))
         >>> print ("dist_pareto(a, b).cdf(x): ", dist_pareto(a, b).cdf(x))
@@ -90,7 +90,7 @@ See also  Wikipedia :cite:p:`WikipediaDis21`, MathWorld :cite:p:`WolframDis21`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("ParetoQtf(q, a, b): ", ParetoQtf(q, a, b))
         >>> print ("dist_pareto(a, b).qtf(q): ", dist_pareto(a, b).qtf(q))

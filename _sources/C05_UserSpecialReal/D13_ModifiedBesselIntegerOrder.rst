@@ -32,22 +32,12 @@ Modified Bessel function of the 1st kind, order `0, I_{0}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselI0(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselI0('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselI0(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselI0('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselI0(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselI0('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -66,22 +56,12 @@ Modified Bessel function of the 1st kind, order `1, I_{1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselI1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselI1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselI1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselI1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselI1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselI1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -102,22 +82,12 @@ Modified Bessel function of the 1st kind, integer order `n, I_{n}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselIn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselIn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselIn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselIn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselIn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselIn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -136,22 +106,12 @@ Modified Bessel function of the 2nd kind, order 0, `K_{0}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselK0(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselK0('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselK0(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselK0('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselK0(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselK0('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -170,22 +130,12 @@ Modified Bessel function of the 2nd kind, order `1, K_{1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselK1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselK1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselK1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselK1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselK1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselK1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -212,22 +162,12 @@ Modified Bessel function of the 2nd kind, integer order `n, K_{n}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselKn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselKn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselKn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselKn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselKn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselKn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -245,22 +185,12 @@ Exponentially scaled modified Bessel function of the 1st kind, order `0, I_{0,e}
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselI0e(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselI0e('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselI0e(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselI0e('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselI0e(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselI0e('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -278,22 +208,12 @@ Exponentially scaled modified Bessel function of the 1st kind, order `1, I_{1,e}
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselI1e(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselI1e('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselI1e(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselI1e('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselI1e(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselI1e('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -311,22 +231,12 @@ Exponentially scaled modified Bessel function of the 2nd kind, order 0, `K_{0,e}
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselK0e(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselK0e('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselK0e(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselK0e('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselK0e(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselK0e('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -343,20 +253,10 @@ Exponentially scaled modified Bessel function of the 2nd kind, order `1, K_{1,e}
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselK1e(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselK1e('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselK1e(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselK1e('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselK1e(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselK1e('0.51')
-        Gpr('5.3518479027559984754E-1')
 

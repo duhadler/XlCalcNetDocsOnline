@@ -62,22 +62,11 @@ Spherical Bessel function of the first kind, `j_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesseljn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesseljn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesseljn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesseljn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesseljn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesseljn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -133,22 +122,11 @@ Spherical Bessel function of the second kind, `y_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselyn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselyn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselyn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselyn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselyn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselyn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -185,22 +163,12 @@ First derivative of the spherical Bessel function of the first kind, `j'_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesseljn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesseljn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesseljn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesseljn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesseljn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesseljn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -240,22 +208,12 @@ First derivative of the spherical Bessel function of the second kind, `y'_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SphBesselyn(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SphBesselyn(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SphBesselyn(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SphBesselyn(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SphBesselyn(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SphBesselyn(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -287,22 +245,11 @@ Boost: Zeros `a_{n, m}` of the spherical Bessel function of the first kind: `j_{
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJZero(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJZero(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJZero(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJZero(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJZero(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJZero(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -336,22 +283,12 @@ Boost: Zeros `b_{n, m}` of the spherical Bessel function of the second kind: `y_
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJZero(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJZero(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJZero(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJZero(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJZero(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJZero(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

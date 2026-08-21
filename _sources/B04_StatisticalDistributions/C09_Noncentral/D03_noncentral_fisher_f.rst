@@ -56,7 +56,7 @@ See also  Wikipedia :cite:p:`WikipediaDis02`, MathWorld :cite:p:`WolframDis02`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFNcPdf(x, a, b): ", FisherFNcPdf(x, a, b))
         >>> print ("dist_fisher_f_nc(a, b).pdf(x): ", dist_fisher_f_nc(a, b).pdf(x))
@@ -86,7 +86,7 @@ See also  Wikipedia :cite:p:`WikipediaDis02`, MathWorld :cite:p:`WolframDis02`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFNcCdf(x, a, b): ", FisherFNcCdf(x, a, b))
         >>> print ("dist_fisher_f_nc(a, b).cdf(x): ", dist_fisher_f_nc(a, b).cdf(x))
@@ -110,7 +110,7 @@ See also  Wikipedia :cite:p:`WikipediaDis02`, MathWorld :cite:p:`WolframDis02`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("FisherFNcQtf(q, a, b): ", FisherFNcQtf(q, a, b))
         >>> print ("dist_fisher_f_nc(a, b).qtf(q): ", dist_fisher_f_nc(a, b).qtf(q))

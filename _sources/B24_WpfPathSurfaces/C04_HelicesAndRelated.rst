@@ -86,9 +86,9 @@ Some text
 
 
 
-**Left figure**: Cylindrical helix. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Cylindrical helix. Perspective camera. 
 
-**Right figure**: Cylindrical helix. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Cylindrical helix. Perspective camera. 
 
 
 
@@ -145,9 +145,9 @@ Some text
 
 
 
-**Left figure**: Conical helix based on Archimedes spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Conical helix based on Archimedes spiral. Perspective camera. 
 
-**Right figure**: Conical helix based on Archimedes spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Conical helix based on Archimedes spiral. Perspective camera. 
 
 
 
@@ -198,9 +198,9 @@ Some text
 
 
 
-**Left figure**: Conical helix based on Fermat's spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Conical helix based on Fermat's spiral. Perspective camera. 
 
-**Right figure**: Conical helix based on Fermat's spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Conical helix based on Fermat's spiral. Perspective camera. 
 
 
 
@@ -250,9 +250,9 @@ Some text
 
 
 
-**Left figure**: Conical helix based on the logarithmic spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Conical helix based on the logarithmic spiral. Perspective camera. 
 
-**Right figure**: Conical helix based on the logarithmic spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Conical helix based on the logarithmic spiral. Perspective camera. 
 
 
 
@@ -302,9 +302,9 @@ Some text
 
 
 
-**Left figure**: Conical helix based on the hyperbolic spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Conical helix based on the hyperbolic spiral. Perspective camera. 
 
-**Right figure**: Conical helix based on the hyperbolic spiral. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Conical helix based on the hyperbolic spiral. Perspective camera. 
 
 
 
@@ -357,9 +357,9 @@ Some text
 
 
 
-**Left figure**: Rhumb line of the sphere. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Rhumb line of the sphere. Perspective camera. 
 
-**Right figure**: Rhumb line of the sphere. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Rhumb line of the sphere. Perspective camera. 
 
 
 
@@ -415,9 +415,9 @@ Some text
 
 
 
-**Left figure**: Clelia. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Clelia. Perspective camera. 
 
-**Right figure**: Clelia. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Clelia. Perspective camera. 
 
 
 
@@ -475,9 +475,9 @@ Some text
 
 
 
-**Left figure**: Spherical helix. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Spherical helix. Perspective camera. 
 
-**Right figure**: Spherical helix. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Spherical helix. Perspective camera. 
 
 
 
@@ -536,9 +536,9 @@ Some text
 
 
 
-**Left figure**: Satellite curve. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Satellite curve. Perspective camera. 
 
-**Right figure**: Satellite curve. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 180^\circ`.
+**Right figure**: Satellite curve. Perspective camera. 
 
 
 

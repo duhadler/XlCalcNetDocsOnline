@@ -34,22 +34,12 @@ Legendre complete elliptic integral `B(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CompEllintB(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CompEllintB(0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CompEllintB(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CompEllintB(0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CompEllintB(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CompEllintB(0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -68,22 +58,12 @@ Legendre complete elliptic integral `D(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CompEllintD(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CompEllintD(0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CompEllintD(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CompEllintD(0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CompEllintD(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CompEllintD(0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -101,22 +81,12 @@ Legendre incomplete elliptic integral `B(\phi, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllintB(0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllintB(0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllintB(0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllintB(0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllintB(0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllintB(0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -135,22 +105,12 @@ Legendre incomplete elliptic integral `D(\phi, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllintD(0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllintD(0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllintD(0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllintD(0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllintD(0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllintD(0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -171,22 +131,12 @@ Heuman's Lambda function, `\Lambda_0(\phi,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.HeumanLambda(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.HeumanLambda(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.HeumanLambda(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.HeumanLambda(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.HeumanLambda(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.HeumanLambda(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -239,22 +189,12 @@ Jacobi Zeta function, `Z(\phi,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiZeta(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiZeta(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiZeta(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiZeta(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiZeta(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiZeta(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

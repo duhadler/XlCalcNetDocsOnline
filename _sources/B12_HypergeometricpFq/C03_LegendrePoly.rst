@@ -49,22 +49,12 @@ Legendre polynomial (or function) of the first kind, `P_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LegendreP(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LegendreP(6, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LegendreP(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LegendreP(6, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LegendreP(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LegendreP(6, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -143,22 +133,13 @@ Associated Legendre function of the first kind, `P^m_l(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LegendrePlm(2, 3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LegendrePlm(2, 6, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LegendrePlm(2, 3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LegendrePlm(2, 6, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LegendrePlm(2, 3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LegendrePlm(2, 6, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -236,22 +217,13 @@ Legendre function of the second kind, `Q_l(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LegendreQ(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LegendreQ(6, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LegendreQ(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LegendreQ(6, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LegendreQ(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LegendreQ(6, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -359,22 +331,11 @@ Associated Legendre function of the second kind, `Q^m_l(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LegendrePlm(2, 3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LegendrePlm(2, 6, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LegendrePlm(2, 3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LegendrePlm(2, 6, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LegendrePlm(2, 3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LegendrePlm(2, 6, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -404,22 +365,12 @@ Spherical harmonics, `Y_n^m(\theta, \phi)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SpherHarm(2, 3, 5, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SpherHarm(2.1, 3.1, 5.1, 4.1)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SpherHarm(2, 3, 5, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SpherHarm(2.1, 3.1, 5.1, 4.1)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SpherHarm(2, 3, 5, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SpherHarm(2.1, 3.1, 5.1, 4.1)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -479,30 +430,16 @@ Toroidal harmonics `P^m_{l-1/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ToroidalPlm(0, 0, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ToroidalPlm(0, 1, 1.5)
-        xreal('5.3518479027559984754E-1')
-        >>> xreal.ToroidalPlm(1, 0, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ToroidalPlm(1, 1, 1.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ToroidalPlm(0, 0, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ToroidalPlm(0, 1, 1.5)
+        ereal('5.3518479027559984754E-1')
+        >>> ereal.ToroidalPlm(1, 0, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ToroidalPlm(1, 1, 1.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ToroidalPlm(0, 0, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ToroidalPlm(0, 1, 1.5)
-        Gpr('5.3518479027559984754E-1')
-        >>> Gpr.ToroidalPlm(1, 0, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ToroidalPlm(1, 1, 1.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -524,30 +461,16 @@ Toroidal harmonics `Q^m_{l-1/2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ToroidalQlm(0, 0, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ToroidalQlm(0, 1, 1.5)
-        xreal('5.3518479027559984754E-1')
-        >>> xreal.ToroidalQlm(1, 0, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ToroidalQlm(1, 1, 1.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ToroidalQlm(0, 0, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ToroidalQlm(0, 1, 1.5)
+        ereal('5.3518479027559984754E-1')
+        >>> ereal.ToroidalQlm(1, 0, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ToroidalQlm(1, 1, 1.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ToroidalQlm(0, 0, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ToroidalQlm(0, 1, 1.5)
-        Gpr('5.3518479027559984754E-1')
-        >>> Gpr.ToroidalQlm(1, 0, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ToroidalQlm(1, 1, 1.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 

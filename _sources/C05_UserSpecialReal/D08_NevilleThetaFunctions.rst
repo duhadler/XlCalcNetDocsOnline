@@ -34,22 +34,12 @@ Neville `\theta_s(x,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.NevilleThetaS(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.NevilleThetaS(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.NevilleThetaS(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.NevilleThetaS(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.NevilleThetaS(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.NevilleThetaS(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -70,22 +60,12 @@ Neville `\theta_c(x,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.NevilleThetaC(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.NevilleThetaC(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.NevilleThetaC(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.NevilleThetaC(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.NevilleThetaC(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.NevilleThetaC(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -106,22 +86,12 @@ Neville `\theta_d(x,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.NevilleThetaD(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.NevilleThetaD(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.NevilleThetaD(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.NevilleThetaD(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.NevilleThetaD(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.NevilleThetaD(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -142,22 +112,12 @@ Neville `\theta_n(x,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.NevilleThetaN(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.NevilleThetaN(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.NevilleThetaN(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.NevilleThetaN(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.NevilleThetaN(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.NevilleThetaN(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

@@ -43,7 +43,7 @@ See also  Wikipedia :cite:p:`WikipediaDis17`, MathWorld :cite:p:`WolframDis17`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LaplacePdf(x, a, b): ", LaplacePdf(x, a, b))
         >>> print ("dist_laplace(a, b).pdf(x): ", dist_laplace(a, b).pdf(x))
@@ -70,7 +70,7 @@ See also  Wikipedia :cite:p:`WikipediaDis17`, MathWorld :cite:p:`WolframDis17`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LaplaceCdf(x, a, b): ", LaplaceCdf(x, a, b))
         >>> print ("dist_laplace(a, b).cdf(x): ", dist_laplace(a, b).cdf(x))
@@ -98,7 +98,7 @@ See also  Wikipedia :cite:p:`WikipediaDis17`, MathWorld :cite:p:`WolframDis17`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("LaplaceQtf(q, a, b): ", LaplaceQtf(q, a, b))
         >>> print ("dist_laplace(a, b).qtf(q): ", dist_laplace(a, b).qtf(q))

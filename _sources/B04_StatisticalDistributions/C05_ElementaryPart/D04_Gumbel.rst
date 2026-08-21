@@ -43,7 +43,7 @@ See also  Wikipedia :cite:p:`WikipediaDis13`, MathWorld :cite:p:`WolframDis13`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GumbelPdf(x, a, b): ", GumbelPdf(x, a, b))
         >>> print ("dist_gumbel(a, b).pdf(x): ", dist_gumbel(a, b).pdf(x))
@@ -66,7 +66,7 @@ See also  Wikipedia :cite:p:`WikipediaDis13`, MathWorld :cite:p:`WolframDis13`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("GumbelCdf(x, a, b): ", GumbelCdf(x, a, b))
         >>> print ("dist_gumbel(a, b).cdf(x): ", dist_gumbel(a, b).cdf(x))
@@ -90,7 +90,7 @@ See also  Wikipedia :cite:p:`WikipediaDis13`, MathWorld :cite:p:`WolframDis13`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("GumbelQtf(q, a, b): ", GumbelQtf(q, a, b))
         >>> print ("dist_gumbel(a, b).qtf(q): ", dist_gumbel(a, b).qtf(q))

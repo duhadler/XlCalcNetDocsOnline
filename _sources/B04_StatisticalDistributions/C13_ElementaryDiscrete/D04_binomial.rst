@@ -47,7 +47,7 @@ See also   Wikipedia :cite:p:`WikipediaDis33`, MathWorld :cite:p:`WolframDis33`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BinomialPdf(x, a, b): ", BinomialPdf(x, a, b))
         >>> print ("dist_binomial(a, b).pdf(x): ", dist_binomial(a, b).pdf(x))
@@ -74,7 +74,7 @@ See also   Wikipedia :cite:p:`WikipediaDis33`, MathWorld :cite:p:`WolframDis33`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BinomialCdf(x, a, b): ", BinomialCdf(x, a, b))
         >>> print ("dist_binomial(a, b).cdf(x): ", dist_binomial(a, b).cdf(x))
@@ -99,7 +99,7 @@ See also   Wikipedia :cite:p:`WikipediaDis33`, MathWorld :cite:p:`WolframDis33`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("BinomialQtf(q, a, b): ", BinomialQtf(q, a, b))
         >>> print ("dist_binomial(a, b).qtf(q): ", dist_binomial(a, b).qtf(q))

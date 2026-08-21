@@ -164,7 +164,7 @@ The default version automatically selects between the lu and precond versions an
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import *
+    >>> from xlcalcnet import *
     >>> ctx = mp14.drf(); mp14.setdps(15)
     >>> A = ctx.read_from_sqlite(mp14.dbpath(), "DecTableRandomA6x6", ""); A.show("A")
 
@@ -338,7 +338,7 @@ Inverse (incl. special options for FMPQ, ARB, ACB)
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import *
+    >>> from xlcalcnet import *
     >>> ctx = mp14.drf(); mp14.setdps(15)
     >>> A = ctx.read_from_sqlite(mp14.dbpath(), "DecTableRandomA6x6", ""); A.show("A")
 
@@ -482,7 +482,7 @@ This method avoids dividing by zero, so that the non-existence of a solution doe
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import *
+    >>> from xlcalcnet import *
     >>> ctx = mp14.drf(); mp14.setdps(15)
     >>> A = ctx.read_from_sqlite(mp14.dbpath(), "DecTableRandomA6x6", ""); A.show("A")
 

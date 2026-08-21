@@ -33,22 +33,12 @@ Generalized Dawson integral, `F(p, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Dawson2(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Dawson2(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Dawson2(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Dawson2(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Dawson2(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Dawson2(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -67,22 +57,12 @@ Generalized error function, `\mathrm{erfg}(p, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfg(1.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfg(1.5, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfg(1.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfg(1.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfg(1.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfg(1.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -99,22 +79,12 @@ Expint3, `\mathrm{erfg}(3, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expint3(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expint3('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expint3(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expint3('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expint3(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expint3('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -134,22 +104,12 @@ Exponentially scaled complementary error function, `\mathrm{erfcx}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfce(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfce('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfce(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfce('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfce(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfce('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -191,22 +151,12 @@ Scaled repeated integrals of  the complementary error function, `i^n \mathrm{erf
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.InErfc(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.InErfc(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.InErfc(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.InErfc(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.InErfc(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.InErfc(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -259,22 +209,12 @@ Fresnel auxiliary function `\mathrm{f}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FresnelF(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FresnelF('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FresnelF(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FresnelF('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FresnelF(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FresnelF('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -295,22 +235,12 @@ Fresnel auxiliary function `\mathrm{g}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FresnelG(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FresnelG('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FresnelG(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FresnelG('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FresnelG(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FresnelG('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -331,22 +261,12 @@ Goodwin-Staton integral, `G(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.GoodwinStaton(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.GoodwinStaton('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.GoodwinStaton(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.GoodwinStaton('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.GoodwinStaton(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.GoodwinStaton('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

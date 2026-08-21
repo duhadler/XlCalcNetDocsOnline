@@ -42,7 +42,7 @@ See also  Wikipedia :cite:p:`WikipediaDis22`, MathWorld :cite:p:`WolframDis22`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("RayleighPdf(x, a, b): ", RayleighPdf(x, a, b))
         >>> print ("dist_rayleigh(a, b).pdf(x): ", dist_rayleigh(a, b).pdf(x))
@@ -65,7 +65,7 @@ See also  Wikipedia :cite:p:`WikipediaDis22`, MathWorld :cite:p:`WolframDis22`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("RayleighCdf(x, a, b): ", RayleighCdf(x, a, b))
         >>> print ("dist_rayleigh(a, b).cdf(x): ", dist_rayleigh(a, b).cdf(x))
@@ -89,7 +89,7 @@ See also  Wikipedia :cite:p:`WikipediaDis22`, MathWorld :cite:p:`WolframDis22`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("RayleighQtf(q, a, b): ", RayleighQtf(q, a, b))
         >>> print ("dist_rayleigh(a, b).qtf(q): ", dist_rayleigh(a, b).qtf(q))

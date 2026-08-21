@@ -53,7 +53,7 @@
     <link rel="prev" title="Boost: Geometric distribution" href="D02_geometric.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -943,7 +943,7 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\text{pmf}(x) = \frac{\mu^k}{k!} e^{-\mu}.\]</div>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;PoissonPdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">PoissonPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_poisson(a, b).pdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_poisson</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -962,7 +962,7 @@ document.write(`
 \[\text{cdf}(x) = e^{-\mu} \sum_{i=0}^k \frac{\mu^i}{i!} = Q(1+k,\mu).\]</div>
 <p>Here <span class="math notranslate nohighlight">\(Q(\cdot)\)</span> denotes the upper regularized incomplete gamma function (<a class="reference internal" href="../../B11_Hypergeometric1F1/C03_IncompleteGamma.html#rst-mpm-gamma-q"><span class="std std-ref">RealGammaQ</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;PoissonCdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">PoissonCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_poisson(a, b).cdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_poisson</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -981,7 +981,7 @@ document.write(`
 \[\text{qtf}(q) = \mathrm{gammaq\_inva}(\mu, p) - 1.\]</div>
 <p>Here <span class="math notranslate nohighlight">\(\mathrm{gammaq\_inva}(\cdot)\)</span> denotes the inverse (on parameter <span class="math notranslate nohighlight">\(a\)</span>) of the real upper normalised incomplete gamma function (<a class="reference internal" href="../../B11_Hypergeometric1F1/C03_IncompleteGamma.html#rst-mpm-real-gamma-q-inva"><span class="std std-ref">RealGammaQInva</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">q</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;PoissonQtf(q, a, b): &quot;</span><span class="p">,</span> <span class="n">PoissonQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_poisson(a, b).qtf(q): &quot;</span><span class="p">,</span> <span class="n">dist_poisson</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">qtf</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
@@ -1316,7 +1316,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

@@ -149,7 +149,7 @@ See also: https://mathworld.wolfram.com/Seashell.html
 .. |picTestApple2| image:: ../_static/ParametricSurfaces/Textures/TestApple.3D.xml.jpg
    :width: 30 %
 
-**Left figure**: parametric plot of the Apple surface. Camera angles are `\theta=135^\circ`.
+**Left figure**: parametric plot of the Apple surface. 
 
 
 
@@ -335,9 +335,6 @@ The C\# code for the Klein bottle:
 **Right figure**: Hexa torus (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`).
 
 
-Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
-
-
 
 
 
@@ -378,8 +375,7 @@ Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
 .. |picTestBreather2| image:: ../_static/ParametricSurfaces/Textures/TestBreather.3D.xml.jpg
    :width: 30 %
 
-**Left figure**: parametric plot of the Breather Surface. Camera angles are `\theta=135^\circ`.
-
+**Left figure**: parametric plot of the Breather Surface. 
 
 
 

@@ -53,7 +53,7 @@
     <link rel="prev" title="Distribution functions" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1029,27 +1029,27 @@ document.write(`
 <p>where <span class="math notranslate nohighlight">\(\displaystyle z_1 = \frac{x+a}{b}\)</span>,  <span class="math notranslate nohighlight">\(a = y \sqrt{\rho}\)</span>, and <span class="math notranslate nohighlight">\(b = \sqrt{1-\rho}\)</span>. Note that while <span class="math notranslate nohighlight">\(z_1\)</span> is a complex number for <span class="math notranslate nohighlight">\(\rho &lt; 0\)</span>, the integral always evaluates to a real number. In the context of the Dunnett t-test with reference sample size <span class="math notranslate nohighlight">\(n_0\)</span> and common comparator sample size <span class="math notranslate nohighlight">\(n_i\)</span>, <span class="math notranslate nohighlight">\(\displaystyle \rho=\frac{1}{1+n_0/n_i}\)</span>. In the context of maximum deviation from the common mean (equal sample sizes), <span class="math notranslate nohighlight">\(\displaystyle \rho=-\frac{1}{k-1}\)</span>.</p>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1087,27 +1087,26 @@ document.write(`
 <p>where <span class="math notranslate nohighlight">\(\displaystyle z_1 = \frac{x+a}{b}\)</span>,  <span class="math notranslate nohighlight">\(\displaystyle z_2 = \frac{-x+a}{b}\)</span>,  <span class="math notranslate nohighlight">\(a = y \sqrt{\rho}\)</span>, and <span class="math notranslate nohighlight">\(b = \sqrt{1-\rho}\)</span>. Note that while <span class="math notranslate nohighlight">\(z_1\)</span> and  <span class="math notranslate nohighlight">\(z_2\)</span> are complex numbers for <span class="math notranslate nohighlight">\(\rho &lt; 0\)</span>, the integral always evaluates to a real number. In the context of the Dunnett t-test with reference sample size <span class="math notranslate nohighlight">\(n_0\)</span> and common comparator sample size <span class="math notranslate nohighlight">\(n_i\)</span>, <span class="math notranslate nohighlight">\(\displaystyle \rho=\frac{1}{1+n_0/n_i}\)</span>. In the context of maximum deviation from the common mean (equal sample sizes), <span class="math notranslate nohighlight">\(\displaystyle \rho=-\frac{1}{k-1}\)</span>.</p>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NmmRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1150,31 +1149,30 @@ See also <span id="id13">Dunnett [<a class="reference internal" href="../99BackM
 \[F_n(h;\rho_{ij}) = \int_{-\infty}^\infty \prod_{i=1}^n  \left[\Phi \left(\frac{(a_i-\mu_i)/\sigma_i + \lambda_i z} {\sqrt{1-\lambda_i^2}} \right) \right] \phi(y) dz\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijPdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijCdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijCdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijCdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijCdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmaxRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmaxRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1219,31 +1217,30 @@ See also <span id="id13">Dunnett [<a class="reference internal" href="../99BackM
 </div></blockquote>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NmmRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NmmRhoijQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1285,31 +1282,30 @@ See also  Wikipedia <span id="id25">[<a class="reference internal" href="../99Ba
 \[\text{cdf}(x) = F_sr \left(m,n,x\right) =  \sum_{i=1}^k  \int_{-\infty}^\infty \phi(y_i - \mu_i) \left( \prod_{i=1, j \neq i}^k (\Phi(y_i - \mu_i) - \Phi(y_i - \mu_i -x) \right) dy_i.\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangePdfxq</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangePdfxq</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NrangePdfxq</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangePdfxq</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1348,31 +1344,30 @@ See also <span id="id28">Stoline and Ury [<a class="reference internal" href="..
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmaxQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmaxQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1411,31 +1406,30 @@ See also <span id="id31">Stoline and Ury [<a class="reference internal" href="..
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">SmmQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SmmQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1474,31 +1468,30 @@ See also <span id="id34">Dunnett [<a class="reference internal" href="../99BackM
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett1Cdf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1537,31 +1530,30 @@ See also <span id="id36">Dunnett [<a class="reference internal" href="../99BackM
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Cdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Qtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">Dunnett2Qtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Qtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Dunnett2Qtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1599,31 +1591,30 @@ See also <span id="id38">Dunnett [<a class="reference internal" href="../99BackM
 <div class="math notranslate nohighlight">
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">NairQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">NairQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1662,31 +1653,30 @@ See also <span id="id40">Dunnett [<a class="reference internal" href="../99BackM
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">HalperinQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">HalperinQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p></p>
@@ -1725,31 +1715,30 @@ See also  Wikipedia <span id="id42">[<a class="reference internal" href="../99Ba
 \[\text{sf}(x) = 1 -  \text{cdf}(x)\]</div>
 <p>There is no known explicit expression for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span> or <span class="math notranslate nohighlight">\(\text{isf}(q)\)</span>: These functions are computed with Newton iterations where the starting values are from the corresponding Boost functions (in double precision).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangePdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangeCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 
-<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XReal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XReal</span><span class="o">.</span><span class="n">StdrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
-<span class="go">XReal(&#39;5.3518479027559984754E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StdrangeQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">nu</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </section>
@@ -1917,7 +1906,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

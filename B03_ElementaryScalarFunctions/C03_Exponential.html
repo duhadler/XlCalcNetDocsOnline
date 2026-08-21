@@ -53,7 +53,7 @@
     <link rel="prev" title="Roots and quadratic, cubic, and quartic equations" href="C02_Roots.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -957,33 +957,14 @@ document.write(`
 <p>For complex numbers, the exponential function satisfies</p>
 <div class="math notranslate nohighlight">
 \[\exp(x + iy) = e^x (\cos y + i \sin y).\]</div>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/04a_TestExp_re.3D.xml.jpg"><img alt="04a_TestExp_re" src="../_images/04a_TestExp_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/04b_TestExp_im.3D.xml.jpg"><img alt="04b_TestExp_im" src="../_images/04b_TestExp_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/04c_TestExp_abs.3D.xml.jpg"><img alt="04c_TestExp_abs" src="../_images/04c_TestExp_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Exp function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Exp function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Exp function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The function is implemented as follows: <code class="docutils literal notranslate"><span class="pre">mpm.exp</span></code> and <code class="docutils literal notranslate"><span class="pre">fpm.exp</span></code> call <code class="docutils literal notranslate"><span class="pre">mp.exp</span></code> from mpmath; the functions <code class="docutils literal notranslate"><span class="pre">ipm.exp</span></code> and <code class="docutils literal notranslate"><span class="pre">dpm.exp</span></code> call <code class="docutils literal notranslate"><span class="pre">iv.exp</span></code> from mpmath; ; the functions <code class="docutils literal notranslate"><span class="pre">gpm.exp</span></code> and <code class="docutils literal notranslate"><span class="pre">apm.exp</span></code> call the matching functions from the Gmpy2 and Python-FLINT libraries;
-in single, double and extended precision, the C++ standard library is called for real and complex functions, except for <code class="docutils literal notranslate"><span class="pre">math?53</span></code>, where the damath functions are called; in fixed precision above extended, the matching Boost Multiprecision functions are called;
-<code class="docutils literal notranslate"><span class="pre">mreal.exp</span></code> calls the MPFR funcion <code class="docutils literal notranslate"><span class="pre">mpfr_exp</span></code>, and <code class="docutils literal notranslate"><span class="pre">mcplx.exp</span></code> calls the MPC funcion <code class="docutils literal notranslate"><span class="pre">mpc_exp</span></code>; <code class="docutils literal notranslate"><span class="pre">ireal.exp</span></code> calls the MPFI funcion <code class="docutils literal notranslate"><span class="pre">mpfi_exp</span></code>, and <code class="docutils literal notranslate"><span class="pre">icplx.exp</span></code> calls the MPFCI funcion <code class="docutils literal notranslate"><span class="pre">mpfci_exp</span></code>; <code class="docutils literal notranslate"><span class="pre">dreal.exp</span></code> calls the libmpdec function <code class="docutils literal notranslate"><span class="pre">mpd_exp</span></code>; otherwise the matching <code class="docutils literal notranslate"><span class="pre">ctxflint.exp</span></code> function is called.</p>
-</div>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">GprT(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">GprT(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1029,7 +1010,8 @@ in single, double and extended precision, the C++ standard library is called for
 <span class="go">mpi(&#39;1.0&#39;, &#39;2.718281828459045235360287496&#39;)</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="auxiliary-function-mathrm-expj-x-e-ix">
 <h2>Auxiliary function <span class="math notranslate nohighlight">\(\mathrm{expj}(x) = e^{ix}\)</span><a class="headerlink" href="#auxiliary-function-mathrm-expj-x-e-ix" title="Link to this heading">#</a></h2>
@@ -1040,19 +1022,11 @@ in single, double and extended precision, the C++ standard library is called for
 <p>Note: mathc53.Cis(z)</p>
 <p>Returns <span class="math notranslate nohighlight">\(e^{iz} = \cos(z) + i \sin(z)\)</span>. See also Wikipedia <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id1198" title="Wikipedia. Euler's formula. Wikimedia Foundation, 2018. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Euler%27s_formula.">1492</a>]</span>, MathWorld <span id="id9">[<a class="reference internal" href="../99BackMatter/index.html#id1706" title="E. W. Weisstein. Cis. From MathWorld - A Wolfram Web Resource, 2015. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/Cis.html.">1094</a>]</span>, Mpmath <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id818" title="The Mpmath Development Team. Exponential function expj. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2017. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#expj.">752</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Expj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>Returns <span class="math notranslate nohighlight">\(e^{iz} = \cos(z) + i \sin(z)\)</span>. See also Wikipedia <span id="id11">[<a class="reference internal" href="../99BackMatter/index.html#id1198" title="Wikipedia. Euler's formula. Wikimedia Foundation, 2018. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Euler%27s_formula.">1492</a>]</span>, MathWorld <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id1706" title="E. W. Weisstein. Cis. From MathWorld - A Wolfram Web Resource, 2015. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/Cis.html.">1094</a>]</span>.</p>
@@ -1117,19 +1091,11 @@ in single, double and extended precision, the C++ standard library is called for
 <p>Returns <span class="math notranslate nohighlight">\(e^{i \pi z} = \cos(\pi z) + i \sin(\pi z)\)</span>. See also Wikipedia <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id1198" title="Wikipedia. Euler's formula. Wikimedia Foundation, 2018. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Euler%27s_formula.">1492</a>]</span>, MathWorld <span id="id14">[<a class="reference internal" href="../99BackMatter/index.html#id1706" title="E. W. Weisstein. Cis. From MathWorld - A Wolfram Web Resource, 2015. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/Cis.html.">1094</a>]</span>, Flint <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id567" title="The FLINT Team. Acb: Exponentials and logarithms. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb.html#exponentials-and-logarithms.">794</a>]</span>, Mpmath <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id819" title="The Mpmath Development Team. Exponential function expjpi. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2017. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#expjpi.">753</a>]</span>.</p>
 <p>Evaluation is accurate near zeros (see also <a class="reference internal" href="C07_TrigonometricPi.html#rst-xreal-cospi"><span class="std std-ref">cospi()</span></a> and <a class="reference internal" href="C07_TrigonometricPi.html#rst-xreal-sinpi"><span class="std std-ref">sinpi()</span></a>):</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Expjpi</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input (the output is always complex):</p>
@@ -1179,19 +1145,11 @@ in single, double and extended precision, the C++ standard library is called for
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(\mathrm{exp10}(x) = 10^z = \exp(x \cdot \log(10))\)</span>, the  base-10 exponential function of <span class="math notranslate nohighlight">\(z\)</span>. See also Wikipedia <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id1050" title="Wikipedia. Power of 10. Wikimedia Foundation, 2011. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Power_of_10.">1348</a>]</span>, MathWorld <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id1490" title="E. W. Weisstein. Exponential Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ExponentialFunction.html.">919</a>]</span>, NIST <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id454" title="F.W.J. Roy, R.; Olver. The Exponential Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.2#iii.">515</a>]</span>, <span id="id20">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (4.2.36), Mpmath <span id="id21">[<a class="reference internal" href="../99BackMatter/index.html#id630" title="The Mpmath Development Team. Logarithm.function, base 10. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2008. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#log10.">579</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp10</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1241,19 +1199,11 @@ in single, double and extended precision, the C++ standard library is called for
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(\mathrm{exp2}(x) = 2^x = \exp(x \cdot \log(2))\)</span>, the  base-2 exponential function of <span class="math notranslate nohighlight">\(x\)</span>. See also Wikipedia <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id1051" title="Wikipedia. Power of two. Wikimedia Foundation, 2011. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Power_of_two.">1349</a>]</span>, MathWorld <span id="id23">[<a class="reference internal" href="../99BackMatter/index.html#id1490" title="E. W. Weisstein. Exponential Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ExponentialFunction.html.">919</a>]</span>, NIST <span id="id24">[<a class="reference internal" href="../99BackMatter/index.html#id454" title="F.W.J. Roy, R.; Olver. The Exponential Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.2#iii.">515</a>]</span>,  <span id="id25">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (4.2.35).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp2</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1303,19 +1253,11 @@ in single, double and extended precision, the C++ standard library is called for
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(\mathrm{expm1}(x) = \exp(x)-1 = e^x-1\)</span>, computed accurately also for small <span class="math notranslate nohighlight">\(x\)</span>. See also Wikipedia <span id="id26">[<a class="reference internal" href="../99BackMatter/index.html#id1049" title="Wikipedia. Exponential function (expm1). Wikimedia Foundation, 2011. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Exponential_function#expm1.">1341</a>]</span>, MathWorld <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id1490" title="E. W. Weisstein. Exponential Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/ExponentialFunction.html.">919</a>]</span>, NIST <span id="id28">[<a class="reference internal" href="../99BackMatter/index.html#id454" title="F.W.J. Roy, R.; Olver. The Exponential Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.2#iii.">515</a>]</span>,  BoostMath <span id="id29">[<a class="reference internal" href="../99BackMatter/index.html#id341" title="P. A. Bristow and H. Holin. Expm1. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/powers/expm1.html.">81</a>]</span>,  <span id="id30">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (4.2.37), Flint <span id="id31">[<a class="reference internal" href="../99BackMatter/index.html#id566" title="The FLINT Team. Arb: Exponentials and logarithms. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb.html#exponentials-and-logarithms.">804</a>]</span>, Flint <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id567" title="The FLINT Team. Acb: Exponentials and logarithms. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb.html#exponentials-and-logarithms.">794</a>]</span>, Mpmath <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id628" title="The Mpmath Development Team. Exponential Function expm1. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2008. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/powers.html#expm1.">574</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Expm1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1365,19 +1307,11 @@ in single, double and extended precision, the C++ standard library is called for
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(10^x - 1 = \mathrm{expm1}(x \cdot \log(10))\)</span>. See also  <a class="reference internal" href="#rst-xreal-expm1"><span class="std std-ref">expm1()</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp10m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1427,19 +1361,11 @@ in single, double and extended precision, the C++ standard library is called for
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns <span class="math notranslate nohighlight">\(2^x - 1 = \mathrm{expm1}(x \cdot \log(2))\)</span>. See also  <a class="reference internal" href="#rst-xreal-expm1"><span class="std std-ref">expm1()</span></a>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Exp2m1</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1593,7 +1519,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

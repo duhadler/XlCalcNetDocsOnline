@@ -43,7 +43,7 @@ See also  Wikipedia :cite:p:`WikipediaDis47`, MathWorld :cite:p:`WolframDis47`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("MaxwellPdf(x, a, b): ", MaxwellPdf(x, a, b))
         >>> print ("dist_maxwell(a, b).pdf(x): ", dist_maxwell(a, b).pdf(x))
@@ -69,7 +69,7 @@ See also  Wikipedia :cite:p:`WikipediaDis47`, MathWorld :cite:p:`WolframDis47`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("MaxwellCdf(x, a, b): ", MaxwellCdf(x, a, b))
         >>> print ("dist_maxwell(a, b).cdf(x): ", dist_maxwell(a, b).cdf(x))
@@ -95,7 +95,7 @@ See also  Wikipedia :cite:p:`WikipediaDis47`, MathWorld :cite:p:`WolframDis47`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("MaxwellQtf(q, a, b): ", MaxwellQtf(q, a, b))
         >>> print ("dist_maxwell(a, b).qtf(q): ", dist_maxwell(a, b).qtf(q))

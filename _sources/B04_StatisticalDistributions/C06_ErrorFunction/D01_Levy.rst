@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis40`, :cite:t:`Ehrhardt2018` (3.9.16).
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LevyPdf(x, a, b): ", LevyPdf(x, a, b))
         >>> print ("dist_levy(a, b).pdf(x): ", dist_levy(a, b).pdf(x))
@@ -68,7 +68,7 @@ See also  Wikipedia :cite:p:`WikipediaDis40`, :cite:t:`Ehrhardt2018` (3.9.16).
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LevyCdf(x, a, b): ", LevyCdf(x, a, b))
         >>> print ("dist_levy(a, b).cdf(x): ", dist_levy(a, b).cdf(x))
@@ -92,7 +92,7 @@ See also  Wikipedia :cite:p:`WikipediaDis40`, :cite:t:`Ehrhardt2018` (3.9.16).
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("LevyQtf(q, a, b): ", LevyQtf(q, a, b))
         >>> print ("dist_levy(a, b).qtf(q): ", dist_levy(a, b).qtf(q))

@@ -53,7 +53,7 @@
     <link rel="prev" title="Noncentral distributions" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -948,7 +948,7 @@ document.write(`
 <span class="eqno">(2)<a class="headerlink" href="#equation-chi2-nc-pdf-hyper" title="Link to this equation">#</a></span>\[\text{pdf}(x) = f_{\chi^2}\left(n, x; \lambda_1\right) = f_{\chi^2}(x, n) \times e^{-\lambda_1/2}  \times  {}_0F_1 \left(-; \frac{n}{2}; \frac{x \lambda_1}{4}\right).\]</div>
 <p>Here <span class="math notranslate nohighlight">\(f_{\chi^2}(\cdot)\)</span> is the PDF of the central chi-square distribution, and <span class="math notranslate nohighlight">\({}_0F_1(\cdot)\)</span> is the  confluent hypergeometric limit function.</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Chi2NcPdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">Chi2NcPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_chi_squared_nc(a, b).pdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_chi_squared_nc</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -966,7 +966,7 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\text{cdf}(x) = F_{\chi^2}\left(n, x; \lambda\right) =  \int_{0}^{x} f_{\chi^2}\left(n, x; \lambda_1\right)  \mathrm{d}t.\]</div>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Chi2NcCdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">Chi2NcCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_chi_squared_nc(a, b).cdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_chi_squared_nc</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -983,7 +983,7 @@ document.write(`
 <p>Returns <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span>, the value of the quantile function (<a class="reference internal" href="../C02_BaseClass.html#dist-qtf"><span class="std std-ref">Qtf</span></a>) of the noncentral chi-squared distribution:</p>
 <p>There is no known closed exact form for <span class="math notranslate nohighlight">\(\text{qtf}(q)\)</span>. The default method is to call the function provided by Boost.</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">q</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Chi2NcQtf(q, a, b): &quot;</span><span class="p">,</span> <span class="n">Chi2NcQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_chi_squared_nc(a, b).qtf(q): &quot;</span><span class="p">,</span> <span class="n">dist_chi_squared_nc</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">qtf</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
@@ -1354,7 +1354,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

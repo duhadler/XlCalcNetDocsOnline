@@ -36,17 +36,17 @@ Zero, positive zero
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Zero()
-        xreal('0.0000000000000000000)
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zero()
+        ereal('0.0000000000000000000)
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Zero()
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zero()
         0.0
 
 
@@ -66,17 +66,17 @@ Negative zero
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Zero()
-        xreal('0.0000000000000000000)
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zero()
+        ereal('0.0000000000000000000)
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Zero()
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zero()
         0.0
 
 
@@ -96,17 +96,17 @@ One
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.One()
-        xreal('1.0000000000000000000')
+        >>> from xlcalcnet import ereal
+        >>> ereal.One()
+        ereal('1.0000000000000000000')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.One()
+        >>> from xlcalcnet import ereal
+        >>> ereal.One()
         1.0
 
 
@@ -129,17 +129,17 @@ Positive infinity
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.PositiveInfinity()
-        xreal('+Inf')
+        >>> from xlcalcnet import ereal
+        >>> ereal.PositiveInfinity()
+        ereal('+Inf')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.PositiveInfinity()
+        >>> from xlcalcnet import ereal
+        >>> ereal.PositiveInfinity()
         +Inf
 
 
@@ -159,17 +159,17 @@ Negative infinity
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.NegativeInfinity()
-        xreal('-Inf')
+        >>> from xlcalcnet import ereal
+        >>> ereal.NegativeInfinity()
+        ereal('-Inf')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.NegativeInfinity()
+        >>> from xlcalcnet import ereal
+        >>> ereal.NegativeInfinity()
         -Inf
 
 
@@ -191,17 +191,17 @@ NaN (Not a Number)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Nan()
-        xreal('Nan')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Nan()
+        ereal('Nan')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Nan()
+        >>> from xlcalcnet import ereal
+        >>> ereal.Nan()
         Nan
 
 

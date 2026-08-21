@@ -57,7 +57,7 @@ See also  Wikipedia :cite:p:`WikipediaDis04`,  BoostMath :cite:p:`BoostDis04`, :
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BetaNcPdf(x, a, b): ", BetaNcPdf(x, a, b))
         >>> print ("dist_beta_nc(a, b).pdf(x): ", dist_beta_nc(a, b).pdf(x))
@@ -88,7 +88,7 @@ See also  Wikipedia :cite:p:`WikipediaDis04`,  BoostMath :cite:p:`BoostDis04`, :
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("BetaNcCdf(x, a, b): ", BetaNcCdf(x, a, b))
         >>> print ("dist_beta_nc(a, b).cdf(x): ", dist_beta_nc(a, b).cdf(x))
@@ -112,7 +112,7 @@ See also  Wikipedia :cite:p:`WikipediaDis04`,  BoostMath :cite:p:`BoostDis04`, :
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("BetaNcQtf(q, a, b): ", BetaNcQtf(q, a, b))
         >>> print ("dist_beta_nc(a, b).qtf(q): ", dist_beta_nc(a, b).qtf(q))

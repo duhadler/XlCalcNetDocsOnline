@@ -93,22 +93,12 @@ Logarithm of `\Gamma(1 + x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogGamma1p(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogGamma1p('1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogGamma1p(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogGamma1p('1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogGamma1p(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogGamma1p('1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -128,22 +118,12 @@ Sign of the gamma function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SignGamma(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SignGamma('1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SignGamma(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SignGamma('1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SignGamma(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SignGamma('1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -164,22 +144,11 @@ Logarithm and sign of the gamma function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogGammaS(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogGammaS('1.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogGammaS(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogGammaS('1.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogGammaS(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogGammaS('1.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -200,22 +169,12 @@ Temme's regulated gamma function, `\Gamma^{*}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.GammaStar(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.GammaStar('1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.GammaStar(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.GammaStar('1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.GammaStar(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.GammaStar('1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -232,22 +191,12 @@ Logarithm of factorials: `\log(x!)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogFactorial(3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogFactorial('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogFactorial(3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogFactorial('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogFactorial(3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogFactorial('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -305,23 +254,11 @@ Logarithm of the binomial coefficient
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogBinomial(13, 7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogBinomial(12.6, '4.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogBinomial(13, 7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogBinomial(12.6, '4.51')
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogBinomial(13, 7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogBinomial(12.6, '4.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -344,22 +281,11 @@ Inverse of the gamma function, `\Gamma^{-1}(y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.GammaInv(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.GammaInv('1.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.GammaInv(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.GammaInv('1.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.GammaInv(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.GammaInv('1.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -383,22 +309,11 @@ Inverse of the logarithm of the gamma function, `\log\Gamma^{-1}(y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogGammaInv(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogGammaInv('1.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogGammaInv(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogGammaInv('1.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogGammaInv(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogGammaInv('1.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -422,22 +337,11 @@ Relative Pochhammer symbol, `((a)_x - 1)/x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Poch1(13, 7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Poch1(12.6, '4.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Poch1(13, 7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Poch1(12.6, '4.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Poch1(13, 7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Poch1(12.6, '4.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -507,22 +411,11 @@ Log-Beta function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogBeta(3.1, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogBeta(3.4, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogBeta(3.1, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogBeta(3.4, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogBeta(3.1, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogBeta(3.4, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

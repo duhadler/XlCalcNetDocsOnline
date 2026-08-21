@@ -48,75 +48,60 @@ See also: https://fredrikj.net/blog/2022/02/computing-the-lerch-transcendent/
 
 
 
-|01_0a_TestLerchPhiFlint_0_re| `\quad` |01_0b_TestLerchPhiFlint_0_im| `\quad` |01_0c_TestLerchPhiFlint_0_abs|
+    |01_0a_TestLerchPhiFlint_0_re| `\quad` |01_0b_TestLerchPhiFlint_0_im| `\quad` |01_0c_TestLerchPhiFlint_0_abs|
 
-.. |01_0a_TestLerchPhiFlint_0_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0a_TestLerchPhiFlint_0_re.3D.xml.jpg
-   :width: 30 %
+    .. |01_0a_TestLerchPhiFlint_0_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0a_TestLerchPhiFlint_0_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01_0b_TestLerchPhiFlint_0_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0b_TestLerchPhiFlint_0_im.3D.xml.jpg
-   :width: 30 %
+    .. |01_0b_TestLerchPhiFlint_0_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0b_TestLerchPhiFlint_0_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01_0c_TestLerchPhiFlint_0_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0c_TestLerchPhiFlint_0_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |01_0c_TestLerchPhiFlint_0_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_0c_TestLerchPhiFlint_0_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of Lerch’s phi, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-
-
-|01_1a_TestLerchPhiFlint_1_re| `\quad` |01_1b_TestLerchPhiFlint_1_im| `\quad` |01_1c_TestLerchPhiFlint_1_abs|
-
-.. |01_1a_TestLerchPhiFlint_1_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1a_TestLerchPhiFlint_1_re.3D.xml.jpg
-   :width: 30 %
-
-.. |01_1b_TestLerchPhiFlint_1_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1b_TestLerchPhiFlint_1_im.3D.xml.jpg
-   :width: 30 %
-
-.. |01_1c_TestLerchPhiFlint_1_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1c_TestLerchPhiFlint_1_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of Lerch’s phi, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
 
 
-|01_2a_TestLerchPhiFlint_2_re| `\quad` |01_2b_TestLerchPhiFlint_2_im| `\quad` |01_2c_TestLerchPhiFlint_2_abs|
+    |01_1a_TestLerchPhiFlint_1_re| `\quad` |01_1b_TestLerchPhiFlint_1_im| `\quad` |01_1c_TestLerchPhiFlint_1_abs|
 
-.. |01_2a_TestLerchPhiFlint_2_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2a_TestLerchPhiFlint_2_re.3D.xml.jpg
-   :width: 30 %
+    .. |01_1a_TestLerchPhiFlint_1_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1a_TestLerchPhiFlint_1_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01_2b_TestLerchPhiFlint_2_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2b_TestLerchPhiFlint_2_im.3D.xml.jpg
-   :width: 30 %
+    .. |01_1b_TestLerchPhiFlint_1_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1b_TestLerchPhiFlint_1_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01_2c_TestLerchPhiFlint_2_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2c_TestLerchPhiFlint_2_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |01_1c_TestLerchPhiFlint_1_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_1c_TestLerchPhiFlint_1_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of Lerch’s phi. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
+
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
-**Right figure**:  absolute value of Lerch’s phi, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+
+
+
+
+    |01_2a_TestLerchPhiFlint_2_re| `\quad` |01_2b_TestLerchPhiFlint_2_im| `\quad` |01_2c_TestLerchPhiFlint_2_abs|
+
+    .. |01_2a_TestLerchPhiFlint_2_re| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2a_TestLerchPhiFlint_2_re.3D.xml.jpg
+       :width: 30 %
+
+    .. |01_2b_TestLerchPhiFlint_2_im| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2b_TestLerchPhiFlint_2_im.3D.xml.jpg
+       :width: 30 %
+
+    .. |01_2c_TestLerchPhiFlint_2_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/01_2c_TestLerchPhiFlint_2_abs.3D.xml.jpg
+       :width: 30 %
+
+   
+
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
+
 
 
 
@@ -130,22 +115,12 @@ See also: https://fredrikj.net/blog/2022/02/computing-the-lerch-transcendent/
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LerchPhi(2,5, 0.5, 3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LerchPhi('5.1', 0.5, 3)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LerchPhi(2,5, 0.5, 3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LerchPhi('5.1', 0.5, 3)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LerchPhi(2,5, 0.5, 3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LerchPhi('5.1', 0.5, 3)
-        Gpr('5.3518479027559984754E-1')
 
 
 

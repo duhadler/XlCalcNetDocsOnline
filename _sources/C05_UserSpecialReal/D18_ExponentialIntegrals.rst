@@ -35,22 +35,12 @@ Entire cosine integral `\mathrm{Cin}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cin(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cin('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cin(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cin('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cin(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cin('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -71,22 +61,12 @@ Entire hyperbolic cosine integral `\mathrm{Cinh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cinh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cinh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cinh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cinh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cinh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cinh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -107,22 +87,12 @@ Entire exponential integral `\displaystyle \mathrm{Ein}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ein(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ein('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ein(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ein('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ein(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ein('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -143,22 +113,12 @@ Scaled exponential integral `\mathrm{e1s}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.E1s(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.E1s('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.E1s(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.E1s('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.E1s(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.E1s('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -180,22 +140,12 @@ Scaled exponential integral `\mathrm{eis}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Eis(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Eis('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Eis(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Eis('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Eis(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Eis('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -217,22 +167,12 @@ Scaled exponential integral `\mathrm{eisx2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Eisx2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Eisx2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Eisx2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Eisx2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Eisx2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Eisx2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -255,22 +195,11 @@ Inverse of the exponential integral, `\mathrm{Ei}^{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EiInv(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EiInv('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EiInv(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EiInv('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EiInv(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EiInv('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -292,22 +221,12 @@ Generalized exponential integral `E_p(p,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Gei(3.1, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Gei(3.1, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Gei(3.1, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Gei(3.1, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Gei(3.1, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Gei(3.1, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -329,22 +248,11 @@ Exponential integral `\displaystyle \beta_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Eibeta(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Eibeta(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Eibeta(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Eibeta(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Eibeta(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Eibeta(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -366,22 +274,11 @@ Inverse of the logarithmic integral, `\mathrm{li}^{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LiInv(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LiInv('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LiInv(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LiInv('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LiInv(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LiInv('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -401,23 +298,11 @@ Shifted sine integral `\mathrm{si}(x) =  \mathrm{Si}(x) - \pi/2`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ShiftedSi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ShiftedSi('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ShiftedSi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ShiftedSi('0.51')
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.ShiftedSi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ShiftedSi('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

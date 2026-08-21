@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis09`, MathWorld :cite:p:`WolframDis09`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFPdf(x, a, b): ", FisherFPdf(x, a, b))
         >>> print ("dist_fisher_f(a, b).pdf(x): ", dist_fisher_f(a, b).pdf(x))
@@ -74,7 +74,7 @@ See also  Wikipedia :cite:p:`WikipediaDis09`, MathWorld :cite:p:`WolframDis09`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("FisherFCdf(x, a, b): ", FisherFCdf(x, a, b))
         >>> print ("dist_fisher_f(a, b).cdf(x): ", dist_fisher_f(a, b).cdf(x))
@@ -100,7 +100,7 @@ See also  Wikipedia :cite:p:`WikipediaDis09`, MathWorld :cite:p:`WolframDis09`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("FisherFQtf(q, a, b): ", FisherFQtf(q, a, b))
         >>> print ("dist_fisher_f(a, b).qtf(q): ", dist_fisher_f(a, b).qtf(q))

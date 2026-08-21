@@ -53,7 +53,7 @@
     <link rel="prev" title="Boost: Gamma (Pearson Type III, Erlang) distribution" href="D03_Gamma.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -938,7 +938,7 @@ document.write(`
 <div class="math notranslate nohighlight">
 \[\text{pdf}(x) = \left(\frac{b}{x}\right)^a \frac{e^{-\frac{b}{x}}}{x\Gamma(a)}.\]</div>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;InvchisquaredPdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">InvchisquaredPdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_invchisquared(a, b).pdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_invchisquared</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -957,7 +957,7 @@ document.write(`
 \[\text{cdf}(x) = Q \left(a, -\frac{b}{x} \right).\]</div>
 <p>Here <span class="math notranslate nohighlight">\(Q(\cdot)\)</span> denotes the upper regularized incomplete gamma function (<a class="reference internal" href="../../B11_Hypergeometric1F1/C03_IncompleteGamma.html#rst-mpm-gamma-q"><span class="std std-ref">RealGammaQ</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;InvchisquaredCdf(x, a, b): &quot;</span><span class="p">,</span> <span class="n">InvchisquaredCdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_invchisquared(a, b).cdf(x): &quot;</span><span class="p">,</span> <span class="n">dist_invchisquared</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
@@ -976,7 +976,7 @@ document.write(`
 \[\text{qtf}(q) =   \frac{b}{Q^{-1}(a, q)}.\]</div>
 <p>Here <span class="math notranslate nohighlight">\(Q^{-1}(\cdot)\)</span> denotes the inverse of the upper regularized incomplete gamma function (<a class="reference internal" href="../../B11_Hypergeometric1F1/C03_IncompleteGamma.html#rst-mpm-real-gamma-q-inv"><span class="std std-ref">RealGammaQInv</span></a>).</p>
 <p>The following example shows both forms of the syntax:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span> <span class="n">q</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;InvchisquaredQtf(q, a, b): &quot;</span><span class="p">,</span> <span class="n">InvchisquaredQtf</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;dist_invchisquared(a, b).qtf(q): &quot;</span><span class="p">,</span> <span class="n">dist_invchisquared</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span><span class="o">.</span><span class="n">qtf</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
@@ -1231,7 +1231,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

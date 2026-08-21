@@ -47,7 +47,7 @@ See also: https://www.johndcook.com/blog/2009/11/24/kumaraswamy-distribution/
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("KumaraswamyPdf(x, a, b): ", KumaraswamyPdf(x, a, b))
         >>> print ("dist_kumaraswamy(a, b).pdf(x): ", dist_kumaraswamy(a, b).pdf(x))
@@ -71,7 +71,7 @@ See also: https://www.johndcook.com/blog/2009/11/24/kumaraswamy-distribution/
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("KumaraswamyCdf(x, a, b): ", KumaraswamyCdf(x, a, b))
         >>> print ("dist_kumaraswamy(a, b).cdf(x): ", dist_kumaraswamy(a, b).cdf(x))
@@ -95,7 +95,7 @@ See also: https://www.johndcook.com/blog/2009/11/24/kumaraswamy-distribution/
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("KumaraswamyQtf(q, a, b): ", KumaraswamyQtf(q, a, b))
         >>> print ("dist_kumaraswamy(a, b).qtf(q): ", dist_kumaraswamy(a, b).qtf(q))

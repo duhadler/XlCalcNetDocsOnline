@@ -36,22 +36,12 @@ Inverse Jacobi elliptic function `\mathrm{arcsn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcSN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcSN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcSN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcSN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcSN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcSN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -73,22 +63,11 @@ Inverse Jacobi elliptic function `\mathrm{arccn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcCN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcCN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcCN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcCN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcCN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcCN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -110,22 +89,12 @@ Inverse Jacobi elliptic function `\mathrm{arcdn}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcDN(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcDN(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcDN(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcDN(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcDN(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcDN(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -147,22 +116,12 @@ Inverse Jacobi elliptic function `\mathrm{arccd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcCD(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcCD(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcCD(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcCD(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcCD(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcCD(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -184,22 +143,12 @@ Inverse Jacobi elliptic function `\mathrm{arcsd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcSD(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcSD(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcSD(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcSD(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcSD(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcSD(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -221,22 +170,12 @@ Inverse Jacobi elliptic function `\mathrm{arcnd}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcND(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcND(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcND(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcND(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcND(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcND(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -256,22 +195,12 @@ Inverse Jacobi elliptic function `\mathrm{arcdc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcDC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcDC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcDC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcDC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcDC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcDC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -292,22 +221,12 @@ Inverse Jacobi elliptic function `\mathrm{arcnc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcNC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcNC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcNC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcNC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcNC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcNC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -330,22 +249,12 @@ Inverse Jacobi elliptic function `\mathrm{arcsc}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcSC(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcSC(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcSC(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcSC(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcSC(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcSC(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -368,22 +277,12 @@ Inverse Jacobi elliptic function `\mathrm{arcns}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcNS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcNS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcNS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcNS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcNS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcNS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -406,22 +305,12 @@ Inverse Jacobi elliptic function `\mathrm{arcds}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcDS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcDS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcDS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcDS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcDS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcDS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -443,22 +332,12 @@ Inverse Jacobi elliptic function `\mathrm{arccs}(x, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiArcCS(0.8, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiArcCS(0.8, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiArcCS(0.8, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiArcCS(0.8, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiArcCS(0.8, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiArcCS(0.8, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

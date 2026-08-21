@@ -53,7 +53,7 @@
     <link rel="prev" title="DAMath: Numerical Quadrature" href="C05_DAmathQuadrature.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -979,28 +979,10 @@ document.write(`
 <p>However, the trapezoidal rule has an astonishing property: If the integrand is periodic, and we integrate it over a period, then the trapezoidal rule converges faster than any power of the step size h. This can be seen by examination of the Euler-Maclaurin summation formula, which relates a definite integral to its trapezoidal sum and error terms proportional to the derivatives of the function at the endpoints and the Bernoulli numbers. If the derivatives at the endpoints are the same or vanish, then the error very nearly vanishes. Hence the trapezoidal rule is essentially optimal for periodic integrands.</p>
 <p>Other classes of integrands which are integrated efficiently by this method are the bump functions and bell-shaped integrals over the infinite interval. For details, see Trefethen’s SIAM review.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">5</span> <span class="o">-</span> <span class="mi">4</span> <span class="o">*</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">result2</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Trapezoidal</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="mi">5</span> <span class="o">-</span> <span class="mi">4</span> <span class="o">*</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Cos</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result2</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Trapezoidal</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;res: &quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F13</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">5</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">4</span><span class="o">*</span><span class="n">xreal</span><span class="p">.</span><span class="n">Cos</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F3: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoTrapezoidal</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Trapezoidal&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">PI</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Trapezoidal</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F13</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res1 (integral, error, cond.no.): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res1</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.trapezoidal(f6, a, b, tol)
@@ -1035,29 +1017,11 @@ result:  1.3639170485190606
 <p>Internally class gauss has pre-computed tables of abscissa and weights for 7, 15, 20, 25 and 30 points at up to 100-decimal digit precision. That means that using for example, gauss&lt;double, 30&gt;::integrate incurs absolutely zero set-up overhead from computing the abscissa/weight pairs. When using multiprecision types with less than 100 digits of precision, then there is a small initial one time cost, while the abscissa/weight pairs are constructed from strings.</p>
 <p>However, for types with higher precision, or numbers of points other than those given above, the abscissa/weight pairs are computed when first needed and then cached for future use, which does incur a noticeable overhead.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">;</span> <span class="n">tol</span> <span class="o">=</span> <span class="mf">1.0E-9</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">*</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">GaussLegendre</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">*</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">GaussLegendre</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;res: &quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F14</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Atan</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F4: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoGaussLegendre</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;GaussLegendre&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">GaussLegendre</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F14</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res2 (integral, cond.no.): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res2</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.gauss_legendre(f6, a, b, tol)
@@ -1096,29 +1060,11 @@ result:  14.0
 <p>Internally class gauss_kronrod has pre-computed tables of abscissa and weights for 15, 31, 41, 51 and 61 Gauss-Kronrod points at up to 100-decimal digit precision. That means that using for example, gauss_kronrod&lt;double, 31&gt;::integrate incurs absolutely zero set-up overhead from computing the abscissa/weight pairs. When using multiprecision types with less than 100 digits of precision, then there is a small initial one time cost, while the abscissa/weight pairs are constructed from strings.</p>
 <p>The Gauss-Kronrod quadrature support integrands defined on the real line and returning complex values. In this case, the template argument is the real type, and the complex type is deduced via the return type of the function.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">&#39;+inf&#39;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">GaussKronrod</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">GaussKronrod</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;result3: &quot;</span><span class="p">,</span> <span class="n">result3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F15</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F5: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoGaussKronrod</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;GaussKronrod&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">PositiveInfinity</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">GaussKronrod</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F15</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res3 (integral, error, cond.no.): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res3</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.gauss_kronrod(f6, a, b, max_depth, tol)
@@ -1153,29 +1099,11 @@ result:  14.000000000000002
 <p>The tanh-sinh quadrature routine provided by boost is a rapidly convergent numerical integration scheme for holomorphic integrands. By this we mean that the integrand is the restriction to the real line of a complex-differentiable function which is bounded on the interior of the unit disk <span class="math notranslate nohighlight">\(|z| &lt; 1\)</span>, so that it lies within the so-called Hardy space. If your integrand obeys these conditions, it can be shown that tanh-sinh integration is optimal, in the sense that it requires the fewest function evaluations for a given accuracy of any quadrature algorithm for a random element from the Hardy space.</p>
 <p>Complex integrands are supported.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.0</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">7</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">TanhSinh</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">TanhSinh</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;res: &quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F16</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F6: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoTanhSinh</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;TanhSinh&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">-</span><span class="mf">1.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">TanhSinh</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F16</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res4 (integral, error, cond.no., level): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res4</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.tanh_sinh(f6, a, b)
@@ -1207,26 +1135,10 @@ result:  14.0
 <p>See also:  BoostMath <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id295" title="P. A. Bristow and H. Holin. Double-exponential quadrature: sinh_sinh. Boost Math Toolkit Library, 2013. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/double_exponential/de_sinh_sinh.html.">47</a>]</span>, <span id="id14">Okayama <em>et al.</em> [<a class="reference internal" href="../99BackMatter/index.html#id200" title="T. Okayama, T. Matsuo, and M. Sugihara. Error estimates with explicit constants for sinc approximation, sinc quadrature and sinc indefinite integration. Numerische Mathematik, 124:361 – 394, 2013.">453</a>]</span>, <span id="id15">Okayama [<a class="reference internal" href="../99BackMatter/index.html#id202" title="Tomoaki Okayama. Explicit error bound for modified numerical iterated integration by means of sinc methods. In Revised Selected Papers of the 6th International Conference on Mathematical Aspects of Computer and Information Sciences - Volume 9582, MACIS 2015, 202–217. New York, NY, USA, 2016. Springer-Verlag New York, Inc. URL: http://dx.doi.org/10.1007/978-3-319-32859-1_17, doi:10.1007/978-3-319-32859-1_17.">454</a>]</span>.</p>
 <p>Returns the value of the integral of f over the limits of integration <span class="math notranslate nohighlight">\((-\infty, \infty)\)</span>. Complex integrands are supported.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">SinhSinh</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">res</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">SinhSinh</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;res: &quot;</span><span class="p">,</span> <span class="n">res</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F17</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F7: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoSinhSinh</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;SinhSinh&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res5</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">SinhSinh</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F17</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res5 (integral, error, cond.no., level): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res5</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.sinh_sinh(f7)
@@ -1260,26 +1172,10 @@ result:  1.7724538509055168
 <p>Returns the value of the integral of f over the limits of integration <span class="math notranslate nohighlight">\((0, \infty)\)</span>. Complex integrands are supported.</p>
 <p>See also:  BoostMath <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id296" title="P. A. Bristow and H. Holin. Double-exponential quadrature: exp_sinh. Boost Math Toolkit Library, 2013. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/double_exponential/de_exp_sinh.html.">46</a>]</span>, <span id="id17">Okayama <em>et al.</em> [<a class="reference internal" href="../99BackMatter/index.html#id200" title="T. Okayama, T. Matsuo, and M. Sugihara. Error estimates with explicit constants for sinc approximation, sinc quadrature and sinc indefinite integration. Numerische Mathematik, 124:361 – 394, 2013.">453</a>]</span>, <span id="id18">Okayama [<a class="reference internal" href="../99BackMatter/index.html#id202" title="Tomoaki Okayama. Explicit error bound for modified numerical iterated integration by means of sinc methods. In Revised Selected Papers of the 6th International Conference on Mathematical Aspects of Computer and Information Sciences - Volume 9582, MACIS 2015, 202–217. New York, NY, USA, 2016. Springer-Verlag New York, Inc. URL: http://dx.doi.org/10.1007/978-3-319-32859-1_17, doi:10.1007/978-3-319-32859-1_17.">454</a>]</span>.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">ExpSinh</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">ExpSinh</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;result3: &quot;</span><span class="p">,</span> <span class="n">result3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F18</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Exp</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F8: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoExpSinh</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;ExpSinh&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res6</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">ExpSinh</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F18</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res6 (integral, error, cond.no., level): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res6</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.exp_sinh(f8)
@@ -1306,26 +1202,10 @@ result:  0.33333333333333337
 </dl>
 <p>See also:  BoostMath <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id297" title="P. A. Bristow and H. Holin. Fourier Integrals. Boost Math Toolkit Library, 2013. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/fourier_integrals.html.">49</a>]</span>, <span id="id20">Ooura and M. [<a class="reference internal" href="../99BackMatter/index.html#id195" title="Ooura, T. and Mori. M. A robust double exponential formula for fourier-type integrals. Journal of computational and applied mathematics, 112:229–241, 1999.">473</a>]</span>, <span id="id21">Ooura [<a class="reference internal" href="../99BackMatter/index.html#id196" title="T. Ooura. A double exponential formula for the fourier transforms. Publ. RIMS, Kyoto Univ., 41:971–977, 2005. Available as https://pdfs.semanticscholar.org/16ec/a5d76fd6b3d7acaaff0b2a6e8a70caa70190.pdf.">474</a>]</span>.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Ooura_Cos</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Ooura_Cos</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;result3: &quot;</span><span class="p">,</span> <span class="n">result3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F19</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F8: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoOoura_Cos</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Ooura_Cos&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res7</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Ooura_Cos</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F19</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res7 (integral, error): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res7</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.OouraCos(f3, a, b, get_digits, maxit)
@@ -1352,26 +1232,10 @@ x0:  2.9086877250246185e-09
 </dl>
 <p>See also:  BoostMath <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id297" title="P. A. Bristow and H. Holin. Fourier Integrals. Boost Math Toolkit Library, 2013. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/fourier_integrals.html.">49</a>]</span>, <span id="id23">Ooura and M. [<a class="reference internal" href="../99BackMatter/index.html#id195" title="Ooura, T. and Mori. M. A robust double exponential formula for fourier-type integrals. Journal of computational and applied mathematics, 112:229–241, 1999.">473</a>]</span>, <span id="id24">Ooura [<a class="reference internal" href="../99BackMatter/index.html#id196" title="T. Ooura. A double exponential formula for the fourier transforms. Publ. RIMS, Kyoto Univ., 41:971–977, 2005. Available as https://pdfs.semanticscholar.org/16ec/a5d76fd6b3d7acaaff0b2a6e8a70caa70190.pdf.">474</a>]</span>.</p>
 <p>The routine in Python:</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">x</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Ooura_Sin</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result3</span> <span class="o">=</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Ooura_Sin</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;result3: &quot;</span><span class="p">,</span> <span class="n">result3</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>The same routine in Visual Basic:</p>
-<div class="highlight-vbnet notranslate"><div class="highlight"><pre><span></span><span class="k">Function</span><span class="w"> </span><span class="nf">F20</span><span class="w"> </span><span class="p">(</span><span class="k">ByVal</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span><span class="p">)</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">fx</span><span class="w"> </span><span class="ow">As</span><span class="w"> </span><span class="k">New</span><span class="w"> </span><span class="n">xreal</span>
-<span class="w">    </span><span class="n">fx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="w">    </span><span class="c">&#39;Console.WriteLine(&quot;In F8: x: {0}, f(x): {1}&quot;, x, fx)</span>
-<span class="w">    </span><span class="k">Return</span><span class="w"> </span><span class="n">fx</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Function</span>
-
-<span class="k">Sub</span><span class="w"> </span><span class="nf">DemoOoura_Sin</span><span class="p">()</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Ooura_Sin&quot;</span><span class="p">)</span>
-<span class="w">    </span><span class="k">Dim</span><span class="w"> </span><span class="n">res8</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">xreal</span><span class="p">.</span><span class="n">Ooura_Sin</span><span class="p">(</span><span class="ow">AddressOf</span><span class="w"> </span><span class="n">F20</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;res8 (integral, error): {0}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">res8</span><span class="p">)</span>
-<span class="w">    </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">()</span>
-<span class="k">End</span><span class="w"> </span><span class="k">Sub</span>
 </pre></div>
 </div>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>boost.OouraCos(f3, a, b, get_digits, maxit)
@@ -1614,7 +1478,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

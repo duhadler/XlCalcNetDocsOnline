@@ -62,22 +62,12 @@ Normalizing Gamow constant for Coulomb wave functions
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombCL(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombCL(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombCL(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombCL(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombCL(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombCL(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -133,22 +123,12 @@ Coulomb phase shift `\sigma_L(\eta)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombSL(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombSL(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombSL(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombSL(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombSL(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombSL(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -194,22 +174,12 @@ Regular Coulomb wave functions `F_l(\eta, x), F'_l(\eta, x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombFFp(3, 0.5, 2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombFFp(3, 0.5, 8.25)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombFFp(3, 0.5, 2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombFFp(3, 0.5, 8.25)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombFFp(3, 0.5, 2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombFFp(3, 0.5, 8.25)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -268,22 +238,11 @@ Regular Coulomb wave function `F_l(\eta,z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombF(3, 0.5, 2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombF(3, 0.5, 8.25)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombF(3, 0.5, 2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombF(3, 0.5, 8.25)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombF(3, 0.5, 2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombF(3, 0.5, 8.25)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -316,22 +275,12 @@ Irregular Coulomb wave functions `G_l(\eta,z), x), G'_l(\eta,z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CoulombGGp(3, 0.5, 2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CoulombGGp(3, 0.5, 8.25)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CoulombGGp(3, 0.5, 2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CoulombGGp(3, 0.5, 8.25)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CoulombGGp(3, 0.5, 2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CoulombGGp(3, 0.5, 8.25)
-        Gpr('5.3518479027559984754E-1')
 
 
 

@@ -49,22 +49,12 @@ Chebyshev polynomial (or function) of the first kind, `T_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ChebyshevT(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ChebyshevT('6, 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ChebyshevT(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ChebyshevT('6, 0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ChebyshevT(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ChebyshevT('6, 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -134,22 +124,12 @@ Chebyshev polynomial of the second kind, `U_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ChebyshevU(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ChebyshevU('6, 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ChebyshevU(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ChebyshevU('6, 0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ChebyshevU(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ChebyshevU('6, 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -227,22 +207,11 @@ Chebyshev polynomials of the third kind, `V_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ChebyshevV(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ChebyshevV('6, 0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ChebyshevV(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ChebyshevV('6, 0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ChebyshevV(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ChebyshevV('6, 0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -284,22 +253,11 @@ Chebyshev polynomials of the fourth kind, `W_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ChebyshevW(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ChebyshevW('6, 0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ChebyshevW(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ChebyshevW('6, 0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ChebyshevW(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ChebyshevW('6, 0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -352,22 +310,12 @@ Gegenbauer (ultraspherical) polynomial, `C_{n}^{\alpha}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.GegenbauerC(3, 2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.GegenbauerC('6, 2, 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.GegenbauerC(3, 2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.GegenbauerC('6, 2, 0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.GegenbauerC(3, 2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.GegenbauerC('6, 2, 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -458,22 +406,13 @@ Jacobi polynomials, `P_{n}^{(a, b)}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiP(2, 3, 2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiP('6, 2, 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiP(2, 3, 2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiP('6, 2, 0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiP(2, 3, 2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiP('6, 2, 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -537,23 +476,11 @@ Zernike radial polynomials `R_n^m(r)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ZernikeR(4, 5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ZernikeR(4, 5,'0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ZernikeR(4, 5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ZernikeR(4, 5,'0.51')
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.ZernikeR(4, 5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ZernikeR(4, 5,'0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

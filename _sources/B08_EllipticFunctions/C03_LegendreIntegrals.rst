@@ -34,26 +34,20 @@ Legendre complete elliptic integral of the first kind, `K(k)`
 
     
 
-|02a_TestEllk_re| `\quad` |02b_TestEllk_im| `\quad` |02c_TestEllk_abs|
+    |02a_TestEllk_re| `\quad` |02b_TestEllk_im| `\quad` |02c_TestEllk_abs|
 
-.. |02a_TestEllk_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/02a_TestEllk_re.3D.xml.jpg
-   :width: 30 %
+    .. |02a_TestEllk_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/02a_TestEllk_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02b_TestEllk_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/02b_TestEllk_im.3D.xml.jpg
-   :width: 30 %
+    .. |02b_TestEllk_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/02b_TestEllk_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02c_TestEllk_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/02c_TestEllk_abs.3D.xml.jpg
-   :width: 30 %
+    .. |02c_TestEllk_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/02c_TestEllk_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Legendre complete elliptic integral of the first kind, `K(k)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Legendre complete elliptic integral of the first kind, `K(k)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Legendre complete elliptic integral of the first kind, `K(k)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -65,22 +59,12 @@ Legendre complete elliptic integral of the first kind, `K(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CompEllint1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CompEllint1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CompEllint1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CompEllint1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CompEllint1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CompEllint1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -134,26 +118,20 @@ Legendre complete elliptic integral of the second kind, `E(k)`
 
     
 
-|03a_TestElle_re| `\quad` |03b_TestElle_im| `\quad` |03c_TestElle_abs|
+    |03a_TestElle_re| `\quad` |03b_TestElle_im| `\quad` |03c_TestElle_abs|
 
-.. |03a_TestElle_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/03a_TestElle_re.3D.xml.jpg
-   :width: 30 %
+    .. |03a_TestElle_re| image:: ../_static/ExplicitSurfaces/CplxElliptic/03a_TestElle_re.3D.xml.jpg
+       :width: 30 %
 
-.. |03b_TestElle_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/03b_TestElle_im.3D.xml.jpg
-   :width: 30 %
+    .. |03b_TestElle_im| image:: ../_static/ExplicitSurfaces/CplxElliptic/03b_TestElle_im.3D.xml.jpg
+       :width: 30 %
 
-.. |03c_TestElle_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/03c_TestElle_abs.3D.xml.jpg
-   :width: 30 %
+    .. |03c_TestElle_abs| image:: ../_static/ExplicitSurfaces/CplxElliptic/03c_TestElle_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Legendre complete elliptic integral of the second kind, `E(k)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Legendre complete elliptic integral of the second kind, `E(k)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Legendre complete elliptic integral of the second kind, `E(k)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -163,22 +141,12 @@ Legendre complete elliptic integral of the second kind, `E(k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CompEllint2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CompEllint2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CompEllint2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CompEllint2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CompEllint2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CompEllint2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -236,22 +204,13 @@ Legendre complete elliptic integral of the third kind, `\Pi(n; k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CompEllint3(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CompEllint3(3, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CompEllint3(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CompEllint3(3, 0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CompEllint3(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CompEllint3(3, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -312,22 +271,13 @@ Legendre incomplete elliptic integral of the first kind, `F(\phi,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ellint1(0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ellint1(0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ellint1(0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ellint1(0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ellint1(0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ellint1(0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -384,22 +334,12 @@ Legendre incomplete elliptic integral of the second kind, `E(\phi,k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ellint2(0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ellint2(0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ellint2(0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ellint2(0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ellint2(0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ellint2(0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -457,22 +397,12 @@ Legendre incomplete elliptic integral of the third kind, `\Pi(n, \phi, k)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Ellint3(0.3, 0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Ellint3(0.3, 0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Ellint3(0.3, 0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Ellint3(0.3, 0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Ellint3(0.3, 0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Ellint3(0.3, 0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 

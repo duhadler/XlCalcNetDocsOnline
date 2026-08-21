@@ -53,7 +53,7 @@
     <link rel="prev" title="Elementary scalar functions (real and complex)" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -953,19 +953,11 @@ document.write(`
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code>, <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxflint</span></code>.</p>
 <p>Returns the absolute value of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(|x|\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Abs</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -988,19 +980,11 @@ document.write(`
 <p>Note that the sign function is also defined for complex numbers,
 for which it gives the projection onto the unit circle:</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Sign</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1014,19 +998,11 @@ for which it gives the projection onto the unit circle:</p>
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code>.</p>
 <p>Returns the real part of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\Re(x)\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Real</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1040,19 +1016,11 @@ for which it gives the projection onto the unit circle:</p>
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code>.</p>
 <p>Returns the imaginary part of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\Im(x)\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Imaginary</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1068,19 +1036,11 @@ for which it gives the projection onto the unit circle:</p>
 
 <p>Computes the complex argument (phase) of <span class="math notranslate nohighlight">\(x\)</span>, defined as the signed angle between the positive real axis and <span class="math notranslate nohighlight">\(x\)</span> in the complex plane: The angle is defined to satisfy <span class="math notranslate nohighlight">\(-\pi &lt; \arg(x) \le \pi\)</span> and with the sign convention that a nonnegative imaginary part results in a nonnegative argument.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Phase</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </section>
@@ -1092,19 +1052,11 @@ for which it gives the projection onto the unit circle:</p>
 <dd><p>where <code class="docutils literal notranslate"><span class="pre">ctx</span></code> is <code class="docutils literal notranslate"><span class="pre">math53</span></code>, <code class="docutils literal notranslate"><span class="pre">mathc53</span></code> or <code class="docutils literal notranslate"><span class="pre">ctxcpp</span></code>.</p>
 <p>Returns the complex conjugate of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\overline{x}\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Conj</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1119,19 +1071,11 @@ for which it gives the projection onto the unit circle:</p>
 <p>Returns the polar representation of the complex number <span class="math notranslate nohighlight">\(z\)</span> as a pair <span class="math notranslate nohighlight">\((r, \phi)\)</span> such that <span class="math notranslate nohighlight">\(z = r e^{i \phi}\)</span>:</p>
 <p>See also  Mpmath <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id768" title="The Mpmath Development Team. Polar representation of a complex number. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2014. [Online; accessed 22-July-2024]. URL: https://mpmath.org/doc/1.1.0/general.html#polar.">709</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Polar</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1146,19 +1090,11 @@ for which it gives the projection onto the unit circle:</p>
 <p>Returns the complex number represented by polar coordinates <span class="math notranslate nohighlight">\((r, \phi)\)</span>:</p>
 <p>See also  Mpmath <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id769" title="The Mpmath Development Team. Complex number: conversion from polar coordinates. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2014. [Online; accessed 22-July-2024]. URL: https://mpmath.org/doc/1.1.0/general.html#rect.">701</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">XComplex</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">XComplex</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">XComplex(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpc</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpc</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
-<span class="go">Gpc(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ecplx</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ecplx</span><span class="o">.</span><span class="n">Rect</span><span class="p">(</span><span class="s1">&#39;0.1&#39;</span><span class="p">)</span>
+<span class="go">ecplx(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1277,7 +1213,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

@@ -49,27 +49,20 @@ Riemann zeta function, `\zeta(s)`
 
     
 
-|11a_TestZeta_re| `\quad` |11b_TestZeta_im| `\quad` |11c_TestZeta_abs|
+    |11a_TestZeta_re| `\quad` |11b_TestZeta_im| `\quad` |11c_TestZeta_abs|
 
-.. |11a_TestZeta_re| image:: ../_static/ExplicitSurfaces/CplxLerch/11a_TestZeta_re.3D.xml.jpg
-   :width: 30 %
+    .. |11a_TestZeta_re| image:: ../_static/ExplicitSurfaces/CplxLerch/11a_TestZeta_re.3D.xml.jpg
+       :width: 30 %
 
-.. |11b_TestZeta_im| image:: ../_static/ExplicitSurfaces/CplxLerch/11b_TestZeta_im.3D.xml.jpg
-   :width: 30 %
+    .. |11b_TestZeta_im| image:: ../_static/ExplicitSurfaces/CplxLerch/11b_TestZeta_im.3D.xml.jpg
+       :width: 30 %
 
-.. |11c_TestZeta_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/11c_TestZeta_abs.3D.xml.jpg
-   :width: 30 %
+    .. |11c_TestZeta_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/11c_TestZeta_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Riemann zeta function, `\zeta(s)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Riemann zeta function, `\zeta(s)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Riemann zeta function, `\zeta(s)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -79,22 +72,13 @@ Riemann zeta function, `\zeta(s)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Zeta(1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Zeta('1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zeta(1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Zeta('1.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Zeta(1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Zeta('1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -154,22 +138,13 @@ Riemann `\zeta(s)-1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Zetam1(12)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Zetam1('10.0001')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zetam1(12)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Zetam1('10.0001')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Zetam1(12)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Zetam1('10.0001')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -231,26 +206,21 @@ Hardy (or Riemann-Siegel) theta function
 
 
 
-|12a_TestHardyTheta_re| `\quad` |12b_TestHardyTheta_im| `\quad` |12c_TestHardyTheta_abs|
+    |12a_TestHardyTheta_re| `\quad` |12b_TestHardyTheta_im| `\quad` |12c_TestHardyTheta_abs|
 
-.. |12a_TestHardyTheta_re| image:: ../_static/ExplicitSurfaces/CplxLerch/12a_TestHardyTheta_re.3D.xml.jpg
-   :width: 30 %
+    .. |12a_TestHardyTheta_re| image:: ../_static/ExplicitSurfaces/CplxLerch/12a_TestHardyTheta_re.3D.xml.jpg
+       :width: 30 %
 
-.. |12b_TestHardyTheta_im| image:: ../_static/ExplicitSurfaces/CplxLerch/12b_TestHardyTheta_im.3D.xml.jpg
-   :width: 30 %
+    .. |12b_TestHardyTheta_im| image:: ../_static/ExplicitSurfaces/CplxLerch/12b_TestHardyTheta_im.3D.xml.jpg
+       :width: 30 %
 
-.. |12c_TestHardyTheta_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/12c_TestHardyTheta_abs.3D.xml.jpg
-   :width: 30 %
+    .. |12c_TestHardyTheta_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/12c_TestHardyTheta_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real part of the Hardy (or Riemann-Siegel) theta function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Hardy (or Riemann-Siegel) theta function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Hardy (or Riemann-Siegel) theta function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -260,22 +230,12 @@ Hardy (or Riemann-Siegel) theta function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Rstheta(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Rstheta('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Rstheta(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Rstheta('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Rstheta(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Rstheta('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -315,26 +275,21 @@ Hardy (or Riemann-Siegel) Z function
 
 
 
-|13a_TestHardyZ_re| `\quad` |13b_TestHardyZ_im| `\quad` |13c_TestHardyZ_abs|
+    |13a_TestHardyZ_re| `\quad` |13b_TestHardyZ_im| `\quad` |13c_TestHardyZ_abs|
 
-.. |13a_TestHardyZ_re| image:: ../_static/ExplicitSurfaces/CplxLerch/13a_TestHardyZ_re.3D.xml.jpg
-   :width: 30 %
+    .. |13a_TestHardyZ_re| image:: ../_static/ExplicitSurfaces/CplxLerch/13a_TestHardyZ_re.3D.xml.jpg
+       :width: 30 %
 
-.. |13b_TestHardyZ_im| image:: ../_static/ExplicitSurfaces/CplxLerch/13b_TestHardyZ_im.3D.xml.jpg
-   :width: 30 %
+    .. |13b_TestHardyZ_im| image:: ../_static/ExplicitSurfaces/CplxLerch/13b_TestHardyZ_im.3D.xml.jpg
+       :width: 30 %
 
-.. |13c_TestHardyZ_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/13c_TestHardyZ_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Hardy (or Riemann-Siegel) Z function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |13c_TestHardyZ_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/13c_TestHardyZ_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Hardy (or Riemann-Siegel) Z function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Hardy (or Riemann-Siegel) Z function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -347,22 +302,12 @@ Hardy (or Riemann-Siegel) Z function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.SiegelZ(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.SiegelZ('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.SiegelZ(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.SiegelZ('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.SiegelZ(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.SiegelZ('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -489,22 +434,12 @@ Dirichlet eta function, `\eta(s)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DirichletEta(12)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DirichletEta('10.0001')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DirichletEta(12)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DirichletEta('10.0001')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DirichletEta(12)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DirichletEta('10.0001')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -562,22 +497,12 @@ Dirichlet `\eta(s) - 1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DirichletEtam1(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DirichletEtam1('51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DirichletEtam1(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DirichletEtam1('51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DirichletEtam1(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DirichletEtam1('51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -642,22 +567,12 @@ Dirichlet beta function, `\beta(s)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DirichletBeta(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DirichletBeta('51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DirichletBeta(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DirichletBeta('51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DirichletBeta(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DirichletBeta('51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -723,22 +638,12 @@ Dirichlet lambda function, `\lambda(s)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DirichletLambda(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DirichletLambda('51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DirichletLambda(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DirichletLambda('51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DirichletLambda(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DirichletLambda('51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

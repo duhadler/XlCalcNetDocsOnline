@@ -53,7 +53,7 @@
     <link rel="prev" title="Additional real error functions (real arguments only)" href="D03_AdditionalRealError.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1017,19 +1017,11 @@ document.write(`
 <dd><p>Returns <span class="math notranslate nohighlight">\(\log|\Gamma(1+x)|\)</span> with increased accuracy for <span class="math notranslate nohighlight">\(x\)</span> near <span class="math notranslate nohighlight">\(0\)</span>.</p>
 <p>See also  Wikipedia <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id1071" title="Wikipedia. The log-gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function#The_log-gamma_function.">1375</a>]</span>, MathWorld <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id1529" title="E. W. Weisstein. LogGamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/LogGammaFunction.html.">965</a>]</span>,  BoostMath <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id351" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/lgamma.html.">108</a>]</span>, <span id="id9">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.7).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGamma1p</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1043,19 +1035,11 @@ document.write(`
 <dd><p>Returns the sign of <span class="math notranslate nohighlight">\(\Gamma(x)\)</span>, which is <span class="math notranslate nohighlight">\(+1\)</span> if <span class="math notranslate nohighlight">\(x &gt; 0\)</span> or if <span class="math notranslate nohighlight">\(\lfloor x \rfloor\)</span> is even, <span class="math notranslate nohighlight">\(-1\)</span> otherwise, and meaningless for <span class="math notranslate nohighlight">\(0\)</span> or negative integers.</p>
 <p>See also  Wikipedia <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id1069" title="Wikipedia. Gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function.">1364</a>]</span>, MathWorld <span id="id11">[<a class="reference internal" href="../99BackMatter/index.html#id1527" title="E. W. Weisstein. Gamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/GammaFunction.html.">957</a>]</span>, NIST <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id462" title="R. Askey, R.A.; Roy. Gamma and Psi Functions. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/5.2.">24</a>]</span>,  BoostMath <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id350" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/tgamma.html.">107</a>]</span>, <span id="id14">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.9).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">SignGamma</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1069,19 +1053,11 @@ document.write(`
 <dd><p>Returns (as a tuple) the logarithm and sign of the gamma function.</p>
 <p>See also  Wikipedia <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id1069" title="Wikipedia. Gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function.">1364</a>]</span>, MathWorld <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id1527" title="E. W. Weisstein. Gamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/GammaFunction.html.">957</a>]</span>, NIST <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id462" title="R. Askey, R.A.; Roy. Gamma and Psi Functions. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/5.2.">24</a>]</span>,  BoostMath <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id350" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/tgamma.html.">107</a>]</span>, <span id="id19">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.10).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGammaS</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1095,19 +1071,11 @@ document.write(`
 <dd><p>Returns Temme’s <span class="math notranslate nohighlight">\(\Gamma^{*}(x)\)</span>, defined by <span class="math notranslate nohighlight">\(\Gamma(x) = \sqrt{2\pi} e^{-x} x^{x-1/2} \Gamma^{*}(x)\)</span>.</p>
 <p>See also  Wikipedia <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id1069" title="Wikipedia. Gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function.">1364</a>]</span>, MathWorld <span id="id21">[<a class="reference internal" href="../99BackMatter/index.html#id1527" title="E. W. Weisstein. Gamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/GammaFunction.html.">957</a>]</span>, NIST <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id462" title="R. Askey, R.A.; Roy. Gamma and Psi Functions. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/5.2.">24</a>]</span>,  BoostMath <span id="id23">[<a class="reference internal" href="../99BackMatter/index.html#id350" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/tgamma.html.">107</a>]</span>, <span id="id24">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.4).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GammaStar</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1120,19 +1088,11 @@ document.write(`
 <span class="sig-prename descclassname"><span class="pre">math53.</span></span><span class="sig-name descname"><span class="pre">real_logfactorial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#math53.real_logfactorial" title="Link to this definition">#</a></dt>
 <dd><p>Returns <span class="math notranslate nohighlight">\(\log(x!) = \log(\Gamma(x+1))\)</span>. See also  Wikipedia <span id="id25">[<a class="reference internal" href="../99BackMatter/index.html#id1066" title="Wikipedia. Factorial. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Factorial.">1362</a>]</span>, MathWorld <span id="id26">[<a class="reference internal" href="../99BackMatter/index.html#id1523" title="E. W. Weisstein. Factorial. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/Factorial.html.">955</a>]</span>,  BoostMath <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id346" title="P. A. Bristow and H. Holin. Factorial. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/factorials/sf_factorial.html.">105</a>]</span>, <span id="id28">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.4.3).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogFactorial</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1175,19 +1135,11 @@ document.write(`
 <dd><p>Returns the logarithm of the binomial coefficient, <span class="math notranslate nohighlight">\(\displaystyle \log{n \choose k} = \log\left(\frac{n!}{k!(n-k)!}\right)\,\)</span>, for <span class="math notranslate nohighlight">\(n\ge k \ge 0\)</span>.</p>
 <p>See also  Wikipedia <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id1067" title="Wikipedia. Binomial coefficient. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Binomial_coefficient.">1359</a>]</span>, MathWorld <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id1524" title="E. W. Weisstein. Binomial coefficient. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/BinomialCoefficient.html.">954</a>]</span>, NIST <span id="id34">[<a class="reference internal" href="../99BackMatter/index.html#id461" title="F.W.J. Roy, R.; Olver. Binomial Coefficients. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/1.2#i.">509</a>]</span>,  BoostMath <span id="id35">[<a class="reference internal" href="../99BackMatter/index.html#id347" title="P. A. Bristow and H. Holin. Binomial Coefficients. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/factorials/sf_binomial.html.">102</a>]</span>, <span id="id36">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.4.5).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogBinomial</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1201,19 +1153,11 @@ document.write(`
 <dd><p>Returns <span class="math notranslate nohighlight">\(\Gamma^{-1}(y)\)</span>, the functional inverse of the gamma function, i.e. it returns <span class="math notranslate nohighlight">\(x\)</span> with <span class="math notranslate nohighlight">\(\Gamma(x)=y, \, y \ge 0.8857421875\)</span>.</p>
 <p>See also  Wikipedia <span id="id37">[<a class="reference internal" href="../99BackMatter/index.html#id1069" title="Wikipedia. Gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function.">1364</a>]</span>, MathWorld <span id="id38">[<a class="reference internal" href="../99BackMatter/index.html#id1527" title="E. W. Weisstein. Gamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/GammaFunction.html.">957</a>]</span>, NIST <span id="id39">[<a class="reference internal" href="../99BackMatter/index.html#id462" title="R. Askey, R.A.; Roy. Gamma and Psi Functions. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/5.2.">24</a>]</span>,  BoostMath <span id="id40">[<a class="reference internal" href="../99BackMatter/index.html#id350" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/tgamma.html.">107</a>]</span>, <span id="id41">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.3).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">GammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1229,19 +1173,11 @@ with <span class="math notranslate nohighlight">\(\log\Gamma(x) = y\)</span> for
 The result is greater than <span class="math notranslate nohighlight">\(x_m = 1.46163\ldots\)</span> (the positive zero of the <span class="math notranslate nohighlight">\(\psi\)</span> function).</p>
 <p>See also  Wikipedia <span id="id42">[<a class="reference internal" href="../99BackMatter/index.html#id1071" title="Wikipedia. The log-gamma function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Gamma_function#The_log-gamma_function.">1375</a>]</span>, MathWorld <span id="id43">[<a class="reference internal" href="../99BackMatter/index.html#id1529" title="E. W. Weisstein. LogGamma Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/LogGammaFunction.html.">965</a>]</span>,  BoostMath <span id="id44">[<a class="reference internal" href="../99BackMatter/index.html#id351" title="P. A. Bristow and H. Holin. Gamma. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/lgamma.html.">108</a>]</span>, <span id="id45">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.1.6).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogGammaInv</span><span class="p">(</span><span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1255,19 +1191,11 @@ The result is greater than <span class="math notranslate nohighlight">\(x_m = 1.
 <dd><p>Returns <span class="math notranslate nohighlight">\(\displaystyle \frac{(a)_x - 1}{x}\)</span>, accurate also for small <span class="math notranslate nohighlight">\(|x|\)</span>. For <span class="math notranslate nohighlight">\(x=0\)</span> the value <span class="math notranslate nohighlight">\(\psi(a)\)</span> is returned.</p>
 <p>See also <span id="id46">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.4.7).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Poch1</span><span class="p">(</span><span class="mf">12.6</span><span class="p">,</span> <span class="s1">&#39;4.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1311,19 +1239,11 @@ The result is greater than <span class="math notranslate nohighlight">\(x_m = 1.
 <p>Returns the logarithm of <span class="math notranslate nohighlight">\(B(a,b)\)</span></p>
 <p>See also  Wikipedia <span id="id53">[<a class="reference internal" href="../99BackMatter/index.html#id1072" title="Wikipedia. Beta function. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Beta_function.">1358</a>]</span>, MathWorld <span id="id54">[<a class="reference internal" href="../99BackMatter/index.html#id1530" title="E. W. Weisstein. Beta Function. From MathWorld - A Wolfram Web Resource, 2008. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/BetaFunction.html.">953</a>]</span>, NIST <span id="id55">[<a class="reference internal" href="../99BackMatter/index.html#id463" title="R. Askey, R.A.; Roy. Beta Function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/5.2.">23</a>]</span>,  BoostMath <span id="id56">[<a class="reference internal" href="../99BackMatter/index.html#id352" title="P. A. Bristow and H. Holin. Beta. Boost Math Toolkit Library, 2016. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_beta/beta_function.html.">101</a>]</span>, <span id="id57">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.3.2), Mpmath <span id="id58">[<a class="reference internal" href="../99BackMatter/index.html#id670" title="The Mpmath Development Team. Beta Function. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2010. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/gamma.html#loggamma.">613</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">LogBeta</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1461,7 +1381,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

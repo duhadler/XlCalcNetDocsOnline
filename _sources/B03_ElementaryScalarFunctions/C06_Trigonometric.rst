@@ -204,14 +204,7 @@ Cosine, `\cos(x)`
 
 
 
-    **Left figure**: real part of the Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Cosine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -221,22 +214,12 @@ Cosine, `\cos(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cos(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cos('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cos(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cos('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cos(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cos('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -323,13 +306,7 @@ Tangent, `\tan(x)`
 
 
 
-    **Left figure**: real part of the Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Tangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -340,22 +317,12 @@ Tangent, `\tan(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Tan(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Tan('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Tan(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Tan('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Tan(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Tan('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -451,14 +418,10 @@ Cotangent, `\cot(x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Cotangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -468,22 +431,12 @@ Cotangent, `\cot(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cot(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cot('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cot(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cot('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cot(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cot('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -567,15 +520,10 @@ Cosecant, `\mathrm{csc}(x)`
     .. |09c_TestCsc_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/09c_TestCsc_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Cosecant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -585,22 +533,12 @@ Cosecant, `\mathrm{csc}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Csc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Csc('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Csc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Csc('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Csc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Csc('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -682,15 +620,10 @@ Secant, `\mathrm{sec}(x)`
     .. |07c_TestSec_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/07c_TestSec_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Secant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -701,22 +634,12 @@ Secant, `\mathrm{sec}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sec(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sec('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sec(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sec('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sec(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sec('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -784,22 +707,12 @@ Cardinal sine,  `\mathrm{sinc}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sinc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sinc('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sinc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sinc('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sinc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sinc('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

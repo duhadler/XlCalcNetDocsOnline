@@ -44,7 +44,7 @@ See also   Wikipedia :cite:p:`WikipediaDis34`, MathWorld :cite:p:`WolframDis34`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NegbinomPdf(x, a, b): ", NegbinomPdf(x, a, b))
         >>> print ("dist_negbinomial(a, b).pdf(x): ", dist_negbinomial(a, b).pdf(x))
@@ -71,7 +71,7 @@ See also   Wikipedia :cite:p:`WikipediaDis34`, MathWorld :cite:p:`WolframDis34`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NegbinomCdf(x, a, b): ", NegbinomCdf(x, a, b))
         >>> print ("dist_negbinomial(a, b).cdf(x): ", dist_negbinomial(a, b).cdf(x))
@@ -98,7 +98,7 @@ See also   Wikipedia :cite:p:`WikipediaDis34`, MathWorld :cite:p:`WolframDis34`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("NegbinomQtf(q, a, b): ", NegbinomQtf(q, a, b))
         >>> print ("dist_negbinomial(a, b).qtf(q): ", dist_negbinomial(a, b).qtf(q))

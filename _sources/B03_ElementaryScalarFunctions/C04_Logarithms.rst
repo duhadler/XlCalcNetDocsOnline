@@ -39,27 +39,20 @@ Natural logarithm `\log(x)`
     The principal branch of the complex logarithm is used, meaning that `\Im(\log(z)) = -\pi < \arg(z) \le \pi`.
 
 
-|05a_TestLog_re| `\quad` |05b_TestLog_im| `\quad` |05c_TestLog_abs|
+    |05a_TestLog_re| `\quad` |05b_TestLog_im| `\quad` |05c_TestLog_abs|
 
-.. |05a_TestLog_re| image:: ../_static/ExplicitSurfaces/CplxRoots/05a_TestLog_re.3D.xml.jpg
-   :width: 30 %
+    .. |05a_TestLog_re| image:: ../_static/ExplicitSurfaces/CplxRoots/05a_TestLog_re.3D.xml.jpg
+       :width: 30 %
 
-.. |05b_TestLog_im| image:: ../_static/ExplicitSurfaces/CplxRoots/05b_TestLog_im.3D.xml.jpg
-   :width: 30 %
+    .. |05b_TestLog_im| image:: ../_static/ExplicitSurfaces/CplxRoots/05b_TestLog_im.3D.xml.jpg
+       :width: 30 %
 
-.. |05c_TestLog_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/05c_TestLog_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Log function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |05c_TestLog_abs| image:: ../_static/ExplicitSurfaces/CplxRoots/05c_TestLog_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Log function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
-
-**Right figure**:  absolute value of the Log function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -69,22 +62,12 @@ Natural logarithm `\log(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -152,22 +135,12 @@ Logarithm with base `10`, `\mathrm{log10}(x) = \log_{10}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log10(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log10('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log10(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log10('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log10(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log10('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -229,22 +202,12 @@ Logarithm with base `2`, `\mathrm{log2}(x) = \log_{2}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -310,22 +273,12 @@ Logarithm with base `b`, `\mathrm{logbase}(x, b) = \log_{b}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logb(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logb('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logb(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logb('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logb(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logb('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -393,22 +346,12 @@ Auxiliary function `\mathrm{log1p}(x) = \log(x+1)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log1p(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log1p('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log1p(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log1p('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log1p(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log1p('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -489,22 +432,12 @@ Auxiliary function `\mathrm{log10p1}(x) = \log_{10}(1+x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log10p1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log10p1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log10p1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log10p1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log10p1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log10p1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -569,22 +502,12 @@ Auxiliary function `\mathrm{log2p1}(x) = \log_2(1+x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log2p1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log2p1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log2p1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log2p1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log2p1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log2p1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

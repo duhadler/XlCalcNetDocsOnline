@@ -53,7 +53,7 @@
     <link rel="prev" title="Hyperbolic functions" href="C08_Hyperbolic.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -956,27 +956,14 @@ document.write(`
 <p>The inverse sine has two branch points: <span class="math notranslate nohighlight">\(x = \pm 1\)</span>.The branch cuts are placed along the line segments <span class="math notranslate nohighlight">\((-\infty, -1)\)</span> and <span class="math notranslate nohighlight">\((+1, +\infty)\)</span>.
 Since <span class="math notranslate nohighlight">\(-1 \le \sin(x) \le 1\)</span> for real <span class="math notranslate nohighlight">\(x\)</span>, the inverse sine is real-valued only for <span class="math notranslate nohighlight">\(-1 \le x \le 1\)</span>.
 On this interval, it is defined to be a monotonically increasing function assuming values between <span class="math notranslate nohighlight">\(-\pi/2\)</span> and <span class="math notranslate nohighlight">\(\pi/2\)</span>.</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/02a_TestAsin_re.3D.xml.jpg"><img alt="02a_TestAsin_re" src="../_images/02a_TestAsin_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/02b_TestAsin_im.3D.xml.jpg"><img alt="02b_TestAsin_im" src="../_images/02b_TestAsin_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/02c_TestAsin_abs.3D.xml.jpg"><img alt="02c_TestAsin_abs" src="../_images/02c_TestAsin_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Sine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Sine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Sine function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Asin</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1028,7 +1015,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">(-2.0 + 3.0j) (-1.141592653589793238462643 - 3.0j)</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="inverse-cosine-mathrm-acos-x">
 <h2>Inverse cosine, <span class="math notranslate nohighlight">\(\mathrm{acos}(x)\)</span><a class="headerlink" href="#inverse-cosine-mathrm-acos-x" title="Link to this heading">#</a></h2>
@@ -1043,27 +1031,14 @@ On this interval, it is defined to be a monotonically increasing function assumi
 \[\mathrm{acos}(z) = \frac{\pi}{2} + i \log\left(iz + \sqrt{1-z^2} \right)\]</div>
 <p>The inverse cosine has two branch points: <span class="math notranslate nohighlight">\(x = \pm 1\)</span>.The branch cuts are placed along the line segments <span class="math notranslate nohighlight">\((-\infty, -1)\)</span> and <span class="math notranslate nohighlight">\((+1, +\infty)\)</span>.</p>
 <p>Since <span class="math notranslate nohighlight">\(-1 \le \cos(x) \le 1\)</span> for real <span class="math notranslate nohighlight">\(x\)</span>, the inverse cosine is real-valued only for <span class="math notranslate nohighlight">\(-1 \le x \le 1\)</span>, where it is a monotonically decreasing function assuming values between <span class="math notranslate nohighlight">\(+\pi\)</span> and <span class="math notranslate nohighlight">\(0\)</span>.</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/04a_TestAcos_re.3D.xml.jpg"><img alt="04a_TestAcos_re" src="../_images/04a_TestAcos_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/04b_TestAcos_im.3D.xml.jpg"><img alt="04b_TestAcos_im" src="../_images/04b_TestAcos_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/04c_TestAcos_abs.3D.xml.jpg"><img alt="04c_TestAcos_abs" src="../_images/04c_TestAcos_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Cosine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Cosine function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Cosine function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acos</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1115,7 +1090,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">(10.0 + 3.0j) (2.566370614359172953850574 - 3.0j)</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="inverse-tangent-mathrm-atan-x">
 <h2>Inverse tangent, <span class="math notranslate nohighlight">\(\mathrm{atan}(x)\)</span><a class="headerlink" href="#inverse-tangent-mathrm-atan-x" title="Link to this heading">#</a></h2>
@@ -1130,27 +1106,14 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <div class="math notranslate nohighlight">
 \[\mathrm{atan}(z) = \frac{i}{2}\left(\log(1-iz)-\log(1+iz)\right)\]</div>
 <p>The inverse tangent has two branch points: <span class="math notranslate nohighlight">\(x = \pm i\)</span>.The branch cuts are placed along the line segments <span class="math notranslate nohighlight">\((-i \infty, -i)\)</span> and <span class="math notranslate nohighlight">\((+i, +i \infty)\)</span>.</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/06a_TestAtan_re.3D.xml.jpg"><img alt="06a_TestAtan_re" src="../_images/06a_TestAtan_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/06b_TestAtan_im.3D.xml.jpg"><img alt="06b_TestAtan_im" src="../_images/06b_TestAtan_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/06c_TestAtan_abs.3D.xml.jpg"><img alt="06c_TestAtan_abs" src="../_images/06c_TestAtan_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Tangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Tangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Tangent function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1203,7 +1166,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">(-2.0 + 3.0j) (1.141592653589793238462644 + 3.0j)</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="inverse-tangent-2-arguments-mathrm-atan2-y-x">
 <h2>Inverse tangent, 2 arguments, <span class="math notranslate nohighlight">\(\mathrm{atan2}(y, x)\)</span><a class="headerlink" href="#inverse-tangent-2-arguments-mathrm-atan2-y-x" title="Link to this heading">#</a></h2>
@@ -1215,26 +1179,14 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <p>Computes the two-argument arctangent, <span class="math notranslate nohighlight">\(\mathrm{atan2}(y, x)\)</span>, giving the signed angle between the positive <span class="math notranslate nohighlight">\(x\)</span>-axis and the point <span class="math notranslate nohighlight">\((x, y)\)</span> in the 2D plane. This function is defined for real <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> only.</p>
 <p>The two-argument arctangent essentially computes <span class="math notranslate nohighlight">\(\mathrm{atan}(y/x)\)</span>, but accounts for the signs of both <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> to give the angle for the correct quadrant. The following examples illustrate the difference:</p>
 <p>An example in Python</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
 <span class="go">(0.785398163397448, 0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
 <span class="go">(2.35619449019234, -0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
 <span class="go">(-0.785398163397448, -0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">xreal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
-<span class="go">(-2.35619449019234, 0.785398163397448)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
-<span class="go">(0.785398163397448, 0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
-<span class="go">(2.35619449019234, -0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="mf">1.</span><span class="p">)</span>
-<span class="go">(-0.785398163397448, -0.785398163397448)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">Gpr</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Atan2</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">ereal</span><span class="o">.</span><span class="n">Atan</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="o">/-</span><span class="mf">1.</span><span class="p">)</span>
 <span class="go">(-2.35619449019234, 0.785398163397448)</span>
 </pre></div>
 </div>
@@ -1248,31 +1200,18 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <dt class="sig sig-object py" id="ctx.acot">
 <span class="sig-prename descclassname"><span class="pre">ctx.</span></span><span class="sig-name descname"><span class="pre">acot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ctx.acot" title="Link to this definition">#</a></dt>
 <dd><p>Returns the inverse cotangent of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(\mathrm{acot}(x)\)</span>. See also  Wikipedia <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id1064" title="Wikipedia. Inverse Trigonometric functions. Wikimedia Foundation, 2012. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions.">1366</a>]</span>,  MathWorld <span id="id28">[<a class="reference internal" href="../99BackMatter/index.html#id1516" title="E. W. Weisstein. Inverse Cotangent. From MathWorld - A Wolfram Web Resource, 2007. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/InverseCotangent.html.">942</a>]</span>,  NIST <span id="id29">[<a class="reference internal" href="../99BackMatter/index.html#id459" title="F.W.J. Roy, R.; Olver. Inverse Trigonometric Functions. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/4.23.">512</a>]</span>, <span id="id30">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (4.2.5).</p>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/12a_TestAcot_re.3D.xml.jpg"><img alt="12a_TestAcot_re" src="../_images/12a_TestAcot_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12b_TestAcot_im.3D.xml.jpg"><img alt="12b_TestAcot_im" src="../_images/12b_TestAcot_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/12c_TestAcot_abs.3D.xml.jpg"><img alt="12c_TestAcot_abs" src="../_images/12c_TestAcot_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Cotangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Cotangent function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Cotangent function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>The inverse cotangent can be expressed in terms of the inverse tangent as <span class="math notranslate nohighlight">\(\displaystyle \mathrm{acot}(x) =  \mathrm{atan}\left(\frac{1}{x} \right)\)</span>. This is a real-valued function for all real <span class="math notranslate nohighlight">\(x\)</span>, with range <span class="math notranslate nohighlight">\((0, \pi)\)</span>.</p>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>The inverse cotangent can be expressed in terms of the inverse tangent as <span class="math notranslate nohighlight">\(\displaystyle \mathrm{acot}(x) =  \mathrm{atan}\left(\frac{1}{x} \right)\)</span>. This is a real-valued function for all real <span class="math notranslate nohighlight">\(x\)</span>, with range <span class="math notranslate nohighlight">\((0, \pi)\)</span>.</p>
 <p>The inverse cotangent can be expressed in terms of related functions (with the principal-branch log and square root):</p>
 <div class="math notranslate nohighlight">
 \[\mathrm{acot}(z) =  \frac{i}{2} \left[ \log \left(1 - \frac{i}{z} \right) -  \log \left(1 + \frac{i}{z} \right) \right]= \mathrm{atan}\left(\frac{1}{z}\right)\]</div>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acot</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1311,7 +1250,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">apm: 1.0472354363409255922e+0 (8.088e-20%) + 4.3297752322606827324e-3 (1.146e-18%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="inverse-cosecant-mathrm-acsc-x">
 <h2>Inverse cosecant, <span class="math notranslate nohighlight">\(\mathrm{acsc}(x)\)</span><a class="headerlink" href="#inverse-cosecant-mathrm-acsc-x" title="Link to this heading">#</a></h2>
@@ -1324,27 +1264,14 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <p>The inverse cosecant can be expressed in terms of related functions (with the principal-branch log and square root):</p>
 <div class="math notranslate nohighlight">
 \[\mathrm{acsc}(z) = -i \log \left( \sqrt{1-\frac{1}{z^2}} + \frac{i}{z} \right) = \mathrm{asin}\left(\frac{1}{z}\right)\]</div>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/10a_TestAcsc_re.3D.xml.jpg"><img alt="10a_TestAcsc_re" src="../_images/10a_TestAcsc_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/10b_TestAcsc_im.3D.xml.jpg"><img alt="10b_TestAcsc_im" src="../_images/10b_TestAcsc_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/10c_TestAcsc_abs.3D.xml.jpg"><img alt="10c_TestAcsc_abs" src="../_images/10c_TestAcsc_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Cosecant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Cosecant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Cosecant function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Acsc</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1383,7 +1310,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">apm: 5.2356089045397102702e-1 (8.089e-20%) - 4.3297752322606827324e-3 (-1.146e-18%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 <section id="inverse-secant-mathrm-asec-x">
 <h2>Inverse secant, <span class="math notranslate nohighlight">\(\mathrm{asec}(x)\)</span><a class="headerlink" href="#inverse-secant-mathrm-asec-x" title="Link to this heading">#</a></h2>
@@ -1396,27 +1324,14 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <p>The inverse secant can be expressed in terms of related functions (with the principal-branch log and square root):</p>
 <div class="math notranslate nohighlight">
 \[\mathrm{asec}(z) = -i \log \left( \sqrt{\frac{1}{z^2}-1} + \frac{1}{z} \right) = \mathrm{acos}\left(\frac{1}{z}\right)\]</div>
-</dd></dl>
-
 <p><a class="reference internal" href="../_images/08a_TestAsec_re.3D.xml.jpg"><img alt="08a_TestAsec_re" src="../_images/08a_TestAsec_re.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/08b_TestAsec_im.3D.xml.jpg"><img alt="08b_TestAsec_im" src="../_images/08b_TestAsec_im.3D.xml.jpg" style="width: 30%;" /></a> <span class="math notranslate nohighlight">\(\quad\)</span> <a class="reference internal" href="../_images/08c_TestAsec_abs.3D.xml.jpg"><img alt="08c_TestAsec_abs" src="../_images/08c_TestAsec_abs.3D.xml.jpg" style="width: 30%;" /></a></p>
-<p><strong>Left figure</strong>: real part of the Inverse Secant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Middle figure</strong>: imaginary part of the Inverse Secant function. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<p><strong>Right figure</strong>:  absolute value of the Inverse Secant function, with color-coded phase. Camera angles are <span class="math notranslate nohighlight">\(\theta=135^\circ\)</span> and <span class="math notranslate nohighlight">\(\phi = -12^\circ\)</span>, camera radius is -2.</p>
-<blockquote>
-<div><p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<p><strong>3D wpf plot</strong>: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function <span class="math notranslate nohighlight">\(z = \sin(x + iy)\)</span>, with <span class="math notranslate nohighlight">\(-6 \le x \le 6\)</span> (blue axis), <span class="math notranslate nohighlight">\(-6 \le y \le 6\)</span> (red axis), <span class="math notranslate nohighlight">\(-10 \le z \le 10\)</span> (green axis). Function values are <a class="reference internal" href="../B22_WpfAltitudeSurfacesRealAndComplex/C01_Intro.html#rst-mpm-loglog-transformation"><span class="std std-ref">loglog-transformed</span></a>.</p>
+<p>An example in Python</p>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">Asec</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1455,7 +1370,8 @@ On this interval, it is defined to be a monotonically increasing function assumi
 <span class="go">apm: 1.0472354363409255922e+0 (8.088e-20%) + 4.3297752322606827324e-3 (1.146e-18%)j</span>
 </pre></div>
 </div>
-</div></blockquote>
+</dd></dl>
+
 </section>
 </section>
 
@@ -1565,7 +1481,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

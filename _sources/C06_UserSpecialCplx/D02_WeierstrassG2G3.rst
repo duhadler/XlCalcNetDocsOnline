@@ -86,13 +86,13 @@ Weierstrass function `\wp_g(z, g_2, g_3)` (also DAMath)
 
 
 
-**Left figure**: real part of the Weierstrass function `\wp_g(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Left figure**: real part of the Weierstrass function `\wp_g(z, g_2, g_3)`. 
 
 
-**Middle figure**: imaginary part of the Weierstrass function `\wp_g(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Middle figure**: imaginary part of the Weierstrass function `\wp_g(z, g_2, g_3)`. 
 
 
-**Right figure**:  absolute value of the Weierstrass function `\wp_g(z, g_2, g_3)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Right figure**:  absolute value of the Weierstrass function `\wp_g(z, g_2, g_3)`, with color-coded phase. 
 
 
 
@@ -197,13 +197,13 @@ Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`
 
 
 
-**Left figure**: real part of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Left figure**: real part of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`. 
 
 
-**Middle figure**: imaginary part of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Middle figure**: imaginary part of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`. 
 
 
-**Right figure**:  absolute value of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Right figure**:  absolute value of the Weierstrass function, first derivative: `\wp_g'(z, g_2, g_3)`, with color-coded phase. 
 
 
 
@@ -370,13 +370,13 @@ Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`
 
 
 
-**Left figure**: real part of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Left figure**: real part of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`. 
 
 
-**Middle figure**: imaginary part of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Middle figure**: imaginary part of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`. 
 
 
-**Right figure**:  absolute value of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Right figure**:  absolute value of the Weierstrass Zeta function `\zeta_g(z, g_2, g_3)`, with color-coded phase. 
 
 
 
@@ -463,13 +463,13 @@ Weierstrass Sigma function `\sigma_g(z, g_2, g_3`)
 
 
 
-**Left figure**: real part of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Left figure**: real part of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`). 
 
 
-**Middle figure**: imaginary part of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Middle figure**: imaginary part of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`). 
 
 
-**Right figure**:  absolute value of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`), with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+**Right figure**:  absolute value of the Weierstrass Sigma function `\sigma_g(z, g_2, g_3`), with color-coded phase. 
 
 
 

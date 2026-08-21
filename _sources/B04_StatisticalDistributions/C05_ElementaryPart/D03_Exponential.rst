@@ -42,7 +42,7 @@ See also  Wikipedia :cite:p:`WikipediaDis12`, MathWorld :cite:p:`WolframDis12`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ExponentialPdf(x, a, b): ", ExponentialPdf(x, a, b))
         >>> print ("dist_exponential(a, b).pdf(x): ", dist_exponential(a, b).pdf(x))
@@ -65,7 +65,7 @@ See also  Wikipedia :cite:p:`WikipediaDis12`, MathWorld :cite:p:`WolframDis12`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("ExponentialCdf(x, a, b): ", ExponentialCdf(x, a, b))
         >>> print ("dist_exponential(a, b).cdf(x): ", dist_exponential(a, b).cdf(x))
@@ -89,7 +89,7 @@ See also  Wikipedia :cite:p:`WikipediaDis12`, MathWorld :cite:p:`WolframDis12`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("ExponentialQtf(q, a, b): ", ExponentialQtf(q, a, b))
         >>> print ("dist_exponential(a, b).qtf(q): ", dist_exponential(a, b).qtf(q))

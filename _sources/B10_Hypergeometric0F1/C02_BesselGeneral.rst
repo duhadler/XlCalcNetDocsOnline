@@ -81,22 +81,13 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.BesselJ(3, 0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.BesselJ(3, '0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.BesselJ(3, 0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.BesselJ(3, '0.51')
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.BesselJ(3, 0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.BesselJ(3, '0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 An example with real input:
@@ -207,22 +198,13 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from xlcalcnet import xreal
-    >>> xreal.BesselY(3, 0.5)
-    xreal('5.2359877559829887307E-1')
-    >>> xreal.BesselY(3, '0.51')
-    xreal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.BesselY(3, 0.5)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.BesselY(3, '0.51')
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
-
-.. code-block:: pycon
-
-    >>> from xlcalcnet import Gpr
-    >>> Gpr.BesselY(3, 0.5)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.BesselY(3, '0.51')
-    Gpr('5.3518479027559984754E-1')
 
 
 An example with real input:
@@ -293,22 +275,11 @@ First derivative of the Bessel function of the first kind, `J'_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJPrime(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJPrime(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJPrime(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJPrime(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJPrime(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJPrime(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -338,22 +309,12 @@ First derivative of the Bessel function of the second kind, `Y'_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselYPrime(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselYPrime(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselYPrime(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselYPrime(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselYPrime(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselYPrime(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -380,22 +341,11 @@ Boost: Zeros `j_{\nu, m}` of the Bessel function of the first kind: `J_{\nu}(j_{
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJZero(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJZero(3, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJZero(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJZero(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJZero(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJZero(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -423,22 +373,12 @@ Boost: Zeros `y_{\nu, m}` of the Bessel function of the first kind: `Y_{\nu}(y_{
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJZero(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJZero(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJZero(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJZero(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJZero(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJZero(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

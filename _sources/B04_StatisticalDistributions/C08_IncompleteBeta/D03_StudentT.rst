@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis07`, MathWorld :cite:p:`WolframDis07`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("StudentTPdf(x, a, b): ", StudentTPdf(x, a, b))
         >>> print ("dist_student_t(a, b).pdf(x): ", dist_student_t(a, b).pdf(x))
@@ -80,7 +80,7 @@ See also  Wikipedia :cite:p:`WikipediaDis07`, MathWorld :cite:p:`WolframDis07`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("StudentTCdf(x, a, b): ", StudentTCdf(x, a, b))
         >>> print ("dist_student_t(a, b).cdf(x): ", dist_student_t(a, b).cdf(x))
@@ -106,7 +106,7 @@ See also  Wikipedia :cite:p:`WikipediaDis07`, MathWorld :cite:p:`WolframDis07`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("StudentTQtf(q, a, b): ", StudentTQtf(q, a, b))
         >>> print ("dist_student_t(a, b).qtf(q): ", dist_student_t(a, b).qtf(q))

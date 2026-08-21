@@ -52,15 +52,10 @@ Error function, `\mathrm{erf}(x)`
     .. |08c_TestErf_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/08c_TestErf_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Erf function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Erf function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Erf function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -70,22 +65,13 @@ Error function, `\mathrm{erf}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Dawson(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Dawson('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Dawson(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Dawson('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Dawson(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Dawson('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -158,14 +144,10 @@ Complementary error function, `\mathrm{erfc}(x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Erfc function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the Erfc function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Erfc function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -175,22 +157,13 @@ Complementary error function, `\mathrm{erfc}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfc('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfc('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfc('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -410,22 +383,13 @@ Imaginary error function, `\mathrm{erfi}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Erfi(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Erfi('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Erfi(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Erfi('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Erfi(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Erfi('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -498,14 +462,9 @@ Dawson integral, `F(x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Dawson integral, `F(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Dawson integral, `F(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Dawson integral, `F(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -515,22 +474,13 @@ Dawson integral, `F(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Dawson(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Dawson('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Dawson(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Dawson('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Dawson(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Dawson('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -602,14 +552,10 @@ Faddeeva function, `w(z)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Faddeeva function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the Faddeeva function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Faddeeva function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -620,22 +566,12 @@ Faddeeva function, `w(z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Faddeeva(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Faddeeva('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Faddeeva(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Faddeeva('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Faddeeva(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Faddeeva('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -710,14 +646,10 @@ Fresnel sine integral, `S(x)`
        :width: 30 %
 
 
+       
 
-    **Left figure**: real part of the Fresnel sine integral, `S(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-
-    **Middle figure**: imaginary part of the Fresnel sine integral, `S(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Fresnel sine integral, `S(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -728,22 +660,12 @@ Fresnel sine integral, `S(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FresnelS(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FresnelS('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FresnelS(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FresnelS('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FresnelS(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FresnelS('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -814,15 +736,10 @@ Fresnel cosine integral, `C(x)`
     .. |11c_TestFresnelC_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/11c_TestFresnelC_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of the Fresnel cosine integral, `C(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of the Fresnel cosine integral, `C(x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of the Fresnel cosine integral, `C(x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -833,22 +750,13 @@ Fresnel cosine integral, `C(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.FresnelC(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.FresnelC('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.FresnelC(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.FresnelC('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.FresnelC(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.FresnelC('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -903,14 +811,15 @@ Owen's T function, `T(h,a)`
 
 
 
-|OwenT|
+    |OwenT|
 
-.. |OwenT| image:: ../_static/ExplicitSurfaces/RealFunctions/OwenT.3D.xml.jpg
-   :width: 30 %
+    .. |OwenT| image:: ../_static/ExplicitSurfaces/RealFunctions/OwenT.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real ("silver") and imaginary ("gold") part of Owen's T function, `T(h,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -921,22 +830,11 @@ Owen's T function, `T(h,a)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.OwenT(2.5, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.OwenT(2.5, '0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.OwenT(2.5, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.OwenT(2.5, '0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.OwenT(2.5, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.OwenT(2.5, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 

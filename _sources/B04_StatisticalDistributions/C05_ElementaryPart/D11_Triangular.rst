@@ -50,7 +50,7 @@ See also  Wikipedia :cite:p:`WikipediaDis23`, MathWorld :cite:p:`WolframDis23`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("TriangularPdf(x, a, b): ", TriangularPdf(x, a, b))
         >>> print ("dist_triangular(a, b).pdf(x): ", dist_triangular(a, b).pdf(x))
@@ -80,7 +80,7 @@ See also  Wikipedia :cite:p:`WikipediaDis23`, MathWorld :cite:p:`WolframDis23`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("TriangularCdf(x, a, b): ", TriangularCdf(x, a, b))
         >>> print ("dist_triangular(a, b).cdf(x): ", dist_triangular(a, b).cdf(x))
@@ -109,7 +109,7 @@ See also  Wikipedia :cite:p:`WikipediaDis23`, MathWorld :cite:p:`WolframDis23`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("TriangularQtf(q, a, b): ", TriangularQtf(q, a, b))
         >>> print ("dist_triangular(a, b).qtf(q): ", dist_triangular(a, b).qtf(q))

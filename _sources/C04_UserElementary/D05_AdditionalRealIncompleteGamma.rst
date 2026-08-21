@@ -80,22 +80,12 @@ Truncated exponential function, `e_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expn(2,3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expn(4,13)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expn(2,3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expn(4,13)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expn(2,3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expn(4,13)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -114,22 +104,12 @@ Relative exponential, `\mathrm{exprel}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expreln(3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expreln(3, 12)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expreln(3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expreln(3, 12)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expreln(3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expreln(3, 12)
-        Gpr('5.3518479027559984754E-1')
 
 
 

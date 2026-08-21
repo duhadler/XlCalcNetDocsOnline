@@ -35,7 +35,7 @@
 Mathematical functions in fixed precision
 =====================================================================================
 
-Various additional numerical context support C\#, Visual Basic and Python. It is convenient to divide them into groups to make referencing them per function description more efficient.
+Various additional numerical context support C\# and Python. It is convenient to divide them into groups to make referencing them per function description more efficient.
 
 The following groups of contexts are available:
 

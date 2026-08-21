@@ -148,11 +148,11 @@ An example in C\#, for A, B, C
 
 
 
-**Left figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Trefoil, rough version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 
@@ -176,11 +176,11 @@ These are the smooth versions
 
 
 
-**Left figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Left figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D010`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Middle figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Middle figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
-**Right figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`.
+**Right figure**: Trefoil, smooth version (see also  Wikipedia :cite:p:`Wikipedia2D011`, :cite:t:`Gray2006`,  :cite:t:`Krivoshapko2015`). 
 
 
 

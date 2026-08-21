@@ -521,7 +521,7 @@ Drop surface
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 
@@ -646,7 +646,7 @@ See also: https://mathworld.wolfram.com/Pseudosphere.html
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 
@@ -847,7 +847,7 @@ See also  Wikipedia :cite:p:`Wikipedia2D101`,  MathWorld :cite:p:`Wolfram3D101`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 
@@ -902,7 +902,7 @@ See also  Wikipedia :cite:p:`Wikipedia2D101`,  MathWorld :cite:p:`Wolfram3D101`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 
@@ -956,7 +956,7 @@ See also  Wikipedia :cite:p:`Wikipedia2D101`,  MathWorld :cite:p:`Wolfram3D101`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 
@@ -1012,7 +1012,7 @@ See also  Wikipedia :cite:p:`Wikipedia2D101`,  MathWorld :cite:p:`Wolfram3D101`.
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import User
+        >>> from xlcalcnet import User
         >>> Curve = User.Cardioid(a = 1, Resolution = 200, AsPolar = true)
         >>> User.Chart2D.Show(Curve, Template = 'PolarCurve', Title = 'Cardioid')
 

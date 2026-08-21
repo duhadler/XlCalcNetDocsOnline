@@ -61,30 +61,30 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoPdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
 
 
-An example in Visual Basic 
+An example in Python 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoPdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoCdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmaxRhoCdf(x, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoCdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoCdf(x, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoQtf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmaxRhoQtf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoQtf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoQtf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -134,30 +134,28 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoPdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
 
-
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.NmmRhoPdf(x, rho, k)
-    Gpr('5.2359877559829887307E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoCdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmmRhoCdf(x, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoCdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoCdf(x, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoQtf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmmRhoQtf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoQtf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoQtf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -222,34 +220,32 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoijPdf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmaxRhoijPdf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoijPdf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoijPdf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.NmaxRhoijPdf(q, rho, k)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.NmaxRhoijPdf(q, rho, k)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoijPdf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoijPdf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoijCdf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmaxRhoijCdf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoijCdf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoijCdf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmaxRhoijQtf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmaxRhoijQtf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmaxRhoijQtf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmaxRhoijQtf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -310,34 +306,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoijPdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmmRhoijPdf(x, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoijPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoijPdf(x, rho, k)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.NmmRhoijPdf(x, rho, k)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.NmmRhoijPdf(x, rho, k)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoijPdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoijPdf(x, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoijCdf(x, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmmRhoijCdf(x, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoijCdf(x, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoijCdf(x, rho, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NmmRhoijQtf(q, rho, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NmmRhoijQtf(q, rho, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NmmRhoijQtf(q, rho, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NmmRhoijQtf(q, rho, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -399,34 +394,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NrangePdf(x, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NrangePdfxq, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NrangePdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NrangePdfxq, k)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.NrangePdf(x, k)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.NrangePdfxq, k)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NrangePdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NrangePdfxq, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NrangeCdf(x, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NrangePdf(x, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NrangeCdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NrangePdf(x, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NrangeQtf(q, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NrangeQtf(q, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NrangeQtf(q, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NrangeQtf(q, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -474,34 +468,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmaxPdf(x, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmaxPdf(x, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmaxPdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmaxPdf(x, k)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.SmaxPdf(x, k)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.SmaxPdf(x, k)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmaxPdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmaxPdf(x, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmaxCdf(x, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmaxCdf(x, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmaxCdf(x, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmaxCdf(x, k)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmaxQtf(q, k)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmaxQtf(q, k)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmaxQtf(q, k)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmaxQtf(q, k)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -550,34 +543,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmmPdf(x, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmmPdf(x, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmmPdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmmPdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmmPdf(x, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmmPdf(x, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmmPdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmmPdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmmCdf(x, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmmCdf(x, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmmCdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmmCdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.SmmQtf(q, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.SmmQtf(q, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.SmmQtf(q, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.SmmQtf(q, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -629,34 +621,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett1Pdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett1Pdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett1Pdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett1Pdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.Dunnett1Pdf(x, rho, k, nu)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.Dunnett1Pdf(x, rho, k, nu)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett1Pdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett1Pdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett1Cdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett1Cdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett1Cdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett1Cdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett1Cdf(q, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett1Cdf(q, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett1Cdf(q, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett1Cdf(q, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -707,34 +698,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett2Pdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett2Pdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett2Pdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett2Pdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.Dunnett2Pdf(x, rho, k, nu)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.Dunnett2Pdf(x, rho, k, nu)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett2Pdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett2Pdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett2Cdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett2Cdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett2Cdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett2Cdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.Dunnett2Qtf(q, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.Dunnett2Qtf(q, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.Dunnett2Qtf(q, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.Dunnett2Qtf(q, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -784,34 +774,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NairPdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NairPdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NairPdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NairPdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.NairPdf(x, rho, k, nu)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.NairPdf(x, rho, k, nu)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NairPdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NairPdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NairCdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NairCdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NairCdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NairCdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.NairQtf(q, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.NairQtf(q, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.NairQtf(q, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.NairQtf(q, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -872,34 +861,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.HalperinPdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.HalperinPdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.HalperinPdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.HalperinPdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.HalperinPdf(x, rho, k, nu)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.HalperinPdf(x, rho, k, nu)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.HalperinPdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.HalperinPdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.HalperinCdf(x, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.HalperinCdf(x, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.HalperinCdf(x, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.HalperinCdf(x, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.HalperinQtf(q, rho, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.HalperinQtf(q, rho, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.HalperinQtf(q, rho, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.HalperinQtf(q, rho, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 
@@ -957,34 +945,33 @@ An example in Python
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import XReal
-    >>> XReal.StdrangePdf(x, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.StdrangePdf(x, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.StdrangePdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.StdrangePdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
-An example in Visual Basic 
 
 .. code-block:: pycon
 
-    >>> from mpfebnet import Gpr
-    >>> Gpr.StdrangePdf(x, k, nu)
-    Gpr('5.2359877559829887307E-1')
-    >>> Gpr.StdrangePdf(x, k, nu)
-    Gpr('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.StdrangePdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.StdrangePdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.StdrangeCdf(x, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.StdrangeCdf(x, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.StdrangeCdf(x, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.StdrangeCdf(x, k, nu)
+    ereal('5.3518479027559984754E-1')
 
-    >>> from mpfebnet import XReal
-    >>> XReal.StdrangeQtf(q, k, nu)
-    XReal('5.2359877559829887307E-1')
-    >>> XReal.StdrangeQtf(q, k, nu)
-    XReal('5.3518479027559984754E-1')
+    >>> from xlcalcnet import ereal
+    >>> ereal.StdrangeQtf(q, k, nu)
+    ereal('5.2359877559829887307E-1')
+    >>> ereal.StdrangeQtf(q, k, nu)
+    ereal('5.3518479027559984754E-1')
 
 
 

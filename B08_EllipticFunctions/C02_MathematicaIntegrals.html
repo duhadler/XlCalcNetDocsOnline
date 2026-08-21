@@ -53,7 +53,7 @@
     <link rel="prev" title="Carlson symmetric elliptic integrals" href="C01_CarlsonIntegrals.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -949,19 +949,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the first kind, <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticK}(m) = \int_0^{\pi/2} \frac{\mathrm{d}t}{\sqrt{1-m \sin^2(t)}}\)</span>, with parameter <span class="math notranslate nohighlight">\(m \ne 1\)</span>.</p>
 <p>See also Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1124" title="Wikipedia. Complete elliptic integral of the first kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_first_kind.">1406</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1600" title="E. W. Weisstein. Complete Elliptic Integral of the First Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/CompleteEllipticIntegraloftheFirstKind.html.">1025</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id388" title="P. A. Bristow and H. Holin. Elliptic Integrals of the First Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_1.html.">143</a>]</span>, <span id="id5">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.1), Flint <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id597" title="The FLINT Team. Acb: Complete elliptic integrals. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_elliptic.html#complete-elliptic-integrals.">815</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticK</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1006,19 +998,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the second kind,  <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticEC}(m) = \int_0^{\pi/2} \sqrt{1-m \sin^2(t)} \, \mathrm{d}t\)</span>,  with parameter <span class="math notranslate nohighlight">\(m \ne 1\)</span>.</p>
 <p>See also Wikipedia <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id1125" title="Wikipedia. Complete elliptic integral of the second kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_second_kind.">1407</a>]</span>, MathWorld <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id1601" title="E. W. Weisstein. Complete Elliptic Integral of the Second Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/CompleteEllipticIntegraloftheSecondKind.html.">1026</a>]</span>, NIST <span id="id9">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id10">[<a class="reference internal" href="../99BackMatter/index.html#id389" title="P. A. Bristow and H. Holin. Elliptic Integrals of the Second Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_2.html.">144</a>]</span>, <span id="id11">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.2), Flint <span id="id12">[<a class="reference internal" href="../99BackMatter/index.html#id597" title="The FLINT Team. Acb: Complete elliptic integrals. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_elliptic.html#complete-elliptic-integrals.">815</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticEC</span><span class="p">(</span><span class="s1">&#39;0.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1063,19 +1047,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the third kind ,  <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticPiC}(n, m) = \int_0^{\pi/2} \frac{\mathrm{d}t}{(1-n \sin^2(t)) \sqrt{1-m \sin^2(t)}}\)</span>, with characteristic <span class="math notranslate nohighlight">\(n \ne 1\)</span> and parameter <span class="math notranslate nohighlight">\(m \ne 1\)</span>.</p>
 <p>See also Wikipedia <span id="id13">[<a class="reference internal" href="../99BackMatter/index.html#id1126" title="Wikipedia. Complete elliptic integral of the third kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_third_kind.">1408</a>]</span>, MathWorld <span id="id14">[<a class="reference internal" href="../99BackMatter/index.html#id1602" title="E. W. Weisstein. Complete Elliptic Integral of the Third Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/EllipticIntegraloftheThirdKind.html.">1027</a>]</span>, NIST <span id="id15">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id16">[<a class="reference internal" href="../99BackMatter/index.html#id390" title="P. A. Bristow and H. Holin. Elliptic Integrals of the Third Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_3.html.">145</a>]</span>, <span id="id17">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.3), Flint <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id598" title="The FLINT Team. Acb: Legendre incomplete elliptic integrals. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_elliptic.html#legendre-incomplete-elliptic-integrals.">819</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticPiC</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1120,19 +1096,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the first kind,  <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticF}(\phi,m) = \int_0^{\phi} \frac{\mathrm{d}t}{\sqrt{1-m \sin^2(t)}}\)</span>, with parameter <span class="math notranslate nohighlight">\(m \sin^2(\phi) \le 1\)</span>.</p>
 <p>See also Wikipedia <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id1127" title="Wikipedia. Incomplete elliptic integral of the first kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Incomplete_elliptic_integral_of_the_first_kind.">1414</a>]</span>, MathWorld <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id1603" title="E. W. Weisstein. Incomplete Elliptic Integral of the First Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/EllipticIntegraloftheFirstKind.html.">1034</a>]</span>, NIST <span id="id21">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id388" title="P. A. Bristow and H. Holin. Elliptic Integrals of the First Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_1.html.">143</a>]</span>, <span id="id23">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.4).</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticF</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1177,19 +1145,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the second kind,  <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticE}(\phi,m) = \int_0^{\phi} \sqrt{1-m \sin^2(t)} \, \mathrm{d}t\)</span> with parameter <span class="math notranslate nohighlight">\(m \sin^2(\phi) \le 1\)</span>.</p>
 <p>See also Wikipedia <span id="id24">[<a class="reference internal" href="../99BackMatter/index.html#id1128" title="Wikipedia. Incomplete elliptic integral of the second kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Incomplete_elliptic_integral_of_the_second_kind.">1415</a>]</span>, MathWorld <span id="id25">[<a class="reference internal" href="../99BackMatter/index.html#id1604" title="E. W. Weisstein. Incomplete Elliptic Integral of the Second Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/EllipticIntegraloftheSecondKind.html.">1035</a>]</span>, NIST <span id="id26">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id27">[<a class="reference internal" href="../99BackMatter/index.html#id389" title="P. A. Bristow and H. Holin. Elliptic Integrals of the Second Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_2.html.">144</a>]</span>, <span id="id28">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.5), Flint <span id="id29">[<a class="reference internal" href="../99BackMatter/index.html#id598" title="The FLINT Team. Acb: Legendre incomplete elliptic integrals. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_elliptic.html#legendre-incomplete-elliptic-integrals.">819</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticE</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1234,19 +1194,11 @@ an argument, the Mathematica style functions (prefixed with <code class="docutil
 <p>Returns the complete elliptic integral of the third kind,  <span class="math notranslate nohighlight">\(\displaystyle  \mathrm{M\_EllipticPi}(n, \phi, m) = \int_0^{\phi} \frac{\mathrm{d}t}{(1-n \sin^2(t)) \sqrt{1-m \sin^2(t)}}\)</span> with characteristic <span class="math notranslate nohighlight">\(n \ne 1\)</span> and parameter <span class="math notranslate nohighlight">\(m \ne 1\)</span>.</p>
 <p>See also Wikipedia <span id="id30">[<a class="reference internal" href="../99BackMatter/index.html#id1129" title="Wikipedia. Incomplete elliptic integral of the third kind. Wikimedia Foundation, 2014. [Online; accessed 22-Dec-2024]. URL: https://en.wikipedia.org/wiki/Elliptic_integral#Incomplete_elliptic_integral_of_the_third_kind.">1416</a>]</span>, MathWorld <span id="id31">[<a class="reference internal" href="../99BackMatter/index.html#id1605" title="E. W. Weisstein. Incomplete Elliptic Integral of the Third Kind. From MathWorld - A Wolfram Web Resource, 2012. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/EllipticIntegraloftheThirdKind.html.">1036</a>]</span>, NIST <span id="id32">[<a class="reference internal" href="../99BackMatter/index.html#id483" title="B. C. Carlson. Elliptic Integrals. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/19.2.">178</a>]</span>, BoostMath <span id="id33">[<a class="reference internal" href="../99BackMatter/index.html#id390" title="P. A. Bristow and H. Holin. Elliptic Integrals of the Third Kind - Legendre Form. Boost Math Toolkit Library, 2018. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/ellint/ellint_3.html.">145</a>]</span>, <span id="id34">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.2.5.6), Flint <span id="id35">[<a class="reference internal" href="../99BackMatter/index.html#id598" title="The FLINT Team. Acb: Legendre incomplete elliptic integrals. FLINT: Fast Library for Number Theory, 2020. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_elliptic.html#legendre-incomplete-elliptic-integrals.">819</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">MEllipticPi</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -1388,7 +1340,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

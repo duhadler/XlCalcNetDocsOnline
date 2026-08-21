@@ -51,22 +51,12 @@ Integral and fractional part of a floating point number: `\mathrm{modf}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Modf(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Modf('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Modf(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Modf('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Modf(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Modf('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -145,22 +135,12 @@ Floating point remainder: `\mathrm{fmod}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Fmod(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Fmod('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Fmod(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Fmod('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Fmod(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Fmod('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -203,22 +183,12 @@ IEEE floating point remainder: `\mathrm{remainder}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Remainder(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Remainder('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Remainder(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Remainder('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Remainder(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Remainder('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -255,22 +225,12 @@ IEEE floating point remainder and part of quotient: `\mathrm{remquo}(x, y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Remainder(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Remainder('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Remainder(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Remainder('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Remainder(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Remainder('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 

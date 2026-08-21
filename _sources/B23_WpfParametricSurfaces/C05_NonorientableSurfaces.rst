@@ -454,10 +454,10 @@ See also: http://mathworld.wolfram.com/BoySurface.html
    :width: 30 %
 
 
-**Left figure**: parametric plot of the Boy Surface (parametrization 1). Camera angles are `\theta=135^\circ`.
+**Left figure**: parametric plot of the Boy Surface (parametrization 1). 
 
 
-**Reft figure**: parametric plot of the Boy Surface (parametrization 1). Camera angles are `\theta=135^\circ`.
+**Reft figure**: parametric plot of the Boy Surface (parametrization 1). 
 
 
 
@@ -504,10 +504,9 @@ See also: http://mathworld.wolfram.com/BoySurface.html
    :width: 30 %
 
 
-**Left figure**: parametric plot of the Boy Surface (parametrization 1). Camera angles are `\theta=135^\circ`.
+**Left figure**: parametric plot of the Boy Surface (parametrization 1). 
 
-
-**Reft figure**: parametric plot of the Boy Surface (parametrization 1). Camera angles are `\theta=135^\circ`.
+**Reft figure**: parametric plot of the Boy Surface (parametrization 1). 
 
 
 

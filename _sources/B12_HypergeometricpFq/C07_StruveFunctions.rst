@@ -77,22 +77,13 @@ Struve function `\mathbf{H}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveH(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveH(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveH(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveH(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveH(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveH(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -171,22 +162,12 @@ Struve function `\mathbf{L}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveL(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveL(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveL(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveL(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveL(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveL(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -243,22 +224,13 @@ Struve function `\mathbf{K}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveK(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveK(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveK(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveK(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveK(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveK(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -313,22 +285,13 @@ Struve function `\mathbf{M}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.StruveM(3, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.StruveM(3, '0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.StruveM(3, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.StruveM(3, '0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.StruveM(3, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.StruveM(3, '0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

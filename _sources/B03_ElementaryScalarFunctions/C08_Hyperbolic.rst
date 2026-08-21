@@ -41,26 +41,21 @@ Hyperbolic sine, `\mathrm{sinh}(x)`
 
 
 
-|01a_TestSinh_re| `\quad` |01b_TestSinh_im| `\quad` |01c_TestSinh_abs|
+    |01a_TestSinh_re| `\quad` |01b_TestSinh_im| `\quad` |01c_TestSinh_abs|
 
-.. |01a_TestSinh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01a_TestSinh_re.3D.xml.jpg
-   :width: 30 %
+    .. |01a_TestSinh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01a_TestSinh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |01b_TestSinh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01b_TestSinh_im.3D.xml.jpg
-   :width: 30 %
+    .. |01b_TestSinh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01b_TestSinh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |01c_TestSinh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01c_TestSinh_abs.3D.xml.jpg
-   :width: 30 %
+    .. |01c_TestSinh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/01c_TestSinh_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real part of the Hyperbolic Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Hyperbolic Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Hyperbolic Sine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -70,22 +65,12 @@ Hyperbolic sine, `\mathrm{sinh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sinh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sinh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sinh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sinh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sinh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sinh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -169,26 +154,21 @@ Hyperbolic cosine, `\mathrm{cosh}(x)`
     
 
 
-|03a_TestCosh_re| `\quad` |03b_TestCosh_im| `\quad` |03c_TestCosh_abs|
+    |03a_TestCosh_re| `\quad` |03b_TestCosh_im| `\quad` |03c_TestCosh_abs|
 
-.. |03a_TestCosh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03a_TestCosh_re.3D.xml.jpg
-   :width: 30 %
+    .. |03a_TestCosh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03a_TestCosh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |03b_TestCosh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03b_TestCosh_im.3D.xml.jpg
-   :width: 30 %
+    .. |03b_TestCosh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03b_TestCosh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |03c_TestCosh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03c_TestCosh_abs.3D.xml.jpg
-   :width: 30 %
+    .. |03c_TestCosh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/03c_TestCosh_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Left figure**: real part of the Hyperbolic Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Hyperbolic Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Hyperbolic Cosine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -199,22 +179,12 @@ Hyperbolic cosine, `\mathrm{cosh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cosh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cosh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cosh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cosh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cosh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cosh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -301,26 +271,20 @@ Hyperbolic tangent, `\mathrm{tanh}(x)`
     
 
 
-|05a_TestTanh_re| `\quad` |05b_TestTanh_im| `\quad` |05c_TestTanh_abs|
+    |05a_TestTanh_re| `\quad` |05b_TestTanh_im| `\quad` |05c_TestTanh_abs|
 
-.. |05a_TestTanh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05a_TestTanh_re.3D.xml.jpg
-   :width: 30 %
+    .. |05a_TestTanh_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05a_TestTanh_re.3D.xml.jpg
+       :width: 30 %
 
-.. |05b_TestTanh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05b_TestTanh_im.3D.xml.jpg
-   :width: 30 %
+    .. |05b_TestTanh_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05b_TestTanh_im.3D.xml.jpg
+       :width: 30 %
 
-.. |05c_TestTanh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05c_TestTanh_abs.3D.xml.jpg
-   :width: 30 %
+    .. |05c_TestTanh_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/05c_TestTanh_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Hyperbolic Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Hyperbolic Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Hyperbolic Tangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -331,22 +295,12 @@ Hyperbolic tangent, `\mathrm{tanh}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Tanh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Tanh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Tanh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Tanh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Tanh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Tanh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -416,26 +370,21 @@ Hyperbolic cotangent, `\mathrm{coth}(x)`
 
     
 
-|11a_TestCoth_re| `\quad` |11b_TestCoth_im| `\quad` |11c_TestCoth_abs|
+    |11a_TestCoth_re| `\quad` |11b_TestCoth_im| `\quad` |11c_TestCoth_abs|
 
-.. |11a_TestCoth_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11a_TestCoth_re.3D.xml.jpg
-   :width: 30 %
+    .. |11a_TestCoth_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11a_TestCoth_re.3D.xml.jpg
+       :width: 30 %
 
-.. |11b_TestCoth_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11b_TestCoth_im.3D.xml.jpg
-   :width: 30 %
+    .. |11b_TestCoth_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11b_TestCoth_im.3D.xml.jpg
+       :width: 30 %
 
-.. |11c_TestCoth_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11c_TestCoth_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Hyperbolic Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |11c_TestCoth_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/11c_TestCoth_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Hyperbolic Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Right figure**:  absolute value of the Hyperbolic Cotangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -445,22 +394,12 @@ Hyperbolic cotangent, `\mathrm{coth}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Coth(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Coth('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Coth(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Coth('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Coth(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Coth('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -532,26 +471,20 @@ Hyperbolic cosecant, `\mathrm{csch}(x)`
 
     
 
-|09a_TestCsch_re| `\quad` |09b_TestCsch_im| `\quad` |09c_TestCsch_abs|
+    |09a_TestCsch_re| `\quad` |09b_TestCsch_im| `\quad` |09c_TestCsch_abs|
 
-.. |09a_TestCsch_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09a_TestCsch_re.3D.xml.jpg
-   :width: 30 %
+    .. |09a_TestCsch_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09a_TestCsch_re.3D.xml.jpg
+       :width: 30 %
 
-.. |09b_TestCsch_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09b_TestCsch_im.3D.xml.jpg
-   :width: 30 %
+    .. |09b_TestCsch_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09b_TestCsch_im.3D.xml.jpg
+       :width: 30 %
 
-.. |09c_TestCsch_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09c_TestCsch_abs.3D.xml.jpg
-   :width: 30 %
+    .. |09c_TestCsch_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/09c_TestCsch_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Hyperbolic Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Hyperbolic Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Hyperbolic Cosecant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -562,22 +495,12 @@ Hyperbolic cosecant, `\mathrm{csch}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Csch(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Csch('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Csch(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Csch('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Csch(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Csch('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -651,26 +574,22 @@ Hyperbolic secant, `\mathrm{sech}(x)`
 
     
 
-|07a_TestSech_re| `\quad` |07b_TestSech_im| `\quad` |07c_TestSech_abs|
+    |07a_TestSech_re| `\quad` |07b_TestSech_im| `\quad` |07c_TestSech_abs|
 
-.. |07a_TestSech_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07a_TestSech_re.3D.xml.jpg
-   :width: 30 %
+    .. |07a_TestSech_re| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07a_TestSech_re.3D.xml.jpg
+       :width: 30 %
 
-.. |07b_TestSech_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07b_TestSech_im.3D.xml.jpg
-   :width: 30 %
+    .. |07b_TestSech_im| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07b_TestSech_im.3D.xml.jpg
+       :width: 30 %
 
-.. |07c_TestSech_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07c_TestSech_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Hyperbolic Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |07c_TestSech_abs| image:: ../_static/ExplicitSurfaces/CplxHyperbolic/07c_TestSech_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Hyperbolic Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-**Right figure**:  absolute value of the Hyperbolic Secant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -681,22 +600,12 @@ Hyperbolic secant, `\mathrm{sech}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sech(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sech('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sech(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sech('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sech(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sech('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:

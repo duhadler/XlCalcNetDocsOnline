@@ -39,22 +39,13 @@ Lower normalized incomplete gamma function, `P(a,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.IncGammaP(3.1, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.IncGammaP(3.4, '1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.IncGammaP(3.1, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.IncGammaP(3.4, '1.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.IncGammaP(3.1, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.IncGammaP(3.4, '1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -161,22 +152,12 @@ Upper normalized incomplete gamma functions , `Q(a,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.IncGammaQ(3.1, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.IncGammaQ(3.4, '1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.IncGammaQ(3.1, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.IncGammaQ(3.4, '1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.IncGammaQ(3.1, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.IncGammaQ(3.4, '1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -235,22 +216,12 @@ Lower non-normalized incomplete gamma function, `\gamma(a,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.IncgammaL(3.1, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.IncgammaL(3.4, '1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.IncgammaL(3.1, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.IncgammaL(3.4, '1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.IncgammaL(3.1, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.IncgammaL(3.4, '1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -284,22 +255,12 @@ Upper non-normalized incomplete gamma function, `\Gamma(a,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.IncGammaU(3.1, 1.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.IncGammaU(3.4, '1.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.IncGammaU(3.1, 1.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.IncGammaU(3.4, '1.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.IncGammaU(3.1, 1.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.IncGammaU(3.4, '1.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

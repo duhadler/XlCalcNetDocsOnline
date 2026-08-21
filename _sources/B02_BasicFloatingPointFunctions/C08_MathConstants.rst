@@ -35,17 +35,17 @@ Degree
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstDegree()
-        xreal('1.7453292519943295769E-2')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstDegree()
+        ereal('1.7453292519943295769E-2')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstDegree()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstDegree()
         0.0174532925199433
 
 
@@ -67,17 +67,17 @@ Golden ratio phi
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstPhi()
-        xreal('1.6180339887498948482')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstPhi()
+        ereal('1.6180339887498948482')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstPhi()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstPhi()
         1.61803398874989
 
 
@@ -100,17 +100,17 @@ Natural logarithm of 2
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstLog2()
-        xreal('6.9314718055994530943E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstLog2()
+        ereal('6.9314718055994530943E-1')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstLog2()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstLog2()
         0.693147180559945
 
 
@@ -131,17 +131,17 @@ Natural logarithm of 10
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstLog10()
-        xreal('2.3025850929940456840')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstLog10()
+        ereal('2.3025850929940456840')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstLog10()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstLog10()
         2.30258509299405
 
 
@@ -165,17 +165,17 @@ Pi (`\pi`)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Pi()
-        xreal('3.1415926535897932385')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pi()
+        ereal('3.1415926535897932385')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Pi()
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pi()
         3.14159265358979
 
 
@@ -198,17 +198,17 @@ Euler e
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstE()
-        xreal('3.1415926535897932385')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstE()
+        ereal('3.1415926535897932385')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstE()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstE()
         2.71828182845905
 
 
@@ -232,17 +232,17 @@ Euler-Mascheroni constant `\gamma`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstEulerGamma()
-        xreal('5.7721566490153286062E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstEulerGamma()
+        ereal('5.7721566490153286062E-1')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstEulerGamma()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstEulerGamma()
         0.577215664901533
 
 
@@ -269,17 +269,17 @@ Apéry's constant
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstApery()
-        xreal('1.2020569031595942854')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstApery()
+        ereal('1.2020569031595942854')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstApery()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstApery()
         1.20205690315959
 
 
@@ -305,17 +305,17 @@ Catalan's constant
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstCatalan()
-        xreal('9.1596559417721901505E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstCatalan()
+        ereal('9.1596559417721901505E-1')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstCatalan()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstCatalan()
         0.915965594177219
 
 
@@ -340,17 +340,17 @@ Glaisher's constant
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstGlaisher()
-        xreal('1.2824271291006226369')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstGlaisher()
+        ereal('1.2824271291006226369')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstGlaisher()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstGlaisher()
         1.28242712910062
 
 
@@ -373,17 +373,17 @@ Khinchin's constant
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstKhinchin()
-        xreal('2.6854520010653064454')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstKhinchin()
+        ereal('2.6854520010653064454')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstKhinchin()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstKhinchin()
         2.68545200106531
 
 
@@ -405,17 +405,17 @@ Imaginary One
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ConstDegree()
-        xreal('1.7453292519943295769E-2')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstDegree()
+        ereal('1.7453292519943295769E-2')
 
 
     In double precision (64 bit version of xlcalcnet)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ConstDegree()
+        >>> from xlcalcnet import ereal
+        >>> ereal.ConstDegree()
         0.0174532925199433
 
 

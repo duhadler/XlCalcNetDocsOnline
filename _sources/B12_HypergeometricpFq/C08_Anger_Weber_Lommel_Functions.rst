@@ -65,7 +65,7 @@ Anger function `\mathbf{J}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 40; n = 10; x = 3
         >>> dx = dpm.angerj(n, x); mx = mpm.angerj(n, x); gx = gmp.angerj(n, x)
         >>> fx = fpm.angerj(n, x); ax = apm.angerj(n, x)
@@ -81,7 +81,7 @@ Anger function `\mathbf{J}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 20; n = '10'; z = '3 + 4j'
         >>> dz = dpm.angerj(n, z); mz = mpm.angerj(n, z); gz = gmp.angerj(n, z)
         >>> fz = fpm.angerj(n, z); az = apm.angerj(n, z)
@@ -144,7 +144,7 @@ Weber function `\mathbf{E}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 40; n = 10; x = 3
         >>> dx = dpm.webere(n, x); mx = mpm.webere(n, x); gx = gmp.webere(n, x)
         >>> fx = fpm.webere(n, x); ax = apm.webere(n, x)
@@ -160,7 +160,7 @@ Weber function `\mathbf{E}_{\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 20; n = '10'; z = '3 + 4j'
         >>> dz = dpm.webere(n, z); mz = mpm.webere(n, z); gz = gmp.webere(n, z)
         >>> fz = fpm.webere(n, z); az = apm.webere(n, z)
@@ -222,7 +222,7 @@ Lommel function `s_{\mu,\nu}(x) = s^{(1)}_{\mu,\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 40; mu = '11.3'; nu = '2.7'; x = '0.3'
         >>> dx = dpm.lommels1(nu, mu, x); mx = mpm.lommels1(nu, mu, x); gx = gmp.lommels1(nu, mu, x)
         >>> fx = fpm.lommels1(nu, mu, x); ax = apm.lommels1(nu, mu, x)
@@ -238,7 +238,7 @@ Lommel function `s_{\mu,\nu}(x) = s^{(1)}_{\mu,\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 20; nu = '11.0 + 2.0j'; mu = '12.0 + 3.0j'; z = '3.0 + 4.0j'
         >>> dz = dpm.lommels1(nu, mu, z); mz = mpm.lommels1(nu, mu, z); gz = gmp.lommels1(nu, mu, z)
         >>> fz = fpm.lommels1(nu, mu, z); az = apm.lommels1(nu, mu, z)
@@ -287,7 +287,7 @@ Lommel function `S_{\mu,\nu}(x) = s^{(2)}_{\mu,\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 40; mu = '11.3'; nu = '2.7'; x = '0.3'
         >>> dx = dpm.lommels2(nu, mu, x); mx = mpm.lommels2(nu, mu, x); gx = gmp.lommels2(nu, mu, x)
         >>> fx = fpm.lommels2(nu, mu, x); ax = apm.lommels2(nu, mu, x)
@@ -303,7 +303,7 @@ Lommel function `S_{\mu,\nu}(x) = s^{(2)}_{\mu,\nu}(x)`
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import dpm, mpm, gmp, fpm, apm
+        >>> from xlcalcnet import dpm, mpm, gmp, fpm, apm
         >>> mpm.dps = 20; nu = '11.0 + 2.0j'; mu = '12.0 + 3.0j'; z = '3.0 + 4.0j'
         >>> dz = dpm.lommels2(nu, mu, z); mz = mpm.lommels2(nu, mu, z); gz = gmp.lommels2(nu, mu, z)
         >>> fz = fpm.lommels2(nu, mu, z); az = apm.lommels2(nu, mu, z)

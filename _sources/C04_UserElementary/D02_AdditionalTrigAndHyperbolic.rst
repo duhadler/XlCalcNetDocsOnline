@@ -34,22 +34,12 @@ Sine, `x` in degrees, `\mathrm{sind}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sind(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sind('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sind(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sind('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sind(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sind('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -78,22 +68,11 @@ Cosine, `x` in degrees, `\mathrm{cosd}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cosd(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cosd('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cosd(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cosd('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cosd(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cosd('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -124,22 +103,11 @@ Tangent, with `x` in degrees, `\mathrm{tand}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Tand(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Tand('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Tand(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Tand('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Tand(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Tand('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -175,22 +143,12 @@ Cotangent, with `x` in degrees, `\mathrm{cotd}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Cotd(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Cotd('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Cotd(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Cotd('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Cotd(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Cotd('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -224,22 +182,11 @@ Continuous inverse cotangent, `\mathrm{acotc}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acotc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acotc('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acotc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acotc('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acotc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acotc('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -258,22 +205,11 @@ Coversine, `\mathrm{covers}(x) = 1 - \sin(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Covers(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Covers('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Covers(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Covers('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Covers(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Covers('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -293,22 +229,11 @@ Versint function `\mathrm{versint}(x) = x - \sin(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Versint(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Versint('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Versint(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Versint('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Versint(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Versint('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -329,22 +254,12 @@ Versine function `\mathrm{vers}(x) = 1 - \cos(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Versine(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Versine('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Versine(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Versine('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Versine(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Versine('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -362,22 +277,12 @@ Haversine function `\mathrm{hav}(x) = (1 - \cos(x))/2`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Haversine(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Haversine('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Haversine(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Haversine('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Haversine(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Haversine('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -397,22 +302,11 @@ Integral of cos powers, `\mathrm{cosint}(n,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.CosInt(3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.CosInt(3, 12)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.CosInt(3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.CosInt(3, 12)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.CosInt(3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.CosInt(3, 12)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -436,22 +330,11 @@ Integral of sin powers, `\mathrm{sinint}(n,x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SinInt(3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SinInt(3, 12)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SinInt(3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SinInt(3, 12)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SinInt(3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SinInt(3, 12)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -482,22 +365,11 @@ Solutions of Kepler’s equation, `\mathrm{kepler}(M,e)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Kepler(3, 0.44)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Kepler(3, 0.14404)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Kepler(3, 0.44)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Kepler(3, 0.14404)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Kepler(3, 0.44)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Kepler(3, 0.14404)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -522,22 +394,12 @@ Fibonacci function, `F_{\nu}(x)`,  of real index `\nu`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Fibfun(3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Fibfun(3, 12)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Fibfun(3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Fibfun(3, 12)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Fibfun(3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Fibfun(3, 12)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -557,22 +419,12 @@ Cardinal hyperbolic sine, `\mathrm{sinhc}(x) = \sinh(x)/x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sinhc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sinhc('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sinhc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sinhc('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sinhc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sinhc('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -590,22 +442,12 @@ Auxiliary function,  `\mathrm{sinhmx}(x) = \sinh(x)-x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sinhmx(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sinhmx('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sinhmx(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sinhmx('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sinhmx(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sinhmx('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -624,22 +466,12 @@ Auxiliary function,  `\mathrm{coshm1}(x) = \cosh(x)-1`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Coshm1(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Coshm1('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Coshm1(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Coshm1('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Coshm1(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Coshm1('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -660,22 +492,11 @@ Langevin function, `L(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LangevinL(0.2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LangevinL(0.21)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LangevinL(0.2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LangevinL(0.21)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LangevinL(0.2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LangevinL(0.21)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -697,22 +518,11 @@ Auxiliary function `\log(\cosh(x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logcosh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logcosh('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logcosh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logcosh('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logcosh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logcosh('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -731,22 +541,12 @@ Auxiliary function `\log(\sinh(x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logsinh(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logsinh('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logsinh(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logsinh('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logsinh(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logsinh('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -766,22 +566,12 @@ Auxiliary function,  `\mathrm{acos}(1-x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acos1m(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acos1m('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acos1m(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acos1m('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acos1m(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acos1m('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -803,22 +593,11 @@ Gudermannian function `\mathrm{gd}(x) = \mathrm{asin}(\mathrm{tanh}(x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Gudermann(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Gudermann('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Gudermann(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Gudermann('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Gudermann(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Gudermann('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -837,22 +616,12 @@ Inverse haversine function `\mathrm{archav}(x) = \mathrm{acos}(1-2x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ArcHaversine(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ArcHaversine('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ArcHaversine(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ArcHaversine('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ArcHaversine(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ArcHaversine('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -871,22 +640,12 @@ Auxiliary function `\mathrm{acosh}(1+x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acosh1p(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acosh1p('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acosh1p(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acosh1p('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acosh1p(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acosh1p('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -909,22 +668,11 @@ Inverse Gudermannian function `\mathrm{arcgd}(x) = \mathrm{atanh}(\sin(x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ArcGd(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ArcGd('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ArcGd(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ArcGd('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ArcGd(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ArcGd('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -945,22 +693,11 @@ Inverse Langevin function, `L^{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LangevinLInv(0.2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LangevinLInv(0.21)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LangevinLInv(0.2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LangevinLInv(0.21)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LangevinLInv(0.2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LangevinLInv(0.21)
+        ereal('5.3518479027559984754E-1')
 
 
 

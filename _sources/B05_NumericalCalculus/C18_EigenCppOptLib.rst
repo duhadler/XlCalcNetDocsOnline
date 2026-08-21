@@ -114,43 +114,6 @@ The routine in Python:
         print('Norm: \n', nrm)
 
 
-The same routine in Visual Basic:
-
-
-
-
-.. code-block:: vbnet
-
-    Public Sub matF1(x As dbl_mat_t, y As dbl_mat_t)        
-        Dim t1 As Double = 1 - x(0)
-        Dim t2 As Double = x(1) - x(0) * x(0)
-        y(0) = t1 * t1 + 100 * t2 * t2
-    End Sub
-
-    Public Sub matF2(x As dbl_mat_t, y As dbl_mat_t)
-        y(0) = -2 * (1 - x(0)) + 200 * (x(1) - x(0) * x(0)) * (-2 * x(0))
-        y(1) = 200 * (x(1) - x(0) * x(0))
-    End Sub
-
-    Sub DemoNelderMeadSolverDbl() 
-        Console.WriteLine("Hello DemoNelderMeadSolverDbl() ")
-        Dim X, Y As New dbl_mat_t()
-        X.resize(2, 1)
-        Y.resize(X.rows, 1)
-        X(0) = 1
-        X(1) = 2
-        
-        Dim OptLib As New NelderMeadSolverDbl(AddressOf matF1, AddressOf matF2, X)
-        Dim matRes = OptLib.Solve()
-        matRes.print("matRes: ", 15)
-        matF1(matRes, Y)
-        Y.print("Y = F(matRes): ", 15)
-        
-        Dim nrm = Math.Sqrt( Y(0)*Y(0) + Y(1)*Y(1)) ' result is correct
-        Console.WriteLine("Norm: {0}", nrm)
-        Console.WriteLine("")
-    End Sub
-
 
 This produces the following output: 
 
@@ -250,43 +213,6 @@ The routine in Python:
         print('Norm: \n', nrm)
 
 
-The same routine in Visual Basic:
-
-
-
-
-.. code-block:: vbnet
-
-    Public Sub matF1(x As dbl_mat_t, y As dbl_mat_t)        
-        Dim t1 As Double = 1 - x(0)
-        Dim t2 As Double = x(1) - x(0) * x(0)
-        y(0) = t1 * t1 + 100 * t2 * t2
-    End Sub
-
-    Public Sub matF2(x As dbl_mat_t, y As dbl_mat_t)
-        y(0) = -2 * (1 - x(0)) + 200 * (x(1) - x(0) * x(0)) * (-2 * x(0))
-        y(1) = 200 * (x(1) - x(0) * x(0))
-    End Sub
-
-    Sub DemoCMAesSolverDbl() 
-        Console.WriteLine("Hello DemoCMAesSolverDbl() ")
-        Dim X, Y As New dbl_mat_t()
-        X.resize(2, 1)
-        Y.resize(X.rows, 1)
-        X(0) = 1
-        X(1) = 2
-        
-        Dim OptLib As New CMAesSolverDbl(AddressOf matF1, AddressOf matF2, X)
-        Dim matRes = OptLib.Solve()
-        matRes.print("matRes: ", 15)
-        matF1(matRes, Y)
-        Y.print("Y = F(matRes): ", 15)
-        
-        Dim nrm = Math.Sqrt( Y(0)*Y(0) + Y(1)*Y(1)) 
-        Console.WriteLine("Norm: {0}", nrm)
-        Console.WriteLine("")
-    End Sub
-
 
 This produces the following output: 
 
@@ -374,40 +300,6 @@ The routine in Python:
         nrm = ctx.sqrt( Y[0]*Y[0] + Y[1]*Y[1]) # result is correct
         print('Norm: \n', nrm)
 
-
-The same routine in Visual Basic:
-
-.. code-block:: vbnet
-
-    Public Sub matF1(x As dbl_mat_t, y As dbl_mat_t)        
-        Dim t1 As Double = 1 - x(0)
-        Dim t2 As Double = x(1) - x(0) * x(0)
-        y(0) = t1 * t1 + 100 * t2 * t2
-    End Sub
-
-    Public Sub matF2(x As dbl_mat_t, y As dbl_mat_t)
-        y(0) = -2 * (1 - x(0)) + 200 * (x(1) - x(0) * x(0)) * (-2 * x(0))
-        y(1) = 200 * (x(1) - x(0) * x(0))
-    End Sub
-
-    Sub DemoBfgsSolverClassDbl() 
-        Console.WriteLine("Hello DemoBfgsSolverClassDbl() ")
-        Dim X, Y As New dbl_mat_t()
-        X.resize(2, 1)
-        Y.resize(X.rows, 1)
-        X(0) = 1
-        X(1) = 2
-        
-        Dim OptLib As New BfgsSolverDbl(AddressOf matF1, AddressOf matF2, X)
-        Dim matRes = OptLib.Solve()
-        matRes.print("matRes: ", 15)
-        matF1(matRes, Y)
-        Y.print("Y = F(matRes): ", 15)
-        
-        Dim nrm = Math.Sqrt( Y(0)*Y(0) + Y(1)*Y(1)) 
-        Console.WriteLine("Norm: {0}", nrm)
-        Console.WriteLine("")
-   End Sub
 
 
 This produces the following output: 
@@ -501,42 +393,6 @@ The routine in Python:
         print('Norm: \n', nrm)
 
 
-The same routine in Visual Basic:
-
-
-
-.. code-block:: vbnet
-
-    Public Sub matF1(x As dbl_mat_t, y As dbl_mat_t)        
-        Dim t1 As Double = 1 - x(0)
-        Dim t2 As Double = x(1) - x(0) * x(0)
-        y(0) = t1 * t1 + 100 * t2 * t2
-    End Sub
-
-    Public Sub matF2(x As dbl_mat_t, y As dbl_mat_t)
-        y(0) = -2 * (1 - x(0)) + 200 * (x(1) - x(0) * x(0)) * (-2 * x(0))
-        y(1) = 200 * (x(1) - x(0) * x(0))
-    End Sub
-
-    Sub DemoLbfgsSolverDbl() 
-        Console.WriteLine("Hello DemoLbfgsSolverDbl() ")
-        Dim X, Y As New dbl_mat_t()
-        X.resize(2, 1)
-        Y.resize(X.rows, 1)
-        X(0) = 1
-        X(1) = 2
-        
-        Dim OptLib As New LbfgsSolverDbl(AddressOf matF1, AddressOf matF2, X)
-        Dim matRes = OptLib.Solve()
-        matRes.print("matRes: ", 15)
-        matF1(matRes, Y)
-        Y.print("Y = F(matRes): ", 15)
-        
-        Dim nrm = Math.Sqrt( Y(0)*Y(0) + Y(1)*Y(1)) 
-        Console.WriteLine("Norm: {0}", nrm)
-        Console.WriteLine("")
-    End Sub
-
 
 This produces the following output: 
 
@@ -621,40 +477,6 @@ The routine in Python:
         nrm = ctx.sqrt( Y[0]*Y[0] + Y[1]*Y[1]) # result is correct
         print('Norm: \n', nrm)
 
-
-The same routine in Visual Basic:
-
-.. code-block:: vbnet
-
-    Public Sub matF1(x As dbl_mat_t, y As dbl_mat_t)        
-        Dim t1 As Double = 1 - x(0)
-        Dim t2 As Double = x(1) - x(0) * x(0)
-        y(0) = t1 * t1 + 100 * t2 * t2
-    End Sub
-
-    Public Sub matF2(x As dbl_mat_t, y As dbl_mat_t)
-        y(0) = -2 * (1 - x(0)) + 200 * (x(1) - x(0) * x(0)) * (-2 * x(0))
-        y(1) = 200 * (x(1) - x(0) * x(0))
-    End Sub
-
-    Sub DemoBfgsSolverClassDbl() 
-        Console.WriteLine("Hello DemoBfgsSolverClassDbl() ")
-        Dim X, Y As New dbl_mat_t()
-        X.resize(2, 1)
-        Y.resize(X.rows, 1)
-        X(0) = 1
-        X(1) = 2
-        
-        Dim OptLib As New BfgsSolverDbl(AddressOf matF1, AddressOf matF2, X)
-        Dim matRes = OptLib.Solve()
-        matRes.print("matRes: ", 15)
-        matF1(matRes, Y)
-        Y.print("Y = F(matRes): ", 15)
-        
-        Dim nrm = Math.Sqrt( Y(0)*Y(0) + Y(1)*Y(1)) 
-        Console.WriteLine("Norm: {0}", nrm)
-        Console.WriteLine("")
-   End Sub
 
 
 This produces the following output: 

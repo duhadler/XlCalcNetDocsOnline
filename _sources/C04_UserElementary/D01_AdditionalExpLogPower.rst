@@ -33,22 +33,12 @@ Auxiliary function `\mathrm{sqrt1pmx}(x) = \sqrt{1+x^2}-x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Sqrt1pmx(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Sqrt1pmx('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Sqrt1pmx(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Sqrt1pmx('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Sqrt1pmx(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Sqrt1pmx('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -70,22 +60,12 @@ Cube root, `\mathrm{cuberoot}(x) = \sqrt[3]{x} = y`, with `\mathrm{arg}(y)` clos
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Cuberoot(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Cuberoot('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Cuberoot(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Cuberoot('0.1')
+        ecplx('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Cuberoot(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Cuberoot('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
 
@@ -104,22 +84,13 @@ Nth root, `\mathrm{surd}(x, n) = \sqrt[n]{x} = y`, with `\mathrm{arg}(y)` closes
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import XComplex
-        >>> XComplex.Surd(0.5)
-        XComplex('5.2359877559829887307E-1')
-        >>> XComplex.Surd('0.1')
-        XComplex('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ecplx
+        >>> ecplx.Surd(0.5)
+        ecplx('5.2359877559829887307E-1')
+        >>> ecplx.Surd('0.1')
+        ecplx('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpc
-        >>> Gpc.Surd(0.5)
-        Gpc('5.2359877559829887307E-1')
-        >>> Gpc.Surd('0.1')
-        Gpc('5.3518479027559984754E-1')
 
 
         
@@ -139,22 +110,12 @@ Bring radical
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Bring(3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Bring(13)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Bring(3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Bring(13)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Bring(3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Bring(13)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -172,22 +133,13 @@ Auxiliary function `\mathrm{expmx2h}(x) = \exp(-x^2 / 2)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expmx2h(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expmx2h('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expmx2h(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expmx2h('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expmx2h(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expmx2h('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -217,22 +169,12 @@ Relative error exponential  `\mathrm{exprel}(x) = (\exp(x) - 1)/x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Exprel(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Exprel('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Exprel(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Exprel('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Exprel(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Exprel('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -298,22 +240,12 @@ Auxiliary function   `\mathrm{expx2}(x) = \exp(x \cdot |x|)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Expx2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Expx2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Expx2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Expx2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Expx2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Expx2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -329,22 +261,12 @@ Auxiliary function `\mathrm{logistic}(x) = 1/(1+\exp(-x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logistic(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logistic('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logistic(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logistic('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logistic(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logistic('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -368,22 +290,12 @@ Einstein functions
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Einstein(1,3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Einstein(2,13)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Einstein(1,3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Einstein(2,13)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Einstein(1,3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Einstein(2,13)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -411,22 +323,12 @@ Auxiliary function `\mathrm{log1mexp}(x) = \log(1-\exp(-|x|))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log1mexp(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log1mexp('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log1mexp(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log1mexp('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log1mexp(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log1mexp('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -494,22 +396,12 @@ Auxiliary function `\mathrm{log1pexp}(x) = \log(1+\exp(x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log1pexp(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log1pexp('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log1pexp(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log1pexp('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log1pexp(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log1pexp('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -528,22 +420,12 @@ Auxiliary function `\mathrm{log1pmx}(x) = \log(1+x)-x`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Log1pmx(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Log1pmx('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Log1pmx(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Log1pmx('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Log1pmx(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Log1pmx('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -566,22 +448,12 @@ Auxiliary function `\mathrm{logaddexp}(x, y) = \log[\exp(x) + \exp(y)]`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logaddexp(0.5, 2)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logaddexp('0.51', 2)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logaddexp(0.5, 2)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logaddexp('0.51', 2)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logaddexp(0.5, 2)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logaddexp('0.51', 2)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -598,22 +470,12 @@ Auxiliary function `\mathrm{logsubexp}(x, y) = \log[\exp(x) - \exp(y)]`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logsubexp(20.5, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logsubexp(20.5, 4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logsubexp(20.5, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logsubexp(20.5, 4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logsubexp(20.5, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logsubexp(20.5, 4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -632,22 +494,11 @@ Auxiliary function `\mathrm{logit}(x) = \log(x/(1.0-x))`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Logit(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Logit('0.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Logit(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Logit('0.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Logit(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Logit('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -671,23 +522,11 @@ Wright `\omega` function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.WrightOmega(2,3)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.WrightOmega(4,13)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.WrightOmega(2,3)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.WrightOmega(4,13)
-        Gpr('5.3518479027559984754E-1')
-
+        >>> from xlcalcnet import ereal
+        >>> ereal.WrightOmega(2,3)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.WrightOmega(4,13)
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -707,22 +546,11 @@ Auxiliary function `\mathrm{hypot3}(x,y,z) = \sqrt{x^2 + y^2 + z^2}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hypot3(0.5, 3, 5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hypot3(0.5, 3, 5)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hypot3(0.5, 3, 5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hypot3(0.5, 3, 5)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hypot3(0.5, 3, 5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hypot3(0.5, 3, 5)
+        ereal('5.3518479027559984754E-1')
 
 
 

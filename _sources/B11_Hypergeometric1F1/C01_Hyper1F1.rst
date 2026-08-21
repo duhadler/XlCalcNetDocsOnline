@@ -49,15 +49,10 @@ Kummer's Confluent Hypergeometric Function `{}_1F_1(a,b;x)`
     .. |01c_TestHypergeom1F1_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/01c_TestHypergeom1F1_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
-    **Left figure**: real part of Kummer's Confluent Hypergeometric Function `{}_1F_1(a,b;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of Kummer's Confluent Hypergeometric Function `{}_1F_1(a,b;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of Kummer's Confluent Hypergeometric Function `{}_1F_1(a,b;x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
 
 
 
@@ -67,22 +62,12 @@ Kummer's Confluent Hypergeometric Function `{}_1F_1(a,b;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg1F1(4,5,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg1F1(14,15,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg1F1(4,5,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg1F1(14,15,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg1F1(4,5,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg1F1(14,15,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -148,22 +133,12 @@ Regularized Kummer Confluent Hypergeometric Function, `{}_1\widetilde{F}_1(a,b;x
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Hyperg1F1r(4,5,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Hyperg1F1r(14,15,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Hyperg1F1r(4,5,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Hyperg1F1r(14,15,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Hyperg1F1r(4,5,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Hyperg1F1r(14,15,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -237,15 +212,9 @@ Tricomi's Confluent Hypergeometric Function, `U(a,b;x)`
     .. |02c_TestHypergeomU_abs| image:: ../_static/ExplicitSurfaces/Cplx1F1/02c_TestHypergeomU_abs.3D.xml.jpg
        :width: 30 %
 
+       
 
-
-    **Left figure**: real part of Tricomi's Confluent Hypergeometric Function, `U(a,b;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Middle figure**: imaginary part of Tricomi's Confluent Hypergeometric Function, `U(a,b;x)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-    **Right figure**:  absolute value of Tricomi's Confluent Hypergeometric Function, `U(a,b;x)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -256,22 +225,12 @@ Tricomi's Confluent Hypergeometric Function, `U(a,b;x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.HypergU(4,5.1,0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.HypergU(14,15.2,0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.HypergU(4,5.1,0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.HypergU(14,15.2,0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.HypergU(4,5.1,0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.HypergU(14,15.2,0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -343,22 +302,12 @@ Generalized Laguerre polynomials, `L^{(a)}_n (x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Laguerre(2, 3, 2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Laguerre('6, 2, 0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Laguerre(2, 3, 2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Laguerre('6, 2, 0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Laguerre(2, 3, 2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Laguerre('6, 2, 0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
         
@@ -395,22 +344,12 @@ Hermite polynomial (physicist), `H_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.HermiteH(2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.HermiteH(6, 0.51)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.HermiteH(2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.HermiteH(6, 0.51)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.HermiteH(2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.HermiteH(6, 0.51)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -447,21 +386,11 @@ Hermite polynomials (probabilist) `\operatorname{He}_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.HermiteHe(2, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.HermiteHe(6, 0.51)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.HermiteHe(2, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.HermiteHe(6, 0.51)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.HermiteHe(2, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.HermiteHe(6, 0.51)
-        Gpr('5.3518479027559984754E-1')
 
 

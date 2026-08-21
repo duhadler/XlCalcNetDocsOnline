@@ -53,7 +53,7 @@
     <link rel="prev" title="Introduction to random variables and distributions" href="C01_Intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1317,7 +1317,7 @@ document.write(`
 <p>See also  Wikipedia <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id934" title="Wikipedia. Support (mathematics). Wikipedia. Wikimedia Foundation, 2006. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Support_(mathematics).">1233</a>]</span>.</p>
 <p>See also  <a class="reference external" href="https://en.wikipedia.org/wiki/Interval_(mathematics">https://en.wikipedia.org/wiki/Interval_(mathematics</a>)</p>
 <p>The distribution is said to be ‘supported’ over a range that is “the smallest closed set whose complement has probability zero”. Non-mathematicians might say it means the ‘interesting’ smallest range of random variate x that has the cdf going from zero to unity. Outside are uninteresting zones where the pdf is zero, and the cdf zero or unity.</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mp</span><span class="o">.</span><span class="n">dps</span> <span class="o">=</span> <span class="mi">30</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">sigma</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;c_x: &quot;</span><span class="p">,</span> <span class="n">chi_squared</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span><span class="o">.</span><span class="n">c_x</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
@@ -1336,7 +1336,7 @@ document.write(`
 <p>See also  Wikipedia <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id934" title="Wikipedia. Support (mathematics). Wikipedia. Wikimedia Foundation, 2006. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Support_(mathematics).">1233</a>]</span>.</p>
 <p>See also  <a class="reference external" href="https://en.wikipedia.org/wiki/Interval_(mathematics">https://en.wikipedia.org/wiki/Interval_(mathematics</a>)</p>
 <p>The distribution is said to be ‘supported’ over a range that is “the smallest closed set whose complement has probability zero”. Non-mathematicians might say it means the ‘interesting’ smallest range of random variate x that has the cdf going from zero to unity. Outside are uninteresting zones where the pdf is zero, and the cdf zero or unity.</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mp</span><span class="o">.</span><span class="n">dps</span> <span class="o">=</span> <span class="mi">30</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">sigma</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;c_x: &quot;</span><span class="p">,</span> <span class="n">chi_squared</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span><span class="o">.</span><span class="n">c_x</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
@@ -1354,7 +1354,7 @@ document.write(`
 <dd><p>Returns the lower endpoint of the valid range of the random variable.</p>
 <p>See also  Wikipedia <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id934" title="Wikipedia. Support (mathematics). Wikipedia. Wikimedia Foundation, 2006. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Support_(mathematics).">1233</a>]</span>.</p>
 <p>See also  <a class="reference external" href="https://en.wikipedia.org/wiki/Interval_(mathematics">https://en.wikipedia.org/wiki/Interval_(mathematics</a>)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mp</span><span class="o">.</span><span class="n">dps</span> <span class="o">=</span> <span class="mi">30</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">sigma</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;c_x: &quot;</span><span class="p">,</span> <span class="n">chi_squared</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span><span class="o">.</span><span class="n">c_x</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
@@ -1372,7 +1372,7 @@ document.write(`
 <dd><p>Returns the upper endpoint of the valid range of the random variable.</p>
 <p>See also  Wikipedia <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id934" title="Wikipedia. Support (mathematics). Wikipedia. Wikimedia Foundation, 2006. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Support_(mathematics).">1233</a>]</span>.</p>
 <p>See also  <a class="reference external" href="https://en.wikipedia.org/wiki/Interval_(mathematics">https://en.wikipedia.org/wiki/Interval_(mathematics</a>)</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mp</span><span class="o">.</span><span class="n">dps</span> <span class="o">=</span> <span class="mi">30</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">mu</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">sigma</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;c_x: &quot;</span><span class="p">,</span> <span class="n">chi_squared</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">)</span><span class="o">.</span><span class="n">c_x</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>
@@ -1727,7 +1727,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

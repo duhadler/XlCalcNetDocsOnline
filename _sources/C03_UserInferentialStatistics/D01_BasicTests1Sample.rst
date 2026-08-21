@@ -375,7 +375,7 @@ Student t-test for 1 sample: sample size calculation
     .. code-block:: pycon
 
         >>> from mpfunlab import mpm
-        >>> xreal.StudentT1CI(mu1:=5.24, mu0:=4.05, sd:=1.5, alpha:=0.05, beta:=0.1)
+        >>> ereal.StudentT1CI(mu1:=5.24, mu0:=4.05, sd:=1.5, alpha:=0.05, beta:=0.1)
                                                  df: 21
                                 difference of means: 1.19
                                    t-value (=delta): 3.721063
@@ -430,7 +430,7 @@ Chi-squared-test for the variance of 1 sample: tests (p-values)
     .. code-block:: pycon
 
         >>> from mpfunlab import mpm
-        >>> xreal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
+        >>> ereal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
 
         Input
         Variable Variable 1
@@ -486,7 +486,7 @@ Chi-squared-test for the variance of 1 sample: confidence intervals
     .. code-block:: pycon
 
         >>> from mpfunlab import mpm
-        >>> xreal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
+        >>> ereal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
 
         Input
         Variable Variable 1
@@ -548,7 +548,7 @@ Chi-squared-test for the variance of 1 sample: power
     .. code-block:: pycon
 
         >>> from mpfunlab import mpm
-        >>> xreal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
+        >>> ereal.StudentT1Test(mean:=5.24, mean0:=4.05, sd:=1.5, n:=22, resultstring:='All')
 
         Input
         Variable Variable 1

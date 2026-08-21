@@ -45,7 +45,7 @@ See also   Wikipedia :cite:p:`WikipediaDis35`, MathWorld :cite:p:`WolframDis35`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("HypergeoPdf(x, a, b): ", HypergeoPdf(x, a, b))
         >>> print ("dist_hypergeometric(a, b).pdf(x): ", dist_hypergeometric(a, b).pdf(x))
@@ -69,7 +69,7 @@ See also   Wikipedia :cite:p:`WikipediaDis35`, MathWorld :cite:p:`WolframDis35`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("HypergeoCdf(x, a, b): ", HypergeoCdf(x, a, b))
         >>> print ("dist_hypergeometric(a, b).cdf(x): ", dist_hypergeometric(a, b).cdf(x))
@@ -93,7 +93,7 @@ See also   Wikipedia :cite:p:`WikipediaDis35`, MathWorld :cite:p:`WolframDis35`,
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("HypergeoQtf(q, a, b): ", HypergeoQtf(q, a, b))
         >>> print ("dist_hypergeometric(a, b).qtf(q): ", dist_hypergeometric(a, b).qtf(q))

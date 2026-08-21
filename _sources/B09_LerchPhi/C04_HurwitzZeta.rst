@@ -58,26 +58,21 @@ Hurwitz zeta function, `\zeta(s,a)`
 
 
 
-|02_0a_TestHurwitzZetaFlint_0_re| `\quad` |02_0b_TestHurwitzZetaFlint_0_im| `\quad` |02_0c_TestHurwitzZetaFlint_0_abs|
+    |02_0a_TestHurwitzZetaFlint_0_re| `\quad` |02_0b_TestHurwitzZetaFlint_0_im| `\quad` |02_0c_TestHurwitzZetaFlint_0_abs|
 
-.. |02_0a_TestHurwitzZetaFlint_0_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0a_TestHurwitzZetaFlint_0_re.3D.xml.jpg
-   :width: 30 %
+    .. |02_0a_TestHurwitzZetaFlint_0_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0a_TestHurwitzZetaFlint_0_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02_0b_TestHurwitzZetaFlint_0_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0b_TestHurwitzZetaFlint_0_im.3D.xml.jpg
-   :width: 30 %
+    .. |02_0b_TestHurwitzZetaFlint_0_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0b_TestHurwitzZetaFlint_0_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02_0c_TestHurwitzZetaFlint_0_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0c_TestHurwitzZetaFlint_0_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |02_0c_TestHurwitzZetaFlint_0_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_0c_TestHurwitzZetaFlint_0_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of Hurwitz zeta function, `\zeta(s,a)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -85,54 +80,41 @@ Hurwitz zeta function, `\zeta(s,a)`
 
 
 
-|02_1a_TestHurwitzZetaFlint_1_re| `\quad` |02_1b_TestHurwitzZetaFlint_1_im| `\quad` |02_1c_TestHurwitzZetaFlint_1_abs|
+    |02_1a_TestHurwitzZetaFlint_1_re| `\quad` |02_1b_TestHurwitzZetaFlint_1_im| `\quad` |02_1c_TestHurwitzZetaFlint_1_abs|
 
-.. |02_1a_TestHurwitzZetaFlint_1_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1a_TestHurwitzZetaFlint_1_re.3D.xml.jpg
-   :width: 30 %
+    .. |02_1a_TestHurwitzZetaFlint_1_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1a_TestHurwitzZetaFlint_1_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02_1b_TestHurwitzZetaFlint_1_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1b_TestHurwitzZetaFlint_1_im.3D.xml.jpg
-   :width: 30 %
+    .. |02_1b_TestHurwitzZetaFlint_1_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1b_TestHurwitzZetaFlint_1_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02_1c_TestHurwitzZetaFlint_1_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1c_TestHurwitzZetaFlint_1_abs.3D.xml.jpg
-   :width: 30 %
+    .. |02_1c_TestHurwitzZetaFlint_1_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_1c_TestHurwitzZetaFlint_1_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of Hurwitz zeta function, `\zeta(s,a)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
 
 
 
+    |02_2a_TestHurwitzZetaFlint_2_re| `\quad` |02_2b_TestHurwitzZetaFlint_2_im| `\quad` |02_2c_TestHurwitzZetaFlint_2_abs|
 
-|02_2a_TestHurwitzZetaFlint_2_re| `\quad` |02_2b_TestHurwitzZetaFlint_2_im| `\quad` |02_2c_TestHurwitzZetaFlint_2_abs|
+    .. |02_2a_TestHurwitzZetaFlint_2_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2a_TestHurwitzZetaFlint_2_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02_2a_TestHurwitzZetaFlint_2_re| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2a_TestHurwitzZetaFlint_2_re.3D.xml.jpg
-   :width: 30 %
+    .. |02_2b_TestHurwitzZetaFlint_2_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2b_TestHurwitzZetaFlint_2_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02_2b_TestHurwitzZetaFlint_2_im| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2b_TestHurwitzZetaFlint_2_im.3D.xml.jpg
-   :width: 30 %
-
-.. |02_2c_TestHurwitzZetaFlint_2_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2c_TestHurwitzZetaFlint_2_abs.3D.xml.jpg
-   :width: 30 %
-
+    .. |02_2c_TestHurwitzZetaFlint_2_abs| image:: ../_static/ExplicitSurfaces/CplxLerch/02_2c_TestHurwitzZetaFlint_2_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Left figure**: real part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Middle figure**: imaginary part of Hurwitz zeta function, `\zeta(s,a)`. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of Hurwitz zeta function, `\zeta(s,a)`, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -144,22 +126,12 @@ Hurwitz zeta function, `\zeta(s,a)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.HurwitzZeta(2,5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.HurwitzZeta(2,'51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.HurwitzZeta(2,5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.HurwitzZeta(2,'51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.HurwitzZeta(2,5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.HurwitzZeta(2,'51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -227,22 +199,12 @@ Generalized harmonic number function, `H_x^{(r)}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Harmonic2(5, 10.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Harmonic2(5, '10.1')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Harmonic2(5, 10.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Harmonic2(5, '10.1')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Harmonic2(5, 10.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Harmonic2(5, '10.1')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -329,22 +291,12 @@ Bernoulli numbers, `B_n`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Bernoulli(8)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Bernoulli(14)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Bernoulli(8)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Bernoulli(14)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Bernoulli(8)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Bernoulli(14)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -399,22 +351,13 @@ Bernoulli polynomials, `B_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Bernpoly(3,4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Bernpoly(13,14)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Bernpoly(3,4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Bernpoly(13,14)
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Bernpoly(3,4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Bernpoly(13,14)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -516,22 +459,12 @@ Euler polynomials, `E_n(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Eulerpoly(3, 4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Eulerpoly(3, 12)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Eulerpoly(3, 4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Eulerpoly(3, 12)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Eulerpoly(3, 4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Eulerpoly(3, 12)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -666,22 +599,13 @@ Logarithm of Barnes G function
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.LogBarnesG(7.1)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.LogBarnesG('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.LogBarnesG(7.1)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.LogBarnesG('4.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.LogBarnesG(7.1)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.LogBarnesG('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

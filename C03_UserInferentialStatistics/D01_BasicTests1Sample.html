@@ -53,7 +53,7 @@
     <link rel="prev" title="Inferential statistics" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1250,7 +1250,7 @@ Let <span class="math notranslate nohighlight">\(F_{t'}\left(\cdot, \nu, \delta 
 <p><strong>Examples</strong> </p>
 <p>An actual call to the function, requesting an upper sample size estimate (and actual power) for <span class="math notranslate nohighlight">\(\alpha = 0.95\)</span>, <span class="math notranslate nohighlight">\(\beta=0.1\)</span> , and standard deviations <span class="math notranslate nohighlight">\(\sigma_1=\sigma_2=1\)</span> , means <span class="math notranslate nohighlight">\(\mu_1=2.3\)</span> and <span class="math notranslate nohighlight">\(\mu_2=4.5\)</span>,   would be</p>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StudentT1CI</span><span class="p">(</span><span class="n">mu1</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mu0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">alpha</span><span class="o">:=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">beta</span><span class="o">:=</span><span class="mf">0.1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StudentT1CI</span><span class="p">(</span><span class="n">mu1</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mu0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">alpha</span><span class="o">:=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">beta</span><span class="o">:=</span><span class="mf">0.1</span><span class="p">)</span>
 <span class="go">                                         df: 21</span>
 <span class="go">                        difference of means: 1.19</span>
 <span class="go">                           t-value (=delta): 3.721063</span>
@@ -1311,7 +1311,7 @@ Let <span class="math notranslate nohighlight">\(F_{t'}\left(\cdot, \nu, \delta 
 <p></p>
 <blockquote>
 <div><div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1371,7 +1371,7 @@ Let <span class="math notranslate nohighlight">\(F_{t'}\left(\cdot, \nu, \delta 
 <p></p>
 <blockquote>
 <div><div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1450,7 +1450,7 @@ Let <span class="math notranslate nohighlight">\(F_{t'}\left(\cdot, \nu, \delta 
 <p></p>
 <blockquote>
 <div><div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">StudentT1Test</span><span class="p">(</span><span class="n">mean</span><span class="o">:=</span><span class="mf">5.24</span><span class="p">,</span> <span class="n">mean0</span><span class="o">:=</span><span class="mf">4.05</span><span class="p">,</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">resultstring</span><span class="o">:=</span><span class="s1">&#39;All&#39;</span><span class="p">)</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1641,7 +1641,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

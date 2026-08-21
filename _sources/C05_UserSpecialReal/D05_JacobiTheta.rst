@@ -33,22 +33,12 @@ Jacobi theta function `\theta'_1(q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta1p(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta1p('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta1p(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta1p('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiTheta1p(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiTheta1p('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -68,22 +58,12 @@ Jacobi theta function `\theta_2(q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta2(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta2('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta2(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta2('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiTheta2(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiTheta2('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -102,22 +82,12 @@ Jacobi theta function `\theta_3(q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta3(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta3('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta3(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta3('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiTheta3(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiTheta3('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -137,22 +107,12 @@ Jacobi theta function `\theta_4(q)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.JacobiTheta4(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.JacobiTheta4('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.JacobiTheta4(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.JacobiTheta4('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.JacobiTheta4(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.JacobiTheta4('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

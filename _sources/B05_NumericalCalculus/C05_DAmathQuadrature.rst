@@ -110,35 +110,12 @@ Global adaptive quadrature by Forsythe, Malcolm, Moler (quanc8)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; b = 2.0; epsabs = 1E-8; epsrel = 0.0; limit = 0
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result, abserr, neval, ier = xreal.Qags(f, a, b, epsabs, epsrel, limit)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result, abserr, neval, ier = ereal.Qags(f, a, b, epsabs, epsrel, limit)
         >>> print("result: ", result, "abserr: ", abserr)
         >>> print("neval: ", neval, "ier: ", ier)
-
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF4(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.StudentTPdf(10, x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoQags()
-            Dim a, b, epsabs, epsrel As New xreal, limit As Int32=0
-            a = "0" : b = "2" : epsabs = "1E-15" : epsrel = "1E-15"
-            Dim OutputFormat = "Qags: f = F4, a = {0}, b = {1}, epsabs = {2}, epsrel = {3}, limit = {4}"
-            Console.WriteLine(OutputFormat, a, b, epsabs, epsrel, limit)
-            Dim Res2 = xreal.Qags(AddressOf XF4, a, b, epsabs, epsrel)
-            Console.WriteLine("Res2:(result, abserr, neval, ier) {0}", Res2)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -173,35 +150,14 @@ Global adaptive quadrature by Forsythe, Malcolm, Moler (quanc8)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; b = 2.0; epsabs = 1E-8; epsrel = 0.0; limit = 0
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result, abserr, neval, ier = xreal.Qags(f, a, b, epsabs, epsrel, limit)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result, abserr, neval, ier = ereal.Qags(f, a, b, epsabs, epsrel, limit)
         >>> print("result: ", result, "abserr: ", abserr)
         >>> print("neval: ", neval, "ier: ", ier)
 
 
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF4(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.StudentTPdf(10, x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoQags()
-            Dim a, b, epsabs, epsrel As New xreal, limit As Int32=0
-            a = "0" : b = "2" : epsabs = "1E-15" : epsrel = "1E-15"
-            Dim OutputFormat = "Qags: f = F4, a = {0}, b = {1}, epsabs = {2}, epsrel = {3}, limit = {4}"
-            Console.WriteLine(OutputFormat, a, b, epsabs, epsrel, limit)
-            Dim Res2 = xreal.Qags(AddressOf XF4, a, b, epsabs, epsrel)
-            Console.WriteLine("Res2:(result, abserr, neval, ier) {0}", Res2)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -241,35 +197,12 @@ Global adaptive quadrature by Forsythe, Malcolm, Moler (quanc8)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> bound = 0.0; infcode = 2; epsabs = 1E-8; epsrel = 0.0; limit = 0
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result, abserr, neval, ier = xreal.Qagi(f, bound, infcode, epsabs, epsrel, limit)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result, abserr, neval, ier = ereal.Qagi(f, bound, infcode, epsabs, epsrel, limit)
         >>> print("result: ", result, "abserr: ", abserr)
         >>> print("neval: ", neval, "ier: ", ier)
-
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF4(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.StudentTPdf(10, x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoQagi()
-            Dim bound, epsabs, epsrel As New xreal, inf, limit As Short
-            bound = "0": inf = 1: epsabs = "1E-15" : epsrel = "1E-15": limit = 0
-            Dim OutputFormat = "Qagi: f = XF4, a = {0}, b = {1}, epsabs = {2}, epsrel = {3}, limit = {4}"
-            Console.WriteLine(OutputFormat, bound, inf, epsabs, epsrel, limit)
-            Dim Res3 = xreal.Qagi(AddressOf XF4, bound, inf, epsabs, epsrel)
-            Console.WriteLine("Res3:(result, abserr, neval, ier) {0}", Res3)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -311,34 +244,13 @@ Cauchy principal value, finite interval (qawc)
         
             # Qawc Example is missing
             bound = 0.0; infcode = 2; epsabs = 1E-8; epsrel = 0.0; limit = 0
-            f = lambda x: xreal.Exp(-x * x / 2)
-            result, abserr, neval, ier = xreal.Qagi(f, bound, infcode, epsabs, epsrel, limit)
-            print("xreal.Qagi")
+            f = lambda x: ereal.Exp(-x * x / 2)
+            result, abserr, neval, ier = ereal.Qagi(f, bound, infcode, epsabs, epsrel, limit)
+            print("ereal.Qagi")
             print("result: ", result, "abserr: ", abserr)
             print("neval: ", neval, "ier: ", ier)
             print()
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF5(x As xreal) As xreal
-            Dim y As New xreal
-            y = 1.0/(1 * (5*x*x*x + 6))
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoQawc()
-            Dim a, b, c, epsabs, epsrel As New xreal, limit As Int32=0
-            a = "-1" : b = "5" : c = "0": epsabs = "1E-5" : epsrel = "1E-5"
-            Dim OutputFormat = "Qawc: f = XF5, a = {0}, b = {1}, c = {2}, epsabs = {3}, epsrel = {4}, limit = {5}"
-            Console.WriteLine(OutputFormat, a, b, c, epsabs, epsrel, limit)
-            Dim Res4 = xreal.Qawc(AddressOf XF5, a, b, c, epsabs, epsrel)
-            Console.WriteLine("Res4:(result, abserr, neval, ier) {0}", Res4)
-        End Sub
 
 
 
@@ -372,33 +284,13 @@ Double Exponential (DE) transformation, finite interval (intde)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; b = 2.0; eps = 1E-8
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result, abserr, neval, ier = xreal.Intde(f, a, b, eps)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result, abserr, neval, ier = ereal.Intde(f, a, b, eps)
         >>> print("result: ", result, "abserr: ", abserr)
         >>> print("neval: ", neval, "ier: ", ier)
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF4(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.StudentTPdf(10, x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoIntde()
-            Dim a, b, epsabs As New xreal, limit As Int32=0
-            a = "0" : b = "2" :epsabs = "1E-12"
-            Console.WriteLine("Intde: f = XF4, a = {0}, b = {1}, epsabs = {2}", a, b, epsabs)
-            Dim Res5 = xreal.Intde(AddressOf XF4, a, b, epsabs)
-            Console.WriteLine("Res5:(result, abserr, neval, ier) {0}", Res5)
-        End Sub
 
 
 
@@ -433,35 +325,14 @@ DE transformation, infinite interval, no oscillatory factor (intdei)
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
+        >>> from xlcalcnet import ereal
         >>> a = 0.0; eps = 1E-8
-        >>> f = lambda x: xreal.Exp(-x * x / 2)
-        >>> result, abserr, neval, ier = xreal.Intdei(f, a, eps)
+        >>> f = lambda x: ereal.Exp(-x * x / 2)
+        >>> result, abserr, neval, ier = ereal.Intdei(f, a, eps)
         >>> print("result: ", result, "abserr: ", abserr)
         >>> print("neval: ", neval, "ier: ", ier)
 
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF4(x As xreal) As xreal
-            Dim y As New xreal
-            y = xreal.StudentTPdf(10, x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoIntdei()
-            Dim a, epsabs As New xreal, limit As Int32=0
-            a = "0" : epsabs = "1E-15"
-            Console.WriteLine("Intdei: f = XF4, a = {0}, epsabs = {1}", a, epsabs)
-            Dim Res6 = xreal.Intdei(AddressOf XF4, a, epsabs)
-            Console.WriteLine("Res6:(result, abserr, neval, ier) {0}", Res6)
-            Console.WriteLine()
-        End Sub
 
 
 
@@ -498,36 +369,13 @@ DE transformation, infinite interval, oscillatory factor (intdeo)
 
         # Intdeo example is missing
         a = 0.0; eps = 1E-8
-        f = lambda x: xreal.Exp(-x * x / 2)
-        result, abserr, neval, ier = xreal.Intdei(f, a, eps)
-        print("xreal.Intdei")
+        f = lambda x: ereal.Exp(-x * x / 2)
+        result, abserr, neval, ier = ereal.Intdei(f, a, eps)
+        print("ereal.Intdei")
         print("result: ", result, "abserr: ", abserr)
         print("neval: ", neval, "ier: ", ier)
         return "0"
 
-
-
-    The same routine in Visual Basic:
-
-    .. code-block:: vbnet
-
-        Function XF6(x As xreal) As xreal
-            Dim y, alpha As New xreal
-            alpha = "2.0"
-            y = xreal.Sin(x*alpha)/xreal.Sqrt(x)
-            'Console.WriteLine("x : {0}, y: {1}", x, y)
-            Return y
-        End Function
-
-        Sub DemoIntdeo()
-            Dim a, alpha, epsabs As New xreal, limit As Int32=0
-            a = "0" : alpha = "2" :epsabs = "1E-16"
-            Console.WriteLine("Intdeo: f = XF6, a = {0}, alpha = {1}, epsabs = {2}", a, alpha, epsabs)
-            Dim Res7 = xreal.Intdeo(AddressOf XF6, a, alpha, epsabs)
-            Console.WriteLine("Res7:(result, abserr, neval, ier) {0}", Res7)
-            Console.WriteLine("Analytic: {0}", Math.Sqrt(0.5*Math.PI/2))
-            Console.WriteLine()
-        End Sub
 
 
 

@@ -31,22 +31,12 @@ Integral of `I_0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselI0Int(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselI0Int('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselI0Int(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselI0Int('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselI0Int(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselI0Int('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -65,22 +55,12 @@ Integral of `J_0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselJ0Int(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselJ0Int('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselJ0Int(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselJ0Int('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselJ0Int(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselJ0Int('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -98,22 +78,12 @@ Integral of `K_0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselK0Int(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselK0Int('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselK0Int(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselK0Int('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselK0Int(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselK0Int('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -132,22 +102,12 @@ Integral of `Y_0`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BesselY0Int(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BesselY0Int('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BesselY0Int(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BesselY0Int('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BesselY0Int(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BesselY0Int('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

@@ -35,22 +35,12 @@ Pentagamma function `\psi'''(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Pentagamma(7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Pentagamma('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Pentagamma(7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Pentagamma('4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Pentagamma(7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Pentagamma('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -70,22 +60,11 @@ Tetragamma function, `\psi''(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Tetragamma(7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Tetragamma('4.51')
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Tetragamma(7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Tetragamma('4.51')
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Tetragamma(7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Tetragamma('4.51')
+        ereal('5.3518479027559984754E-1')
 
 
 
@@ -104,22 +83,12 @@ Auxiliary function `\psi^{*}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.PsiStar(7)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.PsiStar('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.PsiStar(7)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.PsiStar('4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.PsiStar(7)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.PsiStar('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -141,22 +110,12 @@ Inverse digamma function `\psi^{-1}(y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.PsiInv(7.1)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.PsiInv('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.PsiInv(7.1)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.PsiInv('4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.PsiInv(7.1)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.PsiInv('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -174,22 +133,12 @@ Bateman function `G(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.BatemanG(7.1)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.BatemanG('4.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.BatemanG(7.1)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.BatemanG('4.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.BatemanG(7.1)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.BatemanG('4.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

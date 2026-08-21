@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis20`, MathWorld :cite:p:`WolframDis20`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NormalPdf(x, a, b): ", NormalPdf(x, a, b))
         >>> print ("dist_normal(a, b).pdf(x): ", dist_normal(a, b).pdf(x))
@@ -68,7 +68,7 @@ See also  Wikipedia :cite:p:`WikipediaDis20`, MathWorld :cite:p:`WolframDis20`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("NormalCdf(x, a, b): ", NormalCdf(x, a, b))
         >>> print ("dist_normal(a, b).cdf(x): ", dist_normal(a, b).cdf(x))
@@ -92,7 +92,7 @@ See also  Wikipedia :cite:p:`WikipediaDis20`, MathWorld :cite:p:`WolframDis20`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("NormalQtf(q, a, b): ", NormalQtf(q, a, b))
         >>> print ("dist_normal(a, b).qtf(q): ", dist_normal(a, b).qtf(q))

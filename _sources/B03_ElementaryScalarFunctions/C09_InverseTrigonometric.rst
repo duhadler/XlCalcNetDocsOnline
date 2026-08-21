@@ -48,26 +48,20 @@ Inverse sine, `\mathrm{asin}(x)`
 
 
 
-|02a_TestAsin_re| `\quad` |02b_TestAsin_im| `\quad` |02c_TestAsin_abs|
+    |02a_TestAsin_re| `\quad` |02b_TestAsin_im| `\quad` |02c_TestAsin_abs|
 
-.. |02a_TestAsin_re| image:: ../_static/ExplicitSurfaces/CplxTrig/02a_TestAsin_re.3D.xml.jpg
-   :width: 30 %
+    .. |02a_TestAsin_re| image:: ../_static/ExplicitSurfaces/CplxTrig/02a_TestAsin_re.3D.xml.jpg
+       :width: 30 %
 
-.. |02b_TestAsin_im| image:: ../_static/ExplicitSurfaces/CplxTrig/02b_TestAsin_im.3D.xml.jpg
-   :width: 30 %
+    .. |02b_TestAsin_im| image:: ../_static/ExplicitSurfaces/CplxTrig/02b_TestAsin_im.3D.xml.jpg
+       :width: 30 %
 
-.. |02c_TestAsin_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/02c_TestAsin_abs.3D.xml.jpg
-   :width: 30 %
+    .. |02c_TestAsin_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/02c_TestAsin_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Sine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Sine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -78,22 +72,12 @@ Inverse sine, `\mathrm{asin}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Asin(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Asin('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Asin(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Asin('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Asin(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Asin('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -185,26 +169,20 @@ Inverse cosine, `\mathrm{acos}(x)`
 
     
 
-|04a_TestAcos_re| `\quad` |04b_TestAcos_im| `\quad` |04c_TestAcos_abs|
+    |04a_TestAcos_re| `\quad` |04b_TestAcos_im| `\quad` |04c_TestAcos_abs|
 
-.. |04a_TestAcos_re| image:: ../_static/ExplicitSurfaces/CplxTrig/04a_TestAcos_re.3D.xml.jpg
-   :width: 30 %
+    .. |04a_TestAcos_re| image:: ../_static/ExplicitSurfaces/CplxTrig/04a_TestAcos_re.3D.xml.jpg
+       :width: 30 %
 
-.. |04b_TestAcos_im| image:: ../_static/ExplicitSurfaces/CplxTrig/04b_TestAcos_im.3D.xml.jpg
-   :width: 30 %
+    .. |04b_TestAcos_im| image:: ../_static/ExplicitSurfaces/CplxTrig/04b_TestAcos_im.3D.xml.jpg
+       :width: 30 %
 
-.. |04c_TestAcos_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/04c_TestAcos_abs.3D.xml.jpg
-   :width: 30 %
+    .. |04c_TestAcos_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/04c_TestAcos_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Cosine function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Cosine function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -214,22 +192,12 @@ Inverse cosine, `\mathrm{acos}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acos(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acos('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acos(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acos('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acos(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acos('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -322,26 +290,20 @@ Inverse tangent, `\mathrm{atan}(x)`
 
     
 
-|06a_TestAtan_re| `\quad` |06b_TestAtan_im| `\quad` |06c_TestAtan_abs|
+    |06a_TestAtan_re| `\quad` |06b_TestAtan_im| `\quad` |06c_TestAtan_abs|
 
-.. |06a_TestAtan_re| image:: ../_static/ExplicitSurfaces/CplxTrig/06a_TestAtan_re.3D.xml.jpg
-   :width: 30 %
+    .. |06a_TestAtan_re| image:: ../_static/ExplicitSurfaces/CplxTrig/06a_TestAtan_re.3D.xml.jpg
+       :width: 30 %
 
-.. |06b_TestAtan_im| image:: ../_static/ExplicitSurfaces/CplxTrig/06b_TestAtan_im.3D.xml.jpg
-   :width: 30 %
+    .. |06b_TestAtan_im| image:: ../_static/ExplicitSurfaces/CplxTrig/06b_TestAtan_im.3D.xml.jpg
+       :width: 30 %
 
-.. |06c_TestAtan_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/06c_TestAtan_abs.3D.xml.jpg
-   :width: 30 %
+    .. |06c_TestAtan_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/06c_TestAtan_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Tangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Tangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -353,22 +315,12 @@ Inverse tangent, `\mathrm{atan}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Atan(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Atan('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Atan(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Atan('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Atan(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Atan('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -452,27 +404,16 @@ Inverse tangent, 2 arguments, `\mathrm{atan2}(y, x)`
 
     An example in Python
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Atan2(1,1), xreal.Atan(1/1.)
+        >>> from xlcalcnet import ereal
+        >>> ereal.Atan2(1,1), ereal.Atan(1/1.)
         (0.785398163397448, 0.785398163397448)
-        >>> xreal.Atan2(1,-1), xreal.Atan(1/-1.)
+        >>> ereal.Atan2(1,-1), ereal.Atan(1/-1.)
         (2.35619449019234, -0.785398163397448)
-        >>> xreal.Atan2(-1,1), xreal.Atan(-1/1.)
+        >>> ereal.Atan2(-1,1), ereal.Atan(-1/1.)
         (-0.785398163397448, -0.785398163397448)
-        >>> xreal.Atan2(-1,-1), xreal.Atan(-1/-1.)
+        >>> ereal.Atan2(-1,-1), ereal.Atan(-1/-1.)
         (-2.35619449019234, 0.785398163397448)
 
-    An example in Visual Basic 
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Atan2(1,1), Gpr.Atan(1/1.)
-        (0.785398163397448, 0.785398163397448)
-        >>> Gpr.Atan2(1,-1), Gpr.Atan(1/-1.)
-        (2.35619449019234, -0.785398163397448)
-        >>> Gpr.Atan2(-1,1), Gpr.Atan(-1/1.)
-        (-0.785398163397448, -0.785398163397448)
-        >>> Gpr.Atan2(-1,-1), Gpr.Atan(-1/-1.)
-        (-2.35619449019234, 0.785398163397448)
 
     The angle convention is the same as that used for the complex argument.
 
@@ -491,26 +432,20 @@ Inverse cotangent, `\mathrm{acot}(x)`
 
     
 
-|12a_TestAcot_re| `\quad` |12b_TestAcot_im| `\quad` |12c_TestAcot_abs|
+    |12a_TestAcot_re| `\quad` |12b_TestAcot_im| `\quad` |12c_TestAcot_abs|
 
-.. |12a_TestAcot_re| image:: ../_static/ExplicitSurfaces/CplxTrig/12a_TestAcot_re.3D.xml.jpg
-   :width: 30 %
+    .. |12a_TestAcot_re| image:: ../_static/ExplicitSurfaces/CplxTrig/12a_TestAcot_re.3D.xml.jpg
+       :width: 30 %
 
-.. |12b_TestAcot_im| image:: ../_static/ExplicitSurfaces/CplxTrig/12b_TestAcot_im.3D.xml.jpg
-   :width: 30 %
+    .. |12b_TestAcot_im| image:: ../_static/ExplicitSurfaces/CplxTrig/12b_TestAcot_im.3D.xml.jpg
+       :width: 30 %
 
-.. |12c_TestAcot_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/12c_TestAcot_abs.3D.xml.jpg
-   :width: 30 %
+    .. |12c_TestAcot_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/12c_TestAcot_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Cotangent function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Cotangent function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -528,22 +463,12 @@ Inverse cotangent, `\mathrm{acot}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acot(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acot('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acot(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acot('0.51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acot(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acot('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -613,26 +538,20 @@ Inverse cosecant, `\mathrm{acsc}(x)`
 
     
 
-|10a_TestAcsc_re| `\quad` |10b_TestAcsc_im| `\quad` |10c_TestAcsc_abs|
+    |10a_TestAcsc_re| `\quad` |10b_TestAcsc_im| `\quad` |10c_TestAcsc_abs|
 
-.. |10a_TestAcsc_re| image:: ../_static/ExplicitSurfaces/CplxTrig/10a_TestAcsc_re.3D.xml.jpg
-   :width: 30 %
+    .. |10a_TestAcsc_re| image:: ../_static/ExplicitSurfaces/CplxTrig/10a_TestAcsc_re.3D.xml.jpg
+       :width: 30 %
 
-.. |10b_TestAcsc_im| image:: ../_static/ExplicitSurfaces/CplxTrig/10b_TestAcsc_im.3D.xml.jpg
-   :width: 30 %
+    .. |10b_TestAcsc_im| image:: ../_static/ExplicitSurfaces/CplxTrig/10b_TestAcsc_im.3D.xml.jpg
+       :width: 30 %
 
-.. |10c_TestAcsc_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/10c_TestAcsc_abs.3D.xml.jpg
-   :width: 30 %
+    .. |10c_TestAcsc_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/10c_TestAcsc_abs.3D.xml.jpg
+       :width: 30 %
 
+   
 
-
-**Left figure**: real part of the Inverse Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Middle figure**: imaginary part of the Inverse Cosecant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
-
-
-**Right figure**:  absolute value of the Inverse Cosecant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -642,22 +561,13 @@ Inverse cosecant, `\mathrm{acsc}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Acsc(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Acsc('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Acsc(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Acsc('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Acsc(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Acsc('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -724,26 +634,21 @@ Inverse secant, `\mathrm{asec}(x)`
 
     
 
-|08a_TestAsec_re| `\quad` |08b_TestAsec_im| `\quad` |08c_TestAsec_abs|
+    |08a_TestAsec_re| `\quad` |08b_TestAsec_im| `\quad` |08c_TestAsec_abs|
 
-.. |08a_TestAsec_re| image:: ../_static/ExplicitSurfaces/CplxTrig/08a_TestAsec_re.3D.xml.jpg
-   :width: 30 %
+    .. |08a_TestAsec_re| image:: ../_static/ExplicitSurfaces/CplxTrig/08a_TestAsec_re.3D.xml.jpg
+       :width: 30 %
 
-.. |08b_TestAsec_im| image:: ../_static/ExplicitSurfaces/CplxTrig/08b_TestAsec_im.3D.xml.jpg
-   :width: 30 %
+    .. |08b_TestAsec_im| image:: ../_static/ExplicitSurfaces/CplxTrig/08b_TestAsec_im.3D.xml.jpg
+       :width: 30 %
 
-.. |08c_TestAsec_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/08c_TestAsec_abs.3D.xml.jpg
-   :width: 30 %
-
-
-
-**Left figure**: real part of the Inverse Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    .. |08c_TestAsec_abs| image:: ../_static/ExplicitSurfaces/CplxTrig/08c_TestAsec_abs.3D.xml.jpg
+       :width: 30 %
 
 
-**Middle figure**: imaginary part of the Inverse Secant function. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+   
 
-
-**Right figure**:  absolute value of the Inverse Secant function, with color-coded phase. Camera angles are `\theta=135^\circ` and `\phi = -12^\circ`, camera radius is -2.
+    **3D wpf plot**: real part (left figure), imaginary part (middle figure) and absolute value with color-coded phase (right figure) of the complex sine function `z = \sin(x + iy)`, with `-6 \le x \le 6` (blue axis), `-6 \le y \le 6` (red axis), `-10 \le z \le 10` (green axis). Function values are :ref:`loglog-transformed <rst_mpm_loglog_transformation>`.
 
 
 
@@ -753,22 +658,13 @@ Inverse secant, `\mathrm{asec}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Asec(0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Asec('0.51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Asec(0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Asec('0.51')
+        ereal('5.3518479027559984754E-1')
 
 
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Asec(0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Asec('0.51')
-        Gpr('5.3518479027559984754E-1')
 
 
 

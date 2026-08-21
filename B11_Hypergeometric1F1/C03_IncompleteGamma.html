@@ -53,7 +53,7 @@
     <link rel="prev" title="Hypergeometric Functions \(\,_1F_1\) (Kummer) and \(U\) (Tricomi)" href="C01_Hyper1F1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -963,19 +963,11 @@ document.write(`
 <p>Returns the lower normalized incomplete gamma function <span class="math notranslate nohighlight">\(\displaystyle P(a,x)=\frac{1}{\Gamma(a)} \int_0^x t^{a-1} e^{-t} \, \mathrm{d}t, \,\)</span> for <span class="math notranslate nohighlight">\(a \geq 0\)</span> and <span class="math notranslate nohighlight">\(x \geq 0\)</span>.</p>
 <p>See also  Wikipedia <span id="id1">[<a class="reference internal" href="../99BackMatter/index.html#id1043" title="Wikipedia. Incomplete gamma function. Wikimedia Foundation, 2010. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Incomplete_gamma_function.">1322</a>]</span>, MathWorld <span id="id2">[<a class="reference internal" href="../99BackMatter/index.html#id1480" title="E. W. Weisstein. Regularized Incomplete Gamma Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: http://mathworld.wolfram.com/RegularizedGammaFunction.html.">928</a>]</span>, NIST <span id="id3">[<a class="reference internal" href="../99BackMatter/index.html#id451" title="R. B. Paris. Incomplete gamma function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/8.2#i.">482</a>]</span>,  BoostMath <span id="id4">[<a class="reference internal" href="../99BackMatter/index.html#id333" title="P. A. Bristow and H. Holin. Incomplete Gamma Functions. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/igamma.html.">87</a>]</span>, <span id="id5">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.2.1), Flint <span id="id6">[<a class="reference internal" href="../99BackMatter/index.html#id562" title="The FLINT Team. Arb: Incomplete gamma and beta functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#incomplete-gamma-and-beta-functions.">807</a>]</span>, Flint <span id="id7">[<a class="reference internal" href="../99BackMatter/index.html#id563" title="The FLINT Team. Acb: Incomplete gamma and beta functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#incomplete-gamma-and-beta-functions.">797</a>]</span>, Mpmath <span id="id8">[<a class="reference internal" href="../99BackMatter/index.html#id619" title="The Mpmath Development Team. Incomplete gamma function, general form. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2008. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/expintegrals.html#gammainc.">576</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaP</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1044,19 +1036,11 @@ other special input such as <span class="math notranslate nohighlight">\(z = 0\)
 The <em>singular</em> version evaluates the finite sum directly and therefore
 assumes that <em>s</em> is not too large.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaQ</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1099,19 +1083,11 @@ assumes that <em>s</em> is not too large.</p>
 <p>Returns the real lower non-normalized incomplete gamma function <span class="math notranslate nohighlight">\(\displaystyle \gamma(a,x)= \int_0^x t^{a-1} e^{-t} \, \mathrm{d}t, \,\)</span> for <span class="math notranslate nohighlight">\(a \geq 0\)</span> and <span class="math notranslate nohighlight">\(x \geq 0\)</span>.</p>
 <p>See also  Wikipedia <span id="id17">[<a class="reference internal" href="../99BackMatter/index.html#id1043" title="Wikipedia. Incomplete gamma function. Wikimedia Foundation, 2010. [Online; accessed 22-July-2024]. URL: https://en.wikipedia.org/wiki/Incomplete_gamma_function.">1322</a>]</span>, MathWorld <span id="id18">[<a class="reference internal" href="../99BackMatter/index.html#id1479" title="E. W. Weisstein. Incomplete Gamma Function. From MathWorld - A Wolfram Web Resource, 2006. [Online; accessed 22-July-2024]. URL: https://mathworld.wolfram.com/IncompleteGammaFunction.html.">921</a>]</span>, NIST <span id="id19">[<a class="reference internal" href="../99BackMatter/index.html#id451" title="R. B. Paris. Incomplete gamma function. NIST Digital Library of Mathematical Functions, 2010. URL: https://dlmf.nist.gov/8.2#i.">482</a>]</span>,  BoostMath <span id="id20">[<a class="reference internal" href="../99BackMatter/index.html#id333" title="P. A. Bristow and H. Holin. Incomplete Gamma Functions. Boost Math Toolkit Library, 2015. [Online; accessed 22-July-2024]. URL: https://www.boost.org/doc/libs/1_83_0/libs/math/doc/html/math_toolkit/sf_gamma/igamma.html.">87</a>]</span>, <span id="id21">Ehrhardt [<a class="reference internal" href="../99BackMatter/index.html#id81" title="W. Ehrhardt. The AMath and DAMath Special Functions. Reference Manual and Implementation notes. Version 2.27, 2018. [Online; accessed 22-July-2024]. URL: https://web.archive.org/web/20181221065629/http://wolfgang-ehrhardt.de/specialfunctions.pdf.">309</a>]</span> (3.5.2.2), Flint <span id="id22">[<a class="reference internal" href="../99BackMatter/index.html#id562" title="The FLINT Team. Arb: Incomplete gamma and beta functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/arb_hypgeom.html#incomplete-gamma-and-beta-functions.">807</a>]</span>, Flint <span id="id23">[<a class="reference internal" href="../99BackMatter/index.html#id563" title="The FLINT Team. Acb: Incomplete gamma and beta functions. FLINT: Fast Library for Number Theory, 2019. [Online; accessed 22-July-2024]. URL: https://flintlib.org/doc/acb_hypgeom.html#incomplete-gamma-and-beta-functions.">797</a>]</span>, Mpmath <span id="id24">[<a class="reference internal" href="../99BackMatter/index.html#id619" title="The Mpmath Development Team. Incomplete gamma function, general form. mpmath - a Python library for arbitrary-precision floating-point arithmetic, 2008. [Online; accessed 22-July-2024]. URL: http://mpmath.org/doc/1.1.0/functions/expintegrals.html#gammainc.">576</a>]</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncgammaL</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 </dd></dl>
@@ -1132,19 +1108,11 @@ assumes that <em>s</em> is not too large.</p>
 \[\Gamma(a,x) = \int_x^{\infty} t^{a-1} e^{-t}\mathrm{d}t\]</div>
 <p>for <span class="math notranslate nohighlight">\(a \geq 0\)</span> and <span class="math notranslate nohighlight">\(x \geq 0\)</span>.</p>
 <p>An example in Python</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">xreal</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">xreal(&#39;5.3518479027559984754E-1&#39;)</span>
-</pre></div>
-</div>
-<p>An example in Visual Basic</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gpr</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.2359877559829887307E-1&#39;)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">Gpr</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
-<span class="go">Gpr(&#39;5.3518479027559984754E-1&#39;)</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="n">ereal</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.1</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.2359877559829887307E-1&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">IncGammaU</span><span class="p">(</span><span class="mf">3.4</span><span class="p">,</span> <span class="s1">&#39;1.51&#39;</span><span class="p">)</span>
+<span class="go">ereal(&#39;5.3518479027559984754E-1&#39;)</span>
 </pre></div>
 </div>
 <p>An example with real input:</p>
@@ -1482,7 +1450,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

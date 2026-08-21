@@ -53,7 +53,7 @@
     <link rel="prev" title="Basic classical statistical tests for 2 correlated samples (stratified)" href="D03_BasicTests2CorrSamples.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1001,7 +1001,7 @@ document.write(`
 <p>With this definition of <span class="math notranslate nohighlight">\(\mathit{MS}_{\text{Err}}\)</span> and <span class="math notranslate nohighlight">\(\mathit{df}_{\text{Err}}\)</span>, we can state that the test-criterion <span class="math notranslate nohighlight">\(\displaystyle F = \frac{\mathit{MS}_{\text{Treat}}}{\mathit{MS}_{\text{Err}}}\)</span> follows (under <span class="math notranslate nohighlight">\(H_0\)</span>) a central F-distribution with <span class="math notranslate nohighlight">\(\mathit{df}_{\!1} = \mathit{df}_{\text{\!Treat}}\)</span> and <span class="math notranslate nohighlight">\(\mathit{df}_{\!2} = \mathit{df}_{\text{\!Err}}\)</span> degrees of freedom, for both models.</p>
 <p>A call to the function, requesting a CR Anova with the critical value for a two-sided test, the p-value for <span class="math notranslate nohighlight">\(H_{03}\)</span> , for 2 independent samples of size 10 and standard deviation 1 each, with means 2.3 and 4.5, and a type I error <span class="math notranslate nohighlight">\(\alpha=0.05\)</span> would be</p>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1028,7 +1028,7 @@ document.write(`
 </div>
 <p>A call to the function, requesting a RB Anova with common correlation 0.5, the critical value for a two-sided test, the p-value for <span class="math notranslate nohighlight">\(H_{03}\)</span>, for 3 independent samples of size 10 and standard deviation 1 each, with means 2.3 and 4.5, and a type I error <span class="math notranslate nohighlight">\(\alpha=0.05\)</span> would be</p>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">rho</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="mi">22</span><span class="p">,</span> <span class="n">rho</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1066,7 +1066,7 @@ document.write(`
 <p>Returns the results of power calculations for a CR or RB Anova.</p>
 <p>See also: <a class="reference external" href="https://tjmurphy.github.io/jabstb/posthoc.html">https://tjmurphy.github.io/jabstb/posthoc.html</a></p>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1119,7 +1119,7 @@ document.write(`
 <p><span class="math notranslate nohighlight">\(\mathit{SS}_{\text{Treat}}\)</span> can be partitioned into <span class="math notranslate nohighlight">\(i = 1, \ldots, p-1\)</span> sums of squares <span class="math notranslate nohighlight">\(\displaystyle SS_{\psi_i} = \left(\sum_{j=1}^k n_j c_{ij} \bar{x}_{i} \right)^2 \bigg/ \sum_{j=1}^k c_{ij}^2\)</span>, reflecting orthogonal trend (linear, quadratic, cubic etc.) contrasts, such that
 <span class="math notranslate nohighlight">\(\mathit{SS}_{\text{Treat}} = SS_{\psi_1} + SS_{\psi_2} + \ldots SS_{\psi_{k-1}}\)</span>, where the coefficients <span class="math notranslate nohighlight">\(c_{ij}\)</span> can be computed according to the procedure given in Narula.</p>
 <div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfunlab</span><span class="w"> </span><span class="kn">import</span> <span class="n">mpm</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">xreal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ereal</span><span class="o">.</span><span class="n">AnovaTest</span><span class="p">(</span><span class="n">means</span><span class="o">:=</span><span class="p">[</span><span class="mf">5.24</span><span class="p">,</span> <span class="mf">4.05</span><span class="p">,</span> <span class="mf">7.01</span><span class="p">],</span> <span class="n">sd</span><span class="o">:=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">n</span><span class="o">:=</span><span class="p">[</span><span class="mi">22</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">16</span><span class="p">])</span>
 
 <span class="go">Input</span>
 <span class="go">Variable Variable 1</span>
@@ -1351,7 +1351,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

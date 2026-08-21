@@ -44,7 +44,7 @@ See also  Wikipedia :cite:p:`WikipediaDis19`, MathWorld :cite:p:`WolframDis19`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LognormalPdf(x, a, b): ", LognormalPdf(x, a, b))
         >>> print ("dist_lognormal(a, b).pdf(x): ", dist_lognormal(a, b).pdf(x))
@@ -68,7 +68,7 @@ See also  Wikipedia :cite:p:`WikipediaDis19`, MathWorld :cite:p:`WolframDis19`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; x = 0.6;
         >>> print ("LognormalCdf(x, a, b): ", LognormalCdf(x, a, b))
         >>> print ("dist_lognormal(a, b).cdf(x): ", dist_lognormal(a, b).cdf(x))
@@ -92,7 +92,7 @@ See also  Wikipedia :cite:p:`WikipediaDis19`, MathWorld :cite:p:`WolframDis19`, 
 
     .. code-block:: pycon
 
-        >>> from mpfebnet import *
+        >>> from xlcalcnet import *
         >>> a = 0; b = 1; t = 0.3; q = 0.6;
         >>> print ("LognormalQtf(q, a, b): ", LognormalQtf(q, a, b))
         >>> print ("dist_lognormal(a, b).qtf(q): ", dist_lognormal(a, b).qtf(q))

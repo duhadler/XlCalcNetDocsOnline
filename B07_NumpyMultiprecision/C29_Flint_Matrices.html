@@ -53,7 +53,7 @@
     <link rel="prev" title="Discrete Fourier transform (DFT)" href="C28_DFT.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Aug 19, 2026"/>
+    <meta name="docbuild:last-update" content="Aug 21, 2026"/>
   </head>
   
   
@@ -1045,7 +1045,7 @@ arb_mat_mul() .</p>
 <p>Sets det to the determinant of the square matrix A. The matrix of dimension <span class="math notranslate nohighlight">\(0 \times 0\)</span> is defined to have determinant 1.</p>
 <p>FMPZ: This function automatically chooses between fmpz_mat_det_cofactor, fmpz_mat_det_bareiss, fmpz_mat_det_modular and fmpz_mat_det_modular_accelerated (with proved = 1), depending on the size of the matrix and its entries.</p>
 <p>The default version automatically selects between the lu and precond versions and additionally handles small or triangular matrices by direct formulas.</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">ctx</span> <span class="o">=</span> <span class="n">mp14</span><span class="o">.</span><span class="n">drf</span><span class="p">();</span> <span class="n">mp14</span><span class="o">.</span><span class="n">setdps</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">A</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">read_from_sqlite</span><span class="p">(</span><span class="n">mp14</span><span class="o">.</span><span class="n">dbpath</span><span class="p">(),</span> <span class="s2">&quot;DecTableRandomA6x6&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">);</span> <span class="n">A</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="s2">&quot;A&quot;</span><span class="p">)</span>
 
@@ -1162,7 +1162,7 @@ virt/peak/res/peak(MB): 33.97 33.97 10.51 10.51
 </div></blockquote>
 </dd></dl>
 
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">ctx</span> <span class="o">=</span> <span class="n">mp14</span><span class="o">.</span><span class="n">drf</span><span class="p">();</span> <span class="n">mp14</span><span class="o">.</span><span class="n">setdps</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">A</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">read_from_sqlite</span><span class="p">(</span><span class="n">mp14</span><span class="o">.</span><span class="n">dbpath</span><span class="p">(),</span> <span class="s2">&quot;DecTableRandomA6x6&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">);</span> <span class="n">A</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="s2">&quot;A&quot;</span><span class="p">)</span>
 
@@ -1256,7 +1256,7 @@ large systems at low to moderate precision.</p>
 <p>MatrixBase::isApprox() directly, for instance like this:</p>
 <p>bool a_solution_exists = (A*result).isApprox(b, precision);</p>
 <p>This method avoids dividing by zero, so that the non-existence of a solution doesn’t by itself mean that you’ll get inf or nan values. If there exists more than one solution, this method will arbitrarily choose one. If you need a complete analysis of the space of solutions, take the one solution obtained by this method and add to it elements of the kernel, as determined by kernel().</p>
-<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">mpfebnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+<div class="highlight-pycon notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">xlcalcnet</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">ctx</span> <span class="o">=</span> <span class="n">mp14</span><span class="o">.</span><span class="n">drf</span><span class="p">();</span> <span class="n">mp14</span><span class="o">.</span><span class="n">setdps</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">A</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">read_from_sqlite</span><span class="p">(</span><span class="n">mp14</span><span class="o">.</span><span class="n">dbpath</span><span class="p">(),</span> <span class="s2">&quot;DecTableRandomA6x6&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">);</span> <span class="n">A</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="s2">&quot;A&quot;</span><span class="p">)</span>
 
@@ -1837,7 +1837,7 @@ By Dietrich Hadler
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Aug 19, 2026.
+  Last updated on Aug 21, 2026.
   <br/>
 </p>
   </div>

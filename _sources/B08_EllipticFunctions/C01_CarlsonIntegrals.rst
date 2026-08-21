@@ -39,22 +39,12 @@ Carlson symmetric elliptic integral of the first kind, `R_F(x,y,z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticRF(0.12, 0.5, 3.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticRF(0.12, 0.5, 3.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticRF(0.12, 0.5, 3.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticRF(0.12, 0.5, 3.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticRF(0.12, 0.5, 3.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticRF(0.12, 0.5, 3.5)
-        Gpr('5.3518479027559984754E-1')
 
 
     An example with real input:
@@ -111,22 +101,12 @@ Carlson completely symmetric elliptic integral of the second kind, `R_G(x,y,z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticRG(0.12, 0.5, 3.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticRG(0.12, 0.5, 3.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticRG(0.12, 0.5, 3.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticRG(0.12, 0.5, 3.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticRG(0.12, 0.5, 3.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticRG(0.12, 0.5, 3.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -184,22 +164,12 @@ Carlson symmetric elliptic integral of the third kind, `R_J(x,y,z,p)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticRJ(0.12, 0.5, 3.5, 0.4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticRJ(0.12, 0.5, 3.5, 0.4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticRJ(0.12, 0.5, 3.5, 0.4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticRJ(0.12, 0.5, 3.5, 0.4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticRJ(0.12, 0.5, 3.5, 0.4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticRJ(0.12, 0.5, 3.5, 0.4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -254,22 +224,12 @@ Carlson symmetric elliptic integral of the second kind, `R_D(x,y,z)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticRD(0.12, 0.5, 3.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticRD(0.12, 0.5, 3.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticRD(0.12, 0.5, 3.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticRD(0.12, 0.5, 3.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticRD(0.12, 0.5, 3.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticRD(0.12, 0.5, 3.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -323,22 +283,12 @@ Carlson degenerate symmetric elliptic integral of the first kind, `R_C(x,y)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EllipticRC(0.12, 0.5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EllipticRC(0.12, 0.5)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EllipticRC(0.12, 0.5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EllipticRC(0.12, 0.5)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EllipticRC(0.12, 0.5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EllipticRC(0.12, 0.5)
-        Gpr('5.3518479027559984754E-1')
 
 
 

@@ -37,22 +37,12 @@ Riemann `\zeta(n)` for integer arguments
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.ZetaInt(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.ZetaInt('51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.ZetaInt(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.ZetaInt('51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.ZetaInt(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.ZetaInt('51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -73,22 +63,12 @@ Riemann `\zeta(1+x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.Zeta1p(0.004)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.Zeta1p('0.0001')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.Zeta1p(0.004)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.Zeta1p('0.0001')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.Zeta1p(0.004)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.Zeta1p('0.0001')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -112,22 +92,12 @@ Dirichlet eta function for integer argument,  `\eta(n)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.DirichletEtaInt(5)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.DirichletEtaInt('51')
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.DirichletEtaInt(5)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.DirichletEtaInt('51')
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.DirichletEtaInt(5)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.DirichletEtaInt('51')
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -149,22 +119,12 @@ Inverse of the Riemann prime counting function, `R^{-1}(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.RiemannRInv(44)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.RiemannRInv(4440.4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.RiemannRInv(44)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.RiemannRInv(4440.4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.RiemannRInv(44)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.RiemannRInv(4440.4)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -184,22 +144,12 @@ Rogers-Ramanujan continued fraction
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.RogersRamanujanCF(0.44)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.RogersRamanujanCF(0.14404)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.RogersRamanujanCF(0.44)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.RogersRamanujanCF(0.14404)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.RogersRamanujanCF(0.44)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.RogersRamanujanCF(0.14404)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -219,22 +169,12 @@ q-Pochhammer Euler function, `(q)_{\infty}`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.EulerQ(-0.4)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.EulerQ(0.4)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.EulerQ(-0.4)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.EulerQ(0.4)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.EulerQ(-0.4)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.EulerQ(0.4)
-        Gpr('5.3518479027559984754E-1')
 
 
 

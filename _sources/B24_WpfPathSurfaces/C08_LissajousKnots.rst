@@ -89,11 +89,11 @@ An example in C\#
 
 
 
-**Left figure**: Lissajous knot 1-1-1. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-1-1. Perspective camera. 
 
-**Middle figure**: Lissajous knot 1-1-1. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-1-1. Perspective camera. 
 
-**Right figure**: Lissajous knot 1-1-1. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-1-1. Perspective camera. 
 
 
 
@@ -115,11 +115,11 @@ Some text
 
 
 
-**Left figure**: Lissajous knot 1-1-1. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-1-1. Orthographic camera. 
 
-**Middle figure**: Lissajous knot 1-1-1. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-1-1. Orthographic camera. 
 
-**Right figure**: Lissajous knot 1-1-1. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-1-1. Orthographic camera. 
 
 
 
@@ -166,11 +166,11 @@ An example in C\#
 
 
 
-**Left figure**: Lissajous knot 1-2-1. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-2-1. Perspective camera. 
 
-**Middle figure**: Lissajous knot 1-2-1. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-2-1. Perspective camera. 
 
-**Right figure**: Lissajous knot 1-2-1. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-2-1. Perspective camera. 
 
 
 
@@ -192,11 +192,11 @@ Some text
 
 
 
-**Left figure**: Lissajous knot 1-2-1. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-2-1. Orthographic camera. 
 
-**Middle figure**: Lissajous knot 1-2-1. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-2-1. Orthographic camera. 
 
-**Right figure**: Lissajous knot 1-2-1. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-2-1. Orthographic camera. 
 
 
 
@@ -249,11 +249,11 @@ An example in C\#
 
 
 
-**Left figure**: Lissajous knot 1-5-3. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-5-3. Perspective camera. 
 
-**Middle figure**: Lissajous knot 1-5-3. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-5-3. Perspective camera. 
 
-**Right figure**: Lissajous knot 1-5-3. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-5-3. Perspective camera. 
 
 
 
@@ -275,11 +275,11 @@ Some text
 
 
 
-**Left figure**: Lissajous knot 1-5-3. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 1-5-3. Orthographic camera. 
 
-**Middle figure**: Lissajous knot 1-5-3. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 1-5-3. Orthographic camera. 
 
-**Right figure**: Lissajous knot 1-5-3. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 1-5-3. Orthographic camera. 
 
 
 
@@ -332,11 +332,11 @@ An example in C\#
 
 
 
-**Left figure**: Lissajous knot 3-5-2. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 3-5-2. Perspective camera. 
 
-**Middle figure**: Lissajous knot 3-5-2. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 3-5-2. Perspective camera. 
 
-**Right figure**: Lissajous knot 3-5-2. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 3-5-2. Perspective camera. 
 
 
 
@@ -358,11 +358,11 @@ Some text
 
 
 
-**Left figure**: Lissajous knot 3-5-2. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 3-5-2. Orthographic camera. 
 
-**Middle figure**: Lissajous knot 3-5-2. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 3-5-2. Orthographic camera. 
 
-**Right figure**: Lissajous knot 3-5-2. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 3-5-2. Orthographic camera. 
 
 
 
@@ -417,11 +417,11 @@ An example in C\#
 
 
 
-**Left figure**: Lissajous knot 3-5-7. Perspective camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 3-5-7. Perspective camera. 
 
-**Middle figure**: Lissajous knot 3-5-7. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 3-5-7. Perspective camera. 
 
-**Right figure**: Lissajous knot 3-5-7. Perspective camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 3-5-7. Perspective camera. 
 
 
 
@@ -443,11 +443,11 @@ Some text
 
 
 
-**Left figure**: Lissajous knot 3-5-7. Orthographic camera. Camera angles are `\theta=90^\circ` and `\phi = 90^\circ`.
+**Left figure**: Lissajous knot 3-5-7. Orthographic camera. 
 
-**Middle figure**: Lissajous knot 3-5-7. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 90^\circ`.
+**Middle figure**: Lissajous knot 3-5-7. Orthographic camera. 
 
-**Right figure**: Lissajous knot 3-5-7. Orthographic camera. Camera angles are `\theta=180^\circ` and `\phi = 135^\circ`.
+**Right figure**: Lissajous knot 3-5-7. Orthographic camera. 
 
 
 

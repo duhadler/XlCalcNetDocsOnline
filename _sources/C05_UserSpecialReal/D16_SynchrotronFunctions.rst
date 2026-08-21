@@ -34,22 +34,12 @@ First synchrotron function `F(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SynchF(2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SynchF(12.25)
-        xreal('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SynchF(2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SynchF(12.25)
+        ereal('5.3518479027559984754E-1')
 
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SynchF(2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SynchF(12.25)
-        Gpr('5.3518479027559984754E-1')
 
 
 
@@ -71,22 +61,11 @@ Second synchrotron function `G(x)`
 
     .. code-block:: pycon
 
-        >>> from xlcalcnet import xreal
-        >>> xreal.SynchG(2.25)
-        xreal('5.2359877559829887307E-1')
-        >>> xreal.SynchG(12.25)
-        xreal('5.3518479027559984754E-1')
-
-
-    An example in Visual Basic 
-
-    .. code-block:: pycon
-
-        >>> from xlcalcnet import Gpr
-        >>> Gpr.SynchG(2.25)
-        Gpr('5.2359877559829887307E-1')
-        >>> Gpr.SynchG(12.25)
-        Gpr('5.3518479027559984754E-1')
+        >>> from xlcalcnet import ereal
+        >>> ereal.SynchG(2.25)
+        ereal('5.2359877559829887307E-1')
+        >>> ereal.SynchG(12.25)
+        ereal('5.3518479027559984754E-1')
 
 
 
